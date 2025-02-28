@@ -1,0 +1,566 @@
+INFO - 2024-08-15 16:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-15 16:46:16 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('oauth')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('oauth')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 16:46:53 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 16:47:04 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('oauth')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('oauth')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 16:47:13 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('oauth')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('oauth')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 16:47:18 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('info')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('info')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 16:47:42 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('webprev_tela_site_construcao_bg_1')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('webprev_tela_site_construcao_bg_1')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 17:35:00 --> Invalid file: "../get_oauth_token.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../get_oauth_token.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('../get_oauth_token', [], true)
+ 3 APPPATH\Controllers\Mails\OAuth2.php(10): view('../get_oauth_token')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 17:35:32 --> Invalid file: "public/get_oauth_token.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/get_oauth_token.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('public/get_oauth_token', [], true)
+ 3 APPPATH\Controllers\Mails\OAuth2.php(10): view('public/get_oauth_token')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:43:15 --> require(vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:44:21 --> require(../../../vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../../vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:44:51 --> require(../../vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:45:02 --> require(vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:46:22 --> require(././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:46:24 --> require(././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:46:25 --> require(././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:46:25 --> require(././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:46:25 --> require(././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:46:31 --> require(./././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(./././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 18:46:38 --> require(././././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 10.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(././././vendor/phpmailer/phpmailer/get_oauth_token.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 10)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(10): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:11:59 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:12:29 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:14:13 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:14:28 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:15:15 --> require(.../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(.../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:15:23 --> require(./autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(./autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:15:34 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:22:47 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:23:30 --> require(C:\xampp\htdocs\RPPS\vendor\phpmailer\phpmailer../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:24:24 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:25:30 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:27:57 --> require(C:\xampp\htdocs\RPPS\vendor\phpmailer\phpmailer../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:28:11 --> require(C:\xampp\htdocs\RPPS\vendor\phpmailer\phpmailer..\autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer..\\autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:29:04 --> require_once(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require_once()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:29:21 --> require(../autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 12.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 12)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(12): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:30:03 --> require(..../autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 12.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(..../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 12)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(12): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:30:19 --> require(.../autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Mails\OAuth2.php on line 12.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(.../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 12)
+ 2 APPPATH\Controllers\Mails\OAuth2.php(12): require()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:38:11 --> require(../../../vendor/autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../../vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:39:10 --> require(../../vendor/autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:39:17 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:39:44 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:39:47 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:39:48 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:39:49 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:39:49 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:39:49 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:40:05 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 79.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 79)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(79): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:42:19 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:42:20 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:42:21 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:42:21 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:42:21 --> require(../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:42:27 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:52:17 --> The route for "https://api.authorization-server.com/token?grant_type=client_credentials&client_id=318292209888-jj9mra0ig0r2n2sao9qcmbb0o9q4oetc.apps.googleusercontent.com&client_secret=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" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://api.authorization-server.com/token?grant_type=client_credentials&client_id=318292209888-jj9mra0ig0r2n2sao9qcmbb0o9q4oetc.apps.googleusercontent.com&client_secret=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')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Mails\OAuth2.php(10): redirect('https://api.authorization-server.com/token?grant_type=client_credentials&client_id=318292209888-jj9mra0ig0r2n2sao9qcmbb0o9q4oetc.apps.googleusercontent.com&client_secret=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')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:53:23 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\https://api.authorization-server.com/token?grant_type=client_credentials&client_id=318292209888-jj9mra0ig0r2n2sao9qcmbb0o9q4oetc.apps.googleusercontent.com&client_secret=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"
+in SYSTEMPATH\Router\Router.php on line 474.
+ 1 SYSTEMPATH\Router\Router.php(474): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\https://api.authorization-server.com/token?grant_type=client_credentials&client_id=318292209888-jj9mra0ig0r2n2sao9qcmbb0o9q4oetc.apps.googleusercontent.com&client_secret=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')
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('token/oauth2')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('token/oauth2')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 19:54:32 --> The route for "https://api.authorization-server.com/token?grant_type=client_credentials&client_id=318292209888-jj9mra0ig0r2n2sao9qcmbb0o9q4oetc.apps.googleusercontent.com&client_secret=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" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://api.authorization-server.com/token?grant_type=client_credentials&client_id=318292209888-jj9mra0ig0r2n2sao9qcmbb0o9q4oetc.apps.googleusercontent.com&client_secret=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')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Mails\OAuth2.php(10): redirect('https://api.authorization-server.com/token?grant_type=client_credentials&client_id=318292209888-jj9mra0ig0r2n2sao9qcmbb0o9q4oetc.apps.googleusercontent.com&client_secret=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')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 20:03:28 --> require(../../autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 20:05:17 --> require(..../vendor/autoload.php): Failed to open stream: No such file or directory
+in VENDORPATH\phpmailer\phpmailer\get_oauth_token.php on line 78.
+ 1 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(..../vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php', 78)
+ 2 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(78): require()
+ 3 APPPATH\Controllers\Mails\OAuth2.php(11): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 20:32:58 --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\RPPS\app\Config\Events.php:32)
+in SYSTEMPATH\Debug\Toolbar.php on line 449.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify header information - headers already sent by (output started at C:\\xampp\\htdocs\\RPPS\\app\\Config\\Events.php:32)', 'C:\\xampp\\htdocs\\RPPS\\system\\Debug\\Toolbar.php', 449)
+ 2 SYSTEMPATH\Debug\Toolbar.php(449): header('Content-Type: application/javascript')
+ 3 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(350): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-15 20:48:28 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-15 20:48:41 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-15 20:48:45 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-15 20:49:02 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-15 20:49:12 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-15 20:49:41 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-15 20:49:41 --> Undefined property: League\OAuth2\Client\Provider\Google::$code
+in APPPATH\Controllers\Mails\OAuth2.php on line 24.
+ 1 APPPATH\Controllers\Mails\OAuth2.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: League\\OAuth2\\Client\\Provider\\Google::$code', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\OAuth2.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-15 20:49:49 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-15 20:50:02 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

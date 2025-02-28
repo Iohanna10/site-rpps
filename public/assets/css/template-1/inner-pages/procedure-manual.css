@@ -1,0 +1,11 @@
+.contents .container .procedure-maunual {
+    min-height: 100px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.contents .container .procedure-maunual p a {
+    font-size: 1.5rem;
+}

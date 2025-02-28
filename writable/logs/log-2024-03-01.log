@@ -1,0 +1,66 @@
+CRITICAL - 2024-03-01 18:09:04 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('')
+ 3 APPPATH\Controllers\Session.php(149): App\Controllers\Session->requireInstituteId('')
+ 4 APPPATH\Controllers\Home.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(44): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 18:38:04 --> Cannot redeclare repleceHyphen() (previously declared in C:\xampp\htdocs\RPPS\public\functions\functionReplace.php:3)
+in FCPATH\functions\functionReplace.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-01 18:41:02 --> Undefined variable $dataInstitute
+in APPPATH\Controllers\Home.php on line 97.
+ 1 APPPATH\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataInstitute', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 18:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 18:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 18:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 18:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 18:57:14 --> Undefined array key "search"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "search"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 18:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 15:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 16:32:15 --> mkdir(): File exists
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 90)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(90): mkdir('././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/3/', 493, true)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 19:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 19:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 20:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 20:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 20:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 20:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 20:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 20:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 20:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 20:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 17:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 20:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

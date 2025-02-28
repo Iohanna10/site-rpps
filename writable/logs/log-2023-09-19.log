@@ -1,0 +1,69 @@
+CRITICAL - 2023-09-19 17:54:41 --> Invalid file: "contents/template-1/uploads/sections/manual-.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/uploads/sections/manual-.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/manual-.php', [], true)
+ 3 APPPATH\Controllers\Uploads\Pdf.php(40): view('contents/template-1/uploads/sections/manual-.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->manualProcedimentos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 19:11:37 --> Undefined variable $crpMaisRecente
+in APPPATH\Models\InnerPages\Accountability\Crp.php on line 44.
+ 1 APPPATH\Models\InnerPages\Accountability\Crp.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $crpMaisRecente', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Accountability\\Crp.php', 44)
+ 2 APPPATH\Controllers\InnerPages\Accountability.php(102): App\Models\InnerPages\Accountability\Crp->crp()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->crp()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 19:17:19 --> Undefined variable $crpMaisRecente
+in APPPATH\Models\InnerPages\Accountability\Crp.php on line 44.
+ 1 APPPATH\Models\InnerPages\Accountability\Crp.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $crpMaisRecente', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Accountability\\Crp.php', 44)
+ 2 APPPATH\Controllers\InnerPages\Accountability.php(102): App\Models\InnerPages\Accountability\Crp->crp()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->crp()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 19:18:35 --> Undefined array key 2
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\crp.php on line 27.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\crp.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\crp.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\crp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/crp.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Accountability.php(105): view('contents/template-1/inner-pages/main/sections/crp.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->crp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 19:19:11 --> Undefined array key 2
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\crp.php on line 27.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\crp.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\crp.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\crp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/crp.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Accountability.php(105): view('contents/template-1/inner-pages/main/sections/crp.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->crp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 19:19:51 --> Undefined array key 2
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\crp.php on line 27.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\crp.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\crp.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\crp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/crp.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Accountability.php(105): view('contents/template-1/inner-pages/main/sections/crp.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->crp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-19 19:21:11 --> Undefined array key 2
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\crp.php on line 27.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\crp.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\crp.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\crp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/crp.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Accountability.php(105): view('contents/template-1/inner-pages/main/sections/crp.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->crp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

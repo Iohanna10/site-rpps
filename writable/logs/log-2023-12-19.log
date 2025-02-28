@@ -1,0 +1,68 @@
+CRITICAL - 2023-12-19 13:46:44 --> Call to a member function getTempName() on array
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 60.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(37): App\Models\AjaxModel\AjaxPostModel->uploadMedias([...], 'ipreve')
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 13:46:57 --> Call to a member function getTempName() on array
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 60.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(37): App\Models\AjaxModel\AjaxPostModel->uploadMedias([...], 'ipreve')
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 13:47:15 --> Call to a member function getTempName() on array
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 60.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(37): App\Models\AjaxModel\AjaxPostModel->uploadMedias([...], 'ipreve')
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 13:52:57 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 58)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(37): App\Models\AjaxModel\AjaxPostModel->uploadMedias(null, null)
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 13:53:42 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 58)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(37): App\Models\AjaxModel\AjaxPostModel->uploadMedias(null, null)
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 14:26:50 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 58)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(37): App\Models\AjaxModel\AjaxPostModel->uploadMedias(null, null)
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 14:27:03 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 58)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(37): App\Models\AjaxModel\AjaxPostModel->uploadMedias(null, null)
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 18:09:03 --> Undefined array key "title"
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 42.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 42)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

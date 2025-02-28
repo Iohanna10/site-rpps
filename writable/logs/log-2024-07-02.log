@@ -1,0 +1,631 @@
+INFO - 2024-07-02 15:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 15:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 15:59:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0)...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0)...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0)...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0)...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(220): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(147): App\Models\AjaxModel\AjaxPostModel->highlight(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 15:59:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(220): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxPosts.php(147): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 16:02:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0)...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0)...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0)...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0)...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(220): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(147): App\Models\AjaxModel\AjaxPostModel->highlight(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 16:02:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(220): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxPosts.php(147): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 16:02:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0)...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0)...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0)...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0)...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(220): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(147): App\Models\AjaxModel\AjaxPostModel->highlight(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 16:02:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(220): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxPosts.php(147): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 16:20:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0)...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0)...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0)...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0)...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(219): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 16:20:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(219): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 16:20:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0)...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0)...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0)...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0)...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(219): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 16:20:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(219): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 16:21:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0)...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0)...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0)...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0)...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(219): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 16:21:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(219): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 16:21:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0)...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0)...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0)...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0)...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(219): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 16:21:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(219): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-02 16:22:07 --> Call to a member function getQuery() on null
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 220.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-02 16:22:09 --> Call to a member function getQuery() on null
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 220.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-02 16:22:21 --> Call to a member function getQuery() on null
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 220.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-02 16:22:23 --> Call to a member function getQuery() on null
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 220.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 16:25:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0)...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0)...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0)...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0)...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(220): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 16:25:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(220): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 16:25:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0)...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0)...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0)...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0)...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(220): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 16:25:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_institute: AND destaque = true' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(0) as highlights FROM posts WHERE id_instituto = :id_institute: AND destaque = true')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(220): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-02 16:26:50 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 220.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-02 16:28:05 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 220.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-02 16:30:04 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 220.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(145): App\Models\AjaxModel\AjaxPostModel->highlight([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->highlight()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-02 16:47:43 --> syntax error, unexpected variable "$count"
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 220.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AjaxModel\\AjaxPostModel')
+ 3 APPPATH\Controllers\Pagination.php(145): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AjaxModel\\AjaxPostModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 16:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 16:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 17:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 18:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 19:09:13 --> mysqli_sql_exception: Unknown column 'undefined' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, mi...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, mi...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, mi...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, mi...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(64): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(152): App\Models\AjaxModel\AjaxPostModel->getMedias('undefined')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->postsMedias()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 19:09:13 --> Unknown column 'undefined' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, midias, data FROM galeria WHERE id = undefined AND id_instituto = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, midias, data FROM galeria WHERE id = undefined AND id_instituto = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, midias, data FROM galeria WHERE id = undefined AND id_instituto = 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, midias, data FROM galeria WHERE id = undefined AND id_instituto = 1')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(64): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(152): App\Models\AjaxModel\AjaxPostModel->getMedias('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->postsMedias()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 19:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 19:11:49 --> mysqli_sql_exception: Unknown column 'titulo' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT titulo, ...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT titulo, ...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT titulo, ...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT titulo, ...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(64): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(152): App\Models\AjaxModel\AjaxPostModel->getMedias('undefined')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->postsMedias()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 19:11:49 --> Unknown column 'titulo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT titulo, midias, data FROM galeria WHERE id = undefined AND id_instituto = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT titulo, midias, data FROM galeria WHERE id = undefined AND id_instituto = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT titulo, midias, data FROM galeria WHERE id = undefined AND id_instituto = 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT titulo, midias, data FROM galeria WHERE id = undefined AND id_instituto = 1')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(64): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(152): App\Models\AjaxModel\AjaxPostModel->getMedias('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->postsMedias()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 19:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 19:15:15 --> mysqli_sql_exception: Unknown column 'undefined' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT midias, ...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT midias, ...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT midias, ...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT midias, ...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(64): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(152): App\Models\AjaxModel\AjaxPostModel->getMedias('undefined')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->postsMedias()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 19:15:15 --> Unknown column 'undefined' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT midias, data FROM galeria WHERE id = undefined AND id_instituto = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT midias, data FROM galeria WHERE id = undefined AND id_instituto = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT midias, data FROM galeria WHERE id = undefined AND id_instituto = 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT midias, data FROM galeria WHERE id = undefined AND id_instituto = 1')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(64): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(152): App\Models\AjaxModel\AjaxPostModel->getMedias('undefined')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->postsMedias()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 19:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-02 19:17:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\config-pages\institute\medias-list-post.php on line 39.
+ 1 APPPATH\Views\contents\template-1\config-pages\institute\medias-list-post.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\medias-list-post.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\medias-list-post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/config-pages/institute/medias-list-post', [], true)
+ 5 APPPATH\Controllers\Pagination.php(154): view('contents/template-1/config-pages/institute/medias-list-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->postsMedias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 19:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-02 19:21:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\config-pages\institute\medias-list-post.php on line 30.
+ 1 APPPATH\Views\contents\template-1\config-pages\institute\medias-list-post.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\medias-list-post.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\medias-list-post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/config-pages/institute/medias-list-post', [], true)
+ 5 APPPATH\Controllers\Pagination.php(154): view('contents/template-1/config-pages/institute/medias-list-post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->postsMedias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 19:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-02 19:27:58 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT midias, ...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT midias, ...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT midias, ...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT midias, ...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(64): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(152): App\Models\AjaxModel\AjaxPostModel->getMedias('162')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->postsMedias()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-02 19:27:58 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT midias, data FROM posts WHERE id = 162 AND id_instituto = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT midias, data FROM posts WHERE id = 162 AND id_instituto = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT midias, data FROM posts WHERE id = 162 AND id_instituto = 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT midias, data FROM posts WHERE id = 162 AND id_instituto = 1')
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(64): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(152): App\Models\AjaxModel\AjaxPostModel->getMedias('162')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->postsMedias()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 19:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-02 19:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

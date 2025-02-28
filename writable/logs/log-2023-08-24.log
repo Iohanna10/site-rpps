@@ -1,0 +1,46 @@
+CRITICAL - 2023-08-24 19:15:37 --> Unsupported operand types: string / string
+in APPPATH\Views\contents\home-page\template-1\header\menu.php on line 72.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/home-page/template-1/header/menu', [], true)
+ 4 APPPATH\Controllers\Home.php(11): view('contents/home-page/template-1/header/menu')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 19:24:42 --> include(dynamic-page-content/meu%20rpps/contents/main/section-hero/content.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\home-page\dynamic-content\hero-slides\slide-news.php on line 31.
+ 1 APPPATH\Views\contents\home-page\dynamic-content\hero-slides\slide-news.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(dynamic-page-content/meu%20rpps/contents/main/section-hero/content.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\hero-slides\\slide-news.php', 31)
+ 2 APPPATH\Views\contents\home-page\dynamic-content\hero-slides\slide-news.php(31): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\hero-slides\\slide-news.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/home-page/dynamic-content/hero-slides/slide-news', [], true)
+ 6 APPPATH\Controllers\Home.php(15): view('contents/home-page/dynamic-content/hero-slides/slide-news')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 19:42:53 --> require(public/functions/functionReplace.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\home-page\template-1\header\menu.php on line 5.
+ 1 APPPATH\Views\contents\home-page\template-1\header\menu.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(public/functions/functionReplace.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\template-1\\header\\menu.php', 5)
+ 2 APPPATH\Views\contents\home-page\template-1\header\menu.php(5): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\template-1\\header\\menu.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/home-page/template-1/header/menu', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('contents/home-page/template-1/header/menu')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 19:44:10 --> include(dynamic-page-content/meu%20rpps/contents/main/section-hero/content.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\home-page\dynamic-content\hero-slides\slide-news.php on line 31.
+ 1 APPPATH\Views\contents\home-page\dynamic-content\hero-slides\slide-news.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(dynamic-page-content/meu%20rpps/contents/main/section-hero/content.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\hero-slides\\slide-news.php', 31)
+ 2 APPPATH\Views\contents\home-page\dynamic-content\hero-slides\slide-news.php(31): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\hero-slides\\slide-news.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/home-page/dynamic-content/hero-slides/slide-news', [], true)
+ 6 APPPATH\Controllers\Home.php(15): view('contents/home-page/dynamic-content/hero-slides/slide-news')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

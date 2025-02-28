@@ -1,0 +1,155 @@
+CRITICAL - 2024-03-05 16:48:01 --> Undefined array key "qntPg"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qntPg"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(69): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 16:52:19 --> Undefined array key "qntPg"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qntPg"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(69): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 17:00:39 --> Undefined array key "qntPg"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qntPg"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Institute.php(174): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->concursos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 17:18:09 --> Too few arguments to function App\Models\InnerPages\Post::requirePosts(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Advices\InvestmentCommittee.php on line 101 and exactly 3 expected
+in APPPATH\Models\InnerPages\Post.php on line 48.
+ 1 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(101): App\Models\InnerPages\Post->requirePosts([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->calendarioComiteInvestimentos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 17:19:27 --> Too few arguments to function App\Models\InnerPages\Post::requirePosts(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Advices\InvestmentCommittee.php on line 101 and exactly 3 expected
+in APPPATH\Models\InnerPages\Post.php on line 48.
+ 1 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(101): App\Models\InnerPages\Post->requirePosts([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->calendarioComiteInvestimentos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 17:19:37 --> Too few arguments to function App\Models\InnerPages\Post::requirePosts(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Advices\InvestmentCommittee.php on line 101 and exactly 3 expected
+in APPPATH\Models\InnerPages\Post.php on line 48.
+ 1 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(101): App\Models\InnerPages\Post->requirePosts([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->calendarioComiteInvestimentos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 17:19:59 --> Undefined array key "qntPg"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qntPg"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(69): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 17:30:31 --> Undefined array key "qntPg"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qntPg"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Institute.php(174): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->concursos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 18:17:19 --> Undefined array key "id_route"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 75.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_route"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\Posts_pagination.php(38): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->concursos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 18:44:17 --> Too few arguments to function App\Models\InnerPages\Post::requirePosts(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\Home.php on line 54 and exactly 3 expected
+in APPPATH\Models\InnerPages\Post.php on line 62.
+ 1 APPPATH\Controllers\Home.php(54): App\Models\InnerPages\Post->requirePosts([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 18:55:00 --> Too few arguments to function App\Models\InnerPages\Post::requirePosts(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\Home.php on line 54 and exactly 3 expected
+in APPPATH\Models\InnerPages\Post.php on line 62.
+ 1 APPPATH\Controllers\Home.php(54): App\Models\InnerPages\Post->requirePosts([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 19:58:50 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Posts_pagination.php(12): App\Models\Session\SessionModel->requireInstituteId('undefined')
+ 3 APPPATH\Controllers\Posts_pagination.php(35): App\Controllers\Posts_pagination->requireInstituteId('undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->concursos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 20:00:55 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Posts_pagination.php(12): App\Models\Session\SessionModel->requireInstituteId('undefined')
+ 3 APPPATH\Controllers\Posts_pagination.php(35): App\Controllers\Posts_pagination->requireInstituteId('undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->concursos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 20:04:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\Posts_pagination.php(66): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->pesquisa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-05 20:36:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id_instituto = '1' AND descricao like '%aa%'' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Post.php(23): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Posts_pagination.php(63): App\Models\InnerPages\Post->searchPost('1', '1', 'aa')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Posts_pagination->pesquisa()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-05 20:36:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id_instituto = '1' AND descricao like '%aa%'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_post) AS num_records FROM posts WHERE id_instituto = \'1\' AND titulo like \'%aa%\' OR WHERE id_instituto = \'1\' AND descricao like \'%aa%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_post) AS num_records FROM posts WHERE id_instituto = \'1\' AND titulo like \'%aa%\' OR WHERE id_instituto = \'1\' AND descricao like \'%aa%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_post) AS num_records FROM posts WHERE id_instituto = \'1\' AND titulo like \'%aa%\' OR WHERE id_instituto = \'1\' AND descricao like \'%aa%\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_post) AS num_records FROM posts WHERE id_instituto = :instituteId: AND titulo like :search: OR WHERE id_instituto = :instituteId: AND descricao like :search:', [...])
+ 5 APPPATH\Models\InnerPages\Post.php(23): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Posts_pagination.php(63): App\Models\InnerPages\Post->searchPost('1', '1', 'aa')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->pesquisa()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

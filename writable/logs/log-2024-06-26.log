@@ -1,0 +1,694 @@
+INFO - 2024-06-26 15:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 15:57:53 --> Invalid file: "contents/template-1/config-pages/institute/posts-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/config-pages/institute/posts-list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/config-pages/institute/posts-list', [], true)
+ 3 APPPATH\Controllers\Pagination.php(170): view('contents/template-1/config-pages/institute/posts-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 15:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 15:57:54 --> Invalid file: "contents/template-1/config-pages/institute/posts-list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/config-pages/institute/posts-list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/config-pages/institute/posts-list', [], true)
+ 3 APPPATH\Controllers\Pagination.php(170): view('contents/template-1/config-pages/institute/posts-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 15:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 15:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-26 16:51:32 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(26): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-26 16:51:32 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = :institute:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(26): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 16:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-26 16:51:32 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(26): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-26 16:51:32 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = :institute:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(26): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 16:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-26 16:54:03 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(26): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-26 16:54:03 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = :institute:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(26): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 16:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-26 16:54:04 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(26): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-26 16:54:04 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = :institute:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(26): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 16:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 16:55:11 --> Undefined array key "id"
+in APPPATH\Views\contents\template-1\config-pages\institute\post-list.php on line 17.
+ 1 APPPATH\Views\contents\template-1\config-pages\institute\post-list.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\post-list.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\post-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/config-pages/institute/post-list', [], true)
+ 5 APPPATH\Controllers\Pagination.php(147): view('contents/template-1/config-pages/institute/post-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 16:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 16:55:11 --> Undefined array key "id"
+in APPPATH\Views\contents\template-1\config-pages\institute\post-list.php on line 17.
+ 1 APPPATH\Views\contents\template-1\config-pages\institute\post-list.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\post-list.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\post-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/config-pages/institute/post-list', [], true)
+ 5 APPPATH\Controllers\Pagination.php(147): view('contents/template-1/config-pages/institute/post-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 16:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 16:56:11 --> Undefined array key "nome"
+in APPPATH\Views\contents\template-1\config-pages\institute\post-list.php on line 18.
+ 1 APPPATH\Views\contents\template-1\config-pages\institute\post-list.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\post-list.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\post-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/config-pages/institute/post-list', [], true)
+ 5 APPPATH\Controllers\Pagination.php(147): view('contents/template-1/config-pages/institute/post-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 16:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 16:56:11 --> Undefined array key "nome"
+in APPPATH\Views\contents\template-1\config-pages\institute\post-list.php on line 18.
+ 1 APPPATH\Views\contents\template-1\config-pages\institute\post-list.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\post-list.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\post-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/config-pages/institute/post-list', [], true)
+ 5 APPPATH\Controllers\Pagination.php(147): view('contents/template-1/config-pages/institute/post-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 16:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 16:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 17:05:12 --> Undefined property: stdClass::$num_records
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 28.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$num_records', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 28)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 17:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 17:05:12 --> Undefined property: stdClass::$num_records
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 28.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$num_records', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 28)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 17:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 17:30:58 --> Undefined array key "id_category"
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 23.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_category"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 23)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 17:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 17:30:58 --> Undefined array key "id_category"
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 23.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_category"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 23)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 17:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 17:33:20 --> Undefined array key "id_category"
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 23.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_category"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 23)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 17:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 17:33:32 --> Undefined array key "id_category"
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 23.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_category"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 23)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 17:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-26 17:45:01 --> mysqli_sql_exception: Unknown column 'nome' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(27): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-26 17:45:01 --> Unknown column 'nome' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = \'1\' AND nome like \'%aaa%\' AND id_categoria = \'aaa\' ORDER BY data DESC LIMIT 0, 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = \'1\' AND nome like \'%aaa%\' AND id_categoria = \'aaa\' ORDER BY data DESC LIMIT 0, 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = \'1\' AND nome like \'%aaa%\' AND id_categoria = \'aaa\' ORDER BY data DESC LIMIT 0, 10')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = :institute: AND nome like \'%aaa%\' AND id_categoria = \'aaa\' ORDER BY data DESC LIMIT :start:, :qntResultPgs:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(27): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 17:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 17:50:24 --> Undefined array key "nome"
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 184.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 184)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(27): App\Models\AjaxModel\AjaxPostModel->getQuery([...], 'count')
+ 3 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 17:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-26 17:54:19 --> mysqli_sql_exception: Unknown column 'title' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(27): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-26 17:54:19 --> Unknown column 'title' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = \'1\' AND title like \'%aaa%\' AND id_categoria = \'0\' ORDER BY data ASC LIMIT 0, 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = \'1\' AND title like \'%aaa%\' AND id_categoria = \'0\' ORDER BY data ASC LIMIT 0, 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = \'1\' AND title like \'%aaa%\' AND id_categoria = \'0\' ORDER BY data ASC LIMIT 0, 10')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = :institute: AND title like \'%aaa%\' AND id_categoria = \'0\' ORDER BY data ASC LIMIT :start:, :qntResultPgs:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(27): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 17:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 17:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-26 18:12:33 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(27): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-26 18:12:33 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = \'1\' AND (id_categoria = \'2\' OR  id-categoria = \'3\')AND id_categoria = \'2\' ORDER BY data DESC LIMIT 0, 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = \'1\' AND (id_categoria = \'2\' OR  id-categoria = \'3\')AND id_categoria = \'2\' ORDER BY data DESC LIMIT 0, 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = \'1\' AND (id_categoria = \'2\' OR  id-categoria = \'3\')AND id_categoria = \'2\' ORDER BY data DESC LIMIT 0, 10')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id_post) as num_records FROM posts WHERE id_instituto = :institute: AND (id_categoria = \'2\' OR  id-categoria = \'3\')AND id_categoria = \'2\' ORDER BY data DESC LIMIT :start:, :qntResultPgs:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(27): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 18:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 18:41:22 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 29.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 29)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('2', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 18:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 18:44:28 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 29.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 29)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('2', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 18:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 18:47:31 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 29.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 29)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('2', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 18:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 18:51:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\config-pages\institute\post-list.php on line 13.
+ 1 APPPATH\Views\contents\template-1\config-pages\institute\post-list.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\post-list.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\config-pages\\institute\\post-list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/config-pages/institute/post-list', [], true)
+ 5 APPPATH\Controllers\Pagination.php(147): view('contents/template-1/config-pages/institute/post-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 18:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 18:52:43 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 29.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 29)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('2', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 18:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 18:55:03 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 27.
+ 1 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 18:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 18:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 18:56:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getError()
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 27.
+ 1 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 18:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 19:00:25 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 28.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 28)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('2', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 19:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 19:01:34 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 29.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 29)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('2', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 19:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 19:03:41 --> Too few arguments to function App\Models\AjaxModel\AjaxPostModel::getQuery(), 0 passed in C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php on line 28 and exactly 2 expected
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 168.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(28): App\Models\AjaxModel\AjaxPostModel->getQuery()
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 19:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 19:05:19 --> Call to undefined method App\Models\AjaxModel\AjaxPostModel::getOriginalQuery
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(28): CodeIgniter\Model->__call('getOriginalQuery', [])
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('1', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 19:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 19:09:19 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 29.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 29)
+ 2 APPPATH\Controllers\Pagination.php(145): App\Models\AjaxModel\AjaxPostModel->getPosts('2', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->posts()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 19:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 19:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

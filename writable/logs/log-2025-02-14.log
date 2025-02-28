@@ -1,0 +1,421 @@
+INFO - 2025-02-14 10:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 10:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 10:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-14 07:58:03 --> mysqli_sql_exception: Unknown column 'template' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT template...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT template...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT template...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT template...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(71): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(247): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Templates.php(31): App\Controllers\Session->dataInstitute('1', Array, Array)
+#7 C:\xampp\htdocs\RPPS\app\Controllers\Templates.php(25): App\Controllers\Templates->getTemplate()
+#8 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Test.php(32): App\Controllers\Templates->innerpages('template-1', 'actuarial-calcu...', Array)
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+#10 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+#11 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-02-14 07:58:04 --> Unknown column 'template' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT template FROM instituto_infos WHERE id = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT template FROM instituto_infos WHERE id = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT template FROM instituto_infos WHERE id = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT template FROM instituto_infos WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(71): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(247): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Templates.php(31): App\Controllers\Session->dataInstitute('1', [...], [...])
+ 8 APPPATH\Controllers\Templates.php(25): App\Controllers\Templates->getTemplate()
+ 9 APPPATH\Controllers\InnerPages\Test.php(32): App\Controllers\Templates->innerpages('template-1', 'actuarial-calculation', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-02-14 11:05:01 --> [DEPRECATED] Optional parameter $tables declared before required parameter $columns is implicitly treated as a required parameter in APPPATH\Controllers\Session.php on line 240.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\RPPS\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Session')
+ 4 APPPATH\Controllers\InnerPages\Test.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Session')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 08:05:01 --> Undefined array key "institute"
+in APPPATH\Models\Session\SessionModel.php on line 71.
+ 1 APPPATH\Models\Session\SessionModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "institute"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 71)
+ 2 APPPATH\Controllers\Session.php(247): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Templates.php(31): App\Controllers\Session->dataInstitute('1', [...], [...])
+ 4 APPPATH\Controllers\Templates.php(25): App\Controllers\Templates->getTemplate()
+ 5 APPPATH\Controllers\InnerPages\Test.php(32): App\Controllers\Templates->innerpages('template-1', 'actuarial-calculation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-02-14 11:05:36 --> [DEPRECATED] Optional parameter $tables declared before required parameter $columns is implicitly treated as a required parameter in APPPATH\Controllers\Session.php on line 240.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\RPPS\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Session')
+ 4 APPPATH\Controllers\InnerPages\Test.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Session')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-14 08:05:36 --> mysqli_sql_exception: Table 'teste_dados_instituto.institute' doesn't exist in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT template...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT template...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT template...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT template...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(71): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(247): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Templates.php(31): App\Controllers\Session->dataInstitute('1', Array, Array)
+#7 C:\xampp\htdocs\RPPS\app\Controllers\Templates.php(25): App\Controllers\Templates->getTemplate()
+#8 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Test.php(32): App\Controllers\Templates->innerpages('template-1', 'actuarial-calcu...', Array)
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+#10 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+#11 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-02-14 08:05:36 --> Table 'teste_dados_instituto.institute' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT template FROM institute WHERE id = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT template FROM institute WHERE id = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT template FROM institute WHERE id = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT template FROM institute WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(71): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(247): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Templates.php(31): App\Controllers\Session->dataInstitute('1', [...], [...])
+ 8 APPPATH\Controllers\Templates.php(25): App\Controllers\Templates->getTemplate()
+ 9 APPPATH\Controllers\InnerPages\Test.php(32): App\Controllers\Templates->innerpages('template-1', 'actuarial-calculation', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 08:06:42 --> Undefined array key "insitute"
+in APPPATH\Controllers\Templates.php on line 33.
+ 1 APPPATH\Controllers\Templates.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "insitute"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Templates.php', 33)
+ 2 APPPATH\Controllers\Templates.php(25): App\Controllers\Templates->getTemplate()
+ 3 APPPATH\Controllers\InnerPages\Test.php(32): App\Controllers\Templates->innerpages('template-1', 'actuarial-calculation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 08:06:51 --> Undefined array key "insitute"
+in APPPATH\Controllers\Templates.php on line 33.
+ 1 APPPATH\Controllers\Templates.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "insitute"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Templates.php', 33)
+ 2 APPPATH\Controllers\Templates.php(25): App\Controllers\Templates->getTemplate()
+ 3 APPPATH\Controllers\InnerPages\Test.php(32): App\Controllers\Templates->innerpages('template-1', 'actuarial-calculation', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 11:12:43 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\RPPS\app\Controllers\Templates.php on line 17
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Templates.php(17): view('contents/template-1/common/header/head', 'actuarial-calculation')
+ 2 APPPATH\Controllers\InnerPages\Test.php(32): App\Controllers\Templates->innerpages('template-1', 'actuarial-calculation', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 11:27:24 --> Undefined variable $links
+in APPPATH\Views\contents\template-1\common\header\menu.php on line 34.
+ 1 APPPATH\Views\contents\template-1\common\header\menu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $links', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\header\\menu.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\header\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/header/menu', [], true)
+ 5 APPPATH\Controllers\Templates.php(21): view('contents/template-1/common/header/menu', [...])
+ 6 APPPATH\Controllers\InnerPages\Test.php(22): App\Controllers\Templates->innerpages('actuarial-calculation', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 08:28:38 --> Undefined variable $info
+in APPPATH\Views\contents\template-1\common\footer\sections\infos.php on line 36.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\infos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\infos.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/infos', [], true)
+ 5 APPPATH\Controllers\Templates.php(24): view('contents/template-1/common/footer/sections/infos', [...])
+ 6 APPPATH\Controllers\InnerPages\Test.php(22): App\Controllers\Templates->innerpages('actuarial-calculation', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 11:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 11:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 08:31:12 --> Undefined variable $contacts
+in APPPATH\Views\contents\template-1\common\footer\sections\infos.php on line 103.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\infos.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\infos.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/infos', [], true)
+ 5 APPPATH\Controllers\Templates.php(26): view('contents/template-1/common/footer/sections/infos', [...])
+ 6 APPPATH\Controllers\InnerPages\Test.php(22): App\Controllers\Templates->innerpages('actuarial-calculation', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 11:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 11:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 11:45:18 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Templates.php on line 20.
+ 1 APPPATH\Controllers\InnerPages\Test.php(22): App\Controllers\Templates->innerpages('actuarial-calculation', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 11:46:21 --> Undefined array key "headerLinks"
+in APPPATH\Controllers\Templates.php on line 20.
+ 1 APPPATH\Controllers\Templates.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "headerLinks"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Templates.php', 20)
+ 2 APPPATH\Controllers\InnerPages\Test.php(22): App\Controllers\Templates->innerpages([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 11:52:01 --> Undefined variable $rota
+in APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php on line 14.
+ 1 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rota', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links', [], true)
+ 5 APPPATH\Controllers\Templates.php(20): view('contents/template-1/inner-pages/header/sections/header-links', [...])
+ 6 APPPATH\Controllers\InnerPages\Test.php(22): App\Controllers\Templates->innerpages([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 11:52:10 --> Undefined variable $rota
+in APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php on line 14.
+ 1 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rota', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links', [], true)
+ 5 APPPATH\Controllers\Templates.php(20): view('contents/template-1/inner-pages/header/sections/header-links', [...])
+ 6 APPPATH\Controllers\InnerPages\Test.php(22): App\Controllers\Templates->innerpages([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 11:52:32 --> Undefined variable $urlRoute
+in APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php on line 14.
+ 1 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $urlRoute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links', [], true)
+ 5 APPPATH\Controllers\Templates.php(20): view('contents/template-1/inner-pages/header/sections/header-links', [...])
+ 6 APPPATH\Controllers\InnerPages\Test.php(22): App\Controllers\Templates->innerpages([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 11:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 11:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 12:14:28 --> Undefined array key 0
+in APPPATH\Models\InnerPages\Accountability\Report.php on line 19.
+ 1 APPPATH\Models\InnerPages\Accountability\Report.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Accountability\\Report.php', 19)
+ 2 APPPATH\Controllers\InnerPages\Test.php(18): App\Models\InnerPages\Accountability\Report->getReports(false, true)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Test->testTemplate()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Test))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 12:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 12:15:41 --> Undefined variable $urlRoute
+in APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php on line 14.
+ 1 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $urlRoute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links', [], true)
+ 5 APPPATH\Controllers\InnerPages\Accountability.php(232): view('contents/template-1/inner-pages/header/sections/header-links', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->relatoriosCalc()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-14 12:15:44 --> substr_replace(): Argument #2 ($replace) must be of type array|string, App\Controllers\InnerPages\Accountability given
+in SYSTEMPATH\Database\Query.php on line 362.
+ 1 SYSTEMPATH\Database\Query.php(362): substr_replace('SELECT `id` FROM instituto WHERE nome = ?', Object(App\Controllers\InnerPages\Accountability), 40, 1)
+ 2 SYSTEMPATH\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('SELECT `id` FROM instituto WHERE nome = ?', [...], 1, 1)
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT `id` FROM instituto WHERE nome = ?', Object(App\Controllers\InnerPages\Accountability))
+ 6 APPPATH\Models\Session\SessionModel.php(12): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->getInstituteId(Object(App\Controllers\InnerPages\Accountability))
+ 8 APPPATH\Controllers\Session.php(260): App\Controllers\Session->getInstituteId(Object(App\Controllers\InnerPages\Accountability))
+ 9 APPPATH\Controllers\InnerPages\Accountability.php(206): App\Controllers\Session->validInstitute(Object(App\Controllers\InnerPages\Accountability))
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->calculoAtuarial()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-14 12:16:08 --> substr_replace(): Argument #2 ($replace) must be of type array|string, App\Controllers\InnerPages\Accountability given
+in SYSTEMPATH\Database\Query.php on line 362.
+ 1 SYSTEMPATH\Database\Query.php(362): substr_replace('SELECT `id` FROM instituto WHERE nome = ?', Object(App\Controllers\InnerPages\Accountability), 40, 1)
+ 2 SYSTEMPATH\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('SELECT `id` FROM instituto WHERE nome = ?', [...], 1, 1)
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT `id` FROM instituto WHERE nome = ?', Object(App\Controllers\InnerPages\Accountability))
+ 6 APPPATH\Models\Session\SessionModel.php(12): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->getInstituteId(Object(App\Controllers\InnerPages\Accountability))
+ 8 APPPATH\Controllers\Session.php(260): App\Controllers\Session->getInstituteId(Object(App\Controllers\InnerPages\Accountability))
+ 9 APPPATH\Controllers\InnerPages\Accountability.php(206): App\Controllers\Session->validInstitute(Object(App\Controllers\InnerPages\Accountability))
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->calculoAtuarial()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-14 12:16:53 --> substr_replace(): Argument #2 ($replace) must be of type array|string, App\Controllers\InnerPages\Accountability given
+in SYSTEMPATH\Database\Query.php on line 362.
+ 1 SYSTEMPATH\Database\Query.php(362): substr_replace('SELECT `id` FROM instituto WHERE nome = ?', Object(App\Controllers\InnerPages\Accountability), 40, 1)
+ 2 SYSTEMPATH\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('SELECT `id` FROM instituto WHERE nome = ?', [...], 1, 1)
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT `id` FROM instituto WHERE nome = ?', Object(App\Controllers\InnerPages\Accountability))
+ 6 APPPATH\Models\Session\SessionModel.php(12): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->getInstituteId(Object(App\Controllers\InnerPages\Accountability))
+ 8 APPPATH\Controllers\Session.php(260): App\Controllers\Session->getInstituteId(Object(App\Controllers\InnerPages\Accountability))
+ 9 APPPATH\Controllers\InnerPages\Accountability.php(206): App\Controllers\Session->validInstitute(Object(App\Controllers\InnerPages\Accountability))
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->calculoAtuarial()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-14 12:17:06 --> substr_replace(): Argument #2 ($replace) must be of type array|string, App\Controllers\InnerPages\Accountability given
+in SYSTEMPATH\Database\Query.php on line 362.
+ 1 SYSTEMPATH\Database\Query.php(362): substr_replace('SELECT `id` FROM instituto WHERE nome = ?', Object(App\Controllers\InnerPages\Accountability), 40, 1)
+ 2 SYSTEMPATH\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('SELECT `id` FROM instituto WHERE nome = ?', [...], 1, 1)
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT `id` FROM instituto WHERE nome = ?', Object(App\Controllers\InnerPages\Accountability))
+ 6 APPPATH\Models\Session\SessionModel.php(12): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->getInstituteId(Object(App\Controllers\InnerPages\Accountability))
+ 8 APPPATH\Controllers\Session.php(260): App\Controllers\Session->getInstituteId(Object(App\Controllers\InnerPages\Accountability))
+ 9 APPPATH\Controllers\InnerPages\Accountability.php(206): App\Controllers\Session->validInstitute(Object(App\Controllers\InnerPages\Accountability))
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->calculoAtuarial()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 12:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 12:26:59 --> Call to undefined method App\Controllers\InnerPages\Accountability::innerpages()
+in APPPATH\Controllers\InnerPages\Accountability.php on line 210.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->calculoAtuarial()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 12:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-14 12:29:37 --> Undefined array key 0
+in APPPATH\Models\InnerPages\Accountability\Report.php on line 19.
+ 1 APPPATH\Models\InnerPages\Accountability\Report.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Accountability\\Report.php', 19)
+ 2 APPPATH\Controllers\InnerPages\Accountability.php(206): App\Models\InnerPages\Accountability\Report->getReports(false, true)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->calculoAtuarial()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-14 12:31:29 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 263.
+ 1 APPPATH\Controllers\InnerPages\Accountability.php(205): App\Controllers\Session->validInstitute(Object(App\Controllers\InnerPages\Accountability))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->calculoAtuarial()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-14 12:39:38 --> Unsupported operand types: string / string
+in APPPATH\Controllers\Session.php on line 83.
+ 1 APPPATH\Controllers\Session.php(264): App\Controllers\Session->redirectTo('../instituto-sem-cadastro?url=http://localhost/RPPS/public/ipreva/calculo-atuarial')
+ 2 APPPATH\Controllers\InnerPages\Accountability.php(205): App\Controllers\Session->validInstitute(Object(App\Controllers\InnerPages\Accountability))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->calculoAtuarial()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-14 12:45:37 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH\Controllers\Session.php on line 83.
+ 1 APPPATH\Controllers\Session.php(264): App\Controllers\Session->redirectTo('../instituto-sem-cadastro?url=http://localhost/RPPS/public/ipreva/calculo-atuarial')
+ 2 APPPATH\Controllers\InnerPages\Accountability.php(205): App\Controllers\Session->validInstitute(Object(App\Controllers\InnerPages\Accountability))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->calculoAtuarial()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-14 12:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-14 12:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

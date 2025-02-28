@@ -1,0 +1,296 @@
+INFO - 2024-06-17 15:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:11:45 --> Undefined array key "midias"
+in APPPATH\Models\InnerPages\Gallery.php on line 36.
+ 1 APPPATH\Models\InnerPages\Gallery.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "midias"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Gallery.php', 36)
+ 2 APPPATH\Models\InnerPages\Gallery.php(27): App\Models\InnerPages\Gallery->getMedias([...])
+ 3 APPPATH\Controllers\Registrations\RegistrationsPgs.php(88): App\Models\InnerPages\Gallery->getGallery('8')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 15:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:13:42 --> Undefined variable $gallery
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 7.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gallery', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(95): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 15:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:14:22 --> Undefined variable $gallery
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 7.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gallery', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(95): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 15:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:30:37 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Models\InnerPages\Gallery.php on line 43.
+ 1 APPPATH\Models\InnerPages\Gallery.php(43): array_push(null, ' tEaFXMWoMjk')
+ 2 APPPATH\Models\InnerPages\Gallery.php(27): App\Models\InnerPages\Gallery->getMedias([...])
+ 3 APPPATH\Controllers\Registrations\RegistrationsPgs.php(88): App\Models\InnerPages\Gallery->getGallery('8')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 15:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:44:21 --> Undefined variable $gallery
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 7.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gallery', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(95): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 15:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:48:37 --> Undefined variable $gallery
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 7.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gallery', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(97): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 15:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:49:35 --> Undefined variable $gallery
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 7.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gallery', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(97): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 15:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:49:44 --> Undefined variable $gallery
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 7.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gallery', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(96): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 15:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:49:52 --> Undefined variable $gallery
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 7.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gallery', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(96): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 15:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:55:14 --> Undefined variable $blocked
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 8.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blocked', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 15:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 15:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:58:31 --> Undefined array key 0
+in APPPATH\Models\InnerPages\Gallery.php on line 27.
+ 1 APPPATH\Models\InnerPages\Gallery.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Gallery.php', 27)
+ 2 APPPATH\Controllers\Registrations\RegistrationsPgs.php(88): App\Models\InnerPages\Gallery->getGallery('43')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 16:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 16:10:20 --> Undefined array key 0
+in APPPATH\Models\InnerPages\Gallery.php on line 29.
+ 1 APPPATH\Models\InnerPages\Gallery.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Gallery.php', 29)
+ 2 APPPATH\Controllers\Registrations\RegistrationsPgs.php(88): App\Models\InnerPages\Gallery->getGallery('43')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 16:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 16:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 17:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 17:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 17:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 17:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:10:44 --> Undefined variable $media
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 136.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $media', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 18:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:12:23 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 136.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(136): trim([...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 18:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:12:42 --> Cannot access offset of type string on string
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 137.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 4 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 18:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:22:38 --> Undefined array key "name"
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 145.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 145)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 18:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:39:37 --> Cannot access offset of type string on string
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 163.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 4 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 18:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 18:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:55:49 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 114.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(114): trim([...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 18:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 15:57:58 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 114.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(114): trim([...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 19:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-17 16:03:28 --> Undefined array key "descricao"
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 151.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descricao"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 151)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-17 19:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 19:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 20:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-17 20:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

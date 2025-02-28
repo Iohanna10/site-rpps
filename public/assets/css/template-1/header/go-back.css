@@ -1,0 +1,24 @@
+#goBack {
+    display: flex;
+    justify-content: center;
+}
+
+.container-go-back {
+    width: 100%;
+    padding: 50px 10px;
+}
+
+.container-go-back p {
+   font-size: 1.5rem;
+}
+
+.container-go-back p a {
+    text-decoration: none;
+    color: inherit;
+    width: auto;
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--cor-bg);
+}

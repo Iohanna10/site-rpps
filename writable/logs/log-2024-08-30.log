@@ -1,0 +1,239 @@
+INFO - 2024-08-30 15:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 15:14:25 --> DOMXPath::__construct(): Argument #1 ($document) must be of type DOMDocument, string given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 56.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(56): DOMXPath->__construct('<h1 style="text-align: center;">Teste de upload de arquivos pelo tinymce</h1>
+<div>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt!</div>
+<div>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt!</div>
+<div> </div>
+<h2 style="text-align: center;">Teste de upload de imagem</h2>
+<div style="text-align: center;">
+<figure class="image"><img title="Uma imagem" src="../dynamic-page-content/iprecal/assets/uploads/img/posts/2024/8/66d07d3c1199d.jpg" alt="Imagem" width="600" height="343">
+<figcaption>Uma folha</figcaption>
+</figure>
+<h2>Teste de upload de vídeo</h2>
+<p><video controls="controls" width="600" height="300">
+<source src="../dynamic-page-content/iprecal/assets/uploads/video/posts/2024/8/66d07da67c1c4.mp4" type="video/mp4" data-mce-fragment="1"></video></p>
+<h2 style="text-align: center;">Teste de upload de pdf</h2>
+<p style="text-align: left;"><a title="pdf" href="../dynamic-page-content/iprecal/assets/uploads/pdf/posts/2024/8/66d07ddba096b.pdf" target="_blank" rel="noopener">Esse link deve abrir corretamente o pdf</a></p>
+</div>
+</div>
+</div>')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 15:14:41 --> DOMXPath::__construct(): Argument #1 ($document) must be of type DOMDocument, string given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 56.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(56): DOMXPath->__construct('<h1 style="text-align: center;">Teste de upload de arquivos pelo tinymce</h1>
+<div>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt!</div>
+<div>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt!</div>
+<div> </div>
+<h2 style="text-align: center;">Teste de upload de imagem</h2>
+<div style="text-align: center;">
+<figure class="image"><img title="Uma imagem" src="../dynamic-page-content/iprecal/assets/uploads/img/posts/2024/8/66d07d3c1199d.jpg" alt="Imagem" width="600" height="343">
+<figcaption>Uma folha</figcaption>
+</figure>
+<h2>Teste de upload de vídeo</h2>
+<p><video controls="controls" width="600" height="300">
+<source src="../dynamic-page-content/iprecal/assets/uploads/video/posts/2024/8/66d07da67c1c4.mp4" type="video/mp4" data-mce-fragment="1"></video></p>
+<h2 style="text-align: center;">Teste de upload de pdf</h2>
+<p style="text-align: left;"><a title="pdf" href="../dynamic-page-content/iprecal/assets/uploads/pdf/posts/2024/8/66d07ddba096b.pdf" target="_blank" rel="noopener">Esse link deve abrir corretamente o pdf</a></p>
+</div>
+</div>
+</div>')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-30 15:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 15:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 16:20:42 --> Undefined variable $url
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 77.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 16:24:48 --> Undefined variable $url
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 77.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 16:25:02 --> Undefined variable $url
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 77.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-30 16:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 16:26:37 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 77.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(77): array_push(null, '../dynamic-page-content/iprecal/assets/uploads/img/posts/2024/8/66d07d3c1199d.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-30 16:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 16:35:01 --> preg_match(): Unknown modifier 'p'
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'p\'', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 78)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(78): preg_match('/\\b/iprecal/\\b/', '../dynamic-page-content/iprecal/assets/uploads/img/posts/2024/8/66d07d3c1199d.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-30 16:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 16:42:30 --> preg_match(): Unknown modifier '\'
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'\\\'', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 79)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(79): preg_match('/\\biprecal/\\b/', '../dynamic-page-content/iprecal/assets/uploads/img/posts/2024/8/66d07d3c1199d.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-30 16:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 17:02:50 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 78.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(78): array_push(null, '../dynamic-page-content/iprecal/assets/uploads/img/posts/2024/8/66d07d3c1199d.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-30 17:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-30 17:06:36 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 78.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(78): array_push(null, '../dynamic-page-content/iprecal/assets/uploads/img/posts/2024/8/66d07d3c1199d.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-30 17:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 18:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 18:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 18:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-30 16:21:37 --> mysqli_sql_exception: Column 'id_categoria' cannot be null in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO tes...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO tes...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tes...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('INSERT INTO tes...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(120): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-30 16:21:37 --> Column 'id_categoria' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO teste_nova_estrutura_posts VALUES(0, \'2\', NULL, \'2024-8-30 16:21:37\', \'aaaaaaaa\', \'aaaaaaaaaa\', NULL, NULL, \'<h1 style=\\"text-align: center;\\">Teste de upload de arquivos pelo tinymce</h1>\\n<div>\\n<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt!</div>\\n<div>\\n<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt!</div>\\n<div> </div>\\n<h2 style=\\"text-align: center;\\">Teste de upload de imagem</h2>\\n<div style=\\"text-align: center;\\">\\n<figure class=\\"image\\"><img title=\\"Uma imagem\\" src=\\"../dynamic-page-content/iprecal/assets/uploads/img/posts/2024/8/66d07d3c1199d.jpg\\" alt=\\"Imagem\\" width=\\"600\\" height=\\"343\\">\\n<figcaption>Uma folha</figcaption>\\n</figure>\\n<h2>Teste de upload de vídeo</h2>\\n<p><video controls=\\"controls\\" width=\\"600\\" height=\\"300\\">\\n<source src=\\"../dynamic-page-content/iprecal/assets/uploads/video/posts/2024/8/66d07da67c1c4.mp4\\" type=\\"video/mp4\\" data-mce-fragment=\\"1\\"></video></p>\\n<h2 style=\\"text-align: center;\\">Teste de upload de pdf</h2>\\n<p style=\\"text-align: left;\\"><a title=\\"pdf\\" href=\\"../dynamic-page-content/iprecal/assets/uploads/pdf/posts/2024/8/66d07ddba096b.pdf\\" target=\\"_blank\\" rel=\\"noopener\\">Esse link deve abrir corretamente o pdf</a></p>\\n</div>\\n</div>\\n</div>\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO teste_nova_estrutura_posts VALUES(0, \'2\', NULL, \'2024-8-30 16:21:37\', \'aaaaaaaa\', \'aaaaaaaaaa\', NULL, NULL, \'<h1 style=\\"text-align: center;\\">Teste de upload de arquivos pelo tinymce</h1>\\n<div>\\n<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt!</div>\\n<div>\\n<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt!</div>\\n<div> </div>\\n<h2 style=\\"text-align: center;\\">Teste de upload de imagem</h2>\\n<div style=\\"text-align: center;\\">\\n<figure class=\\"image\\"><img title=\\"Uma imagem\\" src=\\"../dynamic-page-content/iprecal/assets/uploads/img/posts/2024/8/66d07d3c1199d.jpg\\" alt=\\"Imagem\\" width=\\"600\\" height=\\"343\\">\\n<figcaption>Uma folha</figcaption>\\n</figure>\\n<h2>Teste de upload de vídeo</h2>\\n<p><video controls=\\"controls\\" width=\\"600\\" height=\\"300\\">\\n<source src=\\"../dynamic-page-content/iprecal/assets/uploads/video/posts/2024/8/66d07da67c1c4.mp4\\" type=\\"video/mp4\\" data-mce-fragment=\\"1\\"></video></p>\\n<h2 style=\\"text-align: center;\\">Teste de upload de pdf</h2>\\n<p style=\\"text-align: left;\\"><a title=\\"pdf\\" href=\\"../dynamic-page-content/iprecal/assets/uploads/pdf/posts/2024/8/66d07ddba096b.pdf\\" target=\\"_blank\\" rel=\\"noopener\\">Esse link deve abrir corretamente o pdf</a></p>\\n</div>\\n</div>\\n</div>\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO teste_nova_estrutura_posts VALUES(0, \'2\', NULL, \'2024-8-30 16:21:37\', \'aaaaaaaa\', \'aaaaaaaaaa\', NULL, NULL, \'<h1 style=\\"text-align: center;\\">Teste de upload de arquivos pelo tinymce</h1>\\n<div>\\n<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt!</div>\\n<div>\\n<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam reprehenderit odit cum debitis, ab laudantium aspernatur possimus, perspiciatis repellendus amet magni inventore provident eos vitae quos accusantium natus nisi nesciunt!</div>\\n<div> </div>\\n<h2 style=\\"text-align: center;\\">Teste de upload de imagem</h2>\\n<div style=\\"text-align: center;\\">\\n<figure class=\\"image\\"><img title=\\"Uma imagem\\" src=\\"../dynamic-page-content/iprecal/assets/uploads/img/posts/2024/8/66d07d3c1199d.jpg\\" alt=\\"Imagem\\" width=\\"600\\" height=\\"343\\">\\n<figcaption>Uma folha</figcaption>\\n</figure>\\n<h2>Teste de upload de vídeo</h2>\\n<p><video controls=\\"controls\\" width=\\"600\\" height=\\"300\\">\\n<source src=\\"../dynamic-page-content/iprecal/assets/uploads/video/posts/2024/8/66d07da67c1c4.mp4\\" type=\\"video/mp4\\" data-mce-fragment=\\"1\\"></video></p>\\n<h2 style=\\"text-align: center;\\">Teste de upload de pdf</h2>\\n<p style=\\"text-align: left;\\"><a title=\\"pdf\\" href=\\"../dynamic-page-content/iprecal/assets/uploads/pdf/posts/2024/8/66d07ddba096b.pdf\\" target=\\"_blank\\" rel=\\"noopener\\">Esse link deve abrir corretamente o pdf</a></p>\\n</div>\\n</div>\\n</div>\', 0)')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('INSERT INTO teste_nova_estrutura_posts VALUES(0, :institute:, :category:, :date:, :title:, :description:, :img:, :carousel_media:, :main_content:, 0)', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxPostModel.php(120): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-30 16:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 16:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 19:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 20:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 20:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 20:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 20:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 20:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 20:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 20:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-30 17:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

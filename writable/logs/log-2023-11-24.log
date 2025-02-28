@@ -1,0 +1,491 @@
+CRITICAL - 2023-11-24 16:09:17 --> Undefined variable $member
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\team.php on line 12.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\team.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $member', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\team.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\team.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/team.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Advices\Deliberative.php(62): view('contents/template-1/inner-pages/main/sections/team.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\Deliberative->membros()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\Deliberative))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 16:23:39 --> Undefined variable $url
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\team.php on line 14.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\team.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\team.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\team.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/team.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Institute.php(116): view('contents/template-1/inner-pages/main/sections/team.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->equipe()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 16:23:55 --> Undefined variable $committee
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\team.php on line 17.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\team.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $committee', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\team.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\team.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/team.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Institute.php(116): view('contents/template-1/inner-pages/main/sections/team.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->equipe()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 16:38:29 --> Undefined variable $encoding
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\team.php on line 36.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\team.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $encoding', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\team.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\team.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/team.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Advices\Deliberative.php(62): view('contents/template-1/inner-pages/main/sections/team.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\Deliberative->membros()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\Deliberative))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 16:39:33 --> Cannot redeclare abstractPost() (previously declared in C:\xampp\htdocs\RPPS\public\functions\functionAbstractPosts.php\abstract.php:3)
+in FCPATH\functions\functionAbstractPosts.php\abstract.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-24 16:39:43 --> Undefined variable $encoding
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\team.php on line 36.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\team.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $encoding', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\team.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\team.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/team.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Advices\Deliberative.php(62): view('contents/template-1/inner-pages/main/sections/team.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\Deliberative->membros()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\Deliberative))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:26:04 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('meu-rpps')
+ 3 APPPATH\Controllers\Session.php(23): App\Controllers\Session->requireInstituteId('meu-rpps')
+ 4 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 5 APPPATH\Controllers\InnerPages\Institute.php(61): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:29:48 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('meu-rpps')
+ 3 APPPATH\Controllers\Session.php(23): App\Controllers\Session->requireInstituteId('meu-rpps')
+ 4 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 5 APPPATH\Controllers\InnerPages\Institute.php(61): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:42:20 --> Cannot access protected property App\Controllers\Home::$request
+in APPPATH\Controllers\Session.php on line 19.
+ 1 APPPATH\Controllers\Home.php(16): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 2 APPPATH\Controllers\Home.php(41): App\Controllers\Home->requireCurrentInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:43:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:52:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:53:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:54:35 --> Undefined array key 2
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:55:11 --> Undefined variable $news
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 10.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:55:49 --> Undefined variable $qntdNoticias
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 12.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qntdNoticias', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:03:30 --> Attempt to read property "title" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 22.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "title" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:03:43 --> Attempt to read property "titulo" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 22.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:05:47 --> Undefined variable $news
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 14.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:06:02 --> Undefined variable $count
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 15.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:06:34 --> Call to undefined function num()
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 4 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:07:23 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 4 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:07:25 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 4 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:08:26 --> Cannot use object of type stdClass as array
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 101.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 4 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:10:28 --> Cannot use object of type stdClass as array
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 122.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 4 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:22:35 --> Undefined property: stdClass::$resumo
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 25.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$resumo', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:43:37 --> Undefined variable $post
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 81.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:46:35 --> Cannot use object of type stdClass as array
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 103.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 4 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:48:54 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('meu-rpps')
+ 3 APPPATH\Controllers\Session.php(23): App\Controllers\Session->requireInstituteId('meu-rpps')
+ 4 APPPATH\Controllers\Home.php(17): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(42): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 15:58:51 --> Undefined variable $dataFormatada
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 10.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataFormatada', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:59:27 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 43.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 3 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 15:59:37 --> Undefined variable $news
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 10.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 19:06:50 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(53): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 16:19:56 --> Undefined property: stdClass::$id
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 48.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 19:20:29 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(53): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 16:30:21 --> Undefined variable $totalImages
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 79.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalImages', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:10:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Home\LatestPublications.php(22): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Home.php(49): App\Models\Home\LatestPublications->latestPublications([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-24 17:11:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_post DESC' at line 5 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Home\LatestPublications.php(22): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(49): App\Models\Home\LatestPublications->latestPublications(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-24 17:11:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_post DESC' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = \'1\' 
+            LIMIT 4
+            ORDER BY id_post DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = \'1\' 
+            LIMIT 4
+            ORDER BY id_post DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = \'1\' 
+            LIMIT 4
+            ORDER BY id_post DESC')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = ? 
+            LIMIT 4
+            ORDER BY id_post DESC', [...])
+ 5 APPPATH\Models\Home\LatestPublications.php(22): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Home.php(49): App\Models\Home\LatestPublications->latestPublications([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-24 17:12:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_post DESC' at line 5 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Home\LatestPublications.php(22): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(49): App\Models\Home\LatestPublications->latestPublications(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-24 17:12:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY id_post DESC' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = \'1\' 
+            LIMIT 4
+            ORDER BY id_post DESC;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = \'1\' 
+            LIMIT 4
+            ORDER BY id_post DESC;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = \'1\' 
+            LIMIT 4
+            ORDER BY id_post DESC;')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = ? 
+            LIMIT 4
+            ORDER BY id_post DESC;', [...])
+ 5 APPPATH\Models\Home\LatestPublications.php(22): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Home.php(49): App\Models\Home\LatestPublications->latestPublications([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 17:14:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\contents\template-1\home-page\main\sections\latest-publications\publications.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/latest-publications/publications', [], true)
+ 4 APPPATH\Controllers\Home.php(51): view('contents/template-1/home-page/main/sections/latest-publications/publications', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:13:51 --> syntax error, unexpected end of file
+in APPPATH\Views\contents\template-1\home-page\main\sections\latest-publications\publications.php on line 74.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/latest-publications/publications', [], true)
+ 3 APPPATH\Controllers\Home.php(51): view('contents/template-1/home-page/main/sections/latest-publications/publications', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 21:14:13 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('ipremar')
+ 3 APPPATH\Controllers\Session.php(23): App\Controllers\Session->requireInstituteId('ipremar')
+ 4 APPPATH\Controllers\Home.php(17): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(42): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 18:30:45 --> Undefined property: stdClass::$id
+in APPPATH\Views\contents\template-1\home-page\main\sections\latest-publications\publications.php on line 32.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\latest-publications\publications.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\latest-publications\\publications.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\latest-publications\\publications.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/latest-publications/publications', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('contents/template-1/home-page/main/sections/latest-publications/publications', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,40 @@
+CRITICAL - 2023-09-22 11:00:10 --> Object of class DateTime could not be converted to string
+in APPPATH\Views\contents\template-1\home-page\main\sections\latest-publications\publications.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/latest-publications/publications', [], true)
+ 4 APPPATH\Controllers\Home.php(30): view('contents/template-1/home-page/main/sections/latest-publications/publications', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 11:00:24 --> Object of class DateTime could not be converted to string
+in APPPATH\Views\contents\template-1\home-page\main\sections\latest-publications\publications.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/latest-publications/publications', [], true)
+ 4 APPPATH\Controllers\Home.php(30): view('contents/template-1/home-page/main/sections/latest-publications/publications', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 11:00:43 --> Object of class DateTime could not be converted to string
+in APPPATH\Views\contents\template-1\home-page\main\sections\latest-publications\publications.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/latest-publications/publications', [], true)
+ 4 APPPATH\Controllers\Home.php(30): view('contents/template-1/home-page/main/sections/latest-publications/publications', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 11:01:46 --> Object of class DateTime could not be converted to string
+in APPPATH\Views\contents\template-1\home-page\main\sections\latest-publications\publications.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/latest-publications/publications', [], true)
+ 4 APPPATH\Controllers\Home.php(30): view('contents/template-1/home-page/main/sections/latest-publications/publications', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

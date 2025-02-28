@@ -1,0 +1,25 @@
+/* CORES PADRÃO */
+:root {
+    /* COR PRIMÁRIA */
+    --cor-primaria: #3e4147;
+    --cor-secundaria: #a4aaad;
+}
+
+/* CORES PADRÃO NAV */
+:root {
+    /* MENU INFERIOR */
+    --cor-bg-menu-inferior: #e3e3e2;
+}
+
+/* CORES PADRÃO HOVER */
+:root {
+    /* MENU SUPERIOR - PESQUISA */
+    --cor-pesquisa-hover: #6e7a91;
+    --cor-highligth: #6e7a91;
+}
+
+/* CORES PADRÃO BACKGROUND */
+:root {
+    /* BACKGROUND PG'S INTERNAS */
+    --cor-bg: #e3e3e2;
+}

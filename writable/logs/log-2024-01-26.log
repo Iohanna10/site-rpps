@@ -1,0 +1,109 @@
+CRITICAL - 2024-01-26 16:02:08 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('')
+ 3 APPPATH\Controllers\Session.php(129): App\Controllers\Session->requireInstituteId('')
+ 4 APPPATH\Controllers\Home.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(44): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 17:59:12 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('')
+ 3 APPPATH\Controllers\Session.php(129): App\Controllers\Session->requireInstituteId('')
+ 4 APPPATH\Controllers\Home.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(44): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-26 17:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-26 17:59:46 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 21.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 21)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(103): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 18:00:04 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 21.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 21)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(103): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 18:02:15 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(103): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-26 18:05:07 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM i...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(30): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(103): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-26 18:05:07 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM instituto WHERE email = \'iohannalouise@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM instituto WHERE email = \'iohannalouise@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM instituto WHERE email = \'iohannalouise@gmail.com\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM instituto WHERE email = :email:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(30): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(103): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-26 18:05:22 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM i...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(30): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(103): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-26 18:05:22 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM instituto WHERE email = \'iohannalouise@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM instituto WHERE email = \'iohannalouise@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM instituto WHERE email = \'iohannalouise@gmail.com\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM instituto WHERE email = :email:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(30): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(103): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-26 18:09:48 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 33.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(33): array_push(null, [...])
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(103): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-26 20:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 20:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 20:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-26 20:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

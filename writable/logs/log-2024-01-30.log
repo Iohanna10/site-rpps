@@ -1,0 +1,767 @@
+CRITICAL - 2024-01-30 09:15:03 --> Invalid file: "mail/recoverAccount.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mail/recoverAccount.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mail/recoverAccount', [], true)
+ 3 APPPATH\Controllers\Info.php(11): view('mail/recoverAccount')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Info->infos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 09:22:14 --> Undefined variable $name
+in APPPATH\Views\mails\recoverAccount.php on line 9.
+ 1 APPPATH\Views\mails\recoverAccount.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/recoverAccount', [], true)
+ 5 APPPATH\Controllers\Info.php(11): view('mails/recoverAccount')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Info->infos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 10:05:23 --> Undefined variable $key
+in APPPATH\Views\mails\recoverAccount.php on line 17.
+ 1 APPPATH\Views\mails\recoverAccount.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/recoverAccount', [], true)
+ 5 APPPATH\Controllers\Info.php(11): view('mails/recoverAccount')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Info->infos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 11:40:05 --> syntax error, unexpected token "]", expecting variable or "{" or "$"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ajax\\AjaxUser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ajax\\AjaxUser')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ajax\\AjaxUser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 11:40:55 --> syntax error, unexpected token "]", expecting variable or "{" or "$"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ajax\\AjaxUser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ajax\\AjaxUser')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ajax\\AjaxUser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 11:41:26 --> syntax error, unexpected token "]", expecting variable or "{" or "$"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ajax\\AjaxUser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ajax\\AjaxUser')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ajax\\AjaxUser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 11:42:02 --> syntax error, unexpected token "]", expecting variable or "{" or "$"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ajax\\AjaxUser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ajax\\AjaxUser')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ajax\\AjaxUser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:01:08 --> syntax error, unexpected token "]", expecting variable or "{" or "$"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ajax\\AjaxUser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ajax\\AjaxUser')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ajax\\AjaxUser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:01:44 --> syntax error, unexpected token "]", expecting variable or "{" or "$"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ajax\\AjaxUser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ajax\\AjaxUser')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ajax\\AjaxUser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:02:04 --> syntax error, unexpected token "]", expecting variable or "{" or "$"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ajax\\AjaxUser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ajax\\AjaxUser')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ajax\\AjaxUser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:02:12 --> syntax error, unexpected token "]", expecting variable or "{" or "$"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ajax\\AjaxUser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ajax\\AjaxUser')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ajax\\AjaxUser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:04:00 --> syntax error, unexpected token "]", expecting variable or "{" or "$"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ajax\\AjaxUser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ajax\\AjaxUser')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ajax\\AjaxUser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:04:49 --> syntax error, unexpected token "]", expecting variable or "{" or "$"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ajax\\AjaxUser')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ajax\\AjaxUser')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ajax\\AjaxUser', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:05:55 --> Only the first byte will be assigned to the string offset
+in APPPATH\Views\mails\recoverAccount.php on line 9.
+ 1 APPPATH\Views\mails\recoverAccount.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Only the first byte will be assigned to the string offset', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/recoverAccount', [], true)
+ 5 APPPATH\Controllers\Ajax\AjaxUser.php(147): view('mails/recoverAccount', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(69): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass))
+ 7 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(26): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), 'beneficiados')
+ 8 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:07:53 --> Undefined variable $sent
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 159.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sent', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 159)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(71): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass))
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:18:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id:' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, em...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, em...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, em...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, em...', '1')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(26): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-30 12:18:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, email, telefone FROM instituto WHERE id = :id:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, email, telefone FROM instituto WHERE id = :id:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, email, telefone FROM instituto WHERE id = :id:')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, email, telefone FROM instituto WHERE id = :id:', '1')
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(26): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:19:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id:' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, em...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, em...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, em...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, em...', Object(stdClass))
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(26): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-30 12:19:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, email, telefone FROM instituto WHERE id = :id:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, email, telefone FROM instituto WHERE id = :id:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, email, telefone FROM instituto WHERE id = :id:')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, email, telefone FROM instituto WHERE id = :id:', Object(stdClass))
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(26): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:19:32 --> Undefined constant "App\Models\AjaxModel\id_instituto"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 25.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:20:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id:' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, em...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, em...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, em...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, em...', '1')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(26): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-30 12:20:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, email, telefone FROM instituto WHERE id = :id:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, email, telefone FROM instituto WHERE id = :id:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, email, telefone FROM instituto WHERE id = :id:')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, email, telefone FROM instituto WHERE id = :id:', '1')
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(26): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:39:35 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 147)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), Object(stdClass))
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(27): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), Object(stdClass), 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:41:37 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 146.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 146)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), Object(stdClass))
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(27): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), Object(stdClass), 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:42:40 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 146.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 146)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), Object(stdClass))
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(27): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), Object(stdClass), 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:43:25 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 146.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 146)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), Object(stdClass))
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(27): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), Object(stdClass), 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:43:58 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 146.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 146)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), Object(stdClass))
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(27): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), Object(stdClass), 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:44:18 --> Undefined variable $name
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 147)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), Object(stdClass))
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(27): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), Object(stdClass), 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:45:02 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 147.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), Object(stdClass))
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(27): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), Object(stdClass), 'beneficiados')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:45:50 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 146.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), Object(stdClass))
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(27): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), Object(stdClass), 'beneficiados')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 13:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 13:13:39 --> Undefined variable $institute
+in APPPATH\Views\mails\recoverAccount.php on line 13.
+ 1 APPPATH\Views\mails\recoverAccount.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $institute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/recoverAccount', [], true)
+ 5 APPPATH\Controllers\Info.php(11): view('mails/recoverAccount')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Info->infos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:46:07 --> Attempt to read property "nome" on bool
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 151.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on bool', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 151)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), false, '$2y$10$FUYSr4RZKQJjF1SAqHis3.CzwMzKEzDqbS15i/6Fc4SGB1k/Lw20O')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:46:57 --> Attempt to read property "nome" on bool
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 151.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on bool', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 151)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), false, '$2y$10$zSk.DTHYfRpugYhXCSCXBurntCWs3/LsTO.x3TzUSRfLumCo59iHS')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:49:22 --> Undefined variable $institute
+in APPPATH\Views\mails\recoverAccount.php on line 36.
+ 1 APPPATH\Views\mails\recoverAccount.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $institute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/recoverAccount', [], true)
+ 5 APPPATH\Controllers\Ajax\AjaxUser.php(151): view('mails/recoverAccount', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), false, '$2y$10$YuNi3Kkbe1pjHiT8cQD7cOP5XhyFHLARZOAi/b3NSJOBgY0e0AZ6a')
+ 7 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 8 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:49:41 --> Undefined variable $institute
+in APPPATH\Views\mails\recoverAccount.php on line 36.
+ 1 APPPATH\Views\mails\recoverAccount.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $institute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/recoverAccount', [], true)
+ 5 APPPATH\Controllers\Ajax\AjaxUser.php(151): view('mails/recoverAccount', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), false, '$2y$10$tFNokhI8sjg7v84lXLGfQ.dEIBeDmSiM9AbzOJAS0Wv1.ISN8hr7K')
+ 7 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 8 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:51:28 --> Attempt to read property "email" on bool
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 156.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on bool', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 156)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), false, '$2y$10$XY69v57PfoqaQaQDhZT.pupaRBj9yR5x3e6uVvcaPUcrMLBkKzCEu')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:51:33 --> Attempt to read property "email" on bool
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 156.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on bool', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 156)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), false, '$2y$10$oZSmMMI2poEmeL.PczT/iO4eQcmxVRJKyBhCiV79IxxmAU3hUkqma')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:57:18 --> Attempt to read property "email" on bool
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 156.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on bool', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 156)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), false, '$2y$10$2DLVPLNpNoR1Jlfz3S1wveqmqyFfE45nZhwVR1QxhtXAH7jhCUcK2')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:57:39 --> Attempt to read property "email" on bool
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 156.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on bool', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 156)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), false, '$2y$10$fxPoQ/g5FC8LilpZs92fL.VkI.ps6aYHIHQ.R98kEeCaPb.r7qi0e')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:59:55 --> Attempt to read property "email" on bool
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 156.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on bool', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 156)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), false, '$2y$10$3eq0svWAfTX.Nl2i.Lsklekzp3tRlXRbHCx7zJO.OFyFvs9xja/tC')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 16:03:10 --> Attempt to read property "email" on bool
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 156.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on bool', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 156)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): App\Controllers\Ajax\AjaxUser->sendEmail(Object(stdClass), false, '$2y$10$02WMgeiRQpDZy9i5Ff7lkuul4OBvJegCTklkN9vtFgGUw1n.9CGo2')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(102): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 16:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 16:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 16:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 16:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 16:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 16:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 16:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 16:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 17:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 18:43:29 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('')
+ 3 APPPATH\Controllers\Session.php(129): App\Controllers\Session->requireInstituteId('')
+ 4 APPPATH\Controllers\Home.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(44): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 18:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 18:52:19 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('')
+ 3 APPPATH\Controllers\Session.php(129): App\Controllers\Session->requireInstituteId('')
+ 4 APPPATH\Controllers\Home.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(44): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 18:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-30 18:53:36 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('')
+ 3 APPPATH\Controllers\Session.php(129): App\Controllers\Session->requireInstituteId('')
+ 4 APPPATH\Controllers\Home.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(44): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 18:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 18:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 19:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 19:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 19:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 19:23:39 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(48): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(160): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(44): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-30 19:23:39 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = ?', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(48): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(160): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(44): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 19:24:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id:' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(48): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(160): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(44): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-30 19:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id:' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(48): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(160): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(44): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 19:24:56 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(48): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(160): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(44): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-30 19:24:56 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(48): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(160): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(44): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:27:42 --> Attempt to read property "email" on null
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:28:15 --> Undefined array key 0
+in APPPATH\Controllers\Session.php on line 160.
+ 1 APPPATH\Controllers\Session.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php', 160)
+ 2 APPPATH\Controllers\Home.php(44): App\Controllers\Session->dataInstitute([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:28:28 --> Undefined array key 0
+in APPPATH\Controllers\Session.php on line 160.
+ 1 APPPATH\Controllers\Session.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php', 160)
+ 2 APPPATH\Controllers\Home.php(44): App\Controllers\Session->dataInstitute([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:28:43 --> Attempt to read property "email" on null
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:29:21 --> Attempt to read property "email" on null
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:30:04 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 44.
+ 1 APPPATH\Models\Session\SessionModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 44)
+ 2 APPPATH\Controllers\Session.php(160): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(44): App\Controllers\Session->dataInstitute([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:30:16 --> Undefined array key "institute_id"
+in APPPATH\Models\Session\SessionModel.php on line 44.
+ 1 APPPATH\Models\Session\SessionModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "institute_id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 44)
+ 2 APPPATH\Controllers\Session.php(160): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(44): App\Controllers\Session->dataInstitute([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:30:26 --> Attempt to read property "email" on null
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:33:45 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:34:21 --> Undefined property: stdClass::$tel
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tel', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:38:13 --> Undefined property: stdClass::$tel
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tel', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 19:39:08 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Home.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 17:07:53 --> Invalid file: "contents/template-1/common/footer/sections/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/common/footer/sections/footer.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer.php', [], true)
+ 3 APPPATH\Controllers\Home.php(82): view('contents/template-1/common/footer/sections/footer.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 20:28:03 --> Invalid file: "contents/template-1/common/footer/sections/footer-infos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/common/footer/sections/footer-infos.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 3 APPPATH\Controllers\InnerPages\ContactUs.php(31): view('contents/template-1/common/footer/sections/footer-infos.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 20:28:48 --> Undefined variable $institute
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 21.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $institute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\ContactUs.php(31): view('contents/template-1/common/footer/sections/footer-infos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 20:31:28 --> Undefined variable $institute
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 21.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $institute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\ContactUs.php(31): view('contents/template-1/common/footer/sections/footer-infos.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 20:52:33 --> Undefined variable $institute
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\contactUs.php on line 11.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\contactUs.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $institute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\contactUs.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\contactUs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/contactUs.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\ContactUs.php(35): view('contents/template-1/inner-pages/main/sections/contactUs.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

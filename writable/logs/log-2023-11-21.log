@@ -1,0 +1,471 @@
+CRITICAL - 2023-11-21 16:00:32 --> syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Session.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Session')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Session')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Session', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:00:53 --> Undefined property: App\Controllers\Session::$uri
+in APPPATH\Controllers\Session.php on line 16.
+ 1 APPPATH\Controllers\Session.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Session::$uri', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 16:00:55 --> Undefined property: App\Controllers\Session::$uri
+in APPPATH\Controllers\Session.php on line 16.
+ 1 APPPATH\Controllers\Session.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Session::$uri', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:05:54 --> Call to a member function segment() on null
+in APPPATH\Models\Session\SessionModel.php on line 17.
+ 1 APPPATH\Controllers\Session.php(25): App\Models\Session\SessionModel->uri()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:06:08 --> Call to a member function segment() on null
+in APPPATH\Models\Session\SessionModel.php on line 17.
+ 1 APPPATH\Controllers\Session.php(25): App\Models\Session\SessionModel->uri()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:06:23 --> Call to a member function segment() on null
+in APPPATH\Models\Session\SessionModel.php on line 17.
+ 1 APPPATH\Controllers\Session.php(25): App\Models\Session\SessionModel->uri()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:08:48 --> Undefined property: App\Controllers\Session::$uri
+in APPPATH\Models\Session\SessionModel.php on line 17.
+ 1 APPPATH\Models\Session\SessionModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Session::$uri', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 17)
+ 2 APPPATH\Controllers\Session.php(25): App\Models\Session\SessionModel->uri(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:09:02 --> Undefined property: App\Controllers\Session::$uri
+in APPPATH\Models\Session\SessionModel.php on line 17.
+ 1 APPPATH\Models\Session\SessionModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Session::$uri', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 17)
+ 2 APPPATH\Controllers\Session.php(25): App\Models\Session\SessionModel->uri(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:11:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 54.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:11:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 54.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:11:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 54.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:21:24 --> Too few arguments to function CodeIgniter\HTTP\URI::getSegment(), 0 passed in C:\xampp\htdocs\RPPS\app\Controllers\Session.php on line 25 and at least 1 expected
+in SYSTEMPATH\HTTP\URI.php on line 542.
+ 1 APPPATH\Controllers\Session.php(25): CodeIgniter\HTTP\URI->getSegment()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:21:51 --> Request URI segment is out of range: "2"
+in SYSTEMPATH\HTTP\URI.php on line 549.
+ 1 SYSTEMPATH\HTTP\URI.php(549): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Controllers\Session.php(25): CodeIgniter\HTTP\URI->getSegment(2, 'foo')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:22:18 --> Request URI segment is out of range: "1"
+in SYSTEMPATH\HTTP\URI.php on line 549.
+ 1 SYSTEMPATH\HTTP\URI.php(549): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+ 2 APPPATH\Controllers\Session.php(25): CodeIgniter\HTTP\URI->getSegment(1, 'foo')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:28:02 --> Call to undefined method CodeIgniter\HTTP\URI::segments()
+in APPPATH\Controllers\Session.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:28:22 --> Undefined property: App\Controllers\Session::$http://localhost/RPPS/public/teste
+in APPPATH\Controllers\Session.php on line 25.
+ 1 APPPATH\Controllers\Session.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Session::$http://localhost/RPPS/public/teste', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:29:07 --> Cannot use object of type CodeIgniter\HTTP\URI as array
+in APPPATH\Controllers\Session.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:32:07 --> Cannot use object of type CodeIgniter\HTTP\URI as array
+in APPPATH\Controllers\Session.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:34:50 --> Cannot use object of type CodeIgniter\HTTP\URI as array
+in APPPATH\Controllers\Session.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:35:00 --> Cannot use object of type CodeIgniter\HTTP\URI as array
+in APPPATH\Controllers\Session.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:35:40 --> Cannot use object of type CodeIgniter\HTTP\URI as array
+in APPPATH\Controllers\Session.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:35:52 --> Cannot use object of type CodeIgniter\HTTP\URI as array
+in APPPATH\Controllers\Session.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:40:15 --> Cannot use object of type CodeIgniter\HTTP\URI as array
+in APPPATH\Controllers\Session.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:40:41 --> Cannot use object of type CodeIgniter\HTTP\URI as array
+in APPPATH\Controllers\Session.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 16:42:38 --> Request URI segment is out of range: "2"
+in SYSTEMPATH\HTTP\URI.php on line 549.
+ 1 SYSTEMPATH\HTTP\URI.php(549): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Controllers\Session.php(25): CodeIgniter\HTTP\URI->getSegment(2, 'foo')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 16:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 16:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 18:43:35 --> Undefined variable $news
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 10.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:45:47 --> Undefined variable $bannerImg
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bannerImg', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 18:45:54 --> Undefined variable $news
+in APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php on line 10.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\hero-slides\slide-news.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\hero-slides\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/hero-slides/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('contents/template-1/home-page/main/sections/hero-slides/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:31:42 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\contents\warnings\sections\banner.php(11): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('contents\\warnings\\sections\\banner.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:32:36 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\contents\warnings\sections\banner.php(13): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('contents\\warnings\\sections\\banner.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:34:05 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\contents\warnings\sections\banner.php(13): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('contents\\warnings\\sections\\banner.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:34:37 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\contents\warnings\sections\banner.php(9): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('contents\\warnings\\sections\\banner.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:56:25 --> Array to string conversion
+in APPPATH\Views\contents\warnings\sections\banner.php on line 10.
+ 1 APPPATH\Views\contents\warnings\sections\banner.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('contents\\warnings\\sections\\banner.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 19:57:19 --> Array to string conversion
+in APPPATH\Views\contents\warnings\sections\banner.php on line 10.
+ 1 APPPATH\Views\contents\warnings\sections\banner.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('contents\\warnings\\sections\\banner.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 20:01:11 --> Undefined variable $warning
+in APPPATH\Views\contents\warnings\sections\banner.php on line 10.
+ 1 APPPATH\Views\contents\warnings\sections\banner.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $warning', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('contents\\warnings\\sections\\banner.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 20:01:51 --> Array to string conversion
+in APPPATH\Views\contents\warnings\sections\banner.php on line 10.
+ 1 APPPATH\Views\contents\warnings\sections\banner.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('contents\\warnings\\sections\\banner.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 20:02:37 --> syntax error, unexpected token ";"
+in APPPATH\Views\contents\warnings\sections\banner.php on line 10.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 3 APPPATH\Controllers\Home.php(28): view('contents\\warnings\\sections\\banner.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 20:04:18 --> Array to string conversion
+in APPPATH\Views\contents\warnings\sections\banner.php on line 23.
+ 1 APPPATH\Views\contents\warnings\sections\banner.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('contents\\warnings\\sections\\banner.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 20:04:31 --> Undefined array key "contact"
+in APPPATH\Views\contents\warnings\sections\banner.php on line 28.
+ 1 APPPATH\Views\contents\warnings\sections\banner.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contact"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\warnings\\sections\\banner.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\warnings\\sections\\banner.php', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('contents\\warnings\\sections\\banner.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 22:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 22:00:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 54.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 22:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 22:11:02 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 31.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(44): App\Controllers\Session->currentInstitute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 22:11:55 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 31.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(44): App\Controllers\Session->currentInstitute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 22:13:14 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 31.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(44): App\Controllers\Session->currentInstitute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 22:13:16 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 31.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(44): App\Controllers\Session->currentInstitute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 22:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 22:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 22:30:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 59.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 22:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 22:31:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 59.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 22:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 22:31:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 59.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 22:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-21 22:33:53 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 59.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,70 @@
+.rating__average {
+    word-break: normal!important;
+}
+
+.rating__average .star-outer {
+    position: relative;
+    font-size: 1.4rem;
+ 
+    display: inline-block;
+}
+
+.rating__average .star-outer::before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    color: #000;
+}
+
+.rating__average .star-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: var(--rating);
+    overflow: hidden;
+}
+
+.rating__average .star-inner::before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    color: gold;
+}
+
+.feedbacks_container {
+    width: 100%;
+}
+
+.feedbacks_container .col-lg-4 {
+    min-width: 300px;
+}
+
+#client .max-width-container {
+    width: var(--afastamento-lateral)!important;
+}
+
+.personal_testi_content_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal_testi_content_img div.container-img {
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    overflow: hidden;
+}
+
+.personal_testi_content_img div.container-img img {
+    border: none;
+}
+
+@media (max-width: 280px) { 
+    #client .max-width-container {
+        word-break: break-all!important;
+    }
+}

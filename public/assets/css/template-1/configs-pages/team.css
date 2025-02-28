@@ -1,0 +1,58 @@
+.container-list {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-list span.obs {
+    font-size: 1.2rem;
+    cursor: default;
+}
+
+#team-list {
+    width: 100%;
+    height: 100%;
+}
+
+#team-list .reports-list tr td:first-child {
+   cursor: grab;
+}
+
+#team-list tr td i.edit:hover {
+    color: rgb(50, 144, 227);
+}
+
+#team-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-form form>div.add-member {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+
+  border-color: #EBEBEB;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.02);
+}
+
+.container-form form > div.add-member span{
+  font-size: 1.5rem;
+}
+
+.container-form form > div.add-member a {
+  text-decoration: none;
+  color: inherit;
+}

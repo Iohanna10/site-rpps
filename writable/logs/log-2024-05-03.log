@@ -1,0 +1,883 @@
+INFO - 2024-05-03 15:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:23:17 --> Attempt to read property "telefone" on array
+in APPPATH\Models\Session\SessionModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "telefone" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 61)
+ 2 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:23:33 --> Attempt to read property "telefone" on array
+in APPPATH\Models\Session\SessionModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "telefone" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 61)
+ 2 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:23:47 --> Attempt to read property "telefone" on array
+in APPPATH\Models\Session\SessionModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "telefone" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 61)
+ 2 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:25:33 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:27:01 --> CodeIgniter\Database\BaseConnection::query(): Argument #1 ($sql) must be of type string, null given, called in C:\xampp\htdocs\RPPS\system\Model.php on line 836
+in SYSTEMPATH\Database\BaseConnection.php on line 569.
+ 1 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query(null, [...])
+ 2 APPPATH\Models\Session\SessionModel.php(57): CodeIgniter\Model->__call('query', [...])
+ 3 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 4 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:28:18 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:28:23 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:28:24 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:29:13 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:30:12 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Models\Session\SessionModel.php on line 58.
+ 1 APPPATH\Models\Session\SessionModel.php(58): array_push(null, [...])
+ 2 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:30:43 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-03 15:34:22 --> mysqli_sql_exception: Table 'teste_dados_instituto.instituto_contatos' doesn't exist in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM i...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(57): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 15:34:22 --> Table 'teste_dados_instituto.instituto_contatos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM instituto_contatos WHERE id = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM instituto_contatos WHERE id = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM instituto_contatos WHERE id = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM instituto_contatos WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(57): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-03 15:34:43 --> mysqli_sql_exception: Table 'teste_dados_instituto.instituto_infos' doesn't exist in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM i...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(57): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 15:34:43 --> Table 'teste_dados_instituto.instituto_infos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM instituto_infos WHERE id = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM instituto_infos WHERE id = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM instituto_infos WHERE id = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM instituto_infos WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(57): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:35:25 --> Undefined array key "contatos"
+in APPPATH\Models\Session\SessionModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contatos"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 61)
+ 2 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:35:47 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:37:03 --> Undefined array key "contatos"
+in APPPATH\Models\Session\SessionModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contatos"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 61)
+ 2 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:37:21 --> Undefined array key "infos"
+in APPPATH\Models\Session\SessionModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "infos"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 61)
+ 2 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:37:43 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:38:35 --> Attempt to read property "telefone" on array
+in APPPATH\Models\Session\SessionModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "telefone" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 61)
+ 2 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:38:46 --> Attempt to read property "telefones" on array
+in APPPATH\Models\Session\SessionModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "telefones" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 61)
+ 2 APPPATH\Controllers\Session.php(251): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:39:22 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:40:08 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:40:53 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:42:36 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:56:45 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:57:00 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:57:42 --> Undefined array key "telefone"
+in APPPATH\Controllers\Home.php on line 77.
+ 1 APPPATH\Controllers\Home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telefone"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:58:52 --> Undefined array key "telefone"
+in APPPATH\Controllers\Home.php on line 77.
+ 1 APPPATH\Controllers\Home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telefone"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 15:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 12:59:54 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:02:33 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:06:20 --> Undefined array key "infos"
+in APPPATH\Controllers\Home.php on line 102.
+ 1 APPPATH\Controllers\Home.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "infos"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:13:00 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 102.
+ 1 APPPATH\Controllers\Home.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:14:10 --> Cannot access offset of type string on string
+in APPPATH\Views\contents\template-1\home-page\main\sections\infos.php on line 16.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/infos', [], true)
+ 4 APPPATH\Controllers\Home.php(102): view('contents/template-1/home-page/main/sections/infos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:15:18 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:17:32 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:18:16 --> Undefined variable $info
+in APPPATH\Views\contents\template-1\home-page\main\sections\infos.php on line 15.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\infos.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/infos', [], true)
+ 5 APPPATH\Controllers\Home.php(101): view('contents/template-1/home-page/main/sections/infos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:19:11 --> Attempt to read property "sobre" on array
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "sobre" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:26:29 --> Undefined array key "sobre"
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 33.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sobre"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:42:33 --> Undefined variable $contatos
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 45.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contatos', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:43:17 --> Undefined array key "horario"
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 45.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "horario"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:43:43 --> Undefined array key "horario_func"
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 45.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "horario_func"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 13:44:24 --> Undefined array key "telefone"
+in APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php on line 55.
+ 1 APPPATH\Views\contents\template-1\common\footer\sections\footer-infos.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telefone"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\common\\footer\\sections\\footer-infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/common/footer/sections/footer-infos.php', [], true)
+ 5 APPPATH\Controllers\Home.php(114): view('contents/template-1/common/footer/sections/footer-infos.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 16:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 16:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 16:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 16:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 17:11:13 --> Too few arguments to function App\Controllers\Session::dataInstitute(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\ContactUs.php on line 35 and exactly 2 expected
+in APPPATH\Controllers\Session.php on line 245.
+ 1 APPPATH\Controllers\InnerPages\ContactUs.php(35): App\Controllers\Session->dataInstitute('1')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 17:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 14:27:07 --> Too few arguments to function App\Controllers\Session::dataInstitute(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Policyholders.php on line 76 and exactly 2 expected
+in APPPATH\Controllers\Session.php on line 245.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(76): App\Controllers\Session->dataInstitute('1')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->aniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 17:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 17:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-03 18:01:10 --> mysqli_sql_exception: Unknown column 'sobre' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT sobre, e...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sobre, e...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sobre, e...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT sobre, e...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(58): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(252): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', Array, Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-03 18:01:10 --> Unknown column 'sobre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT sobre, endereco, horario_func FROM instituto_contatos WHERE id = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sobre, endereco, horario_func FROM instituto_contatos WHERE id = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sobre, endereco, horario_func FROM instituto_contatos WHERE id = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT sobre, endereco, horario_func FROM instituto_contatos WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(58): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(252): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(47): App\Controllers\Session->dataInstitute('1', [...], [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 18:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:01:48 --> Undefined array key "ativos"
+in APPPATH\Views\contents\template-1\home-page\main\sections\infos.php on line 15.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\infos.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ativos"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/infos', [], true)
+ 5 APPPATH\Controllers\Home.php(101): view('contents/template-1/home-page/main/sections/infos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 18:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:02:10 --> Undefined array key "aposentados"
+in APPPATH\Views\contents\template-1\home-page\main\sections\infos.php on line 25.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\infos.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aposentados"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/infos', [], true)
+ 5 APPPATH\Controllers\Home.php(101): view('contents/template-1/home-page/main/sections/infos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 18:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:02:23 --> Undefined array key "pensionistas"
+in APPPATH\Views\contents\template-1\home-page\main\sections\infos.php on line 35.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\infos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pensionistas"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/infos', [], true)
+ 5 APPPATH\Controllers\Home.php(101): view('contents/template-1/home-page/main/sections/infos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 18:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:02:37 --> Undefined array key "dependentes"
+in APPPATH\Views\contents\template-1\home-page\main\sections\infos.php on line 45.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\infos.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dependentes"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/infos', [], true)
+ 5 APPPATH\Controllers\Home.php(101): view('contents/template-1/home-page/main/sections/infos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 18:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:06:58 --> Undefined array key "contatos"
+in APPPATH\Models\Session\SessionModel.php on line 63.
+ 1 APPPATH\Models\Session\SessionModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contatos"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 63)
+ 2 APPPATH\Controllers\Session.php(252): App\Models\Session\SessionModel->dataInstitute([...])
+ 3 APPPATH\Controllers\Home.php(96): App\Controllers\Session->dataInstitute('1', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 18:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 18:23:43 --> Too few arguments to function App\Controllers\Session::dataInstitute(), 2 passed in C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Advices\InvestmentCommittee.php on line 83 and exactly 3 expected
+in APPPATH\Controllers\Session.php on line 245.
+ 1 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(83): App\Controllers\Session->dataInstitute('1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->membros()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 18:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 18:26:44 --> Undefined array key "email"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\contactUs.php on line 28.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\contactUs.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\contactUs.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\contactUs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/contactUs.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\ContactUs.php(35): view('contents/template-1/inner-pages/main/sections/contactUs.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 18:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 18:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-03 15:39:19 --> Undefined array key "email"
+in APPPATH\Controllers\Mails\sendMails.php on line 160.
+ 1 APPPATH\Controllers\Mails\sendMails.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 160)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(51): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-03 15:43:12 --> Undefined array key "email"
+in APPPATH\Controllers\Mails\sendMails.php on line 160.
+ 1 APPPATH\Controllers\Mails\sendMails.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 160)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(51): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-03 15:45:08 --> Undefined array key "email"
+in APPPATH\Controllers\Mails\sendMails.php on line 161.
+ 1 APPPATH\Controllers\Mails\sendMails.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 161)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(51): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-03 15:45:35 --> Undefined array key "email"
+in APPPATH\Controllers\Mails\sendMails.php on line 161.
+ 1 APPPATH\Controllers\Mails\sendMails.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 161)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(51): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 16:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 16:17:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-05-03 16:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 16:17:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-05-03 19:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:27:18 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(93): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-03 19:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:34:03 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:42:12 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:43:28 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:44:05 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:52:53 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:53:49 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:55:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:56:05 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:56:25 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:57:15 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:57:27 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 19:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 19:58:36 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 20:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 20:02:08 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 20:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 20:05:24 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-03 20:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-03 20:06:31 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\instituteConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\instituteConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\instituteConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/instituteConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(102): view('contents/template-1/account/instituteConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->instituteConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,108 @@
+table.birthday-list {
+    width: 100%;
+    height: auto;
+
+    box-shadow: inset 0px 4px 3px -2px rgba(0,0,0,.06);
+    border-collapse: collapse;
+
+    position: relative;
+    font-size: 1.6rem;
+}
+
+table.birthday-list td,  
+table.birthday-list th,
+table.birthday-list caption {
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.08);
+}
+
+table.birthday-list .title-table {
+    width: 100%;
+}
+
+table.birthday-list thead, table.birthday-list .title-table {
+    background-color: #f9f9f97d;
+}
+
+table.birthday-list tbody {
+    background-color: #f9f9f920;
+}
+
+table.birthday-list tbody td {
+    text-align: center;
+}
+
+table.birthday-list tbody td .status-registration {
+   color: #ff0000;
+}
+
+table.birthday-list tfoot td { 
+    border: none;
+}
+
+table.birthday-list tfoot .infos { 
+    text-align: right;
+}
+
+table.birthday-list .main-list {
+    margin-bottom: 10px;
+}
+
+table.birthday-list table.birthday-list tbody > :nth-child(2n) {
+    background-color: rgba(175, 175, 172, 0.108);
+}
+
+table.birthday-list table.birthday-list tr td:first-child {
+    width: 250px;
+}
+
+/* ////////////////////////////////////////////// MENU DE NAVEGAÇÃO ////////////////////////////////////////////// */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    list-style: none;
+    list-style: none;
+
+    border-radius: 0.25rem;
+
+    font-size: 1.5rem;
+}
+
+.pagination > li > a {
+   text-decoration: none;
+   padding: 5px;
+   border-radius: 2px;
+
+   background-color: #f9f9f97d;
+}
+
+.pagination > li > a:hover {
+   cursor: pointer;
+    
+}
+
+.pagination > li > a.current-pg {
+    background-color: var(--cor-primaria);
+    color: white!important;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 1024px) {
+    table.birthday-list table tr td:first-child {
+        width: 100px!important;
+    }
+}
+
+@media (max-width: 280px) {
+    table.birthday-list table tr td:first-child {
+        width: auto!important;
+    }
+
+    table {
+        word-break: break-word;
+    }
+}

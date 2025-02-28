@@ -1,0 +1,680 @@
+INFO - 2024-02-22 16:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 18:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 18:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 18:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 18:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 18:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 18:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:20:24 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 84.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 84)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(53): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:20:36 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 84.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 84)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(53): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:20:53 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 84.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 84)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(53): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 18:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:23:19 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 84.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 84)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(53): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 18:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 18:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:31:08 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 87.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 87)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(56): App\Models\AjaxModel\AjaxPostModel->getNames('j6vSZsK4xM8')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:31:15 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 87.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 87)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(56): App\Models\AjaxModel\AjaxPostModel->getNames('j6vSZsK4xM8')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:31:54 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 83.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 83)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(52): App\Models\AjaxModel\AjaxPostModel->getNames('j6vSZsK4xM8')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 15:32:09 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 83.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 83)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(52): App\Models\AjaxModel\AjaxPostModel->getNames('j6vSZsK4xM8')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:32:16 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 83.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 83)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(52): App\Models\AjaxModel\AjaxPostModel->getNames('j6vSZsK4xM8')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:32:22 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 83.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 83)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(52): App\Models\AjaxModel\AjaxPostModel->getNames('j6vSZsK4xM8')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:32:29 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 83.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 83)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(52): App\Models\AjaxModel\AjaxPostModel->getNames('j6vSZsK4xM8')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:32:36 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 83.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 83)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(52): App\Models\AjaxModel\AjaxPostModel->getNames('j6vSZsK4xM8')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:32:43 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 83.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 83)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(52): App\Models\AjaxModel\AjaxPostModel->getNames('j6vSZsK4xM8')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:32:51 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 83.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 83)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(52): App\Models\AjaxModel\AjaxPostModel->getNames('j6vSZsK4xM8')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:47:38 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php707E.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:48:37 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php58CC.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:48:59 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\phpACC9.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:50:47 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php54CD.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:51:38 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php1ABE.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:52:10 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:57:07 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:57:11 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:57:20 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:57:22 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:58:01 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:58:10 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php16CA.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:59:13 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\phpB7B.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:59:30 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:59:33 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 16:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 16:00:44 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 16:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 16:01:01 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:02:25 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 87.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 87)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:04:25 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 86.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 86)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames('UbB8iZaJ4XI')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:32:36 --> preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 116.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 116)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(116): preg_replace([...], '', 'RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4')
+ 3 APPPATH\Models\AjaxModel\AjaxPostModel.php(90): App\Controllers\Ajax\AjaxPosts->newName('RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4', Object(DateTime))
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames([...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:32:36 --> preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 116.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 116)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(116): preg_replace([...], '', 'RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(95): App\Controllers\Ajax\AjaxPosts->newName('RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4', Object(DateTime))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:32:56 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\phpEA14.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:33:32 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php7751.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:36:11 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\phpE332.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:36:43 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php5F87.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:37:20 --> preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 115)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(115): preg_replace([...], '', 'RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4')
+ 3 APPPATH\Models\AjaxModel\AjaxPostModel.php(90): App\Controllers\Ajax\AjaxPosts->newName('RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4', Object(DateTime))
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames([...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:37:20 --> preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 115)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(115): preg_replace([...], '', 'RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(95): App\Controllers\Ajax\AjaxPosts->newName('RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4', Object(DateTime))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:38:39 --> preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 115)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(115): preg_replace('mp4', '', 'RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4')
+ 3 APPPATH\Models\AjaxModel\AjaxPostModel.php(90): App\Controllers\Ajax\AjaxPosts->newName('RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4', Object(DateTime))
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames([...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:38:39 --> preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 115)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(115): preg_replace('mp4', '', 'RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(95): App\Controllers\Ajax\AjaxPosts->newName('RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4', Object(DateTime))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:38:56 --> preg_replace(): Empty regular expression
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Empty regular expression', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 115)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(115): preg_replace(' ', '', 'RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4')
+ 3 APPPATH\Models\AjaxModel\AjaxPostModel.php(90): App\Controllers\Ajax\AjaxPosts->newName('RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4', Object(DateTime))
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames([...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:38:56 --> preg_replace(): Empty regular expression
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Empty regular expression', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 115)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(115): preg_replace(' ', '', 'RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(95): App\Controllers\Ajax\AjaxPosts->newName('RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4', Object(DateTime))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:39:21 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\phpCB2C.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:39:48 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php338B.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:40:26 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\phpC8A8.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:41:13 --> preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 115)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(115): preg_replace([...], '', 'RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4')
+ 3 APPPATH\Models\AjaxModel\AjaxPostModel.php(90): App\Controllers\Ajax\AjaxPosts->newName('RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4', Object(DateTime))
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(71): App\Models\AjaxModel\AjaxPostModel->getNames([...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(56): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:41:13 --> preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 115)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(115): preg_replace([...], '', 'RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(95): App\Controllers\Ajax\AjaxPosts->newName('RPPS - Cadastro de membros - Google Chrome 2023-11-16 15-56-28.mp4', Object(DateTime))
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:44:29 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php7D56.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:45:39 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php8E4A.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:45:40 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php92CF.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:45:41 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php9783.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:45:42 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php9C37.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:46:00 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\phpDFB9.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:46:00 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\phpE095.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:48:00 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\phpB372.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 16:48:44 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(): The second argument to copy() function cannot be a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): move_uploaded_file('C:\\xampp\\tmp\\php6222.tmp', '././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/2/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 19:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 16:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 19:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 20:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 20:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 20:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 20:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 20:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 20:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 20:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 17:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 20:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 20:51:52 --> scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 46)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(46): scandir('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 3 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(28): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 7 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 20:52:29 --> scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 46)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(46): scandir('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 3 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(28): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 7 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 20:53:16 --> scandir(./././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(./././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 46)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(46): scandir('./././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 3 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(28): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 7 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 20:53:36 --> scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf./): Acesso nega (code: 5)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf./): Acesso nega (code: 5)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 46)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(46): scandir('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf./')
+ 3 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(28): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 7 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 20:55:20 --> scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf): O nome do diretório é inváli (code: 267)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf): O nome do diretório é inváli (code: 267)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 47)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(47): scandir('././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf')
+ 3 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(76): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf')
+ 4 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(28): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 8 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

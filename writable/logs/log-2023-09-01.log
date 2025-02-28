@@ -1,0 +1,35 @@
+CRITICAL - 2023-09-01 18:11:59 --> require(public/functions/functionAbstractPosts.php/abstract.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-content\public-tender\selective-process.php on line 8.
+ 1 APPPATH\Views\contents\institute\dynamic-content\public-tender\selective-process.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(public/functions/functionAbstractPosts.php/abstract.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\selective-process.php', 8)
+ 2 APPPATH\Views\contents\institute\dynamic-content\public-tender\selective-process.php(8): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\selective-process.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/selective-process.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(113): view('contents/institute/dynamic-content/public-tender/selective-process.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 18:12:19 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in FCPATH\functions\functionAbstractPosts.php\abstract.php on line 7.
+ 1 APPPATH\Views\contents\institute\dynamic-content\public-tender\selective-process.php(49): abstractPost('Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\selective-process.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/selective-process.php', [], true)
+ 5 APPPATH\Controllers\Institute.php(113): view('contents/institute/dynamic-content/public-tender/selective-process.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 18:21:07 --> Undefined variable $more
+in FCPATH\functions\functionAbstractPosts.php\abstract.php on line 19.
+ 1 FCPATH\functions\functionAbstractPosts.php\abstract.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $more', 'C:\\xampp\\htdocs\\RPPS\\public\\functions\\functionAbstractPosts.php\\abstract.php', 19)
+ 2 APPPATH\Views\contents\institute\dynamic-content\public-tender\selective-process.php(49): abstractPost([...])
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\selective-process.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/selective-process.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(113): view('contents/institute/dynamic-content/public-tender/selective-process.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

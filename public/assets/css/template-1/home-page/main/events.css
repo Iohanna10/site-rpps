@@ -1,0 +1,323 @@
+/* /// MAIN-EVENTOS: BACKGROUND E POSICIONAMENTO  /// */
+main .events {
+    width: 100%;
+    min-height: 300px;
+    
+    display: flex;
+    justify-content: center;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: GRID SEPARAÇÃO DO CALENDÁRIO E EVENTOS  /// */
+main .events .events-grid {
+    width: var(--afastamento-lateral);
+    min-width: 265px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+    align-items: center;
+}
+/* /// /// */
+
+
+ /* /// MAIN-EVENTOS: CONTEÚDOS LADO CALENDÁRIO  /// */
+ main .events .events-grid .calendar {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 100%;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: TITULO  /// */
+main .events .events-grid .title-calendar {
+    font-size: 2.2rem;
+    color: #ffff;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: MÊS  /// */
+main .events .events-grid .calendar .calendar-main {
+    height: 100%;
+
+    display: flex;
+    flex-flow: column;
+
+    border-bottom: 2px solid #d5d4d4!important;
+    border-left: 2px solid #d5d4d4!important;
+    border-right: 2px solid #d5d4d4!important;
+    border-top: 5px solid;
+    
+    background-color: #f6fbf2;
+    border-color: var(--cor-secundaria);
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: MESES  /// */
+main .events .events-grid .calendar .month {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 1.2rem;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: MESES COR /// */
+main .events .events-grid .calendar .month h4 span {
+    color: #d1cfcf;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: MÊS  /// */
+main .events .events-grid .calendar .calendar-main .header-calendar {
+    width: 100%;
+    min-height: 45px;  
+
+    border-bottom: 1px solid #cec0c0;
+
+    /* border-radius: 15px 15px 0px 0px; */
+
+    display: flex;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: PRÓXIMO/ANTERIOR  /// */
+main .events .events-grid .calendar .calendar-main .header-calendar a {
+   padding: 10px;
+
+   background-color: transparent;
+   border: none;
+
+   cursor: pointer;
+
+   font-size: 2rem;
+   color: var(--cor-primaria);
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: MÊS POR EXTENSO /// */
+main .events .events-grid .calendar .calendar-main .header-calendar h2 {
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    color: var(--cor-primaria);
+
+    margin: 0;
+
+    cursor: default;
+}
+
+main .events .events-grid .calendar .calendar-main .header-calendar h2 span {
+    color: var(--cor-highlight);
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: ANO POR EXTENSO /// */
+main .events .events-grid .calendar .calendar-main .body-calendar {
+    margin: 20px;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: CORPO DO CALENDÁRIO  /// */
+main .events .events-grid .calendar .calendar-main table {
+    border-collapse: collapse;
+    /* border-radius: 0px 0px 15px 15px; */
+
+    text-align: center;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+}
+/* /// /// */    
+
+/* /// MAIN-EVENTOS: TR (LINHAS DA TABELA)  /// */
+main .events .events-grid .calendar .calendar-main table tr:hover {
+    background-color: initial;
+}
+/* /// /// */   
+
+/* /// MAIN-EVENTOS: CORPO DO CALENDÁRIO TAMANHO DOS TD /// */
+main .events .events-grid .calendar .calendar-main table td {
+    width: 45px;
+    height: 45px;
+}
+/* /// /// */  
+
+/* /// MAIN-EVENTOS: DIAS DA SEMANA POR EXTENSO CORPO  /// */
+main .events .events-grid .calendar .calendar-main table thead {
+    width: 100%;
+    height: 15%;
+
+    /* border: 1px solid #625f5f; */
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: DIAS DA SEMANA POR EXTENSO  /// */
+main .events .events-grid .calendar .calendar-main thead td {
+    color:#6f6f6e;
+    cursor: default;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: DIA ATUAL DA SEMANA POR EXTENSO  /// */
+main .events .events-grid .calendar .calendar-main thead .today {
+    color:#656464;
+}
+/* /// /// */  
+
+/* /// MAIN-EVENTOS: DIA ATUAL DA SEMANA POR EXTENSO  /// */
+main .events .events-grid .calendar .calendar-main tbody .calendar-event{
+    color:#f7f7f7;
+
+    border: 1px solid #656464;
+
+    font-size: 2rem;
+    background-color: var(--cor-primaria);
+    cursor: pointer;
+}
+/* /// /// */ 
+
+/* /// MAIN-EVENTOS: DIA ATUAL DA SEMANA  /// */
+main .events .events-grid .calendar .calendar-main tbody td {
+    color:#6c6a6a;
+    border: 1px solid #cec0c0;
+
+    font-size: 2rem;
+    cursor: default;
+}
+/* /// /// */  
+
+/* /// MAIN-EVENTOS: DIA ATUAL DA SEMANA  /// */
+main .events .events-grid .calendar .calendar-main tbody td.other-month {
+    background-color: #b2b2b232;
+}
+/* /// /// */  
+
+/* /// MAIN-EVENTOS: CONTEÚDOS LADO EVENTOS  /// */
+main .events .events-grid .info-events {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 100%;
+
+    margin-top: 90px;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: EVENTOS POSICIONAMENTO /// */
+main .events .events-grid .info-events {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    height: 100%;
+    width: 100%;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: EVENTOS POSICIONAMENTO /// */
+main .events .events-grid .info-events .info-event {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #625f5f;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: TITULO DO EVENTO  /// */
+main .events .events-grid .info-event div {
+    width: 100%;
+    column-gap: 5px;
+
+    display: flex;
+
+    font-size: 1.4rem;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: TITULO DO EVENTO /// */
+main .events .events-grid .info-event div span {
+    color: #625f5f;
+}
+/* /// /// */
+
+/* /// MAIN-EVENTOS: TEXTO /// */
+main .events .events-grid .info-events {
+    font-size: 1.2rem;
+}
+/* /// /// */
+
+.calendar-event {
+    cursor: pointer;
+}
+
+@media (max-width: 340px){
+    main .events .events-grid .calendar .calendar-main .header-calendar h2 {
+        font-size: 2rem!important;
+    }
+
+    main .events .events-grid .calendar .calendar-main .body-calendar {
+        margin: 5px;
+    }
+
+    main .events {
+        width: 100%;
+        min-height: auto;
+        padding: 10px;
+    }
+
+    main .events .event {
+        width: 100%;
+        min-width: auto;
+    }
+
+    main .events .events-grid {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 280px) {
+    main .main-content .insured-portal {
+        text-align: center;
+    }
+
+    main .events .events-grid .calendar .calendar-main .header-calendar h2 {
+        word-break: break-word;
+        flex-direction: column;
+    }
+
+    main .main-content .insured-portal > div {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 220px) {
+    main .events .events-grid .calendar .calendar-main thead td, 
+    main .events .events-grid .calendar .calendar-main tbody td,
+    main .events .events-grid .calendar .calendar-main tbody .calendar-event {
+        font-size: 1rem!important;
+    }
+
+    main .events .events-grid .calendar .calendar-main .header-calendar h2 {
+        font-size: 1.5rem!important;
+    }
+
+    main .events .events-grid .calendar .calendar-main .header-calendar a {
+        padding: 5px;
+    }
+}

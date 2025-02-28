@@ -1,0 +1,16 @@
+CRITICAL - 2023-10-19 17:39:52 --> Undefined variable $url
+in APPPATH\Views\contents\template-1\inner-pages\posts\render-sections\read-more.php on line 70.
+ 1 APPPATH\Views\contents\template-1\inner-pages\posts\render-sections\read-more.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\posts\\render-sections\\read-more.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\posts\\render-sections\\read-more.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\contents\\template-1\\inner-pages\\posts\\render-sections\\read-more.php', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/posts/sections/institute/historic/como-surgiu-o-ipreve.php', [], true)
+ 6 APPPATH\Views\contents\template-1\inner-pages\posts\request-posts.php(9): view('contents/template-1/inner-pages/posts/sections/institute/historic/como-surgiu-o-ipreve.php')
+ 7 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\posts\\request-posts.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\template-1\\inner-pages\\posts\\request-posts.php', [], true)
+10 APPPATH\Controllers\Info.php(18): view('contents\\template-1\\inner-pages\\posts\\request-posts.php')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Info->infos()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

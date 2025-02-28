@@ -1,0 +1,83 @@
+CRITICAL - 2023-09-29 06:02:01 --> Undefined variable $DataBirthdays
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdays.php on line 45.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdays.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DataBirthdays', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdays.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdays.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdays.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(53): view('contents/template-1/inner-pages/main/sections/birthdays.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->aniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 09:11:39 --> Undefined variable $dataFormatada
+in FCPATH\functions\functionsCalendar\functionCalendar.php on line 58.
+ 1 FCPATH\functions\functionsCalendar\functionCalendar.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataFormatada', 'C:\\xampp\\htdocs\\RPPS\\public\\functions\\functionsCalendar\\functionCalendar.php', 58)
+ 2 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdays.php(9): require_once('C:\\xampp\\htdocs\\RPPS\\public\\functions\\functionsCalendar\\functionCalendar.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdays.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdays.php', [], true)
+ 6 APPPATH\Controllers\InnerPages\Policyholders.php(53): view('contents/template-1/inner-pages/main/sections/birthdays.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->aniversario()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 09:12:28 --> Undefined variable $DataBirthdaysComp
+in FCPATH\functions\functionsCalendar\functionCalendar.php on line 58.
+ 1 FCPATH\functions\functionsCalendar\functionCalendar.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DataBirthdaysComp', 'C:\\xampp\\htdocs\\RPPS\\public\\functions\\functionsCalendar\\functionCalendar.php', 58)
+ 2 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdays.php(9): require_once('C:\\xampp\\htdocs\\RPPS\\public\\functions\\functionsCalendar\\functionCalendar.php')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdays.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdays.php', [], true)
+ 6 APPPATH\Controllers\InnerPages\Policyholders.php(53): view('contents/template-1/inner-pages/main/sections/birthdays.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->aniversario()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 10:16:03 --> Invalid file: "contents/template-1/inner-pages/main/sections/birthdaysList.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/birthdaysList.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 3 APPPATH\Controllers\InnerPages\Policyholders.php(74): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 10:17:10 --> Invalid file: "contents/template-1/inner-pages/main/sections/birthdaysList.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/birthdaysList.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 3 APPPATH\Controllers\InnerPages\Policyholders.php(74): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 10:23:50 --> Invalid file: "contents/template-1/inner-pages/main/sections/birthdaysList.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/birthdaysList.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 3 APPPATH\Controllers\InnerPages\Policyholders.php(74): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 13:34:48 --> Undefined constant "Birthdays"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 4 APPPATH\Controllers\InnerPages\Policyholders.php(74): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-29 11:03:54 --> Undefined variable $DataBirthdays
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 26.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DataBirthdays', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(74): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

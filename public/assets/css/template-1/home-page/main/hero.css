@@ -1,0 +1,543 @@
+/* /// SECTION - HERO: BACKGROUND E POSICIONAMENTO /// */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 60px;
+
+    background-color:#f6fbf2;
+    background: linear-gradient(
+        to bottom,
+        #f6fbf2 0,
+        #f6fbf2 420px,
+        white 420px,
+        white 100%
+    );
+}
+/* /// /// */
+
+/* /// SECTION - HERO: GRID DISPOSIÇÃO ODS CONTEÚDOS /// */
+.hero .latest-news {
+    width: var(--afastamento-lateral);
+    height: auto;
+    min-height: 300px;
+
+    display: flex;
+    gap: 20px;
+
+    color: #625f5f; 
+}
+/* /// /// */
+
+/* /// SECTION - HERO: CARROSSEL DE IMAGENS /// */
+.hero .latest-news .main-carousel {
+    width: 100%;
+
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1rem;
+}
+
+.hero .latest-news .main-carousel .main-slide {
+    width: 25%;
+
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* /// SECTION - HERO: CONTEÚDO PRINCIPAL /// */
+.hero .content {
+    width: 35%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    cursor: default;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: CONTEÚDO PRINCIPAL LINKS /// */
+.hero .content a {
+    width: fit-content;
+    font-size: 1.3rem;
+    text-shadow: 0 0 black;
+    color: var(--cor-primaria);
+}
+/* /// /// */
+
+/* /// SECTION - HERO: CONTEÚDO PRINCIPAL TITULO /// */
+.hero .content h2 {
+    font-size: 3.2rem;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: CONTEÚDO PRINCIPAL PARÁGRAFO /// */
+.hero .content .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+/* /// /// */
+
+/* /// SECTION - HERO: CONTEÚDO PRINCIPAL PARÁGRAFO /// */
+.hero .content p {
+font-size: 1.35rem;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: CARROSSEL DE IMAGENS /// */
+.hero .carousel {
+    width: 65%;
+
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* /// SECTION - HERO: SLIDER /// */
+.slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* /// SECTION - HERO: SLIDES /// */
+.slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+/* /// SECTION - HERO: SLIDES /// */
+.slides input {
+    display: none;
+}
+
+/* /// SECTION - HERO: SLIDE /// */
+.hero .carousel .slider .slides .slide {
+    width: 25%;
+    max-height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* /// SECTION - HERO: SLIDE /// */
+.hero .carousel .slider .slides .slide div {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* /// SECTION - HERO: CARROSSEL DE MÍDIAS IMG /// */
+.hero .carousel img {
+   width: auto;
+   max-width: 100%;
+   height: auto;
+   max-height: 500px;
+}
+
+/* /// SECTION - HERO: CARROSSEL DE MÍDIAS VÍDEOS /// */
+.hero .carousel iframe, .hero .carousel video {
+    height: 300px;
+    width: 600px;
+    max-width: 100%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/* /// SECTION - HERO: MANUAL NAVEGATION /// */
+.hero .manual-navigation {
+    position: absolute;
+    width: auto;
+    bottom: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* /// SECTION - HERO: MANUAL NAVEGATION BTN /// */
+.hero .manual-navigation .manual-btn {
+    border: 2px solid var(--cor-primaria);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: auto;
+}
+
+.hero .manual-navigation .manual-btn:hover {
+    background-color: var(--cor-primaria);
+}
+
+/* /// SECTION - HERO: MANUAL NAVEGATION BTN ESPAÇAMENTO /// */
+.hero .manual-navigation .manual-btn:not(:last-child) {
+    margin-right: 5px;
+}
+
+/* /// SECTION - HERO: AUTO NAVEGATION /// */
+.hero .navigation-auto {
+    position: absolute;
+    width: auto;
+    bottom: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* /// SECTION - HERO: AUTO NAVEGATION /// */
+.hero .navigation-auto div {
+    border: 2px solid var(--cor-primaria);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/* /// SECTION - HERO: AUTO NAVEGATION /// */
+.hero .navigation-auto div:not(:last-child) {
+    margin-right: 5px;
+}
+
+#main-radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: var(--cor-primaria);
+}
+
+#main-radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: var(--cor-primaria);
+}
+
+#main-radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: var(--cor-primaria);
+}
+
+#main-radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: var(--cor-primaria);
+}
+
+/* /// POSIÇÕES DO SLIDE /// */
+.hero .main-carousel .slider .slides #main-radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+.hero .main-carousel .slider .slides #main-radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+.hero .main-carousel .slider .slides #main-radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+.hero .main-carousel .slider .slides #main-radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+/* POSIÇÃO DO SLIDE DE IMAGENS */
+
+#radio1:checked ~ .first-img {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first-img {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first-img {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first-img {
+    margin-left: -75%;
+}
+
+.hero .carousel .info-image {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    
+    width: 150px;
+    height: 100px;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: CARROSSEL DE IMAGENS - POSICIONAMENTO DOS BOTÕES DE NEXT E PREV /// */
+.hero .carousel .change-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin: 25px;
+    width: 90%;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: CARROSSEL DE IMAGENS BOTAO NEXT /// */
+.hero .carousel .btn-next {
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: CARROSSEL DE IMAGENS BOTAO PREV /// */
+.hero .carousel .btn-prev {
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: POSICIONAMENTO ATENDIMENTO PELO WHATSAPP /// */
+.help {
+    display: flex;
+    flex-direction: row-reverse;
+
+    position: absolute;
+    bottom: -85px;
+    right: 0;
+    z-index: 3;
+
+    cursor: default;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: ATENDIMENTO PELO WHATSAPP POSICIONAMENTO DA CAIXA DE TEXTO /// */
+.help .help-text {
+    display: flex;
+
+    width: 200px;
+    height: fit-content;
+
+    border-radius: 20px;
+
+    background-color: #6f6f6e;
+
+    position: relative; 
+}
+/* /// /// */
+
+/* /// SECTION - HERO: ATENDIMENTO PELO WHATSAPP POSICIONAMENTO DO TEXTO NA CAIXA DE TEXTO /// */
+.help .help-text .text {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+    padding: 10%;
+
+    color: white;   
+}
+/* /// /// */
+
+/* /// SECTION - HERO: TEXTO ATENDIMENTO PELO WHATSAPP /// */
+.help .help-text .text h3 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+.help .help-text .text p {
+    font-size: 1rem;
+    /* font-weight: bolder; */
+
+    /* border-top: .5px solid white; */
+}
+
+.help .help-text .text a {
+    font-size: 1.1rem;
+    
+    color: white;
+}
+
+.help .help-text .text a:hover {
+    opacity: .8;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: ATENDIMENTO PELO WHATSAPP - POSICIONAMENTO DA IMAGEM DA ATENDENTE /// */
+.help .help-img {
+    width: 95px;
+    height: 95px;
+    
+    background: #a4d8ed;
+    
+    border-radius: 100%;
+    
+    overflow: hidden;
+
+    position: absolute;
+    left: -80px;
+    top: -10px;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: ATENDIMENTO PELO WHATSAPP - IMAGEM DA ATENDENTE /// */
+.help .help-img img {
+    width: 100%;
+    position: relative;
+}
+/* /// /// */
+
+/* /// SECTION - HERO: ATENDIMENTO PELO WHATSAPP - POSICIONAMENTO DA IMAGEM DA LOGO DO WHATSAPP /// */
+.help .zap-logo {
+    order: 2;
+
+    width: 55px;
+    height: 55px;
+    
+    background: rgb(83, 192, 235);
+    
+    border-radius: 100%;
+    
+    overflow: hidden;
+
+    position: absolute;
+    left: -20px;
+    top: -30px;    
+}
+/* /// /// */
+
+/* /// SECTION - HERO: ATENDIMENTO PELO WHATSAPP - IMAGEM DA LOGO DO WHATSAPP /// */
+.help .zap-logo img {
+    width: 100%;
+}
+/* /// /// */
+
+@media (max-width: 950px){
+
+    .hero .latest-news .main-carousel {
+        margin-top: 2rem;
+    }
+
+    .hero .latest-news .main-carousel .main-slide {
+        flex-direction: column;
+    }
+
+    /* /// SECTION - HERO: AUTO NAVEGATION  E SECTION - HERO: MANUAL NAVEGATION /// */
+    .hero .navigation-auto, .hero .manual-navigation {
+        top: -1rem;
+        height: 10px;
+    }
+
+    /* /// SECTION - HERO: ATENDIMENTO PELO WHATSAPP /// */
+    .help {
+        bottom: -50px;
+    }
+
+    .help .help-text {
+        box-shadow: 0 6px 16px -8px #202124;
+    }
+    /* /// /// */
+
+    .hero .content {
+        width: 100%;
+        height: 350px;
+        gap: 5px;
+    }
+    
+    /* /// SECTION - HERO: GRID DISPOSIÇÃO ODS CONTEÚDOS /// */
+    .hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+    /* /// SECTION - HERO: CARROSSEL DE IMAGENS /// */
+    .hero .carousel {
+        width: 100%;
+        height: 500px;
+        
+        margin-top: 0px;
+    }
+
+    /* /// SECTION - HERO: CARROSSEL DE IMAGENS IMG /// */
+    .hero .carousel img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    /* /// SECTION - HERO: CARROSSEL DE IMAGENS /// */
+    .hero .carousel {
+        max-height: 400px;
+    }
+
+    /* /// SECTION - HERO: AUTO NAVEGATION  E SECTION - HERO: MANUAL NAVEGATION /// */
+    .hero .navigation-auto, .hero .manual-navigation {
+        top: -1.5rem;
+        height: 10px;
+    }
+    
+    /* /// SECTION - HERO: POSICIONAMENTO ATENDIMENTO PELO WHATSAPP /// */
+    .help {
+        bottom: -15%;
+    }
+
+    /* /// SECTION - HERO: ATENDIMENTO PELO WHATSAPP POSICIONAMENTO DA CAIXA DE TEXTO /// */
+    .help .help-text {
+        width: 150px;
+    }
+
+    /* /// SECTION - HERO: POSICIONAMENTO ATENDIMENTO PELO WHATSAPP /// */
+    .help {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero .carousel {
+        max-height: 300px;
+    }
+
+    .hero .carousel img {
+        max-height: 300px;
+    }
+
+    .hero .carousel .info-image {
+        display: none;
+    }
+
+    /* /// SECTION - HERO: CONTEÚDO PRINCIPAL TITULO /// */
+    .hero .content h2 {
+        font-size: 2rem;
+    }
+    /* /// /// */
+
+    .hero .content {
+        height: auto;
+    } 
+}

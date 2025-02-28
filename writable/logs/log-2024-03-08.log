@@ -1,0 +1,318 @@
+INFO - 2024-03-08 16:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-08 16:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-08 16:17:23 --> Too few arguments to function App\Models\InnerPages\Post::requirePosts(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Advices\InvestmentCommittee.php on line 101 and exactly 3 expected
+in APPPATH\Models\InnerPages\Post.php on line 86.
+ 1 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(101): App\Models\InnerPages\Post->requirePosts([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->calendarioComiteInvestimentos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 16:17:59 --> Too few arguments to function App\Models\InnerPages\Post::requirePosts(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Advices\InvestmentCommittee.php on line 132 and exactly 3 expected
+in APPPATH\Models\InnerPages\Post.php on line 86.
+ 1 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(132): App\Models\InnerPages\Post->requirePosts([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->atasReunioes()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:09:16 --> include_once(assets/include/calendar.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\template-1\home-page\main\sections\main-content.php on line 47.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\main-content.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(assets/include/calendar.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\main-content.php', 47)
+ 2 APPPATH\Views\contents\template-1\home-page\main\sections\main-content.php(47): include_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\main-content.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/main-content', [], true)
+ 6 APPPATH\Controllers\Home.php(86): view('contents/template-1/home-page/main/sections/main-content')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:09:26 --> include_once(assets/include/calendar.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\template-1\home-page\main\sections\main-content.php on line 47.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\main-content.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(assets/include/calendar.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\main-content.php', 47)
+ 2 APPPATH\Views\contents\template-1\home-page\main\sections\main-content.php(47): include_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\main-content.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/main-content', [], true)
+ 6 APPPATH\Controllers\Home.php(86): view('contents/template-1/home-page/main/sections/main-content')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 17:12:25 --> Undefined array key "pg"
+in APPPATH\Controllers\PostsPagination.php on line 35.
+ 1 APPPATH\Controllers\PostsPagination.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pg"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\PostsPagination.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->concursos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 17:13:54 --> Undefined array key "pg"
+in APPPATH\Controllers\PostsPagination.php on line 35.
+ 1 APPPATH\Controllers\PostsPagination.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pg"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\PostsPagination.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->concursos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-08 17:16:39 --> mysqli_sql_exception: Unknown column 'dataFROM' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dataFROM...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dataFROM...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dataFROM...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT dataFROM...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Home\Events.php(23): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(125): App\Models\Home\Events->allEvents('1', '2024-3-01')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->calendar()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-08 17:16:39 --> Unknown column 'dataFROM' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dataFROM eventos WHERE id_instituto = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dataFROM eventos WHERE id_instituto = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dataFROM eventos WHERE id_instituto = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT dataFROM eventos WHERE id_instituto = ?', [...])
+ 5 APPPATH\Models\Home\Events.php(23): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Home.php(125): App\Models\Home\Events->allEvents('1', '2024-3-01')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:34:17 --> Attempt to read property "month" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 16.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "month" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:35:02 --> Attempt to read property "month" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 16.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "month" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:35:36 --> Undefined variable $monthTime
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 26.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $monthTime', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:36:42 --> Undefined array key 0
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 16.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:36:56 --> Attempt to read property "month" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 16.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "month" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:37:12 --> Undefined variable $monthTime
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 26.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $monthTime', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 17:39:56 --> Undefined array key "date"
+in APPPATH\Controllers\Home.php on line 125.
+ 1 APPPATH\Controllers\Home.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:57:48 --> Attempt to read property "data" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 80.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "data" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 14:58:25 --> in_array(): Argument #2 ($haystack) must be of type array, string given
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 87.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(87): in_array('2024/03/1', '2024-03-08 14:54:16')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 15:04:16 --> strtotime(): Argument #1 ($datetime) must be of type string, stdClass given
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 81.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(81): strtotime(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 15:05:08 --> strtotime(): Argument #1 ($datetime) must be of type string, stdClass given
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 81.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(81): strtotime(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 15:06:38 --> Undefined variable $arrayEvents
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 91.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayEvents', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 18:08:20 --> Undefined array key 0
+in APPPATH\Models\Home\Events.php on line 24.
+ 1 APPPATH\Models\Home\Events.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Events.php', 24)
+ 2 APPPATH\Controllers\Home.php(125): App\Models\Home\Events->allEvents('1', '2024-04-01')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 18:16:43 --> Undefined array key 0
+in APPPATH\Models\Home\Events.php on line 24.
+ 1 APPPATH\Models\Home\Events.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Events.php', 24)
+ 2 APPPATH\Controllers\Home.php(125): App\Models\Home\Events->allEvents('1', '2024-04-01')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 18:23:36 --> Undefined array key 0
+in APPPATH\Models\Home\Events.php on line 24.
+ 1 APPPATH\Models\Home\Events.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Events.php', 24)
+ 2 APPPATH\Controllers\Home.php(125): App\Models\Home\Events->allEvents('1', '2024-04-01')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 18:29:31 --> Undefined array key 0
+in APPPATH\Models\Home\Events.php on line 24.
+ 1 APPPATH\Models\Home\Events.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Events.php', 24)
+ 2 APPPATH\Controllers\Home.php(125): App\Models\Home\Events->allEvents('1', '2024-04-01')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 18:30:23 --> Undefined array key 0
+in APPPATH\Models\Home\Events.php on line 25.
+ 1 APPPATH\Models\Home\Events.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Events.php', 25)
+ 2 APPPATH\Controllers\Home.php(125): App\Models\Home\Events->allEvents('1', '2024-04-01')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 15:30:44 --> strtotime(): Argument #1 ($datetime) must be of type string, stdClass given
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 83.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(83): strtotime(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 15:33:35 --> Undefined array key 0
+in APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php on line 82.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\calendar.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/calendar', [], true)
+ 5 APPPATH\Controllers\Home.php(127): view('contents/template-1/home-page/main/sections/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 19:05:58 --> Undefined array key 0
+in APPPATH\Models\Home\Events.php on line 30.
+ 1 APPPATH\Models\Home\Events.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Events.php', 30)
+ 2 APPPATH\Controllers\Home.php(125): App\Models\Home\Events->allEvents('1', '2024-04-01')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 19:09:54 --> Undefined array key 0
+in APPPATH\Models\Home\Events.php on line 32.
+ 1 APPPATH\Models\Home\Events.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Events.php', 32)
+ 2 APPPATH\Controllers\Home.php(125): App\Models\Home\Events->allEvents('1', '2024-04-01')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->calendar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,197 @@
+INFO - 2024-09-25 15:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 15:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 15:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 15:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 16:33:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-25 16:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 16:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-25 16:53:32 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-25 16:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 17:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 17:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 17:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 18:03:36 --> syntax error, unexpected token "elseif"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AjaxModel\\AjaxRecoverModel')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(161): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AjaxModel\\AjaxRecoverModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 18:18:12 --> Undefined array key "id"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 85.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 85)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(38): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], false, 'instituto')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(161): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 18:20:37 --> Undefined array key "id"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 86.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 86)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(38): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], false, 'instituto')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(161): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 15:38:56 --> Undefined array key "instituto"
+in APPPATH\Controllers\Mails\SendMails.php on line 147.
+ 1 APPPATH\Controllers\Mails\SendMails.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\SendMails.php', 147)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(60): App\Controllers\Mails\SendMails->confirmEmail([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(161): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 15:57:29 --> Undefined array key "instituto"
+in APPPATH\Controllers\Mails\SendMails.php on line 145.
+ 1 APPPATH\Controllers\Mails\SendMails.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\SendMails.php', 145)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(60): App\Controllers\Mails\SendMails->confirmEmail([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(161): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-25 19:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 19:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 19:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 19:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 19:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 19:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-25 19:10:24 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\Account.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Account.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Account')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Account')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Account', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-25 19:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 19:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-25 19:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-25 16:58:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':instituto:' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM ...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(187): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(40): App\Models\AjaxModel\AjaxUserModel->verifyRegistered(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(36): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-25 16:58:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':instituto:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM beneficiados WHERE cpf = \'583.115.760-17\' AND id_instituto = :instituto:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM beneficiados WHERE cpf = \'583.115.760-17\' AND id_instituto = :instituto:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM beneficiados WHERE cpf = \'583.115.760-17\' AND id_instituto = :instituto:')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM beneficiados WHERE cpf = :cpf: AND id_instituto = :instituto:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(187): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(40): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(36): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-25 17:09:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':instituto:' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM ...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(189): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(40): App\Models\AjaxModel\AjaxUserModel->verifyRegistered(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(37): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-25 17:09:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':instituto:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM beneficiados WHERE cpf = \'214.555.800-40\' AND id_instituto = :instituto:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM beneficiados WHERE cpf = \'214.555.800-40\' AND id_instituto = :instituto:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM beneficiados WHERE cpf = \'214.555.800-40\' AND id_instituto = :instituto:')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM beneficiados WHERE cpf = :cpf: AND id_instituto = :instituto:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(189): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(40): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(37): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-25 17:11:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':instituto:' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM ...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(189): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(40): App\Models\AjaxModel\AjaxUserModel->verifyRegistered(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(37): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-09-25 17:11:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':instituto:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM beneficiados WHERE cpf = \'214.555.800-40\' AND id_instituto = :instituto:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM beneficiados WHERE cpf = \'214.555.800-40\' AND id_instituto = :instituto:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM beneficiados WHERE cpf = \'214.555.800-40\' AND id_instituto = :instituto:')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM beneficiados WHERE cpf = :cpf: AND id_instituto = :instituto:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(189): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(40): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(37): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-25 17:14:46 --> mysqli_sql_exception: Duplicate entry '677.240.240-57' for key 'cpf' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO ben...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ben...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ben...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('INSERT INTO ben...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(41): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(37): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-25 17:14:46 --> Duplicate entry '677.240.240-57' for key 'cpf'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO beneficiados VALUES(0, \'2\', \'677.240.240-57\', \'Vagner Loureci\', \'1958-9-25 00:00:00\', \'meurppswebprev@gmail.com\', \'47936321511\', NULL, \'$2y$10$jE7d1uXtiBodQtDp5yy5IOSBeUtZVWIG5K00evb3gTiIhPUlyz/we\', \'$2y$10$kxudS17/6jdc3eM5xD3TJOfxNwOowOertwOwDVY49e5Nr6an/zlqq\', 0, \'2024-9-25 17:14:46\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO beneficiados VALUES(0, \'2\', \'677.240.240-57\', \'Vagner Loureci\', \'1958-9-25 00:00:00\', \'meurppswebprev@gmail.com\', \'47936321511\', NULL, \'$2y$10$jE7d1uXtiBodQtDp5yy5IOSBeUtZVWIG5K00evb3gTiIhPUlyz/we\', \'$2y$10$kxudS17/6jdc3eM5xD3TJOfxNwOowOertwOwDVY49e5Nr6an/zlqq\', 0, \'2024-9-25 17:14:46\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO beneficiados VALUES(0, \'2\', \'677.240.240-57\', \'Vagner Loureci\', \'1958-9-25 00:00:00\', \'meurppswebprev@gmail.com\', \'47936321511\', NULL, \'$2y$10$jE7d1uXtiBodQtDp5yy5IOSBeUtZVWIG5K00evb3gTiIhPUlyz/we\', \'$2y$10$kxudS17/6jdc3eM5xD3TJOfxNwOowOertwOwDVY49e5Nr6an/zlqq\', 0, \'2024-9-25 17:14:46\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('INSERT INTO beneficiados VALUES(0, :institute:, :cpf:, :name:, :date:, :email:, :tel:, :img:, :password:, :key:, 0, :currentDate:)', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(41): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(37): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,392 @@
+WARNING - 2024-08-16 15:40:41 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:43:59 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:43:59 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:44:16 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:44:16 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:44:39 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:44:39 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:50:55 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:50:55 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 15:50:55 --> Required parameter not passed: "code"
+in VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php on line 35.
+ 1 VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('code', [...])
+ 2 VENDORPATH\league\oauth2-client\src\Grant\AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters([...], [...])
+ 3 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(633): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters([...], [])
+ 4 APPPATH\Controllers\Mails\OAuth2.php(24): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:51:31 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:51:31 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 15:51:31 --> Required parameter not passed: "code"
+in VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php on line 35.
+ 1 VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('code', [...])
+ 2 VENDORPATH\league\oauth2-client\src\Grant\AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters([...], [...])
+ 3 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(633): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters([...], [...])
+ 4 APPPATH\Controllers\Mails\OAuth2.php(24): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:51:35 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:51:35 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 15:51:35 --> Required parameter not passed: "code"
+in VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php on line 35.
+ 1 VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('code', [...])
+ 2 VENDORPATH\league\oauth2-client\src\Grant\AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters([...], [...])
+ 3 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(633): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters([...], [...])
+ 4 APPPATH\Controllers\Mails\OAuth2.php(24): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:52:03 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:52:03 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 15:52:03 --> Required parameter not passed: "code"
+in VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php on line 35.
+ 1 VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('code', [...])
+ 2 VENDORPATH\league\oauth2-client\src\Grant\AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters([...], [...])
+ 3 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(633): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters([...], [...])
+ 4 APPPATH\Controllers\Mails\OAuth2.php(24): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:54:48 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:54:48 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 15:54:48 --> Required parameter not passed: "code"
+in VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php on line 35.
+ 1 VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('code', [...])
+ 2 VENDORPATH\league\oauth2-client\src\Grant\AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters([...], [...])
+ 3 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(633): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters([...], [...])
+ 4 APPPATH\Controllers\Mails\OAuth2.php(20): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:56:06 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:56:06 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 15:56:06 --> Required parameter not passed: "code"
+in VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php on line 35.
+ 1 VENDORPATH\league\oauth2-client\src\Tool\RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('code', [...])
+ 2 VENDORPATH\league\oauth2-client\src\Grant\AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters([...], [...])
+ 3 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(633): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters([...], [...])
+ 4 APPPATH\Controllers\Mails\OAuth2.php(21): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:56:13 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 15:56:13 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:00:41 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:00:41 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:03:37 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:03:37 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:04:02 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:04:02 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:06:52 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:06:52 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:07:57 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:07:57 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:08:03 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:08:03 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:08:10 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:08:10 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:08:33 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:08:33 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:08:52 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:08:52 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:09:01 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:09:01 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 16:09:03 --> invalid_grant
+in VENDORPATH\league\oauth2-google\src\Provider\Google.php on line 118.
+ 1 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(726): League\OAuth2\Client\Provider\Google->checkResponse(Object(GuzzleHttp\Psr7\Response), [...])
+ 2 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(635): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+ 3 APPPATH\Controllers\Mails\OAuth2.php(22): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:09:28 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:09:28 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:09:39 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:09:39 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:10:04 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:10:04 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 16:10:05 --> invalid_grant
+in VENDORPATH\league\oauth2-google\src\Provider\Google.php on line 118.
+ 1 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(726): League\OAuth2\Client\Provider\Google->checkResponse(Object(GuzzleHttp\Psr7\Response), [...])
+ 2 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(635): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+ 3 APPPATH\Controllers\Mails\OAuth2.php(22): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:10:14 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:10:14 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:10:24 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:10:24 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:14:43 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:14:43 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 16:14:44 --> unsupported_grant_type
+in VENDORPATH\league\oauth2-google\src\Provider\Google.php on line 118.
+ 1 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(726): League\OAuth2\Client\Provider\Google->checkResponse(Object(GuzzleHttp\Psr7\Response), [...])
+ 2 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(635): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+ 3 APPPATH\Controllers\Mails\OAuth2.php(22): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\ClientCredentials), [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:14:51 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:14:51 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:15:00 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-08-16 16:15:00 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Mails\OAuth2.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 16:15:01 --> unsupported_grant_type
+in VENDORPATH\league\oauth2-google\src\Provider\Google.php on line 118.
+ 1 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(726): League\OAuth2\Client\Provider\Google->checkResponse(Object(GuzzleHttp\Psr7\Response), [...])
+ 2 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(635): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+ 3 APPPATH\Controllers\Mails\OAuth2.php(22): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\ClientCredentials), [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-16 17:04:46 --> invalid_grant
+in VENDORPATH\league\oauth2-google\src\Provider\Google.php on line 118.
+ 1 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(726): League\OAuth2\Client\Provider\Google->checkResponse(Object(GuzzleHttp\Psr7\Response), [...])
+ 2 VENDORPATH\league\oauth2-client\src\Provider\AbstractProvider.php(635): League\OAuth2\Client\Provider\AbstractProvider->getParsedResponse(Object(GuzzleHttp\Psr7\Request))
+ 3 VENDORPATH\phpmailer\phpmailer\get_oauth_token.php(173): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\AuthorizationCode), [...])
+ 4 APPPATH\Controllers\Mails\OAuth2.php(10): require('C:\\xampp\\htdocs\\RPPS\\vendor\\phpmailer\\phpmailer\\get_oauth_token.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\OAuth2->oauth2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\OAuth2))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 19:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,145 @@
+CRITICAL - 2023-09-08 17:59:37 --> Invalid file: "contents/common/header/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/common/header/header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/common/header/header', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('contents/common/header/header')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 19:14:35 --> require(public/functions/functionDifineRoutes/difine-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 19.
+ 1 APPPATH\Views\contents\institute\dynamic-header\header-links.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(public/functions/functionDifineRoutes/difine-routes.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php', 19)
+ 2 APPPATH\Views\contents\institute\dynamic-header\header-links.php(19): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 19:56:07 --> require(functions/functionDifineRoutes/difine-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 19.
+ 1 APPPATH\Views\contents\institute\dynamic-header\header-links.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(functions/functionDifineRoutes/difine-routes.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php', 19)
+ 2 APPPATH\Views\contents\institute\dynamic-header\header-links.php(19): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 19:56:23 --> Unsupported operand types: string * int
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 4 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 19:58:56 --> Unsupported operand types: string * int
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 4 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 20:01:55 --> Unsupported operand types: string * int
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 4 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 20:03:33 --> Unsupported operand types: string * int
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 4 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 20:05:41 --> Unsupported operand types: string * int
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 4 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 20:06:02 --> Unsupported operand types: string * int
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 4 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 20:06:09 --> Undefined constant "t"
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 37.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 4 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 20:07:33 --> Unsupported operand types: string + string
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 4 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 20:08:16 --> Unsupported operand types: string * int
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 4 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 20:08:58 --> Unsupported operand types: string + string
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 4 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 20:39:07 --> require(config/routes/institute/u/-.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 18.
+ 1 APPPATH\Views\contents\institute\dynamic-header\header-links.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(config/routes/institute/u/-.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php', 18)
+ 2 APPPATH\Views\contents\institute\dynamic-header\header-links.php(18): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(16): view('contents/institute/dynamic-header/header-links.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

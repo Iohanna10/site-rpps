@@ -1,0 +1,78 @@
+.medias-list {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    height: auto;
+}
+
+.medias-list table {
+    background-color: white;
+}
+
+.medias-list table tbody tr {
+    border: 2px solid black;
+}
+
+.medias-list td, .medias-list td textarea  {
+    height: 120px;
+}
+
+.medias-list td i {
+    font-size: 2rem;
+}
+
+.medias-list td .img_container {
+    max-width: 205px;
+    max-height: 120px;
+}
+
+.medias-list td .img_container img {
+    max-width: 205px;
+    max-height: 120px;
+}
+
+.medias-list table > div {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+
+    border: 1px solid #EBEBEB;
+}
+
+.medias-list div.edit_media {
+    padding: 10px;
+}
+
+.medias-list>div>input {
+    border: 1px solid #b4b2b2;
+}
+
+.medias-list>div>.img_container {
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #b4b2b2;
+}
+
+
+.medias-list>div>.img_container>img {
+    width: auto;
+    max-width: 200px;
+    height: fit-content;
+    max-height: 100px;
+
+    border: 1px solid #EBEBEB;
+
+}
+
+.medias-list>div>.img_container>video {
+    width: auto;
+    max-width: 200px;
+    height: fit-content;
+    max-height: 100px;
+}

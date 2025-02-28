@@ -1,0 +1,109 @@
+.bg_overlay_cover_on {
+    width: 100%;
+    height: 100%;
+
+    background-color: rgb(10, 10, 10);
+    background-size: cover;
+    background-position: center center;
+} 
+
+.bg_overlay_cover_on.bg_1 {
+    background-image: url(../img/tec4.jpeg);
+
+    opacity: 0.4;
+} 
+
+.bg_overlay_cover_on.bg_2 {
+    background-image: url(../img/tec2.jpeg);
+
+    opacity: 0.4;
+} 
+
+.bg_overlay_cover_on.bg_3 {
+    background-image: url(../img/tec3.jpeg);
+
+    opacity: 0.3;
+} 
+
+
+.bg_home_cover{
+    background-color: rgb(4, 4, 4)
+}
+
+.text-contact {
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+
+.text-contact a {
+    color: white;
+}
+
+.text-contact a:hover {
+    color: rgba(255, 255, 255, 0.891);
+}
+
+.text-contact i {
+    font-size: 25px;
+}
+
+.btn_custom_color {
+    border: 1px solid #092c49;
+    background-color: #092c49;
+    color: white;
+}
+
+.btn_custom_color:hover {
+    border: 1px solid #0b3558;
+    background-color: #0b3558;
+    color: rgba(255, 255, 255, 0.891);
+}
+
+.r-h {
+    height: 100%;
+    width: auto;
+}
+
+@media (max-width: 991px) {
+    .row {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .text-contact {
+        font-size: 2rem;
+    }
+
+    .text-contact i {
+        font-size: 2rem;
+    }
+
+    .custom-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn {
+        font-size: 1.8rem;
+    }
+
+    .home_title, .home_subtitle {
+        max-width: 100%;
+    }
+
+    .r-t-center {
+        text-align: center;
+
+        justify-content: center;
+    }
+
+    .r-h {
+        height: 200px;
+    }
+
+    .full_height_100vh_home {
+        padding: 0!important;
+    }
+}

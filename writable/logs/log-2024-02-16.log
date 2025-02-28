@@ -1,0 +1,310 @@
+CRITICAL - 2024-02-16 13:52:28 --> Undefined array key 0
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 7.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(113): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 13:52:44 --> Unsupported operand types: array / int
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 52.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 4 APPPATH\Controllers\InnerPages\Policyholders.php(113): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 13:57:36 --> Unsupported operand types: array / int
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 52.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 4 APPPATH\Controllers\InnerPages\Policyholders.php(113): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 14:04:19 --> Object of class DateTime could not be converted to string
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 56.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 4 APPPATH\Controllers\InnerPages\Policyholders.php(113): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 17:08:14 --> Undefined array key "data"
+in APPPATH\Views\contents\template-1\inner-pages\main\render-sections\birthdaysList.php on line 9.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\render-sections\birthdaysList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\birthdaysList.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/render-sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(89): view('contents/template-1/inner-pages/main/render-sections/birthdaysList.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 14:44:41 --> syntax error, unexpected token ")"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 70.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 3 APPPATH\Controllers\InnerPages\Policyholders.php(113): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 14:45:17 --> Undefined array key "qntpg"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 70.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qntpg"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(113): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 18:23:01 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('iprebs')
+ 3 APPPATH\Controllers\Session.php(149): App\Controllers\Session->requireInstituteId('iprebs')
+ 4 APPPATH\Controllers\InnerPages\Policyholders.php(15): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Policyholders))
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(96): App\Controllers\InnerPages\Policyholders->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 18:26:58 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('iprebs')
+ 3 APPPATH\Controllers\Session.php(149): App\Controllers\Session->requireInstituteId('iprebs')
+ 4 APPPATH\Controllers\InnerPages\Policyholders.php(15): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Policyholders))
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(96): App\Controllers\InnerPages\Policyholders->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 18:27:20 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('iprebs')
+ 3 APPPATH\Controllers\Session.php(149): App\Controllers\Session->requireInstituteId('iprebs')
+ 4 APPPATH\Controllers\InnerPages\Policyholders.php(15): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Policyholders))
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(110): App\Controllers\InnerPages\Policyholders->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-16 15:28:11 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Birthday.php(28): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Policyholders.php(110): App\Models\InnerPages\Birthday->birthdays(Array, '1', '2024-02-01')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-02-16 15:28:11 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = (\'1\',\'ipreve\',\'segurados\',\'dados-lista\') AND MONTH(data_nascimento) = \'02\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = (\'1\',\'ipreve\',\'segurados\',\'dados-lista\') AND MONTH(data_nascimento) = \'02\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = (\'1\',\'ipreve\',\'segurados\',\'dados-lista\') AND MONTH(data_nascimento) = \'02\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = :instituteId: AND MONTH(data_nascimento) = :date:', [...])
+ 5 APPPATH\Models\InnerPages\Birthday.php(28): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Policyholders.php(110): App\Models\InnerPages\Birthday->birthdays([...], '1', '2024-02-01')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 18:29:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 7.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(113): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:29 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:32 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:33 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:33 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:34 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:35 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:35 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:36 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:36 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:38 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:41 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:43 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:46 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:47 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:50 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:25:54 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-16 19:44:02 --> Invalid file: "contents/template-1/inner-pages/main/sections/photos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/photos.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/photos.php', [], true)
+ 3 APPPATH\Controllers\InnerPages\Publications.php(165): view('contents/template-1/inner-pages/main/sections/photos.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->cadGaleria()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-16 19:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 19:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 19:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 19:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 19:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 19:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 19:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 19:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 19:50:01 --> Invalid file: "contents/template-1/registration-pages/gallery.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/registration-pages/gallery.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/registration-pages/gallery', [], true)
+ 3 APPPATH\Controllers\Registrations\RegistrationsPgs.php(50): view('contents/template-1/registration-pages/gallery')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-16 19:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 19:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 19:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 20:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

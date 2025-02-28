@@ -1,0 +1,31 @@
+CRITICAL - 2023-10-02 16:28:31 --> Cannot declare class App\Controllers\InnerPages\ContactUs because the name is already in use
+in APPPATH\Controllers\InnerPages\ContactUs.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-02 16:29:22 --> Cannot declare class App\Controllers\InnerPages\ContactUs because the name is already in use
+in APPPATH\Controllers\InnerPages\ContactUs.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-02 17:27:36 --> Undefined variable $teste
+in APPPATH\Models\InnerPages\ContactUs\Contact.php on line 19.
+ 1 APPPATH\Models\InnerPages\ContactUs\Contact.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $teste', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\ContactUs\\Contact.php', 19)
+ 2 APPPATH\Controllers\InnerPages\ContactUs.php(24): App\Models\InnerPages\ContactUs\Contact->contact()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 17:52:07 --> Undefined variable $teste
+in APPPATH\Models\InnerPages\ContactUs\Contact.php on line 24.
+ 1 APPPATH\Models\InnerPages\ContactUs\Contact.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $teste', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\ContactUs\\Contact.php', 24)
+ 2 APPPATH\Controllers\InnerPages\ContactUs.php(24): App\Models\InnerPages\ContactUs\Contact->contact()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 17:52:17 --> Invalid file: "contents/template-1/inner-pages/main/sections/contactUs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/contactUs.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/contactUs.php', [], true)
+ 3 APPPATH\Controllers\InnerPages\ContactUs.php(27): view('contents/template-1/inner-pages/main/sections/contactUs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

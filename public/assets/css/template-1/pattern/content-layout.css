@@ -1,0 +1,24 @@
+:root {
+    --afastamento-lateral: 82.5%;
+    --max-width-container: 1440px!important;
+}
+
+/* cor padrão de texto (usado em icons geralmente) */
+.t-color-primary {
+   color: var(--cor-primaria)!important;
+}
+
+.t-color-secondary {
+   color: var(--cor-secundaria)!important;
+}
+/*  */
+
+/* plano de fundo */
+.bg-color-primary {
+    background-color: var(--cor-primaria)!important;
+}
+
+.bg-color-secondary {
+    background-color: var(--cor-secundaria)!important;
+}
+/*  */

@@ -1,0 +1,78 @@
+INFO - 2025-01-17 15:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-17 15:46:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT cor_prin...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cor_prin...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cor_prin...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT cor_prin...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxInstituteModel.php(250): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxInstitute.php(209): App\Models\AjaxModel\AjaxInstituteModel->getCustomizations()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxInstitute->getColors()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxInstitute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-17 15:46:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()')
+ 5 APPPATH\Models\AjaxModel\AjaxInstituteModel.php(250): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxInstitute.php(209): App\Models\AjaxModel\AjaxInstituteModel->getCustomizations()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxInstitute->getColors()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxInstitute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-17 15:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-17 15:47:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT cor_prin...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cor_prin...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cor_prin...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT cor_prin...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxInstituteModel.php(250): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxInstitute.php(209): App\Models\AjaxModel\AjaxInstituteModel->getCustomizations()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxInstitute->getColors()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxInstitute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-17 15:47:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()')
+ 5 APPPATH\Models\AjaxModel\AjaxInstituteModel.php(250): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxInstitute.php(209): App\Models\AjaxModel\AjaxInstituteModel->getCustomizations()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxInstitute->getColors()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxInstitute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-17 15:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-17 15:47:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT cor_prin...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cor_prin...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cor_prin...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT cor_prin...')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxInstituteModel.php(250): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxInstitute.php(209): App\Models\AjaxModel\AjaxInstituteModel->getCustomizations()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxInstitute->getColors()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxInstitute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-17 15:47:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT cor_principal, cor_secundaria, cor_destaque, efeitos_visuais, banner,data_inicio, data_final FROM instituto_temas WHERE id_instituto = :institute: AND ativo = 1 AND data_inicio <= NOW() AND data_final >= NOW()')
+ 5 APPPATH\Models\AjaxModel\AjaxInstituteModel.php(250): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxInstitute.php(209): App\Models\AjaxModel\AjaxInstituteModel->getCustomizations()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxInstitute->getColors()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxInstitute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

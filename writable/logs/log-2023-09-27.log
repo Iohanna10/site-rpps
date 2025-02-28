@@ -1,0 +1,8 @@
+CRITICAL - 2023-09-27 16:58:52 --> Undefined variable $teste
+in APPPATH\Models\InnerPages\Publications\Galery.php on line 30.
+ 1 APPPATH\Models\InnerPages\Publications\Galery.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $teste', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Publications\\Galery.php', 30)
+ 2 APPPATH\Controllers\InnerPages\Publications.php(76): App\Models\InnerPages\Publications\Galery->photos()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->galeriaFotos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

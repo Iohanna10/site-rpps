@@ -1,0 +1,305 @@
+/* ////////////////////////// div principal /////////////////////////////// */
+.contents .container .actuarial-calculation {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    padding: 80px 0px;
+}
+
+.contents .container .actuarial-calculation div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contents .container .actuarial-calculation div ul, 
+.contents .container .actuarial-calculation div ol {
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.contents .container .actuarial-calculation div ul h6, 
+.contents .container .actuarial-calculation div ol h6 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.contents .container .actuarial-calculation div ul li::before, 
+.contents .container .actuarial-calculation div ol li::before {
+    content: "- ";
+}
+
+.contents .container .actuarial-calculation div ul ul ,
+.contents .container .actuarial-calculation div ul ol {
+    margin-left: 20px;
+    content: "- ";
+}
+
+.contents .container .actuarial-calculation div h4 {
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+
+.contents .container .actuarial-calculation div p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////// div sobre e relatórios /////////////////////////////// */
+.contents .container .actuarial-calculation .about-and-reports {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////// últimos relatórios /////////////////////////////// */
+.contents .container .actuarial-calculation .about-and-reports .latest-reports {
+    width: 30%;
+
+    position: relative;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .reports {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+
+    z-index: 1;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .background {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    
+    opacity: 0.15;
+    background-color: var(--cor-primaria);
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .header-reports h1 {
+    font-size: 2.4rem;
+    font-weight: 500;
+
+    margin-bottom: 20px;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports {
+   height: 80%;
+   gap: 20px;
+   padding-right: 5px;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report {
+    width: 100%;
+    height: auto;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .link h6 {
+    font-size: 1.5rem;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .link h6 a {
+    text-decoration: none;
+    color: black;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .infos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    border-top: 1px solid #00000034;
+
+    padding-top: 5px;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .infos span {
+    font-size: 1.5rem;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .infos span:hover {
+    cursor: default;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .infos a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .infos i {
+    font-size: 1.5rem;
+    color: var(--cor-primaria);
+}
+
+.button-love a {
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 2.5px;
+
+    cursor: pointer;
+    color: var(--cor-primaria);
+}
+
+.button-love a:hover i {
+    display: none;
+}
+
+.button-love a:hover i:nth-child(2) {
+    display: block;
+}
+
+.button-love a i.not-rated {
+    display: none;   
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .infos .coments a {
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 2.5px;
+
+    cursor: pointer;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .infos > div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .footer-reports p {
+    font-size: 1.4rem;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .footer-reports a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+.contents .container .actuarial-calculation .about-and-reports .latest-reports .footer-reports a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--cor-highlight);
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////// sobre o cálculo /////////////////////////////// */
+.contents .container .actuarial-calculation .about-and-reports .about {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .about .title h1 {
+    font-size: 4.8rem;
+}
+
+.contents .container .actuarial-calculation .about-and-reports .about .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////// listas /////////////////////////////////// */
+.contents .container .actuarial-calculation div.lists {
+    gap: 50px;
+}
+
+.contents .container .actuarial-calculation div.lists > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    row-gap: 50px;
+}
+
+.contents .container .actuarial-calculation div ul li {
+    margin-bottom: 5px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+
+/* /////////////////////////// div regimes ///////////////////////////// */
+.contents .container .actuarial-calculation div.regimes {
+    gap: 50px;
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 1400px) {
+    .contents .container .actuarial-calculation .about-and-reports {
+        flex-direction: column;
+    }
+
+    .contents .container .actuarial-calculation .about-and-reports .latest-reports {
+        width: 100%;
+    }
+
+    .contents .container .actuarial-calculation div.header-reports {
+        align-self: center;
+    }
+
+    .contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1024px) { 
+    .contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 770px) { 
+    .contents .container .actuarial-calculation {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contents .container .actuarial-calculation .about-and-reports .about .title h1 {
+        font-size: 3.4rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .contents .container .actuarial-calculation > div {    
+        padding: 10px;
+    }
+
+    .contents .container .actuarial-calculation div.lists > div {
+        grid-template-columns: auto;
+    }
+
+    .contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .link h6 {
+        text-align: center;
+    }
+
+    .contents .container .actuarial-calculation .about-and-reports .latest-reports .main-reports .report .infos {
+        flex-direction: column;
+        align-items: center;
+    }
+}

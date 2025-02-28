@@ -1,0 +1,500 @@
+INFO - 2024-06-24 15:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:35:47 --> Undefined variable $data
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 24.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 15:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:39:12 --> Undefined array key "data"
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 24.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 15:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:42:36 --> Undefined array key "data"
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 26.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 15:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 13:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 13:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:51:38 --> Undefined array key "name"
+in APPPATH\Views\contents\template-1\edit-pages\gallery.php on line 17.
+ 1 APPPATH\Views\contents\template-1\edit-pages\gallery.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\edit-pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/edit-pages/gallery', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(91): view('contents/template-1/edit-pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->cadGaleria()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 17:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 18:25:51 --> rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/all-images/2024/2/nome,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/all-images/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 312.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/all-images/2024/2/nome,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/all-images/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php', 312)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(312): rename('././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/all-images/2024/2/nome', '././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/all-images/2024/2/nome')
+ 3 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(103): App\Models\AjaxModel\AjaxGalleryModel->updateDirName([...], [...], [...])
+ 4 APPPATH\Controllers\Ajax\AjaxGallery.php(79): App\Models\AjaxModel\AjaxGalleryModel->updateGallery([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 18:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 18:35:00 --> rename(././././dynamic-page-content/ipreve/assets/uploads/video/photo-gallery/thumb/2024/2/nome,././././dynamic-page-content/ipreve/assets/uploads/video/photo-gallery/thumb/2024/2/nome_novo): O sistema não pode encontrar o caminho especificado (code: 3)
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 315.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rename(././././dynamic-page-content/ipreve/assets/uploads/video/photo-gallery/thumb/2024/2/nome,././././dynamic-page-content/ipreve/assets/uploads/video/photo-gallery/thumb/2024/2/nome_novo): O sistema não pode encontrar o caminho especificado (code: 3)', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php', 315)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(315): rename('././././dynamic-page-content/ipreve/assets/uploads/video/photo-gallery/thumb/2024/2/nome', '././././dynamic-page-content/ipreve/assets/uploads/video/photo-gallery/thumb/2024/2/nome_novo')
+ 3 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(103): App\Models\AjaxModel\AjaxGalleryModel->updateDirName([...], [...], [...])
+ 4 APPPATH\Controllers\Ajax\AjaxGallery.php(79): App\Models\AjaxModel\AjaxGalleryModel->updateGallery([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 18:36:45 --> Unclosed '{' on line 10
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 321.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AjaxModel\\AjaxGalleryModel')
+ 3 APPPATH\Controllers\Ajax\AjaxGallery.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AjaxModel\\AjaxGalleryModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 18:37:08 --> Unclosed '{' on line 10
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 321.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AjaxModel\\AjaxGalleryModel')
+ 3 APPPATH\Controllers\Ajax\AjaxGallery.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AjaxModel\\AjaxGalleryModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 18:37:37 --> Unclosed '{' on line 10
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 321.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AjaxModel\\AjaxGalleryModel')
+ 3 APPPATH\Controllers\Ajax\AjaxGallery.php(79): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AjaxModel\\AjaxGalleryModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 18:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 18:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 18:59:06 --> rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 310.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php', 310)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(310): rename('././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo', '././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome')
+ 3 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(103): App\Models\AjaxModel\AjaxGalleryModel->updateDirName([...], [...], [...])
+ 4 APPPATH\Controllers\Ajax\AjaxGallery.php(79): App\Models\AjaxModel\AjaxGalleryModel->updateGallery([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 19:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 19:03:23 --> rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 310.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php', 310)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(310): rename('././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo', '././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome')
+ 3 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(103): App\Models\AjaxModel\AjaxGalleryModel->updateDirName([...], [...], [...])
+ 4 APPPATH\Controllers\Ajax\AjaxGallery.php(79): App\Models\AjaxModel\AjaxGalleryModel->updateGallery([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 19:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 19:04:47 --> rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 311.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php', 311)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(311): rename('././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo', '././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome')
+ 3 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(103): App\Models\AjaxModel\AjaxGalleryModel->updateDirName([...], [...], [...])
+ 4 APPPATH\Controllers\Ajax\AjaxGallery.php(79): App\Models\AjaxModel\AjaxGalleryModel->updateGallery([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 19:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 19:05:51 --> rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 312.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php', 312)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(312): rename('././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo', '././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome')
+ 3 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(104): App\Models\AjaxModel\AjaxGalleryModel->updateDirName([...], [...], [...])
+ 4 APPPATH\Controllers\Ajax\AjaxGallery.php(79): App\Models\AjaxModel\AjaxGalleryModel->updateGallery([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 19:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 19:07:05 --> rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 311.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome): O sistema não pode encontrar o arquivo especificado (code: 2)', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php', 311)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(311): rename('././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_novo', '././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome')
+ 3 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(103): App\Models\AjaxModel\AjaxGalleryModel->updateDirName([...], [...], [...])
+ 4 APPPATH\Controllers\Ajax\AjaxGallery.php(79): App\Models\AjaxModel\AjaxGalleryModel->updateGallery([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 19:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 19:18:10 --> rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_galeria): O sistema não pode encontrar o arquivo especificado (code: 2)
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 310.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rename(././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome,././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_galeria): O sistema não pode encontrar o arquivo especificado (code: 2)', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php', 310)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(310): rename('././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome', '././././dynamic-page-content/ipreve/assets/uploads/img/photo-gallery/thumb/2024/2/nome_galeria')
+ 3 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(103): App\Models\AjaxModel\AjaxGalleryModel->updateDirName([...], [...], [...])
+ 4 APPPATH\Controllers\Ajax\AjaxGallery.php(79): App\Models\AjaxModel\AjaxGalleryModel->updateGallery([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->updateGallery()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 19:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 16:33:48 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 230.
+ 1 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php', 230)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(207): App\Models\AjaxModel\AjaxGalleryModel->popMedias([...], 'Capturadetela2023-06-19182105-20246105046.png')
+ 3 APPPATH\Controllers\Ajax\AjaxGallery.php(221): App\Models\AjaxModel\AjaxGalleryModel->removeFiles([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->removeFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 19:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 19:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 17:13:17 --> implode(): Argument #1 ($pieces) must be of type array, string given
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 243.
+ 1 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(243): implode(', ', null)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(207): App\Models\AjaxModel\AjaxGalleryModel->popMedias([...], [...])
+ 3 APPPATH\Controllers\Ajax\AjaxGallery.php(221): App\Models\AjaxModel\AjaxGalleryModel->removeFiles([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->removeFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 20:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 17:14:36 --> implode(): Argument #1 ($pieces) must be of type array, string given
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 243.
+ 1 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(243): implode(', ', null)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(207): App\Models\AjaxModel\AjaxGalleryModel->popMedias([...], [...])
+ 3 APPPATH\Controllers\Ajax\AjaxGallery.php(221): App\Models\AjaxModel\AjaxGalleryModel->removeFiles([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->removeFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 17:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-24 20:16:53 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 263.
+ 1 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(263): explode(',', null)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(149): App\Models\AjaxModel\AjaxGalleryModel->filterMedias([...])
+ 3 APPPATH\Controllers\Pagination.php(163): App\Models\AjaxModel\AjaxGalleryModel->getMedias('8')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->medias()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 20:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-24 20:19:18 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 263.
+ 1 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(263): explode(',', null)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(149): App\Models\AjaxModel\AjaxGalleryModel->filterMedias([...])
+ 3 APPPATH\Controllers\Pagination.php(163): App\Models\AjaxModel\AjaxGalleryModel->getMedias('8')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->medias()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 20:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-24 20:20:12 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 263.
+ 1 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(263): explode(',', null)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(149): App\Models\AjaxModel\AjaxGalleryModel->filterMedias([...])
+ 3 APPPATH\Controllers\Pagination.php(163): App\Models\AjaxModel\AjaxGalleryModel->getMedias('8')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->medias()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 20:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-24 20:21:07 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 263.
+ 1 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(263): explode(',', null)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(149): App\Models\AjaxModel\AjaxGalleryModel->filterMedias([...])
+ 3 APPPATH\Controllers\Pagination.php(163): App\Models\AjaxModel\AjaxGalleryModel->getMedias('8')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->medias()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 20:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 20:22:13 --> Undefined array key "mideas"
+in APPPATH\Models\AjaxModel\AjaxGalleryModel.php on line 262.
+ 1 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mideas"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxGalleryModel.php', 262)
+ 2 APPPATH\Models\AjaxModel\AjaxGalleryModel.php(149): App\Models\AjaxModel\AjaxGalleryModel->filterMedias([...])
+ 3 APPPATH\Controllers\Pagination.php(163): App\Models\AjaxModel\AjaxGalleryModel->getMedias('8')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagination->medias()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 20:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 17:35:43 --> unlink(././././dynamic-page-content/Ipreve/assets/uploads/img/photo-gallery/all-images/2024/2/nome_galeria/): Is a directory
+in APPPATH\Models\Functions\Functions.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(././././dynamic-page-content/Ipreve/assets/uploads/img/photo-gallery/all-images/2024/2/nome_galeria/): Is a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Functions\\Functions.php', 35)
+ 2 APPPATH\Models\Functions\Functions.php(35): unlink('././././dynamic-page-content/Ipreve/assets/uploads/img/photo-gallery/all-images/2024/2/nome_galeria/')
+ 3 APPPATH\Controllers\Ajax\AjaxGallery.php(246): App\Models\Functions\Functions->deleteFiles([...], '././././dynamic-page-content/Ipreve/assets/uploads/img/photo-gallery/all-images/2024/2/nome_galeria/')
+ 4 APPPATH\Controllers\Ajax\AjaxGallery.php(239): App\Controllers\Ajax\AjaxGallery->errUpMedias([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxGallery->removeFiles()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxGallery))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 20:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 17:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 20:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

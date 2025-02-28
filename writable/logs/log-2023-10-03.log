@@ -1,0 +1,63 @@
+CRITICAL - 2023-10-03 18:49:23 --> Undefined array key 1
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\contactUs.php on line 13.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\contactUs.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\contactUs.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\contactUs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/contactUs.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\ContactUs.php(27): view('contents/template-1/inner-pages/main/sections/contactUs.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 18:50:07 --> Undefined array key 1
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\contactUs.php on line 13.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\contactUs.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\contactUs.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\contactUs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/contactUs.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\ContactUs.php(27): view('contents/template-1/inner-pages/main/sections/contactUs.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 19:14:37 --> Undefined array key 10
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\contactUs.php on line 25.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\contactUs.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 10', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\contactUs.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\contactUs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/contactUs.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\ContactUs.php(27): view('contents/template-1/inner-pages/main/sections/contactUs.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 19:37:02 --> Invalid file: "contents/template-1/inner-pages/main/sections/posts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/posts.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/posts.php', [], true)
+ 3 APPPATH\Controllers\InnerPages\Publications.php(79): view('contents/template-1/inner-pages/main/sections/posts.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->galeriaFotos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 19:37:37 --> Invalid file: "contents/template-1/inner-pages/main/sections/posts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/posts.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/posts.php', [], true)
+ 3 APPPATH\Controllers\InnerPages\Publications.php(79): view('contents/template-1/inner-pages/main/sections/posts.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->galeriaFotos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-03 20:22:20 --> Undefined variable $url
+in APPPATH\Views\contents\template-1\inner-pages\main\render-sections\galery.php on line 8.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\render-sections\galery.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\galery.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\galery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\galery.php', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/galery.php', [], true)
+ 6 APPPATH\Controllers\InnerPages\Publications.php(104): view('contents/template-1/inner-pages/main/sections/galery.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->galeriaFotos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

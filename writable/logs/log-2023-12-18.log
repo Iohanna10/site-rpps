@@ -1,0 +1,70 @@
+CRITICAL - 2023-12-18 19:18:09 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 50.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 50)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(35): App\Models\AjaxModel\AjaxPostModel->upload(null)
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(44): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 19:28:59 --> in_array(): Argument #2 ($haystack) must be of type array, string given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 56.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(56): in_array([...], 'png')
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(35): App\Models\AjaxModel\AjaxPostModel->upload([...])
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(44): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 20:08:35 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 53.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 53)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(35): App\Models\AjaxModel\AjaxPostModel->uploadMedias(null, 'ipreve')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:33:23 --> Undefined array key "tmp_name"
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 55.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tmp_name"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 55)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(36): App\Models\AjaxModel\AjaxPostModel->uploadMedias([...], 'ipreve')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 20:34:43 --> Undefined array key "tmp_name"
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 36.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tmp_name"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 36)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:35:38 --> Cannot access offset of type string on string
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 59.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(36): App\Models\AjaxModel\AjaxPostModel->uploadMedias([...], 'ipreve')
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 17:42:37 --> Cannot access offset of type string on string
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 69.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(37): App\Models\AjaxModel\AjaxPostModel->uploadMedias([...], 'ipreve')
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 18:01:01 --> mkdir(): File exists
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 66)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(66): mkdir('../../../public/dynamic-page-content/ipreve/assets/uploads/img/posts/2023/12/', 511, true)
+ 3 APPPATH\Models\AjaxModel\AjaxPostModel.php(37): App\Models\AjaxModel\AjaxPostModel->uploadMedias([...], 'ipreve')
+ 4 APPPATH\Controllers\Ajax\AjaxPosts.php(45): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,16 @@
+CRITICAL - 2023-10-26 20:42:27 --> Undefined variable $photos
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 40.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $photos', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 40)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(29): App\Models\AjaxModel\AjaxPhotosModel->photos([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->photos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 20:45:17 --> Undefined variable $photos
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 40.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $photos', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 40)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(29): App\Models\AjaxModel\AjaxPhotosModel->photos([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->photos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

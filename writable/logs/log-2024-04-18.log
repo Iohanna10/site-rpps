@@ -1,0 +1,336 @@
+INFO - 2024-04-18 15:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 15:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 15:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 15:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 15:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 15:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 15:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 15:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 15:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 16:15:21 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxInstituteModel.php on line 27.
+ 1 APPPATH\Models\AjaxModel\AjaxInstituteModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxInstituteModel.php', 27)
+ 2 APPPATH\Controllers\Registrations\RegistrationsPgs.php(104): App\Models\AjaxModel\AjaxInstituteModel->getActuarialData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->actuarialManagement()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 16:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 16:16:53 --> Undefined array key "data"
+in APPPATH\Models\AjaxModel\AjaxInstituteModel.php on line 31.
+ 1 APPPATH\Models\AjaxModel\AjaxInstituteModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxInstituteModel.php', 31)
+ 2 APPPATH\Controllers\Registrations\RegistrationsPgs.php(104): App\Models\AjaxModel\AjaxInstituteModel->getActuarialData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->actuarialManagement()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 16:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-18 16:22:55 --> mysqli_sql_exception: Unknown column 'id_institute' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome FRO...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome FRO...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome FRO...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome FRO...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxInstituteModel.php(28): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Registrations\RegistrationsPgs.php(104): App\Models\AjaxModel\AjaxInstituteModel->getActuarialData('1')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->actuarialManagement()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-18 16:22:55 --> Unknown column 'id_institute' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome FROM relatorio_e_crps WHERE id_institute = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome FROM relatorio_e_crps WHERE id_institute = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome FROM relatorio_e_crps WHERE id_institute = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome FROM relatorio_e_crps WHERE id_institute = :institute:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxInstituteModel.php(28): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Registrations\RegistrationsPgs.php(104): App\Models\AjaxModel\AjaxInstituteModel->getActuarialData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->actuarialManagement()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 16:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 16:24:24 --> Undefined array key "data"
+in APPPATH\Models\AjaxModel\AjaxInstituteModel.php on line 31.
+ 1 APPPATH\Models\AjaxModel\AjaxInstituteModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxInstituteModel.php', 31)
+ 2 APPPATH\Controllers\Registrations\RegistrationsPgs.php(104): App\Models\AjaxModel\AjaxInstituteModel->getActuarialData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->actuarialManagement()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 16:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 16:30:02 --> Undefined array key "name"
+in APPPATH\Views\contents\template-1\registration-pages\actuarial-management.php on line 59.
+ 1 APPPATH\Views\contents\template-1\registration-pages\actuarial-management.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\registration-pages\\actuarial-management.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\registration-pages\\actuarial-management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/registration-pages/actuarial-management', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(110): view('contents/template-1/registration-pages/actuarial-management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->actuarialManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 16:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 16:30:43 --> Undefined array key "name"
+in APPPATH\Views\contents\template-1\registration-pages\actuarial-management.php on line 59.
+ 1 APPPATH\Views\contents\template-1\registration-pages\actuarial-management.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\registration-pages\\actuarial-management.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\registration-pages\\actuarial-management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/registration-pages/actuarial-management', [], true)
+ 5 APPPATH\Controllers\Registrations\RegistrationsPgs.php(110): view('contents/template-1/registration-pages/actuarial-management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrations\RegistrationsPgs->actuarialManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrations\RegistrationsPgs))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 16:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-18 17:51:38 --> mysqli_sql_exception: Table 'teste_dados_instituto.institute' doesn't exist in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxActuarialModel.php(24): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxActuarial.php(27): App\Models\AjaxModel\AjaxActuarialModel->updateInfos(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->changeHypotheses()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-18 17:51:38 --> Table 'teste_dados_instituto.institute' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institute SET calc_atuarial = \'<p>Hipóteses ainda não listadas.</p>\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institute SET calc_atuarial = \'<p>Hipóteses ainda não listadas.</p>\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institute SET calc_atuarial = \'<p>Hipóteses ainda não listadas.</p>\'')
+ 4 APPPATH\Models\AjaxModel\AjaxActuarialModel.php(24): CodeIgniter\Database\BaseConnection->query('UPDATE institute SET calc_atuarial = :hypotheses:', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxActuarial.php(27): App\Models\AjaxModel\AjaxActuarialModel->updateInfos([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->changeHypotheses()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 17:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-18 17:55:10 --> mysqli_sql_exception: Table 'teste_dados_instituto.institute' doesn't exist in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxActuarialModel.php(25): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxActuarial.php(27): App\Models\AjaxModel\AjaxActuarialModel->updateInfos(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->changeHypotheses()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-18 17:55:10 --> Table 'teste_dados_instituto.institute' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institute SET calc_atuarial = \'<p>Hipóteses ainda não listadas.</p>\' WHERE id_instituto = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institute SET calc_atuarial = \'<p>Hipóteses ainda não listadas.</p>\' WHERE id_instituto = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institute SET calc_atuarial = \'<p>Hipóteses ainda não listadas.</p>\' WHERE id_instituto = \'1\'')
+ 4 APPPATH\Models\AjaxModel\AjaxActuarialModel.php(25): CodeIgniter\Database\BaseConnection->query('UPDATE institute SET calc_atuarial = :hypotheses: WHERE id_instituto = :id:', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxActuarial.php(27): App\Models\AjaxModel\AjaxActuarialModel->updateInfos([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->changeHypotheses()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 17:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 17:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-18 18:00:42 --> mysqli_sql_exception: Unknown column 'id_instituto' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxActuarialModel.php(25): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxActuarial.php(27): App\Models\AjaxModel\AjaxActuarialModel->changeHypotheses(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->changeHypotheses()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-18 18:00:42 --> Unknown column 'id_instituto' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET calc_atuarial = \'<p>Hipóteses ainda não listadas.</p>\' WHERE id_instituto = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET calc_atuarial = \'<p>Hipóteses ainda não listadas.</p>\' WHERE id_instituto = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET calc_atuarial = \'<p>Hipóteses ainda não listadas.</p>\' WHERE id_instituto = \'1\'')
+ 4 APPPATH\Models\AjaxModel\AjaxActuarialModel.php(25): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET calc_atuarial = :hypotheses: WHERE id_instituto = :id:', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxActuarial.php(27): App\Models\AjaxModel\AjaxActuarialModel->changeHypotheses([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->changeHypotheses()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 18:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 18:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 19:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 19:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 19:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 19:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 19:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 19:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 16:39:35 --> Cannot access offset of type string on string
+in APPPATH\Models\AjaxModel\AjaxActuarialModel.php on line 39.
+ 1 APPPATH\Controllers\Ajax\AjaxActuarial.php(63): App\Models\AjaxModel\AjaxActuarialModel->insertReport('relatorio-2024-4.pdf', Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 16:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-18 16:46:13 --> Cannot access offset of type string on string
+in APPPATH\Models\AjaxModel\AjaxActuarialModel.php on line 39.
+ 1 APPPATH\Controllers\Ajax\AjaxActuarial.php(63): App\Models\AjaxModel\AjaxActuarialModel->insertReport('relatorio-2024-4.pdf', Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-18 16:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 16:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 20:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 20:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 20:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 20:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 20:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 20:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 20:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 20:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-18 20:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-18 20:40:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM rel...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM rel...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM rel...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxActuarialModel.php(63): CodeIgniter\Database\BaseConnection->query('DELETE FROM rel...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxActuarial.php(96): App\Models\AjaxModel\AjaxActuarialModel->removeReport(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->removeReport()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-18 20:40:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM relatorio_e_crps WHERE id = \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM relatorio_e_crps WHERE id = \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM relatorio_e_crps WHERE id = \'1\')')
+ 4 APPPATH\Models\AjaxModel\AjaxActuarialModel.php(63): CodeIgniter\Database\BaseConnection->query('DELETE FROM relatorio_e_crps WHERE id = :id_report:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxActuarial.php(96): App\Models\AjaxModel\AjaxActuarialModel->removeReport([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->removeReport()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-18 20:41:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM rel...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM rel...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM rel...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxActuarialModel.php(63): CodeIgniter\Database\BaseConnection->query('DELETE FROM rel...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxActuarial.php(96): App\Models\AjaxModel\AjaxActuarialModel->removeReport(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->removeReport()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-18 20:41:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM relatorio_e_crps WHERE id = \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM relatorio_e_crps WHERE id = \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM relatorio_e_crps WHERE id = \'1\')')
+ 4 APPPATH\Models\AjaxModel\AjaxActuarialModel.php(63): CodeIgniter\Database\BaseConnection->query('DELETE FROM relatorio_e_crps WHERE id = :id_report:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxActuarial.php(96): App\Models\AjaxModel\AjaxActuarialModel->removeReport([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->removeReport()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-18 20:42:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM rel...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM rel...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM rel...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxActuarialModel.php(63): CodeIgniter\Database\BaseConnection->query('DELETE FROM rel...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxActuarial.php(96): App\Models\AjaxModel\AjaxActuarialModel->removeReport(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->removeReport()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-18 20:42:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM relatorio_e_crps WHERE id = \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM relatorio_e_crps WHERE id = \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM relatorio_e_crps WHERE id = \'1\')')
+ 4 APPPATH\Models\AjaxModel\AjaxActuarialModel.php(63): CodeIgniter\Database\BaseConnection->query('DELETE FROM relatorio_e_crps WHERE id = :id_report:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxActuarial.php(96): App\Models\AjaxModel\AjaxActuarialModel->removeReport([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->removeReport()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-18 20:44:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM rel...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM rel...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM rel...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxActuarialModel.php(62): CodeIgniter\Database\BaseConnection->query('DELETE FROM rel...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxActuarial.php(96): App\Models\AjaxModel\AjaxActuarialModel->removeReport(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->removeReport()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-18 20:44:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM relatorio_e_crps WHERE id = \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM relatorio_e_crps WHERE id = \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM relatorio_e_crps WHERE id = \'1\')')
+ 4 APPPATH\Models\AjaxModel\AjaxActuarialModel.php(62): CodeIgniter\Database\BaseConnection->query('DELETE FROM relatorio_e_crps WHERE id = :id_report:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxActuarial.php(96): App\Models\AjaxModel\AjaxActuarialModel->removeReport([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxActuarial->removeReport()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxActuarial))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

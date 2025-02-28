@@ -1,0 +1,306 @@
+CRITICAL - 2023-11-29 14:26:28 --> strpos() expects at least 2 arguments, 1 given
+in FCPATH\functions\checks\checkFiles.php on line 20.
+ 1 FCPATH\functions\checks\checkFiles.php(20): strpos('https://youtu.be/aLjGTFfzF-Y?si=sx2ANuivssbEBAqo')
+ 2 APPPATH\Views\contents\template-1\home-page\main\sections\slide-news.php(73): checkFiles('https://youtu.be/aLjGTFfzF-Y?si=sx2ANuivssbEBAqo', '2023/10')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\slide-news.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/slide-news', [], true)
+ 6 APPPATH\Controllers\Home.php(45): view('contents/template-1/home-page/main/sections/slide-news', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 14:29:18 --> Undefined variable $nameVideo
+in FCPATH\functions\checks\checkFiles.php on line 20.
+ 1 FCPATH\functions\checks\checkFiles.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nameVideo', 'C:\\xampp\\htdocs\\RPPS\\public\\functions\\checks\\checkFiles.php', 20)
+ 2 APPPATH\Views\contents\template-1\home-page\main\sections\slide-news.php(73): checkFiles('https://youtu.be/aLjGTFfzF-Y?si=sx2ANuivssbEBAqo', '2023/10')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\slide-news.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/slide-news', [], true)
+ 6 APPPATH\Controllers\Home.php(45): view('contents/template-1/home-page/main/sections/slide-news', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 14:56:24 --> Class "App\Controllers\Comments" not found
+in APPPATH\Controllers\Home.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 14:56:38 --> Call to undefined method App\Models\Home\Comments::allComments
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Model->__call('allComments', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 14:57:04 --> Attempt to read property "id_beneficiado" on array
+in APPPATH\Models\Home\Comments.php on line 26.
+ 1 APPPATH\Models\Home\Comments.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_beneficiado" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Comments.php', 26)
+ 2 APPPATH\Controllers\Home.php(64): App\Models\Home\Comments->comments([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 15:13:43 --> Undefined property: stdClass::$id_beneficiario
+in APPPATH\Models\Home\Comments.php on line 43.
+ 1 APPPATH\Models\Home\Comments.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_beneficiario', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Comments.php', 43)
+ 2 APPPATH\Models\Home\Comments.php(26): App\Models\Home\Comments->beneficiaryData([...], [...])
+ 3 APPPATH\Controllers\Home.php(64): App\Models\Home\Comments->comments([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 16:07:04 --> Unsupported operand types: int + string
+in APPPATH\Views\contents\template-1\home-page\main\sections\comments.php on line 41.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\comments.php(28): evaluationNote(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\comments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/comments', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('contents/template-1/home-page/main/sections/comments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 16:10:11 --> count(): Argument #1 ($value) must be of type Countable|array, int given
+in APPPATH\Views\contents\template-1\home-page\main\sections\comments.php on line 47.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\comments.php(28): evaluationNote(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\comments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/comments', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('contents/template-1/home-page/main/sections/comments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 16:45:07 --> Unsupported operand types: string * int
+in APPPATH\Views\contents\template-1\home-page\main\sections\comments.php on line 59.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\comments.php(50): stars(8.666666666666666)
+ 2 APPPATH\Views\contents\template-1\home-page\main\sections\comments.php(28): evaluationNote(Object(stdClass))
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\comments.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/comments', [], true)
+ 6 APPPATH\Controllers\Home.php(65): view('contents/template-1/home-page/main/sections/comments', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 17:10:16 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\contents\template-1\home-page\main\sections\comments.php on line 32.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/comments', [], true)
+ 3 APPPATH\Controllers\Home.php(65): view('contents/template-1/home-page/main/sections/comments', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 17:12:26 --> Attempt to read property "nome" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\comments.php on line 32.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\comments.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\comments.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\comments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/comments', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('contents/template-1/home-page/main/sections/comments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 17:13:19 --> Attempt to read property "nome" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\comments.php on line 35.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\comments.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\comments.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\comments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/comments', [], true)
+ 5 APPPATH\Controllers\Home.php(65): view('contents/template-1/home-page/main/sections/comments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:25:00 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(53): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:27:15 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(53): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:27:22 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(53): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:29:14 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(63): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:30:59 --> Class "App\Controllers\InnerPages\Posts" not found
+in APPPATH\Controllers\InnerPages\Publications.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:58:58 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Legislation.php(27): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Legislation->constituicaoFederal()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Legislation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:59:44 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Legislation.php(27): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Legislation->constituicaoFederal()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Legislation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:59:46 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Legislation.php(52): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Legislation->instrucoesNormativasMps()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Legislation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:59:50 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Legislation.php(52): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Legislation->instrucoesNormativasMps()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Legislation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:59:56 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Legislation.php(127): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Legislation->portariasMps()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Legislation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 20:59:59 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Legislation.php(127): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Legislation->portariasMps()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Legislation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 21:00:06 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Accountability.php(29): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->audienciaPublica()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 21:00:18 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(36): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->comiteInvestimentos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 21:00:28 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(141): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->resolucoes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 21:00:51 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(141): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->resolucoes()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 21:01:08 --> Attempt to read property "imagem_principal" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 21.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagem_principal" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Accountability.php(54): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->balanceteAnual()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 21:31:45 --> Unsupported operand types: string + int
+in APPPATH\Models\InnerPages\Post.php on line 57.
+ 1 APPPATH\Models\InnerPages\Post.php(37): App\Models\InnerPages\Post->requireCategoryId([...])
+ 2 APPPATH\Controllers\InnerPages\Institute.php(164): App\Models\InnerPages\Post->requirePosts([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->processoSeletivo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-29 21:39:23 --> Unsupported operand types: string + string
+in APPPATH\Models\InnerPages\Post.php on line 57.
+ 1 APPPATH\Models\InnerPages\Post.php(37): App\Models\InnerPages\Post->requireCategoryId([...])
+ 2 APPPATH\Controllers\InnerPages\Institute.php(164): App\Models\InnerPages\Post->requirePosts([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->processoSeletivo()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

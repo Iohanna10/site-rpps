@@ -1,0 +1,204 @@
+
+.container-modal {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+
+    background-color: rgba(0, 0, 0, 0.442);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+} 
+
+.modal-events {
+    width: 100%;
+    height: 500px;
+    max-height: 100%;
+    position: absolute;
+    z-index: 5;
+    padding: 5px;
+    background-color: #f6fbf2;
+    display: none;
+
+    border: 2px solid #d5d4d4;
+    border-top: 5px solid var(--cor-secundaria);
+} 
+
+.modal-events .contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.modal-events .contents > div {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: auto;
+}
+
+.modal-events .contents > div > .await-infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+}
+
+.modal-events .contents > div > .await-infos h3 {
+    width: 80%;
+    height: 100%;
+    color: black;
+
+    text-align: center;
+    align-content: center;
+    margin: 0;
+}
+
+.modal-events .month-events {
+    border-right: 3px solid  #d5d4d4;
+}
+
+.modal-events h1 {
+    text-align: center;
+    color: var(--cor-primaria);
+    margin: 15px 0;
+    width: 80%;
+    align-self: center;
+    align-content: center;
+} 
+
+.modal-events .img-event {
+    display: flex;
+    justify-content: center;
+} 
+
+.modal-events .img-event > img {
+    max-width: 200px;
+    max-height: 120px;
+} 
+
+.modal-events ul {
+    list-style: none;
+    color: black;
+    height: 100%;
+    margin: 0;
+    margin: 10px;
+}
+
+.modal-events ul.infos {
+    background-color: transparent;
+}
+
+.modal-events ul li {
+    padding: 15px;
+    border-bottom: 1px solid #d5d4d4;
+    font-size: 1.4rem;
+    background-color: #242b3113;
+}
+
+.modal-events ul.list-events li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-events ul li > h3, .modal-events ul li > i {
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.modal-events ul li span {
+   font-weight: 600;
+   font-size: 1.45rem;
+}
+
+.modal-events ul.list-events li i {
+   align-self: center;
+}
+
+.modal-events ul.list-events li:hover {
+   background-color: #242b3113;
+   cursor: pointer;
+}
+
+.modal-events ul.list-events li:hover i {
+    color: var(--cor-secundaria);
+}
+
+button#close-modal {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    background-color: transparent;
+}
+
+button#close-modal span {
+    display: flex;
+    width: 20px;
+    height: 4px;
+    background-color: #242b31;
+    border-radius: 3px;
+}
+
+button#close-modal span.bar:nth-child(1) {
+    transform: translateY(0.5px) rotate(45deg);
+}
+
+button#close-modal span.bar:nth-child(2) {
+    transform: translateY(-4px) rotate(135deg);
+}
+
+@media (max-width: 780px) {
+
+    .modal-info, .modal-events {
+        width: var(--afastamento-lateral);
+    }
+
+    .modal-events .contents {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .modal-events .month-events {
+        border: none;
+        border-bottom: 1px solid var(--cor-primaria);
+    }
+}
+
+@media (max-width: 425px) {
+    .container-modal {
+        width: 100% !important;
+        margin: 10px;
+    }
+
+    .modal-info, .modal-events {
+        width: 100%;
+    }
+}

@@ -1,0 +1,92 @@
+.description_contents {
+    min-height: 0;
+    margin: 25px 0px;
+}
+.contents .container .description {
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    line-height: 2.2rem;
+}
+
+.contents .container .description .title {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.contents .container .description .title b {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contents .container .description table {
+    width: 100%;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.contents .container .description table tbody {
+    width: 100%;
+    background-color: transparent;
+}
+
+.contents .container .description table tr {
+    width: 100%;
+}
+
+.contents .container .description table td {
+    text-align: initial;
+    padding: 0;
+    vertical-align: text-top;
+    width: 100%;
+}
+
+.contents .container .description table td:not(:last-child) {
+    padding-right: 10px;
+    display: block;
+}
+
+.contents .container .description table td, .contents .container .descriptiontable table th, .contents .container .description table caption {
+    border: none;
+}
+
+.contents .container .description div a {
+   text-decoration: none;
+}
+
+.contents .container .description div.official-diary {
+    margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .contents .container .description {
+        padding: 10px;
+    }
+
+    
+    .contents .container .description table col {
+        width: 100%!important;
+    }
+
+    .contents .container .description table tbody {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contents .container .description table tbody tr {
+        width: 100%;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contents .container .description table td:not(:last-child) {
+        padding: 0;
+    }
+    
+}

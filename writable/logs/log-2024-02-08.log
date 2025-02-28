@@ -1,0 +1,242 @@
+INFO - 2024-02-08 14:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 14:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 15:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 15:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 18:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 18:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 15:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 15:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 15:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 15:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 15:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-08 15:39:51 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO ben...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ben...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ben...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO ben...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 15:39:51 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Vitória Stockler\', \'2024-2-08 00:00:00\', \'vitoriastockler@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_39.png\', \'$2y$10$QYkWBroCd13uvjbbwPbDPeN1odVCIA/UMr0MwbrRjEFju8dlCQzvm\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Vitória Stockler\', \'2024-2-08 00:00:00\', \'vitoriastockler@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_39.png\', \'$2y$10$QYkWBroCd13uvjbbwPbDPeN1odVCIA/UMr0MwbrRjEFju8dlCQzvm\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Vitória Stockler\', \'2024-2-08 00:00:00\', \'vitoriastockler@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_39.png\', \'$2y$10$QYkWBroCd13uvjbbwPbDPeN1odVCIA/UMr0MwbrRjEFju8dlCQzvm\')')
+ 4 APPPATH\Models\AjaxModel\AjaxUserModel.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO beneficiados VALUES(0, :institute:, :cpf:, :name:, :date:, :email:, :tel:, :img:, :password:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 15:41:57 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO ben...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ben...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ben...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO ben...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 15:41:57 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Vitoria Stockler\', \'2024-2-08 00:00:00\', \'vitoriastockler@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_41.png\', \'$2y$10$pgkhqRCTE8cJUHmTkuoFNOufcHNL.Ub119UJ6PVbkJTLV281HIK2O\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Vitoria Stockler\', \'2024-2-08 00:00:00\', \'vitoriastockler@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_41.png\', \'$2y$10$pgkhqRCTE8cJUHmTkuoFNOufcHNL.Ub119UJ6PVbkJTLV281HIK2O\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Vitoria Stockler\', \'2024-2-08 00:00:00\', \'vitoriastockler@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_41.png\', \'$2y$10$pgkhqRCTE8cJUHmTkuoFNOufcHNL.Ub119UJ6PVbkJTLV281HIK2O\')')
+ 4 APPPATH\Models\AjaxModel\AjaxUserModel.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO beneficiados VALUES(0, :institute:, :cpf:, :name:, :date:, :email:, :tel:, :img:, :password:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 15:43:38 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO ben...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ben...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ben...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO ben...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 15:43:38 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Vitoria Stockler\', \'2024-2-08 00:00:00\', \'vitoriastockler@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_43.png\', \'$2y$10$8JF4kgSztgenvoDL4tB/QODiAxFPiuwdNkuSrxHMt0iAzyEAfFmwq\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Vitoria Stockler\', \'2024-2-08 00:00:00\', \'vitoriastockler@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_43.png\', \'$2y$10$8JF4kgSztgenvoDL4tB/QODiAxFPiuwdNkuSrxHMt0iAzyEAfFmwq\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Vitoria Stockler\', \'2024-2-08 00:00:00\', \'vitoriastockler@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_43.png\', \'$2y$10$8JF4kgSztgenvoDL4tB/QODiAxFPiuwdNkuSrxHMt0iAzyEAfFmwq\')')
+ 4 APPPATH\Models\AjaxModel\AjaxUserModel.php(39): CodeIgniter\Database\BaseConnection->query('INSERT INTO beneficiados VALUES(0, :institute:, :cpf:, :name:, :date:, :email:, :tel:, :img:, :password:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 15:56:47 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO ben...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ben...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ben...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO ben...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 15:56:47 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Iohanna Louise\', \'2024-2-08 00:00:00\', \'iohannaarquivos@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_56.png\', \'$2y$10$z0e4Q626R4KIrmuLfwRS.esO0vU.MHVSD9.4FL7O7ybmvesTi9Ev6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Iohanna Louise\', \'2024-2-08 00:00:00\', \'iohannaarquivos@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_56.png\', \'$2y$10$z0e4Q626R4KIrmuLfwRS.esO0vU.MHVSD9.4FL7O7ybmvesTi9Ev6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Iohanna Louise\', \'2024-2-08 00:00:00\', \'iohannaarquivos@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_56.png\', \'$2y$10$z0e4Q626R4KIrmuLfwRS.esO0vU.MHVSD9.4FL7O7ybmvesTi9Ev6\')')
+ 4 APPPATH\Models\AjaxModel\AjaxUserModel.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO beneficiados VALUES(0, :institute:, :cpf:, :name:, :date:, :email:, :tel:, :img:, :password:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-08 15:57:13 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO ben...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ben...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ben...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO ben...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 15:57:13 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Iohanna Louise\', \'2024-2-08 00:00:00\', \'iohannaarquivos@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_57.png\', \'$2y$10$4KsxzGED7eC9Y7UrBaHIdOkDmzPItdyAF084YTdMkLPkQR32Rw79e\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Iohanna Louise\', \'2024-2-08 00:00:00\', \'iohannaarquivos@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_57.png\', \'$2y$10$4KsxzGED7eC9Y7UrBaHIdOkDmzPItdyAF084YTdMkLPkQR32Rw79e\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO beneficiados VALUES(0, \'1\', \'675.830.730-14\', \'Iohanna Louise\', \'2024-2-08 00:00:00\', \'iohannaarquivos@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_57.png\', \'$2y$10$4KsxzGED7eC9Y7UrBaHIdOkDmzPItdyAF084YTdMkLPkQR32Rw79e\')')
+ 4 APPPATH\Models\AjaxModel\AjaxUserModel.php(40): CodeIgniter\Database\BaseConnection->query('INSERT INTO beneficiados VALUES(0, :institute:, :cpf:, :name:, :date:, :email:, :tel:, :img:, :password:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-08 16:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 19:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 16:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 16:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 16:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-08 16:39:41 --> mysqli_sql_exception: Duplicate entry '583.115.760-17' for key 'cpf' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO ben...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ben...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ben...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO ben...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-08 16:39:41 --> Duplicate entry '583.115.760-17' for key 'cpf'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO beneficiados VALUES(0, \'1\', \'583.115.760-17\', \'Vitório Sasso\', \'2024-2-08 00:00:00\', \'vitoriasasso@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_39.png\', \'$2y$10$bE.X1qrBDW2lek9oDVobIOCJzBO5kMN5.a70rITJtWFTRCEj9Uacu\', null)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO beneficiados VALUES(0, \'1\', \'583.115.760-17\', \'Vitório Sasso\', \'2024-2-08 00:00:00\', \'vitoriasasso@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_39.png\', \'$2y$10$bE.X1qrBDW2lek9oDVobIOCJzBO5kMN5.a70rITJtWFTRCEj9Uacu\', null)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO beneficiados VALUES(0, \'1\', \'583.115.760-17\', \'Vitório Sasso\', \'2024-2-08 00:00:00\', \'vitoriasasso@gmail.com\', \'47991361039\', \'f7acb86b7c_2024_2_39.png\', \'$2y$10$bE.X1qrBDW2lek9oDVobIOCJzBO5kMN5.a70rITJtWFTRCEj9Uacu\', null)')
+ 4 APPPATH\Models\AjaxModel\AjaxUserModel.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO beneficiados VALUES(0, :institute:, :cpf:, :name:, :date:, :email:, :tel:, :img:, :password:, null)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxUser.php(41): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-08 16:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-08 19:46:00 --> Undefined array key 0
+in APPPATH\Models\Session\SessionUserModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(88): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 19:47:32 --> Undefined array key 0
+in APPPATH\Models\Session\SessionUserModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(88): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-08 16:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 19:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 19:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 19:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 17:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-08 20:00:34 --> Undefined array key 0
+in APPPATH\Models\Session\SessionUserModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(93): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-08 20:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-08 20:05:53 --> Undefined array key 0
+in APPPATH\Models\Session\SessionUserModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(93): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-08 20:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-08 20:26:10 --> Undefined array key 0
+in APPPATH\Models\Session\SessionUserModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(95): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-08 20:29:40 --> Undefined array key 0
+in APPPATH\Models\Session\SessionUserModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(94): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-08 20:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 20:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-08 21:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

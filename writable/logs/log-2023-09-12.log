@@ -1,0 +1,457 @@
+CRITICAL - 2023-09-12 16:17:37 --> Invalid file: "contents/institute/dynamic-content/section/post.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-content/section/post.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/section/post.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(97): view('contents/institute/dynamic-content/section/post.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 16:20:11 --> include(contents/institute/dynamic-content/sections/post.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php on line 30.
+ 1 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(contents/institute/dynamic-content/sections/post.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php', 30)
+ 2 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/contests.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(96): view('contents/institute/dynamic-content/public-tender/contests.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 16:21:00 --> include(App/Views/contents/institute/dynamic-content/sections/post.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php on line 30.
+ 1 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(App/Views/contents/institute/dynamic-content/sections/post.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php', 30)
+ 2 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/contests.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(96): view('contents/institute/dynamic-content/public-tender/contests.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 16:23:18 --> include(App\Views\contents\institute\dynamic-content\sections\post.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php on line 30.
+ 1 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(App\\Views\\contents\\institute\\dynamic-content\\sections\\post.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php', 30)
+ 2 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/contests.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(96): view('contents/institute/dynamic-content/public-tender/contests.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 16:23:19 --> include(App\Views\contents\institute\dynamic-content\sections\post.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php on line 30.
+ 1 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(App\\Views\\contents\\institute\\dynamic-content\\sections\\post.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php', 30)
+ 2 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/contests.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(96): view('contents/institute/dynamic-content/public-tender/contests.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 16:23:19 --> include(App\Views\contents\institute\dynamic-content\sections\post.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php on line 30.
+ 1 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(App\\Views\\contents\\institute\\dynamic-content\\sections\\post.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php', 30)
+ 2 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/contests.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(96): view('contents/institute/dynamic-content/public-tender/contests.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 16:23:26 --> include_once(App\Views\contents\institute\dynamic-content\sections\post.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php on line 30.
+ 1 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(App\\Views\\contents\\institute\\dynamic-content\\sections\\post.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php', 30)
+ 2 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): include_once()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/contests.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(96): view('contents/institute/dynamic-content/public-tender/contests.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 16:23:32 --> require(App\Views\contents\institute\dynamic-content\sections\post.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php on line 30.
+ 1 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(App\\Views\\contents\\institute\\dynamic-content\\sections\\post.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php', 30)
+ 2 APPPATH\Views\contents\institute\dynamic-content\public-tender\contests.php(30): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\public-tender\\contests.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/contests.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(96): view('contents/institute/dynamic-content/public-tender/contests.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 17:03:13 --> Invalid file: "contents/institute/dynamic-content/public-tender/contests.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-content/public-tender/contests.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/public-tender/contests.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(96): view('contents/institute/dynamic-content/public-tender/contests.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 17:06:53 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\contents\institute\dynamic-content\post.php on line 4.
+ 1 APPPATH\Views\contents\institute\dynamic-content\post.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\post.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/post.php', [], true)
+ 5 APPPATH\Controllers\Institute.php(96): view('contents/institute/dynamic-content/post.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 17:45:32 --> Class "App\Models\Contest_model" not found
+in APPPATH\Controllers\Institute.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 17:50:31 --> Class "App\Models\Institute\Publictender\Contests\Contest_model" not found
+in APPPATH\Controllers\Institute.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 17:55:41 --> Class "App\Controllers\Contest_model" not found
+in APPPATH\Controllers\Institute.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:10:11 --> Class "App\Models\Posts" not found
+in APPPATH\Controllers\Institute.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:20:43 --> Class "App\Models\Posts" not found
+in APPPATH\Controllers\Institute.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:24:35 --> Class "App\Models\Posts" not found
+in APPPATH\Controllers\Institute.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:25:03 --> Class "App\Models\Posts" not found
+in APPPATH\Controllers\Institute.php on line 102.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:44:44 --> Invalid file: "contents/institute/dynamic-content/principles.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-content/principles.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/principles.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(44): view('contents/institute/dynamic-content/principles.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->principios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:50:13 --> Invalid file: "contents/institute/dynamic-content/social-security-education.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-content/social-security-education.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/social-security-education.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(158): view('contents/institute/dynamic-content/social-security-education.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->educacaoPrevidenciaria()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:52:37 --> Invalid file: "contents/institute/dynamic-content/action-plan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-content/action-plan.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/action-plan.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(183): view('contents/institute/dynamic-content/action-plan.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->planoDeAcao()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:54:06 --> Invalid file: "contents/institute/dynamic-content/internal-management-and-control.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-content/internal-management-and-control.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/internal-management-and-control.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(207): view('contents/institute/dynamic-content/internal-management-and-control.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->gestaoEControleInterno()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:56:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(209): CodeIgniter\Model->__call('searchPosts', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->gestaoEControleInterno()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:02:19 --> Invalid file: "contents/institute/dynamic-content/collection-manual.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-content/collection-manual.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/collection-manual.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(282): view('contents/institute/dynamic-content/collection-manual.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->manualDeArrecadacao()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:08:32 --> Undefined variable $titulo
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 16.
+ 1 APPPATH\Views\contents\institute\dynamic-header\header-links.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 5 APPPATH\Controllers\Institute.php(69): view('contents/institute/dynamic-header/header-links.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->codigoDeEtica()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:10:36 --> Invalid file: "contents/institute/dynamic-content/code-of-ethics.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-content/code-of-ethics.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/code-of-ethics.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(70): view('contents/institute/dynamic-content/code-of-ethics.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->codigoDeEtica()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:22:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(72): CodeIgniter\Model->__call('searchPostsCodeOfEthics', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->codigoDeEtica()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:24:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(72): CodeIgniter\Model->__call('searchPostsCodeOfEthics', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->codigoDeEtica()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:25:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(22): CodeIgniter\Model->__call('searchPosts', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:27:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(22): CodeIgniter\Model->__call('searchPosts', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:27:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(22): CodeIgniter\Model->__call('searchPosts', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:27:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(22): CodeIgniter\Model->__call('searchPosts', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:27:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(22): CodeIgniter\Model->__call('searchPosts', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:29:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(22): CodeIgniter\Model->__call('searchPosts', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:30:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(22): CodeIgniter\Model->__call('searchPosts', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:31:18 --> Class "App\Controllers\Posts" not found
+in APPPATH\Controllers\Institute.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:33:28 --> Undefined variable $rota
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 9.
+ 1 APPPATH\Views\contents\institute\dynamic-header\header-links.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rota', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 5 APPPATH\Controllers\Institute.php(43): view('contents/institute/dynamic-header/header-links.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->principios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:33:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(72): CodeIgniter\Model->__call('searchPostsCodeOfEthics', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->codigoDeEtica()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:33:39 --> Undefined variable $rota
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 9.
+ 1 APPPATH\Views\contents\institute\dynamic-header\header-links.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rota', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 5 APPPATH\Controllers\Institute.php(114): view('contents/institute/dynamic-header/header-links.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:42:58 --> Invalid file: "contents/institute/dynamic-content/priciples.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-content/priciples.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/priciples.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(52): view('contents/institute/dynamic-content/priciples.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->principios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:48:07 --> Undefined array key 8
+in APPPATH\Views\contents\institute\dynamic-content\team.php on line 16.
+ 1 APPPATH\Views\contents\institute\dynamic-content\team.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 8', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\team.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\team.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/team.php', [], true)
+ 5 APPPATH\Controllers\Institute.php(105): view('contents/institute/dynamic-content/team.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->equipe()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:50:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(102): CodeIgniter\Model->__call('team', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->equipe()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:51:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Institute.php(76): CodeIgniter\Model->__call('searchPostsCodeOfEthics', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->codigoDeEtica()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:54:52 --> Invalid file: "contents/institute/dynamic-content/posts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-content/posts.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/posts.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(79): view('contents/institute/dynamic-content/posts.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->codigoDeEtica()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:55:32 --> require(config/routes/institute/codigo-de-etica/codigo-de-etica.php): Failed to open stream: No such file or directory
+in APPPATH\Views\contents\institute\dynamic-content\post.php on line 20.
+ 1 APPPATH\Views\contents\institute\dynamic-content\post.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(config/routes/institute/codigo-de-etica/codigo-de-etica.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\post.php', 20)
+ 2 APPPATH\Views\contents\institute\dynamic-content\post.php(20): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-content\\post.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-content/post.php', [], true)
+ 6 APPPATH\Controllers\Institute.php(79): view('contents/institute/dynamic-content/post.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->codigoDeEtica()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:56:52 --> Undefined variable $rota
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 9.
+ 1 APPPATH\Views\contents\institute\dynamic-header\header-links.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rota', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 5 APPPATH\Controllers\Institute.php(125): view('contents/institute/dynamic-header/header-links.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:57:18 --> Undefined variable $rota
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 9.
+ 1 APPPATH\Views\contents\institute\dynamic-header\header-links.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rota', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 5 APPPATH\Controllers\Institute.php(125): view('contents/institute/dynamic-header/header-links.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->concursos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:58:06 --> Undefined variable $rota
+in APPPATH\Views\contents\institute\dynamic-header\header-links.php on line 9.
+ 1 APPPATH\Views\contents\institute\dynamic-header\header-links.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rota', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\institute\\dynamic-header\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 5 APPPATH\Controllers\Institute.php(151): view('contents/institute/dynamic-header/header-links.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 21:00:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Legislation.php(154): CodeIgniter\Model->__call('searchPostsHistoric', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Legislation->resolucoesCmn()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Legislation))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 21:09:44 --> Invalid file: "contents/institute/dynamic-header/header-links.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-header/header-links.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/header-links.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(22): view('contents/institute/dynamic-header/header-links.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

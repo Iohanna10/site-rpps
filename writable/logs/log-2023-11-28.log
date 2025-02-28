@@ -1,0 +1,142 @@
+CRITICAL - 2023-11-28 13:32:21 --> Attempt to read property "ativos" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\infos.php on line 16.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\infos.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ativos" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/infos', [], true)
+ 5 APPPATH\Controllers\Home.php(69): view('contents/template-1/home-page/main/sections/infos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 13:34:18 --> Attempt to read property "ativos" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\infos.php on line 25.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\infos.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ativos" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/infos', [], true)
+ 5 APPPATH\Controllers\Home.php(69): view('contents/template-1/home-page/main/sections/infos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 13:35:32 --> Attempt to read property "ativos" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\infos.php on line 25.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\infos.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ativos" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/infos', [], true)
+ 5 APPPATH\Controllers\Home.php(69): view('contents/template-1/home-page/main/sections/infos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 13:36:35 --> Attempt to read property "ativos" on array
+in APPPATH\Views\contents\template-1\home-page\main\sections\infos.php on line 27.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\infos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ativos" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\infos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/infos', [], true)
+ 5 APPPATH\Controllers\Home.php(69): view('contents/template-1/home-page/main/sections/infos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 13:49:01 --> mysqli_sql_exception: Table 'teste_dados_instituto.institute' doesn't exist in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Home\Infos.php(22): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(68): App\Models\Home\Infos->instituteInfos(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-28 13:49:01 --> Table 'teste_dados_instituto.institute' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM institute 
+            WHERE id_instituto = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM institute 
+            WHERE id_instituto = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM institute 
+            WHERE id_instituto = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM institute 
+            WHERE id_instituto = ?', [...])
+ 5 APPPATH\Models\Home\Infos.php(22): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Home.php(68): App\Models\Home\Infos->instituteInfos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-28 13:50:13 --> mysqli_sql_exception: Unknown column 'id_instituto' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Home\Infos.php(22): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(68): App\Models\Home\Infos->instituteInfos(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-28 13:50:13 --> Unknown column 'id_instituto' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto
+            WHERE id_instituto = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto
+            WHERE id_instituto = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto
+            WHERE id_instituto = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto
+            WHERE id_instituto = ?', [...])
+ 5 APPPATH\Models\Home\Infos.php(22): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Home.php(68): App\Models\Home\Infos->instituteInfos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 18:03:53 --> Undefined variable $photos
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 41.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $photos', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 41)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(29): App\Models\AjaxModel\AjaxPhotosModel->photos([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->photos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 18:05:04 --> Undefined variable $photos
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 41.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $photos', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 41)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(29): App\Models\AjaxModel\AjaxPhotosModel->photos([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->photos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-28 21:56:32 --> Undefined variable $info
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 67)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,383 @@
+CRITICAL - 2024-01-17 18:54:54 --> Undefined array key "instituto"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 24.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 24)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 18:55:30 --> Undefined array key "instituto"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 24.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 24)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 18:56:03 --> Undefined array key "instituto"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 24.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 24)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 18:56:39 --> Undefined array key "instituto"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 24.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 24)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 18:58:40 --> Undefined array key "instituto"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 24.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 24)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 18:58:46 --> Undefined array key "instituto"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 24.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 24)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 18:58:55 --> Undefined array key "instituto"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 24.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 24)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 15:59:53 --> Undefined array key "img"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 30.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 30)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 16:00:08 --> Call to a member function getPost() on null
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 31.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 16:00:18 --> Call to a member function getPost() on null
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 31.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 16:02:22 --> Undefined array key "img"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 30.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 30)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 16:08:25 --> Undefined array key "img"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 30.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 30)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 16:31:27 --> Undefined array key "img"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 30.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 30)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 16:49:03 --> Undefined array key "tel"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 59.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tel"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 59)
+ 2 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 16:50:07 --> Undefined array key "tel"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 61.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tel"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 61)
+ 2 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 16:51:13 --> Undefined array key "tel"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 61.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tel"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 61)
+ 2 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 16:55:14 --> Undefined array key "tel"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 61.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tel"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 61)
+ 2 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 16:57:12 --> Undefined array key "tel"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 61.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tel"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 61)
+ 2 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-17 16:58:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        OR email = ?
+        OR telefone = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(64): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-17 16:58:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        OR email = ?
+        OR telefone = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM benefiarios 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM benefiarios 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM benefiarios 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM benefiarios 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(64): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-17 16:58:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        OR email = ?
+        OR telefone = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(64): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-17 16:58:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        OR email = ?
+        OR telefone = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM beneficiarios 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM beneficiarios 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM beneficiarios 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM beneficiarios 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(64): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-17 17:01:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        OR email = ?
+        OR telefone = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(64): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-17 17:01:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        OR email = ?
+        OR telefone = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM beneficiados 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM beneficiados 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM beneficiados 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM beneficiados 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(64): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-17 17:01:38 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        OR email = ?
+        OR telefone = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(64): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-17 17:01:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+        OR email = ?
+        OR telefone = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM beneficiados 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM beneficiados 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM beneficiados 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM beneficiados 
+        WHERE cpf = ? 
+        OR email = ?
+        OR telefone = ?', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(64): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 17:17:16 --> array_push(): Argument #1 ($array) cannot be passed by reference
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 65.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 17:22:20 --> array_push(): Argument #1 ($array) cannot be passed by reference
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 17:23:10 --> array_push(): Argument #1 ($array) cannot be passed by reference
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 67.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 17:23:40 --> array_push(): Argument #1 ($array) cannot be passed by reference
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 68.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(34): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(33): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

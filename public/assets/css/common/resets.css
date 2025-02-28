@@ -1,0 +1,40 @@
+/* /// CONFIG INICIAL /// */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* cada rem equivale a 10px */
+    font-size: 62.5%;
+    font-family: 'Lexend Deca', sans-serif;
+    overflow-x: inherit;
+}
+
+html, body {
+    min-height: 100vh;
+    overflow-x: inherit;
+
+    /* scroll da página */
+    scroll-behavior: smooth;
+
+    transition: .5s;
+}
+/* /// /// */
+
+/* /// HEADER: BACKGROUND E POSICIONAMENTO /// */
+header {
+    min-height: 8rem;
+}
+/* /// /// */
+
+.max-width-container {
+    max-width: 1440px!important;
+}
+
+@media (max-width: 210px) { 
+    .max-width-container {
+        word-break: break-all!important;
+    }
+}

@@ -1,0 +1,222 @@
+.contents {
+    align-items: center;
+}
+
+.contents .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contents .container .list-posts {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contents .container .posts {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 10px;
+}
+
+.contents .container .posts .post {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    
+    padding: 10px;
+
+    background-color: white;
+    border-radius: 5px;
+}
+
+.contents .container .posts .post .post-header {
+    max-height: 150px;
+    width: 100%;
+}
+
+.contents .container .posts .post .post-header .post-img {
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents .container .posts .post .post-header img {
+    width: auto;
+    height: auto;
+
+    max-height: 150px;
+    max-width: 100%;
+}
+
+.contents .container .posts .post .post-main {
+    /* max-height: 300px;
+    min-height: 150px; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contents .container .posts .post .post-main .title {
+    max-height: 50%;
+}
+
+.contents .container .posts .post .post-main .title h1 {
+    font-size: 1.5rem;
+}
+
+.contents .container .posts .post .post-main .excerpt p {
+    font-size: 1.4rem;
+}
+
+.contents .container .posts .post .post-footer {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.contents .container .posts .post .post-footer a {
+    text-decoration: none;
+}
+
+.contents .container .posts .post .post-footer a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.contents .container .posts .post .post-footer .button-love a {
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 2.5px;
+
+    color: var(--cor-secundaria);
+
+    cursor: pointer;
+}
+
+.contents .container .posts .post .post-footer .button-love a:hover i {
+    display: none;
+}
+
+.contents .container .posts .post .post-footer .button-love a:hover i:nth-child(2) {
+    display: block;
+}
+
+.contents .container .posts .post .post-footer .button-love a i.not-rated {
+    display: none;   
+}
+
+.contents .container .posts .post .post-footer .read-more {
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 5px;
+    border-left: 1px solid #00000042;
+    padding-left: 15px;
+}
+
+.contents .container .posts .post .post-footer .read-more i {
+    font-size: 1.2rem;
+}
+
+.container-filters {
+    border-radius: 5px;
+
+    overflow: hidden;
+
+    margin: 0 10px;
+}
+
+.toggle-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+
+    padding: 20px;
+
+    cursor: pointer;
+}
+
+.toggle-filter i, .toggle-filter h1 {
+   height: auto;
+   font-size: 1.8rem;
+}
+
+.filters {
+    height: 0px;
+    overflow: hidden;
+
+    transition: .5s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgba(255, 255, 255, 0.691);
+}
+
+#form-filter {
+    height: auto;
+    width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 20px;
+}
+
+.filters.active {
+    height: 150px;
+}
+
+.filters .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+@media(max-width: 768px){
+    .filters .two-inputs {
+        flex-direction: column;
+    }
+
+    .filters.active {
+        height: 270px;
+    }
+
+    .contents .container > .full-post {
+        padding: 15px;
+    }
+}
+
+@media(max-width: 320px){
+    .contents .container .posts {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}

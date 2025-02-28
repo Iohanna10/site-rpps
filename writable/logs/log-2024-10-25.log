@@ -1,0 +1,102 @@
+CRITICAL - 2024-10-25 16:08:22 --> Undefined variable $allPosts
+in APPPATH\Views\crons\delete_unused_files.php on line 40.
+ 1 APPPATH\Views\crons\delete_unused_files.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allPosts', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crons/delete_unused_files', [], true)
+ 5 APPPATH\Controllers\Crons.php(14): view('crons/delete_unused_files', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-25 16:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-25 16:28:59 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 501.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(501): preg_replace('/@institute@/', 'Iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(60): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(28): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-25 16:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-25 16:29:05 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 501.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(501): preg_replace('/@institute@/', 'Iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(60): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(28): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-25 16:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-25 16:29:14 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 501.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(501): preg_replace('/@institute@/', 'Iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(60): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(28): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-25 16:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-25 16:29:31 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 501.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(501): preg_replace('/@institute@/', 'Iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(60): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(28): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-25 16:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-25 16:29:38 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 501.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(501): preg_replace('/@institute@/', 'Iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(60): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(28): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-25 16:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 16:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

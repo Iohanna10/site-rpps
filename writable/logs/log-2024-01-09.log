@@ -1,0 +1,505 @@
+CRITICAL - 2024-01-09 16:41:05 --> Undefined variable $path
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 46.
+ 1 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $path', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 5 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 16:44:17 --> Maximum execution time of 120 seconds exceeded
+in FCPATH\config\content-config.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-09 16:44:28 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-09 16:48:31 --> scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 49)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(49): scandir('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 6 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 16:52:06 --> scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 49)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(49): scandir('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 6 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 16:52:09 --> scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 49)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(49): scandir('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 6 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 16:52:22 --> Undefined variable $arrayPath
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 62.
+ 1 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayPath', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 62)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(51): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf', true)
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 6 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 17:02:23 --> Undefined variable $path
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 71.
+ 1 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $path', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 71)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(89): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/posts/2023/12')
+ 3 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(89): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/posts/2023/12')
+ 4 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(50): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/posts/2023')
+ 5 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 8 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 17:04:54 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 71.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 3 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 14:40:53 --> mkdir(): File exists
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 92.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 92)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(92): mkdir('././././dynamic-page-content/ipreve/assets/uploads/video/posts/2024/1/', 493, true)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-09 19:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-09 19:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-09 19:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-09 19:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-09 19:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-09 19:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-09 19:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-09 19:26:29 --> Undefined array key "password"
+in APPPATH\Controllers\Session.php on line 38.
+ 1 APPPATH\Controllers\Session.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-09 19:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-09 19:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-09 19:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-09 19:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-09 19:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-09 20:24:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionUserModel.php(13): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->login()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 20:24:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?', [...])
+ 5 APPPATH\Models\Session\SessionUserModel.php(13): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 20:25:58 --> Undefined array key "identity"
+in APPPATH\Models\Session\SessionUserModel.php on line 14.
+ 1 APPPATH\Models\Session\SessionUserModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "identity"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 14)
+ 2 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 20:27:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionUserModel.php(20): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->login()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 20:27:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?', [...])
+ 5 APPPATH\Models\Session\SessionUserModel.php(20): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 20:34:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionUserModel.php(20): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->login()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 20:34:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?', [...])
+ 5 APPPATH\Models\Session\SessionUserModel.php(20): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 20:35:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionUserModel.php(20): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->login()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 20:35:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?', [...])
+ 5 APPPATH\Models\Session\SessionUserModel.php(20): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 20:35:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionUserModel.php(20): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->login()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 20:35:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? AND senha = ?', [...])
+ 5 APPPATH\Models\Session\SessionUserModel.php(20): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 20:36:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionUserModel.php(18): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->login()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 20:36:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?', [...])
+ 5 APPPATH\Models\Session\SessionUserModel.php(18): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 20:36:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionUserModel.php(18): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->login()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 20:36:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?', [...])
+ 5 APPPATH\Models\Session\SessionUserModel.php(18): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 20:37:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionUserModel.php(18): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->login()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 20:37:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND senha = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+        SELECT *
+        FROM beneficiados 
+        WHERE nome = ? AND senha = ?', [...])
+ 5 APPPATH\Models\Session\SessionUserModel.php(18): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 20:38:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+            AND senha = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionUserModel.php(18): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->login()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 20:38:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+            AND senha = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? 
+            AND senha = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? 
+            AND senha = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? 
+            AND senha = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? 
+            AND senha = ?', [...])
+ 5 APPPATH\Models\Session\SessionUserModel.php(18): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 20:40:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+            AND senha = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionUserModel.php(18): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->login()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-09 20:40:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? 
+            AND senha = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? 
+            AND senha = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? 
+            AND senha = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? 
+            AND senha = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM beneficiados 
+            WHERE nome = ? 
+            AND senha = ?', [...])
+ 5 APPPATH\Models\Session\SessionUserModel.php(18): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(30): App\Models\Session\SessionUserModel->getUserData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

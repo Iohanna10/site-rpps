@@ -1,0 +1,838 @@
+INFO - 2023-11-22 16:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-22 16:10:54 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 32.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-22 16:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-22 16:30:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 61.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-22 16:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-22 16:31:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 62.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-22 16:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-22 16:31:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 62.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-22 16:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-22 16:31:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InnerPages\Institute.php on line 62.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 16:32:35 --> Undefined variable $teste
+in APPPATH\Controllers\InnerPages\Institute.php on line 63.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $teste', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Institute.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 16:50:37 --> Undefined property: App\Controllers\Session::$http://
+in APPPATH\Controllers\Session.php on line 50.
+ 1 APPPATH\Controllers\Session.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Session::$http://', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php', 50)
+ 2 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute()
+ 3 APPPATH\Controllers\InnerPages\Institute.php(59): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 16:55:33 --> Request URI segment is out of range: "1"
+in SYSTEMPATH\HTTP\URI.php on line 549.
+ 1 SYSTEMPATH\HTTP\URI.php(549): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+ 2 APPPATH\Controllers\Session.php(50): CodeIgniter\HTTP\URI->getSegment(1)
+ 3 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute()
+ 4 APPPATH\Controllers\InnerPages\Institute.php(59): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 16:57:42 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 49.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute()
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 16:58:26 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 49.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute()
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 16:58:29 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 49.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute()
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:00:27 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 49.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute()
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:02:11 --> Call to a member function getSegment() on string
+in APPPATH\Controllers\Session.php on line 52.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute()
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 17:02:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', NULL)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(NULL)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-22 17:02:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', null)
+ 5 APPPATH\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:02:43 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 49.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute()
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:02:54 --> Call to a member function getUri() on null
+in APPPATH\Controllers\Session.php on line 49.
+ 1 APPPATH\Controllers\InnerPages\Institute.php(17): App\Controllers\Session->currentInstitute()
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 17:03:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', NULL)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(NULL)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-22 17:03:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', null)
+ 5 APPPATH\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 17:04:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', NULL)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(NULL)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-22 17:04:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', null)
+ 5 APPPATH\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 17:05:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', NULL)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(NULL)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-22 17:05:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', null)
+ 5 APPPATH\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 17:05:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', NULL)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(NULL)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-22 17:05:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', null)
+ 5 APPPATH\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 17:14:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', NULL)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(NULL)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-22 17:14:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', null)
+ 5 APPPATH\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 17:14:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', NULL)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(NULL)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-22 17:14:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', null)
+ 5 APPPATH\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 17:17:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-22 17:17:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', [...])
+ 5 APPPATH\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 17:17:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-22 17:17:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `missao`, `visao`, `valores`
+            FROM instituto 
+            WHERE nome = ?', [...])
+ 5 APPPATH\Models\InnerPages\Institute\Principles.php(21): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:18:18 --> Undefined array key "rota"
+in APPPATH\Models\InnerPages\Institute\Principles.php on line 19.
+ 1 APPPATH\Models\InnerPages\Institute\Principles.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rota"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Institute\\Principles.php', 19)
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:18:22 --> Undefined array key "rotas"
+in APPPATH\Models\InnerPages\Institute\Principles.php on line 19.
+ 1 APPPATH\Models\InnerPages\Institute\Principles.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rotas"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Institute\\Principles.php', 19)
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:22:09 --> Trying to access array offset on value of type null
+in APPPATH\Models\InnerPages\Institute\Principles.php on line 24.
+ 1 APPPATH\Models\InnerPages\Institute\Principles.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Institute\\Principles.php', 24)
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:24:59 --> Trying to access array offset on value of type null
+in APPPATH\Models\InnerPages\Institute\Principles.php on line 24.
+ 1 APPPATH\Models\InnerPages\Institute\Principles.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Institute\\Principles.php', 24)
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:25:30 --> Trying to access array offset on value of type null
+in APPPATH\Models\InnerPages\Institute\Principles.php on line 24.
+ 1 APPPATH\Models\InnerPages\Institute\Principles.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Institute\\Principles.php', 24)
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:26:25 --> Trying to access array offset on value of type null
+in APPPATH\Models\InnerPages\Institute\Principles.php on line 24.
+ 1 APPPATH\Models\InnerPages\Institute\Principles.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Institute\\Principles.php', 24)
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:29:27 --> Trying to access array offset on value of type null
+in APPPATH\Models\InnerPages\Institute\Principles.php on line 24.
+ 1 APPPATH\Models\InnerPages\Institute\Principles.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Institute\\Principles.php', 24)
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:32:49 --> Trying to access array offset on value of type null
+in APPPATH\Models\InnerPages\Institute\Principles.php on line 24.
+ 1 APPPATH\Models\InnerPages\Institute\Principles.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Institute\\Principles.php', 24)
+ 2 APPPATH\Controllers\InnerPages\Institute.php(59): App\Models\InnerPages\Institute\Principles->principles(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:52:38 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionModel.php on line 20.
+ 1 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('meu-rpps')
+ 2 APPPATH\Controllers\Session.php(42): App\Controllers\Session->requireInstituteId('meu-rpps')
+ 3 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 4 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 17:57:58 --> Undefined array key "id"
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 4 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 5 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:00:17 --> Cannot use object of type stdClass as array
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 2 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 4 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:00:44 --> Call to undefined method stdClass::getResultObject()
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 2 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 4 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:06:40 --> Undefined array key "id"
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 4 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 5 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:13:56 --> Call to a member function result_array() on array
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 2 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 4 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:14:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\Session\SessionModel.php on line 22.
+ 1 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 2 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 4 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:14:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\Session\SessionModel.php on line 22.
+ 1 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 2 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 4 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:14:34 --> Call to a member function result_array() on array
+in APPPATH\Models\Session\SessionModel.php on line 22.
+ 1 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 2 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 4 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 18:20:44 --> Attempt to read property "id" on array
+in APPPATH\Models\Session\SessionModel.php on line 25.
+ 1 APPPATH\Models\Session\SessionModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 25)
+ 2 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 4 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 5 APPPATH\Controllers\InnerPages\Institute.php(62): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:28:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 5 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 6 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 7 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:34:26 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 5 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 6 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 7 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:36:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 5 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 6 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 7 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:37:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 5 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 6 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 7 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:39:16 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 5 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 6 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 7 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:39:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 5 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 6 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 7 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:40:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 5 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 6 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 7 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:40:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 5 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 6 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 7 APPPATH\Controllers\InnerPages\Institute.php(36): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:41:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(31): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 5 APPPATH\Controllers\Session.php(41): App\Controllers\Session->requireInstituteId('ipreve')
+ 6 APPPATH\Controllers\InnerPages\Institute.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Institute))
+ 7 APPPATH\Controllers\InnerPages\Institute.php(62): App\Controllers\InnerPages\Institute->requireCurrentInstitute()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->principios()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 20:42:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND categoria = ?' at line 3 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', '1', true)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Post.php(17): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(36): App\Models\InnerPages\Post->requirePosts(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-22 20:42:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND categoria = ?' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = ? AND categoria = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = ? AND categoria = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = ? AND categoria = ?')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM posts 
+            WHERE id_instituto = ? AND categoria = ?', '1', true)
+ 5 APPPATH\Models\InnerPages\Post.php(17): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\InnerPages\Institute.php(36): App\Models\InnerPages\Post->requirePosts([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:50:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 4 APPPATH\Controllers\InnerPages\Institute.php(39): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 20:59:20 --> Cannot use object of type stdClass as array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 4 APPPATH\Controllers\InnerPages\Institute.php(39): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 21:00:09 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 4 APPPATH\Controllers\InnerPages\Institute.php(39): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 21:00:55 --> Cannot use object of type stdClass as array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 4 APPPATH\Controllers\InnerPages\Institute.php(39): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 21:01:23 --> Undefined property: stdClass::$post_id
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 43.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$post_id', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Institute.php(39): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 21:02:19 --> Undefined property: stdClass::$avaliacao
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 46.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$avaliacao', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Institute.php(39): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

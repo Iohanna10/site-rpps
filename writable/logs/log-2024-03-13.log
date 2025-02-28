@@ -1,0 +1,531 @@
+INFO - 2024-03-13 16:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 16:08:12 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\userConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\userConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\userConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/userConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(60): view('contents/template-1/account/userConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->userConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 16:09:44 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\userConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\userConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\userConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/userConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(60): view('contents/template-1/account/userConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->userConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 16:10:26 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\userConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\userConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\userConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/userConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(60): view('contents/template-1/account/userConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->userConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 16:11:07 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\userConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\userConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\userConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/userConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(60): view('contents/template-1/account/userConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->userConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 16:12:31 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\userConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\userConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\userConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/userConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(60): view('contents/template-1/account/userConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->userConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 16:22:23 --> session_destroy(): Trying to destroy uninitialized session
+in SYSTEMPATH\Session\Session.php on line 457.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'C:\\xampp\\htdocs\\RPPS\\system\\Session\\Session.php', 457)
+ 2 SYSTEMPATH\Session\Session.php(457): session_destroy()
+ 3 APPPATH\Controllers\Session.php(130): CodeIgniter\Session\Session->destroy()
+ 4 APPPATH\Controllers\Session.php(121): App\Controllers\Session->setSessionUser(Object(stdClass))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 16:22:33 --> session_destroy(): Trying to destroy uninitialized session
+in SYSTEMPATH\Session\Session.php on line 457.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'C:\\xampp\\htdocs\\RPPS\\system\\Session\\Session.php', 457)
+ 2 SYSTEMPATH\Session\Session.php(457): session_destroy()
+ 3 APPPATH\Controllers\Session.php(130): CodeIgniter\Session\Session->destroy()
+ 4 APPPATH\Controllers\Session.php(121): App\Controllers\Session->setSessionUser(Object(stdClass))
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 13:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 13:31:46 --> Undefined array key "id"
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 116.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 16:33:12 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\userConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\userConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\userConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/userConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(60): view('contents/template-1/account/userConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->userConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 16:33:49 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\userConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\userConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\userConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/userConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(60): view('contents/template-1/account/userConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->userConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 13:33:57 --> unlink(././././dynamic-page-content/ipreve/assets/uploads/img/user_profile/): Is a directory
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(././././dynamic-page-content/ipreve/assets/uploads/img/user_profile/): Is a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 90)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(90): unlink('././././dynamic-page-content/ipreve/assets/uploads/img/user_profile/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 13:33:59 --> unlink(././././dynamic-page-content/ipreve/assets/uploads/img/user_profile/): Is a directory
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(././././dynamic-page-content/ipreve/assets/uploads/img/user_profile/): Is a directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxUser.php', 90)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(90): unlink('././././dynamic-page-content/ipreve/assets/uploads/img/user_profile/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 13:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 13:35:14 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionUserModel.php on line 30.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(117): App\Models\Session\SessionUserModel->accessBeneficiaryForId('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 16:52:57 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\userConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\userConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\userConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/userConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(60): view('contents/template-1/account/userConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->userConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 16:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 13:55:10 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionUserModel.php on line 30.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(116): App\Models\Session\SessionUserModel->accessBeneficiaryForId('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 13:55:47 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionUserModel.php on line 30.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(116): App\Models\Session\SessionUserModel->accessBeneficiaryForId('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 13:56:24 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionUserModel.php on line 30.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(116): App\Models\Session\SessionUserModel->accessBeneficiaryForId('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 16:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 13:57:18 --> Object of type App\Controllers\Ajax\AjaxUser is not callable
+in APPPATH\Controllers\Ajax\AjaxUser.php on line 121.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeFiles()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 14:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 14:00:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 14:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 14:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:01:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\userConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\userConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\userConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/userConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(60): view('contents/template-1/account/userConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->userConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 17:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:02:20 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\contents\template-1\account\userConfig.php on line 3.
+ 1 APPPATH\Views\contents\template-1\account\userConfig.php(3): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\account\\userConfig.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/account/userConfig', [], true)
+ 5 APPPATH\Controllers\Session.php(60): view('contents/template-1/account/userConfig')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->userConfig()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 17:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 14:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 14:03:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 14:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 14:03:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 14:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 14:09:52 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 18:43:23 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 18:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 18:43:56 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(147): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:44:43 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(147): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:44:51 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(147): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:44:59 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(147): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:45:02 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(147): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 18:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 18:46:29 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:47:22 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:47:48 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:48:01 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:48:08 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:48:10 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:48:29 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:48:35 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:48:43 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:48:49 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:49:02 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-13 18:49:04 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 18:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 18:50:49 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 25.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 25)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(145): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 15:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 15:54:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 19:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 19:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 19:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 19:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 19:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 19:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 16:54:31 --> Undefined array key "cpf"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 134.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 134)
+ 2 APPPATH\Models\AjaxModel\AjaxUserModel.php(124): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(142): App\Models\AjaxModel\AjaxUserModel->updateInfos([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 19:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 20:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 17:17:24 --> Undefined array key "id"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 126.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 126)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(142): App\Models\AjaxModel\AjaxUserModel->updateInfos([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 17:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:17:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:17:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 20:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:17:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 20:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:21 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:24 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:24 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:24 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:18:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:19:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:22:12 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:22:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:22:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:23:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 20:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:24:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 20:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:33:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:41:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:41:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:43:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:43:54 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:44:52 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:45:10 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 17:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:45:10 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 20:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 17:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 17:46:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 20:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 21:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 21:06:10 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 21:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 21:06:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-03-13 21:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 21:06:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

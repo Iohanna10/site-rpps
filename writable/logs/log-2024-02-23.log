@@ -1,0 +1,135 @@
+INFO - 2024-02-23 16:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:03:19 --> unlink(C:\xampp\htdocs\RPPS\writable\debugbar/debugbar_1708633724.909692.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\RPPS\\writable\\debugbar/debugbar_1708633724.909692.json): No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\RPPS\\writable\\debugbar/debugbar_1708633724.909692.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1708704196.838683', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(350): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:06:07 --> scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf): O nome do diretório é inváli (code: 267)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 47)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(47): scandir('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 3 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(28): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 7 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:15:46 --> scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf/CRP_Novembro_2021.pdf/CRP_Novembro_2022.pdf): O sistema não pode encontrar o caminho especifica (code: 3)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf/CRP_Novembro_2021.pdf/CRP_Novembro_2022.pdf): O sistema não pode encontrar o caminho especifica (code: 3)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 80)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(80): scandir('././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf/CRP_Novembro_2021.pdf/CRP_Novembro_2022.pdf')
+ 3 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(28): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf/CRP_Novembro_2021.pdf/CRP_Novembro_2022.pdf')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 7 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:16:32 --> scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf/CRP_Novembro_2021.pdf/CRP_Novembro_2022.pdf): O sistema não pode encontrar o caminho especifica (code: 3)
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf/CRP_Novembro_2021.pdf/CRP_Novembro_2022.pdf): O sistema não pode encontrar o caminho especifica (code: 3)', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 80)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(80): scandir('././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf/CRP_Novembro_2021.pdf/CRP_Novembro_2022.pdf')
+ 3 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(28): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/crp/CRP_Maio_2022.pdf/CRP_Maio_2023.pdf/CRP_Novembro_2021.pdf/CRP_Novembro_2022.pdf')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 7 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:21:31 --> syntax error, unexpected double-quoted string "<br>", expecting ")"
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 74.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 3 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:35:27 --> Undefined variable $count_dir
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 71.
+ 1 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count_dir', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 71)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(29): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/crp')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 6 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:36:38 --> Undefined variable $count_dir
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 71.
+ 1 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count_dir', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 71)
+ 2 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(29): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/crp')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 6 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:40:14 --> Too few arguments to function findPdf(), 1 passed in C:\xampp\htdocs\RPPS\app\Views\contents\template-1\uploads\sections\pdfs.php on line 29 and exactly 2 expected
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 40.
+ 1 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(29): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 5 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:19:43 --> syntax error, unexpected token "}"
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 3 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:19:57 --> Undefined variable $count_dir
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 35.
+ 1 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count_dir', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 5 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 20:20:34 --> Too few arguments to function findPdf(), 1 passed in C:\xampp\htdocs\RPPS\app\Views\contents\template-1\uploads\sections\pdfs.php on line 28 and exactly 2 expected
+in APPPATH\Views\contents\template-1\uploads\sections\pdfs.php on line 39.
+ 1 APPPATH\Views\contents\template-1\uploads\sections\pdfs.php(28): findPdf('././dynamic-page-content/ipreve/assets/uploads/pdf/DOM-3520.pdf')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\uploads\\sections\\pdfs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/uploads/sections/pdfs.php', [], true)
+ 5 APPPATH\Controllers\Uploads\Pdf.php(12): view('contents/template-1/uploads/sections/pdfs.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 20:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 20:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 20:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 20:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 20:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 20:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 20:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 20:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 21:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

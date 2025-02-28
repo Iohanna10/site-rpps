@@ -1,0 +1,106 @@
+.contents {
+    position: relative;
+}
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    background-color: rgba(0, 0, 0, 0.442);
+
+    display: none;
+
+    justify-content: center;
+    align-items: center;
+} 
+
+.modal-info, .modal {
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%);
+
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 400px;
+    max-height: 400px;
+
+
+    padding: 20px;
+
+    background-color: var(--cor-bg);
+    border-radius: 10px;
+
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+} 
+
+.modal-info > button, .modal > button {
+    width: 100%;
+
+    height: 42px;
+
+    cursor: pointer;
+    border-radius: 5px;
+
+    background-color: rgba(2, 2, 2, 0.158);
+    box-shadow: inset 0 0 8px 2px rgb(0 0 0 / 15%);
+
+    transition: .8s;
+
+    padding: 10px;
+
+    border: 1px solid gray;
+
+    font-family: 'Lexend Deca', sans-serif;
+} 
+
+.modal-info > button:hover, .modal > button:hover {
+    /* color: white; */
+    opacity: .8;
+}
+
+.modal-info > h1, .modal > h1  {
+    color: black;
+} 
+
+.modal-info > h1 > i, .modal > h1 > i  {
+    width: 100%;
+
+    font-size: 2rem;
+    text-align: center;
+} 
+
+.modal-info > h1 > i.error, .modal > h1 > i.error {
+    color: red;
+} 
+
+.modal-info > h1 > i.success, .modal > h1 > i.success {
+    color: green;
+} 
+
+.modal-info > p, .modal > p {
+    font-size: 1.4rem;
+    color: black;
+} 
+
+@media (max-width: 767px) {
+    .modal-info, .modal {
+        width: var(--afastamento-lateral);
+        word-wrap: break-word;
+
+    }
+}
+
+@media (max-width: 280px) {
+    .modal-info, .modal {
+        min-width: auto;
+    }
+}

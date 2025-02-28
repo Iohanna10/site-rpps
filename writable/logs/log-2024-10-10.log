@@ -1,0 +1,621 @@
+INFO - 2024-10-10 15:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 15:33:00 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 15:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 15:36:19 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 15:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 15:51:07 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 15:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 15:51:15 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 15:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 16:08:16 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 16:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 16:12:33 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 16:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 16:15:23 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 16:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 16:15:50 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 16:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 16:18:46 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 16:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 16:19:17 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 16:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 16:22:44 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 16:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 16:59:40 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:00:44 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:02:26 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:02:30 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:08:24 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:13:03 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:13:13 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:22:08 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:36:42 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:37:52 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:42:47 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:45:04 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:46:30 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:52:56 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:53:31 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:54:11 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:54:56 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:55:22 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:56:52 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 17:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 17:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 17:58:01 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:01:30 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:04:04 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:10:20 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:10:37 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:11:07 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:15:12 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:15:54 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:16:08 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:19:59 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:21:15 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:36:09 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:36:43 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:36:50 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:37:07 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:41:45 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:46:40 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:48:22 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:57:37 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 18:58:38 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 18:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 19:01:22 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 19:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 19:12:30 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 19:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 19:15:23 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 19:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 19:15:55 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 19:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-10 19:29:06 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-10 19:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

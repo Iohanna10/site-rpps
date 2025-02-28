@@ -1,0 +1,82 @@
+section#ratings {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+section#ratings h1 {
+    font-size: 2rem;
+}
+
+.ratings_container {
+    width: var(--afastamento-lateral);
+    max-width: var(--max-width-container);
+    height: 100%;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.progress-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.progress-card svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.progress-card svg circle {
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke: rgba(0, 0, 0, 0.158);
+    stroke-width: 10px;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.progress-card svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: rgba(0, 0, 0, 0.158);
+    transition: 0.8s;
+}
+
+.progress-card svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * var(--progress)) / 100);
+    transition: 0.8s stroke-dashoffset;
+}
+
+.progress-card h2 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.progress-card h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.progress-card h3 span {
+    font-size: 1.2rem;
+}

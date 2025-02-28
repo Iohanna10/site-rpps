@@ -1,0 +1,843 @@
+INFO - 2024-04-01 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:24:44 --> Undefined variable $routeId
+in APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php on line 104.
+ 1 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routeId', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Advices\\InvestmentCommittee.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->calendarioComiteInvestimentos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:32:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:33:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:45:03 --> Undefined variable $qntResultPgs
+in APPPATH\Models\InnerPages\Post.php on line 140.
+ 1 APPPATH\Models\InnerPages\Post.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qntResultPgs', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php', 140)
+ 2 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 16:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:47:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:48:29 --> Attempt to read property "num_records" on array
+in APPPATH\Models\InnerPages\Post.php on line 147.
+ 1 APPPATH\Models\InnerPages\Post.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "num_records" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php', 147)
+ 2 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:48:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:49:34 --> Attempt to read property "num_records" on array
+in APPPATH\Models\InnerPages\Post.php on line 147.
+ 1 APPPATH\Models\InnerPages\Post.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "num_records" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php', 147)
+ 2 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:50:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:54:10 --> Attempt to read property "num_records" on array
+in APPPATH\Models\InnerPages\Post.php on line 147.
+ 1 APPPATH\Models\InnerPages\Post.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "num_records" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php', 147)
+ 2 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:54:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 16:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 16:56:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:00:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH\Models\InnerPages\Post.php on line 146.
+ 1 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:03:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:14:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:18:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:20:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:20:16 --> Unsupported operand types: stdClass + stdClass
+in APPPATH\Models\InnerPages\Post.php on line 155.
+ 1 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:20:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:21:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:23:12 --> Undefined array key 1
+in APPPATH\Models\InnerPages\Post.php on line 157.
+ 1 APPPATH\Models\InnerPages\Post.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php', 157)
+ 2 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:24:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:41:50 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Models\InnerPages\Post.php on line 171.
+ 1 APPPATH\Models\InnerPages\Post.php(171): array_push(null, Object(stdClass))
+ 2 APPPATH\Models\InnerPages\Post.php(155): App\Models\InnerPages\Post->dbData(null, [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:42:28 --> array_push(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Models\InnerPages\Post.php on line 171.
+ 1 APPPATH\Models\InnerPages\Post.php(171): array_push(true, Object(stdClass))
+ 2 APPPATH\Models\InnerPages\Post.php(155): App\Models\InnerPages\Post->dbData(true, [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:42:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:43:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:44:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:44:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:44:52 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Models\InnerPages\Post.php on line 171.
+ 1 APPPATH\Models\InnerPages\Post.php(171): array_push(null, [...])
+ 2 APPPATH\Models\InnerPages\Post.php(155): App\Models\InnerPages\Post->dbData(null, [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:46:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:47:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:48:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\InnerPages\Post.php on line 157.
+ 1 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:51:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:52:52 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Models\InnerPages\Post.php on line 171.
+ 1 APPPATH\Models\InnerPages\Post.php(171): array_push(null, [...])
+ 2 APPPATH\Models\InnerPages\Post.php(155): App\Models\InnerPages\Post->dbData(null, [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:53:37 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Models\InnerPages\Post.php on line 171.
+ 1 APPPATH\Models\InnerPages\Post.php(171): array_push(null, [...])
+ 2 APPPATH\Models\InnerPages\Post.php(155): App\Models\InnerPages\Post->dbData(null, [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:54:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:55:30 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Models\InnerPages\Post.php on line 171.
+ 1 APPPATH\Models\InnerPages\Post.php(171): array_push(null, [...])
+ 2 APPPATH\Models\InnerPages\Post.php(155): App\Models\InnerPages\Post->dbData(null, [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 17:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:56:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 17:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 17:57:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 18:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 18:10:01 --> array_push(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Models\InnerPages\Post.php on line 173.
+ 1 APPPATH\Models\InnerPages\Post.php(173): array_push(true, [...])
+ 2 APPPATH\Models\InnerPages\Post.php(155): App\Models\InnerPages\Post->dbData(true, [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 18:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 18:11:51 --> array_push(): Argument #1 ($array) must be of type array, bool given
+in APPPATH\Models\InnerPages\Post.php on line 173.
+ 1 APPPATH\Models\InnerPages\Post.php(173): array_push(true, [...])
+ 2 APPPATH\Models\InnerPages\Post.php(155): App\Models\InnerPages\Post->dbData(true, [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 18:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 18:23:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 18:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 18:24:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:16:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:16:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:20:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:20:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:21:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:25:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:26:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:28:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:28:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:28:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:32:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:32:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:33:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:33:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-01 19:51:22 --> Invalid file: "contents/template-1/inner-pages/main/sections/committee_posts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/committee_posts.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/committee_posts.php', [], true)
+ 3 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/committee_posts.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 19:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 19:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 19:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 19:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 19:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-01 20:57:17 --> mysqli_sql_exception: Unknown column 'id_post' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxMeetingsModel.php(64): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxMeetings.php(85): App\Models\AjaxModel\AjaxMeetingsModel->getMeetings(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxMeetings->getData()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxMeetings))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-01 20:57:17 --> Unknown column 'id_post' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = \'15\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = \'15\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = \'15\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = ?', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxMeetingsModel.php(64): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxMeetings.php(85): App\Models\AjaxModel\AjaxMeetingsModel->getMeetings([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxMeetings->getData()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxMeetings))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 20:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 20:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-01 21:00:03 --> mysqli_sql_exception: Unknown column 'id_post' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxMeetingsModel.php(66): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxMeetings.php(87): App\Models\AjaxModel\AjaxMeetingsModel->getMeetings(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxMeetings->getData()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxMeetings))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-01 21:00:03 --> Unknown column 'id_post' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = \'15\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = \'15\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = \'15\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = ?', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxMeetingsModel.php(66): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxMeetings.php(87): App\Models\AjaxModel\AjaxMeetingsModel->getMeetings([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxMeetings->getData()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxMeetings))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 21:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-01 21:00:58 --> mysqli_sql_exception: Unknown column 'id_post' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxMeetingsModel.php(64): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxMeetings.php(87): App\Models\AjaxModel\AjaxMeetingsModel->getMeetings(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxMeetings->getData()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxMeetings))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-01 21:00:58 --> Unknown column 'id_post' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = \'15\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = \'15\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = \'15\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM reunioes_eventos 
+            WHERE id_post = ?', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxMeetingsModel.php(64): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxMeetings.php(87): App\Models\AjaxModel\AjaxMeetingsModel->getMeetings([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxMeetings->getData()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxMeetings))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-01 21:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-01 21:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

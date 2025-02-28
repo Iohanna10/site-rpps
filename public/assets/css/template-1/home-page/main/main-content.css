@@ -1,0 +1,375 @@
+/* /// MAIN-CONTENT: BACKGROUND E POSICIONAMENTO /// */
+main .main-content { 
+    display: flex;
+    justify-content: center;    
+
+    background-color: black;
+
+    color: white;
+    font-size: 1.2rem;
+
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(to right, #6f6f6e 50%, transparent 50%);
+    background-color: var(--cor-primaria);
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: BACKGROUND /// */
+main .main-content .background {
+    width: var(--afastamento-lateral)!important;
+    height: 100%;
+
+    display: flex;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: BACKGROUND DIV COR VARIÁVEL /// */
+main .main-content .background .color-change {
+    width: 60%;
+    height: auto;
+
+    padding: 40px;
+    background-color: var(--cor-primaria);
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: BACKGROUND DIV CINZA /// */
+main .main-content .background .gray {
+    background-color: #6f6f6e;
+    width: 40%;
+    height: auto;
+
+    padding: 40px 5px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: PORTAL DO SEGURADO /// */
+main .main-content .insured-portal { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    /* color: var(--cor-primaria); */
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: PORTAL DO SEGURADO POSICIONAMENTO DOS LINKS /// */
+main .main-content .insured-portal > div { 
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: PORTAL DO SEGURADO TEXTOS /// */
+main .main-content .insured-portal h3 {
+    color: white;
+    font-size: 2rem;
+    align-self: center;
+}
+
+main .main-content .insured-portal label{
+    color: white;
+    font: message-box;
+    font-size: 1.4rem;
+    text-align: start;
+}
+
+main .main-content .insured-portal > div {
+    cursor: default;
+}
+
+main .main-content .insured-portal div a {
+    font: message-box;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+    text-shadow: 0px 0px 1px black;
+    color: white;
+    /* color: var(--cor-primaria); */
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: PORTAL DO SEGURADO ICON /// */
+main .main-content .insured-portal span.icon {
+    font-size: 6rem;
+    cursor: default;
+    color: var(--cor-primaria);
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: PORTAL DO SEGURADO FORMULARIO /// */
+main .main-content .insured-portal form {
+    max-width: 355px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 0 none;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: PORTAL DO SEGURADO FORMULARIO INPUT /// */
+main .main-content .insured-portal form input {
+    width: 100%;
+    height: 4rem;
+    padding: 7px;
+
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+}
+
+main .main-content .insured-portal form input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: PORTAL DO SEGURADO FORMULARIO POSICIONAMENTO DO BOTÃO /// */
+main .main-content .insured-portal form > div {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .main-content .insured-portal form > div > div.input {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: PORTAL DO SEGURADO FORMULARIO BOTÃO /// */
+main .main-content .insured-portal form button[type="button"]{
+    width: 80%;
+    
+    border: 1px solid white;
+    border-radius: 20px;
+
+    color: white;
+    background-color: transparent;
+
+    align-self: center;
+}   
+
+main .main-content .insured-portal form button[type="button"]:hover {
+    border: 1px solid white;
+    border-radius: 20px;
+
+    color: white;
+    background-color: var(--cor-primaria);
+
+    cursor: pointer;
+
+    transition: .4s;
+}  
+/* /// /// */
+
+/* /// MAIN-CONTENT: LINKS ÚTEIS /// */
+main .main-content .useful-links {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; 
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: LINKS ÚTEIS TITULO /// */
+main .main-content .useful-links h3 {
+    color: white;
+    font-size: 2.6rem;
+    text-align: center;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: LINKS ÚTEIS TITULO DOS CARDS /// */
+main .main-content .useful-links .cards h3 {
+    color: white;
+    font-size: 2.2rem;
+    text-align: start;  
+
+    word-break: break-word;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: LINKS ÚTEIS - LINKS /// */
+main .main-content .useful-links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 1.4rem;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: LINKS ÚTEIS TEXTEOS /// */
+main .main-content .useful-links a .bold{
+    text-decoration: underline;
+    text-decoration-color: rgb(255 255 255 / 36%);
+    color: white;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: LINKS ÚTEIS TEXTEOS /// */
+main .main-content .useful-links span {
+    font-size: 5rem;
+    color: white;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: LINKS ÚTEIS - DISPOSIÃO DOS CARDS /// */
+main .main-content .useful-links .cards {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+/* /// /// */
+
+/* /// MAIN-CONTENT: LINKS ÚTEIS - CARD /// */
+main .main-content .useful-links .cards .card {
+    width: 100%;
+    height: 100%;
+
+    min-height: 300px;
+
+    background-color: transparent;
+
+    border: 1px solid white;
+    border-radius: 5px;   
+}
+/* /// /// */
+
+main .main-content .useful-links .cards .card div {
+    width: 100%;
+}
+
+/* /// MAIN-CONTENT: LINKS ÚTEIS - DISPOSIÇÃO DOS CONTEÚDOS DO CARD  /// */
+main .main-content .useful-links .cards .card a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    padding: 10px;  
+}    
+/* /// /// */
+
+/* /// MAIN-CONTENT: LINKS ÚTEIS - CARD HOVER /// */
+main .main-content .useful-links .cards .card a:hover {
+    background-color: #6f6f6e52;
+    transition: .4ms;
+
+    border-radius: 5px;
+}    
+/* /// /// */
+
+.status {
+    color: #626262;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+/* Responsividade */
+@media (max-width: 1076px){
+    /* /// MAIN-CONTENT: LINKS ÚTEIS - CARD /// */
+    main .main-content .useful-links .cards .card {
+        min-height: 100px;   
+    }
+    /* /// /// */
+}
+
+@media (max-width: 1140px){
+    main .main-content { 
+        background: linear-gradient(to bottom, #6f6f6e 50%, #6f6f6e 50%, transparent 50%);
+    }
+
+    /* /// MAIN-CONTENT: PORTAL DO SEGURADO /// */
+    main .main-content .insured-portal{
+        justify-self: center;
+    }
+    /* /// /// */
+
+    /* /// MAIN-CONTENT: LINKS ÚTEIS /// */
+    main .main-content .useful-links {   
+        width: var(--afastamento-lateral);
+        margin-top: 25px;
+    }
+    /* /// /// */
+
+    /* /// MAIN-CONTENT: BACKGROUND /// */
+    main .main-content .background {
+        display: grid;
+        width: 100%!important;
+    }
+    /* /// /// */
+
+    /* /// MAIN-CONTENT: BACKGROUND DIV LARANJA /// */
+    main .main-content .background .color-change {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+    }
+    /* /// /// */
+
+    /* /// MAIN-CONTENT: BACKGROUND DIV CINZA /// */
+    main .main-content .background .gray {
+        width: 100%;
+    }
+    /* /// /// */
+}
+
+@media (max-width: 340px){
+    /* /// MAIN-CONTENT: BACKGROUND DIV CINZA /// */
+    main .main-content .background .gray {
+        padding: 0px;
+    }
+    /* /// /// */
+
+    
+    /* /// MAIN-CONTENT: PORTAL DO SEGURADO /// */
+    main .main-content .insured-portal { 
+        padding: 15px 15px;
+    }
+    /* /// /// */
+    
+    /* /// MAIN-CONTENT: BACKGROUND DIV COLORIDA /// */
+    main .main-content .background .color-change {
+        padding: 10px;
+    }
+    /* /// /// */
+
+    main .main-content .insured-portal form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 270px){
+    main .main-content .useful-links .cards {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}

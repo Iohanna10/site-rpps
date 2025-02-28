@@ -1,0 +1,134 @@
+INFO - 2024-08-19 15:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 15:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 12:35:32 --> Undefined variable $msg
+in APPPATH\Controllers\Mails\sendMails.php on line 138.
+ 1 APPPATH\Controllers\Mails\sendMails.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $msg', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\sendMails->contact()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\sendMails))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 15:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 15:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 15:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 16:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 17:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 15:26:36 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Mails\sendMails.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\sendMails->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\sendMails))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 18:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 18:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 16:14:00 --> Undefined variable $dataInstitute
+in APPPATH\Views\mails\recoverAccount.php on line 18.
+ 1 APPPATH\Views\mails\recoverAccount.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataInstitute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/recoverAccount', [], true)
+ 5 APPPATH\Controllers\Mails\sendMails.php(68): view('mails/recoverAccount', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(91): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$b0F6FymEXxvvdlax3ea0F.jhm20aL.fCg7JQcTK2VFk./lZZORcSG')
+ 7 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 8 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-19 16:15:26 --> Undefined variable $dataInstitute
+in APPPATH\Views\mails\recoverAccount.php on line 17.
+ 1 APPPATH\Views\mails\recoverAccount.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataInstitute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/recoverAccount', [], true)
+ 5 APPPATH\Controllers\Mails\sendMails.php(68): view('mails/recoverAccount', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(91): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$pBgFEMQYYCyC2otZnwr5n.QvNO5bWRKZxPXxCeNiKBbgMoM5SPVs.')
+ 7 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 8 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-19 16:15:50 --> Undefined variable $dataInstitute
+in APPPATH\Views\mails\recoverAccount.php on line 17.
+ 1 APPPATH\Views\mails\recoverAccount.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataInstitute', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\recoverAccount.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/recoverAccount', [], true)
+ 5 APPPATH\Controllers\Mails\sendMails.php(68): view('mails/recoverAccount', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(91): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$SZXlpolF27kBryPC5Lcbo.V83rtpxnaa9z5SbBvBgsTgfxUpPVJV6')
+ 7 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 8 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 16:46:09 --> Could not access file: path/to/ficheiro
+in VENDORPATH\phpmailer\phpmailer\src\PHPMailer.php on line 3831.
+ 1 APPPATH\Controllers\Mails\sendMails.php(92): PHPMailer\PHPMailer\PHPMailer->addEmbeddedImage('path/to/ficheiro', 'logo_cid')
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(91): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$kJipDuuMEnqDgGA8W9NPVOk8RXB2Ulk4zUx09ug/fS9N2/.a1OCta')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-19 16:47:11 --> Could not access file: path/to/ficheiro
+in VENDORPATH\phpmailer\phpmailer\src\PHPMailer.php on line 3831.
+ 1 APPPATH\Controllers\Mails\sendMails.php(91): PHPMailer\PHPMailer\PHPMailer->addEmbeddedImage('path/to/ficheiro', 'logo_cid')
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(91): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$.SoKjDhFxYiF/Za20AIJaupOxy/sCsV826hOONwcBnoR/o1H2vnTa')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-19 16:47:22 --> Could not access file: path/to/ficheiro
+in VENDORPATH\phpmailer\phpmailer\src\PHPMailer.php on line 3831.
+ 1 APPPATH\Controllers\Mails\sendMails.php(91): PHPMailer\PHPMailer\PHPMailer->addEmbeddedImage('path/to/ficheiro', 'logo_cid')
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(91): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$x8mj.epaUmcYt8JJijFqhunX.cSdQ.YIckwPlfhj0gaY8ODzMCtWq')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

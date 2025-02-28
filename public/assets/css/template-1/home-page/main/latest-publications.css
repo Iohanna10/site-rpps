@@ -1,0 +1,193 @@
+/* /// MAIN-LATEST-PUBLICATIONS: BACKGROUND E POSICIONAMENTO  /// */
+main .publications {
+    width: 100%;
+    height: fit-content;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: DISPOSIÇÃO DOS CONTEÚDOS /// */
+main .publications .container {
+    width: var(--afastamento-lateral)!important;
+    
+    display: flex;  
+    flex-direction: column; 
+    gap: 30px;  
+
+    margin: 20px 0px 20px 0px;
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: DISPOSIÇÃO DAS PUBLICAÇÕES /// */
+main .publications .container .latest-publications {
+    width: 100%;
+    
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 20px;
+    row-gap: 40px;
+}
+/* /// /// */  
+
+/* /// MAIN-LATEST-PUBLICATIONS: DISPOSIÇÃO DOS CONTEÚDOS /// */
+main .publications .container div {
+    width: 100%;
+    display: flex;  
+    gap: 20px;  
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: CONTAINER DISPOSIÇÃO DOS CONTEÚDOS DAS PUBLICAÇÕES /// */
+main .publications div .publication {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+main .publications div .publication:hover {
+    scale: 1.03;
+    transition: 0.7s;
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: DISPOSIÇÃO DOS CONTEÚDOS DAS PUBLICAÇÕES /// */
+main .publications div .publication a {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+   
+    text-decoration: none;
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: DIV IMAGENS DAS PUBLICAÇÕES /// */
+main .publications div .publication .media {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    max-height: 200px;
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: DIV IMAGENS DAS PUBLICAÇÕES /// */
+main .publications div .publication .media > object {
+    position: relative;
+ 
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: DIV IMAGENS DAS PUBLICAÇÕES /// */
+main .publications div .publication .media > object > div {
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    z-index: 3; 
+    top: 0;
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: IMAGENS DAS PUBLICAÇÕES /// */
+main .publications div .publication .media img {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: TÍTULO PRINCIPAL /// */
+main .publications h3 {
+    color: #625f5f;
+    font-size: 5rem;
+    text-align: start; 
+    cursor: default;
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: TITULO DA NOTÍCIA /// */
+main .publications h4{
+    width: 100%;
+     
+    color: #6f6f6e;
+    font-size: 1.4rem; 
+    text-align: start; 
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: DATA /// */
+main .publications h6{
+    color: #6f6f6e9f;
+    font-size: 1rem;
+    text-align: start; 
+
+    border-bottom: 1px solid #6f6f6e50;
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: TEXTO /// */
+main .publications p{
+    color: #6f6f6e9f;
+    font-size: 1.4rem;
+    text-align: start; 
+}
+/* /// /// */
+
+/* /// MAIN-LATEST-PUBLICATIONS: LINK /// */
+main .publications .more-publications {
+    width: 100%; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* /// /// */  
+
+/* /// MAIN-LATEST-PUBLICATIONS: LINK /// */
+main .publications .more-publications a {
+    width: fit-content;
+    font-size: 1.3rem;
+    text-shadow: 0 0 black;  
+    color: var(--cor-primaria);
+}
+/* /// /// */  
+
+@media (max-width: 550px) {
+    main .publications h3 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    main .publications h3 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 280px) {
+    main .publications h3 {
+        font-size: 2rem;
+    }
+
+    main .publications .container .latest-publications {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}

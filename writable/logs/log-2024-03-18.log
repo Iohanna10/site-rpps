@@ -1,0 +1,432 @@
+ERROR - 2024-03-18 16:01:30 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'where clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT('i...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT('i...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT('i...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT('i...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(62): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Account.php(41): App\Models\AjaxModel\AjaxUserModel->confirmEmail()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Account->confirmEmail()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-18 16:01:30 --> Unknown column 'codigos_verificacao' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(\'id\') WHERE codigos_verificacao = \'$2y$10$X5S/2//9VqOaGfr4YqJxGu5yr4xzTm3faqFrK5mNPGedvrfNmpAY.\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(\'id\') WHERE codigos_verificacao = \'$2y$10$X5S/2//9VqOaGfr4YqJxGu5yr4xzTm3faqFrK5mNPGedvrfNmpAY.\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(\'id\') WHERE codigos_verificacao = \'$2y$10$X5S/2//9VqOaGfr4YqJxGu5yr4xzTm3faqFrK5mNPGedvrfNmpAY.\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(\'id\') WHERE codigos_verificacao = :key:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(62): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Account.php(41): App\Models\AjaxModel\AjaxUserModel->confirmEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Account->confirmEmail()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:02:46 --> Object of class stdClass could not be converted to int
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 62.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to int', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 62)
+ 2 APPPATH\Controllers\Account.php(41): App\Models\AjaxModel\AjaxUserModel->confirmEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Account->confirmEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-18 16:04:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'exists FROM beneficiados WHERE codigos_verificacao = '$2y$10$X5S/2//9VqOaGfr4...' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT('i...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT('i...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT('i...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT('i...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(62): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Account.php(41): App\Models\AjaxModel\AjaxUserModel->confirmEmail()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Account->confirmEmail()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-18 16:04:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'exists FROM beneficiados WHERE codigos_verificacao = '$2y$10$X5S/2//9VqOaGfr4...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(\'id\') as exists FROM beneficiados WHERE codigos_verificacao = \'$2y$10$X5S/2//9VqOaGfr4YqJxGu5yr4xzTm3faqFrK5mNPGedvrfNmpAY.\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(\'id\') as exists FROM beneficiados WHERE codigos_verificacao = \'$2y$10$X5S/2//9VqOaGfr4YqJxGu5yr4xzTm3faqFrK5mNPGedvrfNmpAY.\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(\'id\') as exists FROM beneficiados WHERE codigos_verificacao = \'$2y$10$X5S/2//9VqOaGfr4YqJxGu5yr4xzTm3faqFrK5mNPGedvrfNmpAY.\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(\'id\') as exists FROM beneficiados WHERE codigos_verificacao = :key:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(62): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Account.php(41): App\Models\AjaxModel\AjaxUserModel->confirmEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Account->confirmEmail()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-18 16:04:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'exists FROM beneficiados WHERE codigos_verificacao = '$2y$10$X5S/2//9VqOaGfr4...' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT('i...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT('i...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT('i...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT('i...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(62): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Account.php(41): App\Models\AjaxModel\AjaxUserModel->confirmEmail()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Account->confirmEmail()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-18 16:04:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'exists FROM beneficiados WHERE codigos_verificacao = '$2y$10$X5S/2//9VqOaGfr4...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(\'id\') AS exists FROM beneficiados WHERE codigos_verificacao = \'$2y$10$X5S/2//9VqOaGfr4YqJxGu5yr4xzTm3faqFrK5mNPGedvrfNmpAY.\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(\'id\') AS exists FROM beneficiados WHERE codigos_verificacao = \'$2y$10$X5S/2//9VqOaGfr4YqJxGu5yr4xzTm3faqFrK5mNPGedvrfNmpAY.\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(\'id\') AS exists FROM beneficiados WHERE codigos_verificacao = \'$2y$10$X5S/2//9VqOaGfr4YqJxGu5yr4xzTm3faqFrK5mNPGedvrfNmpAY.\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(\'id\') AS exists FROM beneficiados WHERE codigos_verificacao = :key:', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(62): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Account.php(41): App\Models\AjaxModel\AjaxUserModel->confirmEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Account->confirmEmail()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:15:28 --> Call to a member function getResultObject() on bool
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 67.
+ 1 APPPATH\Controllers\Account.php(41): App\Models\AjaxModel\AjaxUserModel->confirmEmail()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Account->confirmEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 17:42:01 --> preg_match(): Unknown modifier '0'
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'0\'', 'C:\\xampp\\htdocs\\RPPS\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^function%20getInstitute()%7B%20%20%20%20var%20urlFull%20=%20windowlocationhrefsplit(&#039;/login$#u', 'function getInstitute(){    var urlFull = window.location.href.split(\'/\'); / url completa do site        if(window.location.host == "localhost"){        var institute = urlFull[5]; / localhost tem uma pasta a mais antes do instituto    } else {        var institute = urlFull[4]; / instituto atual de servidores online    };    return institute}/validar-email', null)
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('function getInstitute(){    var urlFull = window.location.href.split(\'/\'); / url completa do site        if(window.location.host == "localhost"){        var institute = urlFull[5]; / localhost tem uma pasta a mais antes do instituto    } else {        var institute = urlFull[4]; / instituto atual de servidores online    };    return institute}/validar-email')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('function getInstitute(){    var urlFull = window.location.href.split(\'/\'); / url completa do site        if(window.location.host == "localhost"){        var institute = urlFull[5]; / localhost tem uma pasta a mais antes do instituto    } else {        var institute = urlFull[4]; / instituto atual de servidores online    };    return institute}/validar-email')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 17:45:30 --> Undefined array key "key"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "key"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 58)
+ 2 APPPATH\Controllers\Account.php(45): App\Models\AjaxModel\AjaxUserModel->confirmEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Account->confirmEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 17:45:31 --> Undefined array key "key"
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "key"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 58)
+ 2 APPPATH\Controllers\Account.php(50): App\Models\AjaxModel\AjaxUserModel->confirmEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Account->validateEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-18 18:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-18 18:09:14 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(46): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 18:09:14 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'historico\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'historico\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'historico\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\InnerPages\Institute.php(46): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-18 18:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-18 18:13:13 --> foreach() argument must be of type array|object, string given
+in APPPATH\Models\InnerPages\Post.php on line 116.
+ 1 APPPATH\Models\InnerPages\Post.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php', 116)
+ 2 APPPATH\Models\InnerPages\Post.php(84): App\Models\InnerPages\Post->requireCategoryId('1')
+ 3 APPPATH\Controllers\InnerPages\Institute.php(35): App\Models\InnerPages\Post->requireArea('1')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-18 18:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-18 18:16:20 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Institute.php(46): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 18:16:20 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'historico\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'historico\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'historico\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\InnerPages\Institute.php(46): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->historico()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-18 18:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-18 18:19:09 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Legislation.php(42): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Legislation->constituicaoFederal()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Legislation))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 18:19:09 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'constituicao-federal\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'constituicao-federal\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'constituicao-federal\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\InnerPages\Legislation.php(42): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Legislation->constituicaoFederal()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Legislation))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-18 18:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-18 18:19:28 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\ContactUs.php(32): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 18:19:28 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'fale-conosco\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'fale-conosco\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'fale-conosco\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\InnerPages\ContactUs.php(32): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\ContactUs->contatar()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\ContactUs))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-18 18:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-18 18:21:11 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Advices\Fiscal.php(76): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\Fiscal->membros()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\Fiscal))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 18:21:11 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'fiscal\',\'membros\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'fiscal\',\'membros\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'fiscal\',\'membros\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\InnerPages\Advices\Fiscal.php(76): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\Fiscal->membros()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\Fiscal))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-18 18:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-18 18:22:10 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Advices\InvestmentCommittee.php(79): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->membros()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 18:22:10 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'comite-de-investimento\',\'membros\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'comite-de-investimento\',\'membros\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'comite-de-investimento\',\'membros\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(79): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->membros()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-18 18:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-18 18:25:26 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Publications.php(75): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 18:25:26 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'publicacoes\',\'noticias\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'publicacoes\',\'noticias\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\',\'publicacoes\',\'noticias\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\InnerPages\Publications.php(75): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-18 18:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 18:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 20:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-18 20:04:43 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('')
+ 3 APPPATH\Controllers\Session.php(164): App\Controllers\Session->requireInstituteId('')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(44): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-18 20:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 20:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 20:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

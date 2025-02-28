@@ -1,0 +1,46 @@
+CRITICAL - 2023-12-07 18:12:12 --> Array to string conversion
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 44.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:12:22 --> Array to string conversion
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 44.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:13:14 --> Array to string conversion
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 41.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 41)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(44): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:13:27 --> Array to string conversion
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 41.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 41)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(44): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:21:58 --> htmlentities(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 41.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(41): htmlentities([...], 3, 'UTF-8')
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(44): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 18:47:06 --> strip_tags() expects at most 2 arguments, 3 given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 41.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(41): strip_tags('', 3, 'UTF-8')
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(44): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

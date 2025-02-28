@@ -1,0 +1,145 @@
+.reports {
+    width: 80%;
+    align-self: center;
+}
+
+.reports .report {
+    padding-left: 21rem;
+    width: 100%;
+    height: 100%;
+    min-height: 165px;
+    
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    background: url("../../../img/timeline_right.png") no-repeat 113px top;
+}
+
+.reports .report .report-desc {    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reports .report .date {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    font-size: 1.2rem;
+}
+
+.reports .report::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-width: 4px;
+    border-style: solid;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    position: absolute;
+    left: 150px;
+    top: 11px;
+    display: block;
+    visibility: visible;
+    z-index: 1;
+    color: var(--cor-primaria);
+}
+
+.report .report-header {
+   font-size: 2rem;
+}
+
+.report .report-main {
+    font-size: 1.4rem;
+ }
+
+.report .report-footer {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #ebebeb;
+
+    padding: 5px;
+}
+
+.report .report-footer .love {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+
+   font-size: 1.2rem;
+}
+
+.report .report-footer .read-more {
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 5px;
+    border-left: 1px solid #00000042;
+    padding-left: 15px;
+}
+
+.report .report-footer .read-more a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.report .report-footer .read-more i {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 767px) {
+    .reports .report {
+        padding: 0;
+        background: none;
+    }
+
+    .reports .report .date {
+        display: none;
+    }
+
+    .reports .report::before {
+        display: none;
+    }
+
+    .reports .report .report-desc {
+        background-color: #00000008;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 635px) {
+    .report-header h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .report-header h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .report .report-footer {
+        flex-direction: column;
+    }
+
+    .report .report-footer .read-more {
+        border-left: 0;
+    }
+
+    .reports .report {
+        margin-bottom: 20px;
+    }
+}

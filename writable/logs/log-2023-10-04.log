@@ -1,0 +1,23 @@
+CRITICAL - 2023-10-04 16:51:32 --> Array to string conversion
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\galery.php on line 14.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\galery.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\galery.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\galery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/galery.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(104): view('contents/template-1/inner-pages/main/sections/galery.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->galeriaFotos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 20:50:39 --> Class "App\Models\AjaxModel\AjaxModel" not found
+in APPPATH\Controllers\Ajax\AjaxPhotos.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->photos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 20:54:03 --> Class "App\Models\AjaxModel\AjaxPhotosModel" not found
+in APPPATH\Controllers\Ajax\AjaxPhotos.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->photos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

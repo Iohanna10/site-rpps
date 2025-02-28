@@ -1,0 +1,56 @@
+CRITICAL - 2023-10-05 16:35:49 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 15.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 15)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(25): App\Models\AjaxModel\AjaxPhotosModel->photos([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->photos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:36:22 --> App\Models\AjaxModel\AjaxPhotosModel::photos(): Return value must be of type array, null returned
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 20.
+ 1 APPPATH\Controllers\Ajax\AjaxPhotos.php(25): App\Models\AjaxModel\AjaxPhotosModel->photos([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->photos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:36:41 --> App\Models\AjaxModel\AjaxPhotosModel::photos(): Return value must be of type array, null returned
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 20.
+ 1 APPPATH\Controllers\Ajax\AjaxPhotos.php(25): App\Models\AjaxModel\AjaxPhotosModel->photos([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->photos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 18:01:38 --> Array to string conversion
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\galery.php on line 12.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\galery.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\galery.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\galery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/galery.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(104): view('contents/template-1/inner-pages/main/sections/galery.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->galeriaFotos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 18:01:58 --> Array to string conversion
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\galery.php on line 12.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\galery.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\galery.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\galery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/galery.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Publications.php(104): view('contents/template-1/inner-pages/main/sections/galery.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->galeriaFotos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 18:58:02 --> Class "App\Models\InnerPages\Publications\Galery" not found
+in APPPATH\Controllers\InnerPages\Publications.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->galeriaFotos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 18:59:27 --> Class "App\Models\InnerPages\Publications\Galery" not found
+in APPPATH\Controllers\InnerPages\Publications.php on line 100.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->galeriaFotos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

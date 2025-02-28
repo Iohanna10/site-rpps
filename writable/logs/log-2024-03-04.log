@@ -1,0 +1,487 @@
+ERROR - 2024-03-04 16:01:40 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'teste_dados_ins...', 3306, '', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', 'ipreve')
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(18): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(149): App\Controllers\Session->requireInstituteId('ipreve')
+#7 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Publications.php(17): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Publications))
+#8 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Publications.php(66): App\Controllers\InnerPages\Publications->requireCurrentInstitute()
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+#10 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+#11 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', 'ipreve')
+#3 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(18): CodeIgniter\Model->__call('query', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(149): App\Controllers\Session->requireInstituteId('ipreve')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Publications.php(17): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Publications))
+#7 C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Publications.php(66): App\Controllers\InnerPages\Publications->requireCurrentInstitute()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+#10 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-04 16:01:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', 'ipreve')
+ 3 APPPATH\Models\Session\SessionModel.php(18): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('ipreve')
+ 5 APPPATH\Controllers\Session.php(149): App\Controllers\Session->requireInstituteId('ipreve')
+ 6 APPPATH\Controllers\InnerPages\Publications.php(17): App\Controllers\Session->currentInstitute(Object(App\Controllers\InnerPages\Publications))
+ 7 APPPATH\Controllers\InnerPages\Publications.php(66): App\Controllers\InnerPages\Publications->requireCurrentInstitute()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Publications->noticias()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Publications))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-04 16:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 16:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 16:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-04 16:05:47 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'teste_dados_ins...', 3306, '', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#3 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-04 16:05:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE cnpj = ?', [...])
+ 3 APPPATH\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-04 16:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-04 16:06:02 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'teste_dados_ins...', 3306, '', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#3 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-04 16:06:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE cnpj = ?', [...])
+ 3 APPPATH\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-04 16:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 16:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 16:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-04 16:06:15 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'teste_dados_ins...', 3306, '', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#3 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-04 16:06:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE cnpj = ?', [...])
+ 3 APPPATH\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 16:06:15 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'teste_dados_ins...', 3306, '', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#3 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-04 16:06:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE cnpj = ?', [...])
+ 3 APPPATH\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 16:06:15 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'teste_dados_ins...', 3306, '', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#3 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-04 16:06:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE cnpj = ?', [...])
+ 3 APPPATH\Models\Session\SessionModel.php(44): CodeIgniter\Model->__call('query', [...])
+ 4 APPPATH\Controllers\Session.php(67): App\Models\Session\SessionModel->accessInstitute([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-04 16:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 16:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 16:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 18:11:22 --> syntax error, unexpected token "public"
+in APPPATH\Models\InnerPages\Post.php on line 89.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\InnerPages\\Post')
+ 3 APPPATH\Controllers\InnerPages\Institute.php(203): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\InnerPages\\Post')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->processoSeletivo()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 18:47:07 --> Invalid file: "contents\template-1\inner-pages\main\render-sections\post.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents\\template-1\\inner-pages\\main\\render-sections\\post.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\template-1\\inner-pages\\main\\render-sections\\post.php', [], true)
+ 3 APPPATH\Controllers\InnerPages\Institute.php(207): view('contents\\template-1\\inner-pages\\main\\render-sections\\post.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->processoSeletivo()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 18:47:30 --> Undefined variable $data
+in APPPATH\Views\contents\template-1\inner-pages\main\render-sections\posts.php on line 5.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\render-sections\posts.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Institute.php(207): view('contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->processoSeletivo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 19:30:32 --> Too few arguments to function App\Models\InnerPages\Post::requirePosts(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\Home.php on line 54 and exactly 3 expected
+in APPPATH\Models\InnerPages\Post.php on line 48.
+ 1 APPPATH\Controllers\Home.php(54): App\Models\InnerPages\Post->requirePosts([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 19:36:48 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('posts')
+ 3 APPPATH\Controllers\Session.php(149): App\Controllers\Session->requireInstituteId('posts')
+ 4 APPPATH\Controllers\Posts_pagination.php(12): App\Controllers\Session->currentInstitute(Object(App\Controllers\Posts_pagination))
+ 5 APPPATH\Controllers\Posts_pagination.php(21): App\Controllers\Posts_pagination->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 19:36:54 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 24.
+ 1 APPPATH\Models\Session\SessionModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 24)
+ 2 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId('posts')
+ 3 APPPATH\Controllers\Session.php(149): App\Controllers\Session->requireInstituteId('posts')
+ 4 APPPATH\Controllers\Posts_pagination.php(12): App\Controllers\Session->currentInstitute(Object(App\Controllers\Posts_pagination))
+ 5 APPPATH\Controllers\Posts_pagination.php(21): App\Controllers\Posts_pagination->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 19:49:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':date:' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Post.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Posts_pagination.php(21): App\Models\InnerPages\Post->requirePosts('ipreve', '1', '3')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-04 19:49:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':date:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = \'ipreve\' AND MONTH(data_nascimento) = :date:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = \'ipreve\' AND MONTH(data_nascimento) = :date:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = \'ipreve\' AND MONTH(data_nascimento) = :date:')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = :instituteId: AND MONTH(data_nascimento) = :date:', [...])
+ 5 APPPATH\Models\InnerPages\Post.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Posts_pagination.php(21): App\Models\InnerPages\Post->requirePosts('ipreve', '1', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 19:51:13 --> Undefined variable $routeId
+in APPPATH\Views\contents\template-1\inner-pages\main\render-sections\posts.php on line 5.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\render-sections\posts.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routeId', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 6 APPPATH\Controllers\Posts_pagination.php(24): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 19:53:46 --> Undefined variable $routeId
+in APPPATH\Views\contents\template-1\inner-pages\main\render-sections\posts.php on line 5.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\render-sections\posts.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routeId', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 6 APPPATH\Controllers\Posts_pagination.php(25): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 19:56:45 --> Undefined variable $routeId
+in APPPATH\Views\contents\template-1\inner-pages\main\render-sections\posts.php on line 5.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\render-sections\posts.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routeId', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 6 APPPATH\Controllers\Posts_pagination.php(25): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 20:00:04 --> Undefined variable $routeId
+in APPPATH\Views\contents\template-1\inner-pages\main\render-sections\posts.php on line 5.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\render-sections\posts.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routeId', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('App\\Views\\contents\\template-1\\inner-pages\\main\\render-sections\\posts.php', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 6 APPPATH\Controllers\Posts_pagination.php(25): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 20:02:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':date:' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Post.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Posts_pagination.php(21): App\Models\InnerPages\Post->requirePosts('1', '1', '3')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-04 20:02:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':date:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = \'1\' AND MONTH(data_nascimento) = :date:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = \'1\' AND MONTH(data_nascimento) = :date:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = \'1\' AND MONTH(data_nascimento) = :date:')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = :instituteId: AND MONTH(data_nascimento) = :date:', [...])
+ 5 APPPATH\Models\InnerPages\Post.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Posts_pagination.php(21): App\Models\InnerPages\Post->requirePosts('1', '1', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 20:07:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':date:' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Post.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Posts_pagination.php(21): App\Models\InnerPages\Post->requirePosts('1', '1', '3')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-04 20:07:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':date:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = \'1\' AND MONTH(data_nascimento) = :date:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = \'1\' AND MONTH(data_nascimento) = :date:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = \'1\' AND MONTH(data_nascimento) = :date:')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id) AS num_records FROM beneficiados WHERE id_instituto = :instituteId: AND MONTH(data_nascimento) = :date:', [...])
+ 5 APPPATH\Models\InnerPages\Post.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Posts_pagination.php(21): App\Models\InnerPages\Post->requirePosts('1', '1', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 20:08:56 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Post.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Posts_pagination.php(21): App\Models\InnerPages\Post->requirePosts('1', '1', '3')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-04 20:08:56 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = \'1\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id) AS num_records FROM posts WHERE id_instituto = :instituteId:', [...])
+ 5 APPPATH\Models\InnerPages\Post.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Posts_pagination.php(21): App\Models\InnerPages\Post->requirePosts('1', '1', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 20:12:08 --> Attempt to read property "data" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 14.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "data" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\Posts_pagination.php(24): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 20:35:43 --> Undefined variable $data
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 57.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\Posts_pagination.php(24): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Posts_pagination->dadosLista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts_pagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

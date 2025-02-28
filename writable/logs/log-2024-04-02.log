@@ -1,0 +1,488 @@
+INFO - 2024-04-02 15:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 15:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 15:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 15:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 15:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 15:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 15:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 15:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 12:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-02 12:54:38 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO reu...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reu...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reu...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxMeetingsModel.php(48): CodeIgniter\Database\BaseConnection->query('INSERT INTO reu...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxMeetings.php(35): App\Models\AjaxModel\AjaxMeetingsModel->insertMeeting(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxMeetings->insertData()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxMeetings))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-02 12:54:38 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO reunioes_eventos VALUES(0, \'1\', \'31\', \'Teste \', \'Testando se está tudo funcionando corretamente no cadastro de reuniões\', NULL, \'2024-1-22 12:00:00, 2024-2-12 18:00:00, 2024-3-8 13:00:00, 2024-4-18 19:00:00, 2024-5-14 14:00:00, 2024-6-6 20:00:00, 2024-7-18 15:00:00, 2024-8-30 21:00:00, 2024-9-26 16:00:00, 2024-10-10 15:00:00, 2024-11-21 17:00:00, 2024-12-31 14:00:00\', NULL, NULL, \'1\', \'Os horários poderão sofrer alterações de acordo com a necessidade do instituto\', \'2024-4-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reunioes_eventos VALUES(0, \'1\', \'31\', \'Teste \', \'Testando se está tudo funcionando corretamente no cadastro de reuniões\', NULL, \'2024-1-22 12:00:00, 2024-2-12 18:00:00, 2024-3-8 13:00:00, 2024-4-18 19:00:00, 2024-5-14 14:00:00, 2024-6-6 20:00:00, 2024-7-18 15:00:00, 2024-8-30 21:00:00, 2024-9-26 16:00:00, 2024-10-10 15:00:00, 2024-11-21 17:00:00, 2024-12-31 14:00:00\', NULL, NULL, \'1\', \'Os horários poderão sofrer alterações de acordo com a necessidade do instituto\', \'2024-4-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reunioes_eventos VALUES(0, \'1\', \'31\', \'Teste \', \'Testando se está tudo funcionando corretamente no cadastro de reuniões\', NULL, \'2024-1-22 12:00:00, 2024-2-12 18:00:00, 2024-3-8 13:00:00, 2024-4-18 19:00:00, 2024-5-14 14:00:00, 2024-6-6 20:00:00, 2024-7-18 15:00:00, 2024-8-30 21:00:00, 2024-9-26 16:00:00, 2024-10-10 15:00:00, 2024-11-21 17:00:00, 2024-12-31 14:00:00\', NULL, NULL, \'1\', \'Os horários poderão sofrer alterações de acordo com a necessidade do instituto\', \'2024-4-02\')')
+ 4 APPPATH\Models\AjaxModel\AjaxMeetingsModel.php(48): CodeIgniter\Database\BaseConnection->query('INSERT INTO reunioes_eventos VALUES(0, :institute:, :committee:, :title:, :description:, :img:, :meetings:, :startMeeting:, :endMeeting:, :type:, :obs:, :date_register:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxMeetings.php(35): App\Models\AjaxModel\AjaxMeetingsModel->insertMeeting([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxMeetings->insertData()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxMeetings))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 12:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-02 12:54:49 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO reu...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reu...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reu...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxMeetingsModel.php(48): CodeIgniter\Database\BaseConnection->query('INSERT INTO reu...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxMeetings.php(35): App\Models\AjaxModel\AjaxMeetingsModel->insertMeeting(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxMeetings->insertData()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxMeetings))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-02 12:54:49 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO reunioes_eventos VALUES(0, \'1\', \'31\', \'Teste \', \'Testando se está tudo funcionando corretamente no cadastro de reuniões\', NULL, \'2024-1-22 12:00:00, 2024-2-12 18:00:00, 2024-3-8 13:00:00, 2024-4-18 19:00:00, 2024-5-14 14:00:00, 2024-6-6 20:00:00, 2024-7-18 15:00:00, 2024-8-30 21:00:00, 2024-9-26 16:00:00, 2024-10-10 15:00:00, 2024-11-21 17:00:00, 2024-12-31 14:00:00\', NULL, NULL, \'1\', \'Os horários poderão sofrer alterações de acordo com a necessidade do instituto\', \'2024-4-02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reunioes_eventos VALUES(0, \'1\', \'31\', \'Teste \', \'Testando se está tudo funcionando corretamente no cadastro de reuniões\', NULL, \'2024-1-22 12:00:00, 2024-2-12 18:00:00, 2024-3-8 13:00:00, 2024-4-18 19:00:00, 2024-5-14 14:00:00, 2024-6-6 20:00:00, 2024-7-18 15:00:00, 2024-8-30 21:00:00, 2024-9-26 16:00:00, 2024-10-10 15:00:00, 2024-11-21 17:00:00, 2024-12-31 14:00:00\', NULL, NULL, \'1\', \'Os horários poderão sofrer alterações de acordo com a necessidade do instituto\', \'2024-4-02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reunioes_eventos VALUES(0, \'1\', \'31\', \'Teste \', \'Testando se está tudo funcionando corretamente no cadastro de reuniões\', NULL, \'2024-1-22 12:00:00, 2024-2-12 18:00:00, 2024-3-8 13:00:00, 2024-4-18 19:00:00, 2024-5-14 14:00:00, 2024-6-6 20:00:00, 2024-7-18 15:00:00, 2024-8-30 21:00:00, 2024-9-26 16:00:00, 2024-10-10 15:00:00, 2024-11-21 17:00:00, 2024-12-31 14:00:00\', NULL, NULL, \'1\', \'Os horários poderão sofrer alterações de acordo com a necessidade do instituto\', \'2024-4-02\')')
+ 4 APPPATH\Models\AjaxModel\AjaxMeetingsModel.php(48): CodeIgniter\Database\BaseConnection->query('INSERT INTO reunioes_eventos VALUES(0, :institute:, :committee:, :title:, :description:, :img:, :meetings:, :startMeeting:, :endMeeting:, :type:, :obs:, :date_register:)', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxMeetings.php(35): App\Models\AjaxModel\AjaxMeetingsModel->insertMeeting([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxMeetings->insertData()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxMeetings))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 12:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 15:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 16:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 14:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 14:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 17:21:46 --> syntax error, unexpected token "else"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\committee_posts.php on line 81.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/committee_posts.php', [], true)
+ 3 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/committee_posts.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 17:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-02 17:39:13 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Post.php(52): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\PostsPagination.php(50): App\Models\InnerPages\Post->requireAllPosts('1', '1')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\PostsPagination->noticias()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-02 17:39:13 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM posts WHERE id_instituto = \'1\' ORDER BY data, id DESC LIMIT 0, 20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM posts WHERE id_instituto = \'1\' ORDER BY data, id DESC LIMIT 0, 20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM posts WHERE id_instituto = \'1\' ORDER BY data, id DESC LIMIT 0, 20')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM posts WHERE id_instituto = :instituteId: ORDER BY data, id DESC LIMIT :start:, :qntResultPgs:', [...])
+ 5 APPPATH\Models\InnerPages\Post.php(52): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\PostsPagination.php(50): App\Models\InnerPages\Post->requireAllPosts('1', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->noticias()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 17:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-02 17:53:01 --> mysqli_sql_exception: Unknown column 'id_post' in 'order clause' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM r...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM r...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM r...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM r...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Post.php(137): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-02 17:53:01 --> Unknown column 'id_post' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM reunioes_eventos WHERE id_instituto = \'1\' AND id_categoria = \'31\' ORDER BY data DESC, id_post DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM reunioes_eventos WHERE id_instituto = \'1\' AND id_categoria = \'31\' ORDER BY data DESC, id_post DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM reunioes_eventos WHERE id_instituto = \'1\' AND id_categoria = \'31\' ORDER BY data DESC, id_post DESC')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM reunioes_eventos WHERE id_instituto = :instituteId: AND id_categoria = :id_route: ORDER BY data DESC, id_post DESC', [...])
+ 5 APPPATH\Models\InnerPages\Post.php(137): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 17:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 17:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-02 18:03:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY data DESC, id_post DESC LIMIT 0, 1' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Post.php(27): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\PostsPagination.php(79): App\Models\InnerPages\Post->searchPost('1', '1', 'Teste')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-02 18:03:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY data DESC, id_post DESC LIMIT 0, 1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM posts WHERE id_instituto = \'1\' AND titulo like \'%Teste%\' OR id_instituto = \'1\' AND descricao like \'%Teste%\' ORDER BY ORDER BY data DESC, id_post DESC LIMIT 0, 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM posts WHERE id_instituto = \'1\' AND titulo like \'%Teste%\' OR id_instituto = \'1\' AND descricao like \'%Teste%\' ORDER BY ORDER BY data DESC, id_post DESC LIMIT 0, 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM posts WHERE id_instituto = \'1\' AND titulo like \'%Teste%\' OR id_instituto = \'1\' AND descricao like \'%Teste%\' ORDER BY ORDER BY data DESC, id_post DESC LIMIT 0, 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM posts WHERE id_instituto = :instituteId: AND titulo like :search: OR id_instituto = :instituteId: AND descricao like :search: ORDER BY ORDER BY data DESC, id_post DESC LIMIT :start:, :qntResultPgs:', [...])
+ 5 APPPATH\Models\InnerPages\Post.php(27): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\PostsPagination.php(79): App\Models\InnerPages\Post->searchPost('1', '1', 'Teste')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-02 18:04:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY data DESC, id_post DESC LIMIT 0, 20' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\InnerPages\Post.php(27): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\PostsPagination.php(79): App\Models\InnerPages\Post->searchPost('1', '1', 'Teste')
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-02 18:04:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY data DESC, id_post DESC LIMIT 0, 20' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM posts WHERE id_instituto = \'1\' AND titulo like \'%Teste%\' OR id_instituto = \'1\' AND descricao like \'%Teste%\' ORDER BY ORDER BY data DESC, id_post DESC LIMIT 0, 20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM posts WHERE id_instituto = \'1\' AND titulo like \'%Teste%\' OR id_instituto = \'1\' AND descricao like \'%Teste%\' ORDER BY ORDER BY data DESC, id_post DESC LIMIT 0, 20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM posts WHERE id_instituto = \'1\' AND titulo like \'%Teste%\' OR id_instituto = \'1\' AND descricao like \'%Teste%\' ORDER BY ORDER BY data DESC, id_post DESC LIMIT 0, 20')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM posts WHERE id_instituto = :instituteId: AND titulo like :search: OR id_instituto = :instituteId: AND descricao like :search: ORDER BY ORDER BY data DESC, id_post DESC LIMIT :start:, :qntResultPgs:', [...])
+ 5 APPPATH\Models\InnerPages\Post.php(27): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\PostsPagination.php(79): App\Models\InnerPages\Post->searchPost('1', '1', 'Teste')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:17:28 --> Invalid file: "contents\template-1\inner-pages\main\render-sections\committee_posts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents\\template-1\\inner-pages\\main\\render-sections\\committee_posts.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\template-1\\inner-pages\\main\\render-sections\\committee_posts.php', [], true)
+ 3 APPPATH\Controllers\Home.php(57): view('contents\\template-1\\inner-pages\\main\\render-sections\\committee_posts.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:27:12 --> Attempt to read property "data" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 15.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "data" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(82): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:32:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(82): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:33:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(82): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:34:14 --> Attempt to read property "data" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 15.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "data" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(82): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:35:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(82): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:36:18 --> Attempt to read property "data" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 15.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "data" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(82): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:36:57 --> Invalid file: "contents/template-1/inner-pages/main/sections/committee_post.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/committee_post.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/committee_post.php', [], true)
+ 3 APPPATH\Controllers\PostsPagination.php(82): view('contents/template-1/inner-pages/main/sections/committee_post.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:38:28 --> Invalid file: "contents/template-1/inner-pages/main/sections/committee_post.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/committee_post.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/committee_post.php', [], true)
+ 3 APPPATH\Controllers\PostsPagination.php(82): view('contents/template-1/inner-pages/main/sections/committee_post.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:42:26 --> Invalid file: "contents/template-1/inner-pages/main/sections/committee_post.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/template-1/inner-pages/main/sections/committee_post.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/committee_post.php', [], true)
+ 3 APPPATH\Controllers\PostsPagination.php(82): view('contents/template-1/inner-pages/main/sections/committee_post.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 18:44:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\committee_posts.php on line 91.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\committee_posts.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\committee_posts.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\committee_posts.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/committee_posts.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(82): view('contents/template-1/inner-pages/main/sections/committee_posts.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->pesquisa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 18:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 18:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 19:04:36 --> Attempt to read property "data" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php on line 15.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\post.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "data" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/post.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(53): view('contents/template-1/inner-pages/main/sections/post.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 19:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 19:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 19:43:29 --> Undefined array key "id"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\meetings_and_posts.php on line 66.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\meetings_and_posts.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\meetings_and_posts.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\meetings_and_posts.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/meetings_and_posts.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/meetings_and_posts.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 19:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-02 20:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 20:53:25 --> Undefined array key "id_post"
+in APPPATH\Models\InnerPages\Post.php on line 206.
+ 1 APPPATH\Models\InnerPages\Post.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_post"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php', 206)
+ 2 APPPATH\Models\InnerPages\Post.php(180): App\Models\InnerPages\Post->dbData([], [...], [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 20:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 20:57:43 --> Undefined array key "id_post"
+in APPPATH\Models\InnerPages\Post.php on line 206.
+ 1 APPPATH\Models\InnerPages\Post.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_post"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php', 206)
+ 2 APPPATH\Models\InnerPages\Post.php(180): App\Models\InnerPages\Post->dbData([], [...], [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 20:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 20:59:43 --> Undefined array key "id_post"
+in APPPATH\Models\InnerPages\Post.php on line 207.
+ 1 APPPATH\Models\InnerPages\Post.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_post"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php', 207)
+ 2 APPPATH\Models\InnerPages\Post.php(180): App\Models\InnerPages\Post->dbData([], [...], [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 21:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 21:01:05 --> Undefined array key "likes"
+in APPPATH\Models\InnerPages\Post.php on line 213.
+ 1 APPPATH\Models\InnerPages\Post.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "likes"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Post.php', 213)
+ 2 APPPATH\Models\InnerPages\Post.php(180): App\Models\InnerPages\Post->dbData([], [...], [...])
+ 3 APPPATH\Controllers\PostsPagination.php(65): App\Models\InnerPages\Post->calendarCommittee('1', '1', '31')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 21:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 21:01:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\meetings_and_posts.php on line 91.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\meetings_and_posts.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\meetings_and_posts.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\meetings_and_posts.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/meetings_and_posts.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/meetings_and_posts.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-02 21:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-02 21:02:52 --> Trying to access array offset on value of type null
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\meetings_and_posts.php on line 91.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\meetings_and_posts.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\meetings_and_posts.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\meetings_and_posts.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/meetings_and_posts.php', [], true)
+ 5 APPPATH\Controllers\PostsPagination.php(68): view('contents/template-1/inner-pages/main/sections/meetings_and_posts.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PostsPagination->calendarioComite()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostsPagination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

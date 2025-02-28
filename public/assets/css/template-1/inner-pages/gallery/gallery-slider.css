@@ -1,0 +1,243 @@
+/* ////////////////////////////////////////////////////// SLIDER GALLERY /////////////////////////////////////////////////////// */
+
+/* carrossel da galeria */
+
+.gallery-carousel {
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    background-color: #ffffff;
+}
+
+.gallery-carousel.hidden {
+    display: none;
+}
+
+.gallery-carousel .carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-carousel .slider {
+    position: relative;
+    z-index: 2;
+    align-content: center;
+}
+
+.gallery-carousel .slider .slides {
+    width: 200%;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.gallery-carousel .slider .slide {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* padding: 0 10px 0 0; */
+    position: relative;
+}
+
+.gallery-carousel .slider .slide img {
+    width: 800px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.gallery-carousel .slider .slide .video,  .gallery-carousel .slider .slide iframe {
+    width: 600px;
+    height: 600px;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 2
+}
+
+.gallery-carousel .carousel .close-slider {
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    right: 20px;
+}
+
+.gallery-carousel .carousel .close-slider span {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.gallery-carousel .carousel .change-content {
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.gallery-carousel .carousel .change-content > button {
+    width: 50px;
+    height: 100px;
+    
+    background: none;
+    border: none;
+    
+    cursor: pointer;
+
+    color: #cecece;
+
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+    align-items: center;
+}
+
+.gallery-carousel .carousel .change-content > button span  {
+    position: absolute;
+    font-size: 3rem;
+}
+
+/* .gallery-carousel .carousel .change-content > .btn-prev span {
+    left: 40px;
+}
+
+.gallery-carousel .carousel .change-content > .btn-next span {
+    right: 40px;
+} */
+
+.gallery-carousel .carousel .change-content > button:hover {
+    color: #acacac;
+}
+
+.gallery-carousel .carousel .control-buttons {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    bottom: -40px;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 1s;
+}
+
+.gallery-carousel .carousel .control-buttons.toggle-on {
+    bottom: 0px;
+}
+
+.gallery-carousel .carousel .control-buttons > div {
+    position: relative;
+
+    width: 100%;
+    height: auto;
+    
+    background-color: #ffffffc8;
+
+    font-size: 2rem;
+    color: #808080;
+}
+
+.gallery-carousel .carousel .control-buttons > div span {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.gallery-carousel .carousel .control-buttons > div span.hidden {
+    display: none;
+}
+
+.gallery-carousel .carousel .control-buttons .media-info {
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 10px;
+    padding-bottom: 50px;
+
+    position: absolute;
+    bottom: 40px;
+
+    background-color: #ffffffb3;
+
+    transition: 1s;
+}
+
+.gallery-carousel .carousel .control-buttons .media-info span.info {
+    height: auto;
+    
+    justify-content: flex-start;
+    
+    font-size: 1.3rem;
+}
+
+.gallery-carousel .carousel .control-buttons .media-info.hidden {
+    display: none!important;
+}
+
+.gallery-carousel .carousel .control-buttons .media-info .title {
+    font-size: 1.6rem;
+}
+
+.gallery-carousel .carousel .control-buttons .ctrl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 10px;
+}
+
+.gallery-carousel .carousel .control-buttons .toggle-ctrl {
+    width: 100px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 5px 5px 0px 0px;
+
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translate(-50%);
+
+    background-color: #ffffffc8;
+}
+
+.gallery-carousel .carousel .control-buttons .toggle-ctrl i {
+    font-size: 3rem;
+}
+
+.gallery-carousel .carousel .control-buttons .ctrl .hidden {
+    display: none;
+}
+
+/*  */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

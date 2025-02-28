@@ -1,0 +1,125 @@
+CRITICAL - 2024-09-26 12:13:56 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 190.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 190)
+ 2 APPPATH\Models\AjaxModel\AjaxUserModel.php(40): App\Models\AjaxModel\AjaxUserModel->verifyRegistered([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(37): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-26 12:58:11 --> mysqli_sql_exception: Duplicate entry '120.901.530-75' for key 'cpf' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO ben...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ben...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ben...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('INSERT INTO ben...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(41): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(37): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-26 12:58:11 --> Duplicate entry '120.901.530-75' for key 'cpf'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO beneficiados VALUES(0, \'2\', \'120.901.530-75\', \'Giorgia Brito\', \'1952-9-26 00:00:00\', \'testeiprecal@gmail.com\', \'47940028922\', NULL, \'$2y$10$U4MMq5M5UltfDnoQHV38pe8fDsKDflxeRB2cpUk3.gZCeugsK0ASm\', \'$2y$10$l2M1Ylk/kOjuIdwV7MOJ1emKMuL0OUEF92zdn8CHB07UjmydUd81C\', 0, \'2024-9-26 12:58:11\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO beneficiados VALUES(0, \'2\', \'120.901.530-75\', \'Giorgia Brito\', \'1952-9-26 00:00:00\', \'testeiprecal@gmail.com\', \'47940028922\', NULL, \'$2y$10$U4MMq5M5UltfDnoQHV38pe8fDsKDflxeRB2cpUk3.gZCeugsK0ASm\', \'$2y$10$l2M1Ylk/kOjuIdwV7MOJ1emKMuL0OUEF92zdn8CHB07UjmydUd81C\', 0, \'2024-9-26 12:58:11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO beneficiados VALUES(0, \'2\', \'120.901.530-75\', \'Giorgia Brito\', \'1952-9-26 00:00:00\', \'testeiprecal@gmail.com\', \'47940028922\', NULL, \'$2y$10$U4MMq5M5UltfDnoQHV38pe8fDsKDflxeRB2cpUk3.gZCeugsK0ASm\', \'$2y$10$l2M1Ylk/kOjuIdwV7MOJ1emKMuL0OUEF92zdn8CHB07UjmydUd81C\', 0, \'2024-9-26 12:58:11\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('INSERT INTO beneficiados VALUES(0, :institute:, :cpf:, :name:, :date:, :email:, :tel:, :img:, :password:, :key:, 0, :currentDate:)', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(41): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(37): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-26 13:02:33 --> mysqli_sql_exception: Duplicate entry '120.901.530-75' for key 'cpf' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO ben...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ben...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ben...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('INSERT INTO ben...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(41): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(36): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-26 13:02:33 --> Duplicate entry '120.901.530-75' for key 'cpf'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO beneficiados VALUES(0, \'2\', \'120.901.530-75\', \'Giorgia Brito\', \'1952-9-26 00:00:00\', \'testeiprecal@gmail.com\', \'47940028922\', NULL, \'$2y$10$qcc85lwvH1/VlBZ20C90.eiNw0BCucKvaaSVnSWgEByE/Dl/GaMaq\', \'$2y$10$njMOk8dMtK/TOFOBBfAnCe5Bfvibp3TKx2yjAIbsrIB5hAmxVyNR6\', 0, \'2024-9-26 13:02:33\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO beneficiados VALUES(0, \'2\', \'120.901.530-75\', \'Giorgia Brito\', \'1952-9-26 00:00:00\', \'testeiprecal@gmail.com\', \'47940028922\', NULL, \'$2y$10$qcc85lwvH1/VlBZ20C90.eiNw0BCucKvaaSVnSWgEByE/Dl/GaMaq\', \'$2y$10$njMOk8dMtK/TOFOBBfAnCe5Bfvibp3TKx2yjAIbsrIB5hAmxVyNR6\', 0, \'2024-9-26 13:02:33\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO beneficiados VALUES(0, \'2\', \'120.901.530-75\', \'Giorgia Brito\', \'1952-9-26 00:00:00\', \'testeiprecal@gmail.com\', \'47940028922\', NULL, \'$2y$10$qcc85lwvH1/VlBZ20C90.eiNw0BCucKvaaSVnSWgEByE/Dl/GaMaq\', \'$2y$10$njMOk8dMtK/TOFOBBfAnCe5Bfvibp3TKx2yjAIbsrIB5hAmxVyNR6\', 0, \'2024-9-26 13:02:33\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('INSERT INTO beneficiados VALUES(0, :institute:, :cpf:, :name:, :date:, :email:, :tel:, :img:, :password:, :key:, 0, :currentDate:)', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(41): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(36): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-26 13:08:36 --> mysqli_sql_exception: Duplicate entry '120.901.530-75' for key 'cpf' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO ben...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ben...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ben...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('INSERT INTO ben...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(41): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(36): App\Models\AjaxModel\AjaxUserModel->insertUser(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-26 13:08:36 --> Duplicate entry '120.901.530-75' for key 'cpf'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO beneficiados VALUES(0, \'2\', \'120.901.530-75\', \'Raquel Britto\', \'1956-9-26 00:00:00\', \'testeiprecal@gmail.com\', \'47940028922\', NULL, \'$2y$10$/IBmzYW8K2eq4XB.Spyc/uVk.RNSPDyYy9hSG1XMzAsqR.NXWK.W6\', \'$2y$10$wTCCRdAT8QPl0wQan5gqFedvcYq4P0PWQPK3xsp6hshn2WfSrtsqu\', 0, \'2024-9-26 13:08:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO beneficiados VALUES(0, \'2\', \'120.901.530-75\', \'Raquel Britto\', \'1956-9-26 00:00:00\', \'testeiprecal@gmail.com\', \'47940028922\', NULL, \'$2y$10$/IBmzYW8K2eq4XB.Spyc/uVk.RNSPDyYy9hSG1XMzAsqR.NXWK.W6\', \'$2y$10$wTCCRdAT8QPl0wQan5gqFedvcYq4P0PWQPK3xsp6hshn2WfSrtsqu\', 0, \'2024-9-26 13:08:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO beneficiados VALUES(0, \'2\', \'120.901.530-75\', \'Raquel Britto\', \'1956-9-26 00:00:00\', \'testeiprecal@gmail.com\', \'47940028922\', NULL, \'$2y$10$/IBmzYW8K2eq4XB.Spyc/uVk.RNSPDyYy9hSG1XMzAsqR.NXWK.W6\', \'$2y$10$wTCCRdAT8QPl0wQan5gqFedvcYq4P0PWQPK3xsp6hshn2WfSrtsqu\', 0, \'2024-9-26 13:08:36\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('INSERT INTO beneficiados VALUES(0, :institute:, :cpf:, :name:, :date:, :email:, :tel:, :img:, :password:, :key:, 0, :currentDate:)', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(41): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(36): App\Models\AjaxModel\AjaxUserModel->insertUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-26 16:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 16:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 16:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 16:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 16:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 16:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 18:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 19:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 16:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 16:10:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-26 16:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 16:10:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-26 16:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 16:10:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-26 16:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 16:10:18 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-26 19:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 17:08:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-26 17:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 17:09:24 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-26 17:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 17:09:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-26 17:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 17:10:13 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-26 20:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-26 17:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 17:10:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-09-26 17:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-09-26 17:10:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

@@ -1,0 +1,41 @@
+.container .logo {
+    max-width: 100%;
+    align-self: center;
+}
+
+.container .logo img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.container .content {
+    font-size: 1.4rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    box-shadow: 1px 2px 5px 0px black;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.container .content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .content button {
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.container .content hr {
+    width: 100%;
+    border-color: rgba(128, 128, 128, 0.273);
+
+    margin: 15px 0px;
+}

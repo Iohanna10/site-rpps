@@ -1,0 +1,130 @@
+section#feedbacks {
+    height: 100%;
+    width: var(--afastamento-lateral);
+    max-width: var(--max-width-container);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+section#feedbacks h1 {
+    font-size: 2rem;
+}
+
+.rating__average .star-outer {
+   position: relative;
+   font-size: 1.4rem;
+
+   display: inline-block;
+}
+
+.rating__average .star-outer::before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    color: #000;
+}
+
+.rating__average .star-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: var(--rating);
+    overflow: hidden;
+}
+ 
+.rating__average .star-inner::before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    color: gold;
+}
+
+.feedbacks_container {
+    width: 100%;
+}
+
+.feedbacks_container .col-lg-4 {
+    min-width: 300px;
+}
+
+#client .max-width-container {
+    width: var(--afastamento-lateral)!important;
+}
+
+.personal_testi_content_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal_testi_content_img div.container-img {
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    overflow: hidden;
+}
+
+.personal_testi_content_img div.container-img img {
+    border: none;
+}
+
+.container-filters {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-filter {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#form-filter .two-inputs {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    justify-content: space-between;
+}
+
+#form-filter label {
+    margin: 0;
+}
+
+#form-filter select {
+    font-size: 1.4rem;
+}
+
+table ul {
+    margin: 0;
+}
+
+@media (max-width: 625px) {
+    form div.two-inputs {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+    .feedbacks_container .col-lg-4 {
+        min-width: auto;
+    }
+
+    section#ratings h1 {
+        text-align: center;
+    }
+}

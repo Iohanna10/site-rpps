@@ -1,0 +1,242 @@
+INFO - 2024-10-17 16:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 16:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 16:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 16:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 16:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-17 13:04:12 --> Undefined array key 0
+in APPPATH\Models\Home\Comments.php on line 71.
+ 1 APPPATH\Models\Home\Comments.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Comments.php', 71)
+ 2 APPPATH\Models\Home\Comments.php(17): App\Models\Home\Comments->getBeneficiary([...])
+ 3 APPPATH\Controllers\Home.php(97): App\Models\Home\Comments->comments([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-17 16:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-17 13:08:10 --> Undefined array key 0
+in APPPATH\Models\Home\Comments.php on line 71.
+ 1 APPPATH\Models\Home\Comments.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Comments.php', 71)
+ 2 APPPATH\Models\Home\Comments.php(17): App\Models\Home\Comments->getBeneficiary([...])
+ 3 APPPATH\Controllers\Home.php(97): App\Models\Home\Comments->comments([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-17 16:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-17 13:11:30 --> Undefined array key 0
+in APPPATH\Models\Home\Comments.php on line 71.
+ 1 APPPATH\Models\Home\Comments.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Comments.php', 71)
+ 2 APPPATH\Models\Home\Comments.php(17): App\Models\Home\Comments->getBeneficiary([...])
+ 3 APPPATH\Controllers\Home.php(97): App\Models\Home\Comments->comments([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-17 16:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 16:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-17 13:28:18 --> Undefined array key "id_beneficiado"
+in APPPATH\Models\Home\Comments.php on line 54.
+ 1 APPPATH\Models\Home\Comments.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_beneficiado"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Comments.php', 54)
+ 2 APPPATH\Models\Home\Comments.php(17): App\Models\Home\Comments->getBeneficiary([...])
+ 3 APPPATH\Controllers\Home.php(97): App\Models\Home\Comments->comments([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-17 16:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-17 13:28:27 --> Undefined array key "id_beneficiado"
+in APPPATH\Models\Home\Comments.php on line 54.
+ 1 APPPATH\Models\Home\Comments.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_beneficiado"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Comments.php', 54)
+ 2 APPPATH\Models\Home\Comments.php(17): App\Models\Home\Comments->getBeneficiary([...])
+ 3 APPPATH\Controllers\Home.php(97): App\Models\Home\Comments->comments([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-17 16:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-17 13:28:38 --> Array to string conversion
+in APPPATH\Models\Home\Comments.php on line 54.
+ 1 APPPATH\Models\Home\Comments.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Comments.php', 54)
+ 2 APPPATH\Models\Home\Comments.php(17): App\Models\Home\Comments->getBeneficiary([...])
+ 3 APPPATH\Controllers\Home.php(97): App\Models\Home\Comments->comments([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-17 16:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 16:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 16:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 16:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-17 13:36:19 --> Undefined array key 0
+in APPPATH\Models\Home\Comments.php on line 71.
+ 1 APPPATH\Models\Home\Comments.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Home\\Comments.php', 71)
+ 2 APPPATH\Models\Home\Comments.php(17): App\Models\Home\Comments->getBeneficiary([...])
+ 3 APPPATH\Controllers\Home.php(97): App\Models\Home\Comments->comments([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-17 16:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 17:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 17:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 14:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 14:16:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 14:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 14:16:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 14:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 14:16:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 14:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 14:17:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 14:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 14:18:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 17:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 17:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-17 15:02:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%'4734563111'%' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM ...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(222): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(157): App\Models\AjaxModel\AjaxUserModel->verifyUpdate(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(154): App\Models\AjaxModel\AjaxUserModel->updateInfos(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-17 15:02:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%'4734563111'%' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM instituto_contatos WHERE telefones like %\'4734563111\'%', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM instituto_contatos WHERE telefones like %\'4734563111\'%')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM instituto_contatos WHERE telefones like %\'4734563111\'%')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM instituto_contatos WHERE telefones like %:tel:%', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(222): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(157): App\Models\AjaxModel\AjaxUserModel->verifyUpdate([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(154): App\Models\AjaxModel\AjaxUserModel->updateInfos([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-17 15:05:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4734563111'%'' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM ...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(222): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(157): App\Models\AjaxModel\AjaxUserModel->verifyUpdate(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(154): App\Models\AjaxModel\AjaxUserModel->updateInfos(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-17 15:05:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4734563111'%'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM instituto_contatos WHERE telefones like \'%\'4734563111\'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM instituto_contatos WHERE telefones like \'%\'4734563111\'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM instituto_contatos WHERE telefones like \'%\'4734563111\'%\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM instituto_contatos WHERE telefones like \'%:tel:%\'', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(222): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(157): App\Models\AjaxModel\AjaxUserModel->verifyUpdate([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(154): App\Models\AjaxModel\AjaxUserModel->updateInfos([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-17 15:06:21 --> Undefined variable $params
+in APPPATH\Models\AjaxModel\AjaxUserModel.php on line 231.
+ 1 APPPATH\Models\AjaxModel\AjaxUserModel.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxUserModel.php', 231)
+ 2 APPPATH\Models\AjaxModel\AjaxUserModel.php(157): App\Models\AjaxModel\AjaxUserModel->verifyUpdate([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(154): App\Models\AjaxModel\AjaxUserModel->updateInfos([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-17 15:07:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4734563111'%'' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM ...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(231): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(157): App\Models\AjaxModel\AjaxUserModel->verifyUpdate(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(154): App\Models\AjaxModel\AjaxUserModel->updateInfos(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-17 15:07:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4734563111'%'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM instituto_contatos WHERE telefones like \'%\'4734563111\'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM instituto_contatos WHERE telefones like \'%\'4734563111\'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM instituto_contatos WHERE telefones like \'%\'4734563111\'%\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM instituto_contatos WHERE telefones like \'%:tel:%\'', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(231): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(157): App\Models\AjaxModel\AjaxUserModel->verifyUpdate([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(154): App\Models\AjaxModel\AjaxUserModel->updateInfos([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-17 15:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 15:11:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 15:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 15:11:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 15:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 15:11:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+ERROR - 2024-10-17 15:11:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4734563111'%'' at line 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM ...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(231): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxUserModel.php(157): App\Models\AjaxModel\AjaxUserModel->verifyUpdate(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(154): App\Models\AjaxModel\AjaxUserModel->updateInfos(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-17 15:11:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4734563111'%'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM instituto_contatos WHERE telefones like \'%\'4734563111\'%\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM instituto_contatos WHERE telefones like \'%\'4734563111\'%\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM instituto_contatos WHERE telefones like \'%\'4734563111\'%\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT id FROM instituto_contatos WHERE telefones like \'%:tel:%\'', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxUserModel.php(231): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxUserModel.php(157): App\Models\AjaxModel\AjaxUserModel->verifyUpdate([...])
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(154): App\Models\AjaxModel\AjaxUserModel->updateInfos([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->changeInfos()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-17 15:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 15:12:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 18:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 18:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 18:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 15:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 15:17:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 15:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 15:19:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 15:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 15:19:56 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 15:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 15:47:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 15:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 15:48:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 18:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 15:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 15:59:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 16:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 16:00:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 16:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 16:01:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-10-17 19:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 19:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 16:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-17 16:05:56 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

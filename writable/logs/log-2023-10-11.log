@@ -1,0 +1,40 @@
+CRITICAL - 2023-10-11 18:51:58 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 49.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 49)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 18:54:41 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 49.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 49)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 18:59:00 --> Undefined variable $photos
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 40.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $photos', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 40)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(29): App\Models\AjaxModel\AjaxPhotosModel->photos([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->photos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 19:01:33 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 49.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 49)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 19:06:26 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxPhotosModel.php on line 66.
+ 1 APPPATH\Models\AjaxModel\AjaxPhotosModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPhotosModel.php', 66)
+ 2 APPPATH\Controllers\Ajax\AjaxPhotos.php(41): App\Models\AjaxModel\AjaxPhotosModel->info([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPhotos->info()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPhotos))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

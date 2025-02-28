@@ -1,0 +1,47 @@
+/* /// FOOTER: SECTION DAS LOGOS /// */
+footer section.logos {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    background-color: #e3e3e2;
+}
+/* /// /// */
+
+/* /// FOOTER: GRID DAS LOGOS /// */
+footer section.logos > div {
+    width: var(--afastamento-lateral)!important;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    padding: 10px;
+    height: fit-content;
+}
+/* /// /// */
+
+/* /// FOOTER: LOGOS /// */
+footer section.logos div.logo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+/* /// /// */
+
+/* /// FOOTER: LOGOS IMAGENS /// */
+footer section.logos .logo img {
+    width: auto;
+    height: auto;
+    max-height: 100px;
+    max-width: 100px;
+}
+/* /// /// */

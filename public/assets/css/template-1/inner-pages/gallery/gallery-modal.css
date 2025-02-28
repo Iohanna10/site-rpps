@@ -1,0 +1,162 @@
+/* /////////////////////////////////////////////////////// MODAL GALERIA /////////////////////////////////////////////////////// */
+
+/* div principal */
+.modal-gallery {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*  */
+
+/* voltar para as publicações */
+.modal-gallery > .back {
+    width: 100%;
+    height: auto;
+}
+
+.modal-gallery > .back > div {
+    width: fit-content;
+    height: 100%;
+
+    font-size: 2rem;
+    cursor: pointer;  
+}
+/*  */
+
+/* galeria de fotos das publicações */
+
+.gallery {
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 10px;
+}
+
+.gallery > .photo {
+    max-width: 300px;
+    height: 180px;
+
+    overflow: hidden;
+    position: relative;
+
+    background-color: white;
+    padding: 5px;
+    border: 2px solid #b2afaf;
+}
+
+.gallery > .photo > a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+.gallery > .photo > a > img {
+    max-width: 100%;
+    max-height: 100%;
+ 
+    position: absolute;
+ 
+    transition: .8s;
+}
+
+.gallery > .photo > a > img:hover {
+    transform: scale(1.08);
+}
+
+.gallery > .photo .video {
+    width: 100%;
+    min-height: 100%;
+}
+
+.gallery > .photo .video ~ div {
+    width: 100%;
+    height: 100%;
+ 
+    position: absolute;
+    z-index: 2;
+}
+/*  */
+
+/* loader */
+
+.loader {   
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #ffffff94;
+}
+
+.loader div {   
+    height: 200px;
+    width: 200px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.loader-on {
+    display: flex!important;
+}
+/*  */
+
+/* esconder galeria */
+
+.hidden {
+    display: none!important;
+}
+/*  */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////// RESPONSIVIDADE /////////////////////////////////////////////////////// */
+
+@media (max-width: 769px) {
+    
+    .modal-gallery {
+        padding: 15px;
+    }
+
+}
+
+@media (max-width: 680px) {
+
+    .gallery > .photo {
+        max-width: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery > .photo > a {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 320px){
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

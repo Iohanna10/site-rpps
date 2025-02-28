@@ -1,0 +1,11 @@
+CRITICAL - 2023-12-01 17:50:49 --> Undefined variable $name
+in APPPATH\Views\contents\template-1\home-page\main\sections\slide-news.php on line 95.
+ 1 APPPATH\Views\contents\template-1\home-page\main\sections\slide-news.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\slide-news.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\home-page\\main\\sections\\slide-news.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/home-page/main/sections/slide-news', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('contents/template-1/home-page/main/sections/slide-news', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

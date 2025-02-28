@@ -1,0 +1,47 @@
+CRITICAL - 2023-10-24 20:29:21 --> Undefined variable $html
+in APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php on line 32.
+ 1 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php', 32)
+ 2 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(24): routes([...])
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links.php', [], true)
+ 6 APPPATH\Controllers\InnerPages\Institute.php(123): view('contents/template-1/inner-pages/header/sections/header-links.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->concursos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-24 20:30:35 --> Undefined variable $html
+in APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php on line 32.
+ 1 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php', 32)
+ 2 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(23): routes([...])
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links.php', [], true)
+ 6 APPPATH\Controllers\InnerPages\Institute.php(123): view('contents/template-1/inner-pages/header/sections/header-links.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->concursos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-24 20:31:08 --> Unsupported operand types: string + string
+in APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php on line 32.
+ 1 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(23): routes([...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Institute.php(123): view('contents/template-1/inner-pages/header/sections/header-links.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->concursos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-24 20:31:37 --> Undefined variable $html
+in APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php on line 32.
+ 1 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php', 32)
+ 2 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(23): routes([...])
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links.php', [], true)
+ 6 APPPATH\Controllers\InnerPages\Institute.php(123): view('contents/template-1/inner-pages/header/sections/header-links.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Institute->concursos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Institute))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

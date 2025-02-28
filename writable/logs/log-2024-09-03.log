@@ -1,0 +1,67 @@
+CRITICAL - 2024-09-03 09:31:01 --> Undefined variable $all_medias
+in APPPATH\Views\crons\delete_unused_files.php on line 57.
+ 1 APPPATH\Views\crons\delete_unused_files.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_medias', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crons/delete_unused_files', [], true)
+ 5 APPPATH\Controllers\Crons.php(14): view('crons/delete_unused_files', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-03 09:31:05 --> Undefined variable $all_medias
+in APPPATH\Views\crons\delete_unused_files.php on line 57.
+ 1 APPPATH\Views\crons\delete_unused_files.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_medias', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crons/delete_unused_files', [], true)
+ 5 APPPATH\Controllers\Crons.php(14): view('crons/delete_unused_files', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-03 10:15:29 --> Undefined variable $todas_imagens
+in APPPATH\Views\crons\delete_unused_files.php on line 50.
+ 1 APPPATH\Views\crons\delete_unused_files.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $todas_imagens', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crons/delete_unused_files', [], true)
+ 5 APPPATH\Controllers\Crons.php(14): view('crons/delete_unused_files', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-03 10:15:43 --> Undefined variable $all_medias
+in APPPATH\Views\crons\delete_unused_files.php on line 63.
+ 1 APPPATH\Views\crons\delete_unused_files.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_medias', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crons/delete_unused_files', [], true)
+ 5 APPPATH\Controllers\Crons.php(14): view('crons/delete_unused_files', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-03 10:16:01 --> Undefined variable $all_medias
+in APPPATH\Views\crons\delete_unused_files.php on line 76.
+ 1 APPPATH\Views\crons\delete_unused_files.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_medias', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\crons\\delete_unused_files.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crons/delete_unused_files', [], true)
+ 5 APPPATH\Controllers\Crons.php(14): view('crons/delete_unused_files', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-03 12:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

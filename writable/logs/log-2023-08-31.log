@@ -1,0 +1,30 @@
+CRITICAL - 2023-08-31 18:23:14 --> Cannot redeclare repleceHyphen() (previously declared in C:\xampp\htdocs\RPPS\public\functions\functionReplace.php:3)
+in FCPATH\functions\functionReplace.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-31 20:00:30 --> Invalid file: "contents/institute/dynamic-header/posts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/dynamic-header/posts.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/dynamic-header/posts.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(17): view('contents/institute/dynamic-header/posts.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 20:00:49 --> Invalid file: "contents/institute/posts.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/posts.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/posts.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(17): view('contents/institute/posts.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->historico()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 20:58:49 --> Invalid file: "contents/institute/institute/dynamic-content/public-tender/selective-process.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents/institute/institute/dynamic-content/public-tender/selective-process.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/institute/institute/dynamic-content/public-tender/selective-process.php', [], true)
+ 3 APPPATH\Controllers\Institute.php(113): view('contents/institute/institute/dynamic-content/public-tender/selective-process.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Institute->processoSeletivo()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Institute))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

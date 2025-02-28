@@ -1,0 +1,99 @@
+INFO - 2024-09-02 15:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 15:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 16:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 16:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 16:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 16:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 16:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 16:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 16:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 16:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 16:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 16:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 18:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 18:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-02 18:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-02 18:09:36 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('delete_unused_files')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('delete_unused_files')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-02 18:10:22 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('delete_unused_files')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('delete_unused_files')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-02 18:10:45 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('info')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('info')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-02 18:21:14 --> Invalid file: "public/crons/delete_unused_files.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/crons/delete_unused_files.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('public/crons/delete_unused_files', [], true)
+ 3 APPPATH\Controllers\Crons.php(11): view('public/crons/delete_unused_files')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-02 18:22:23 --> Invalid file: "public/crons/delete_unused_files.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/crons/delete_unused_files.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('public/crons/delete_unused_files.php', [], true)
+ 3 APPPATH\Controllers\Crons.php(11): view('public/crons/delete_unused_files.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-02 18:23:03 --> Invalid file: "crons/delete_unused_files.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crons/delete_unused_files.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crons/delete_unused_files.php', [], true)
+ 3 APPPATH\Controllers\Crons.php(11): view('crons/delete_unused_files.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-02 18:24:43 --> require_once(./public/crons/delete_unused_files.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Crons.php on line 11.
+ 1 APPPATH\Controllers\Crons.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(./public/crons/delete_unused_files.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Crons.php', 11)
+ 2 APPPATH\Controllers\Crons.php(11): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-02 18:59:31 --> Array to string conversion
+in FCPATH\crons\delete_unused_files.php on line 58.
+ 1 FCPATH\crons\delete_unused_files.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\RPPS\\public\\crons\\delete_unused_files.php', 58)
+ 2 APPPATH\Controllers\Crons.php(11): require_once('C:\\xampp\\htdocs\\RPPS\\public\\crons\\delete_unused_files.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-02 19:16:36 --> Undefined variable $all_medias
+in FCPATH\crons\delete_unused_files.php on line 62.
+ 1 FCPATH\crons\delete_unused_files.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_medias', 'C:\\xampp\\htdocs\\RPPS\\public\\crons\\delete_unused_files.php', 62)
+ 2 APPPATH\Controllers\Crons.php(11): require_once('C:\\xampp\\htdocs\\RPPS\\public\\crons\\delete_unused_files.php')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Crons->delete_unused_files()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crons))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

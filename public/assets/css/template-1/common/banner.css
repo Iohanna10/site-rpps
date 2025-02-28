@@ -1,0 +1,129 @@
+.link-banner {
+    text-decoration: none;
+    color: initial;
+}
+
+.full-banner {
+    width: 100%;
+    min-width: 200px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.line-banner {
+    position: absolute;
+
+    width: 100%;
+    height: 5px;
+
+    background-repeat: repeat-x;
+}
+
+.line-banner.top {
+    top: 0;
+}
+
+.line-banner.bottom {
+    bottom: 0;
+}
+
+.full-banner .img-banner {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-banner .img-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.full-banner .content-banner {
+    width: auto;
+    min-height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+    border-radius: 10px;
+    background-color: #ECE4E6;
+}
+
+.full-banner .content-banner > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.full-banner .content-banner .icon-banner {
+    font-size: 20px;
+
+    color: #dcce03;
+}
+
+.full-banner .content-banner .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-banner .content-banner h1 {
+   font-size: 3rem;
+}
+
+
+.full-banner .content-banner p {
+    font-size: 1.6rem;
+ }
+
+.full-banner .content-banner .title .icon-banner.megaphone {
+    width: 7rem;
+}
+
+.full-banner .content-banner .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+@media (max-width: 767px) {
+    .full-banner {
+        flex-direction: column-reverse;
+    }
+
+    .full-banner .content-banner {
+        min-height: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .full-banner .content-banner .title, .full-banner .content-banner .content {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .full-banner .content-banner h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 200px) {
+    .full-banner {
+        min-width: auto;
+    }
+}

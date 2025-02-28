@@ -1,0 +1,166 @@
+CRITICAL - 2024-01-11 19:08:51 --> Call to undefined method App\Models\Session\SessionModel::requireInstituteId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Session.php(14): CodeIgniter\Model->__call('requireInstituteId', [...])
+ 2 APPPATH\Controllers\Session.php(29): App\Controllers\Session->requireInstituteId('84.537.657/0001-82')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 19:11:58 --> Call to undefined method App\Models\Session\SessionModel::requireInstituteId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Session.php(14): CodeIgniter\Model->__call('requireInstituteId', [...])
+ 2 APPPATH\Controllers\Session.php(29): App\Controllers\Session->requireInstituteId('84.537.657/0001-82')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 19:21:11 --> Call to undefined method App\Models\Session\SessionModel::requireInstituteId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Session.php(14): CodeIgniter\Model->__call('requireInstituteId', [...])
+ 2 APPPATH\Controllers\Session.php(29): App\Controllers\Session->requireInstituteId('84.537.657/0001-82')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 19:22:59 --> Call to undefined method App\Models\Session\SessionModel::requireInstituteId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Session.php(14): CodeIgniter\Model->__call('requireInstituteId', [...])
+ 2 APPPATH\Controllers\Session.php(29): App\Controllers\Session->requireInstituteId(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 19:25:05 --> Too few arguments to function App\Controllers\Session::loginInstitute(), 0 passed in C:\xampp\htdocs\RPPS\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Session.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 19:25:05 --> Too few arguments to function App\Controllers\Session::loginInstitute(), 0 passed in C:\xampp\htdocs\RPPS\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Session.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 19:48:19 --> Call to undefined method App\Models\Session\SessionModel::requireInstituteId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Session.php(14): CodeIgniter\Model->__call('requireInstituteId', [...])
+ 2 APPPATH\Controllers\Session.php(66): App\Controllers\Session->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\Home.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 4 APPPATH\Controllers\Home.php(44): App\Controllers\Home->requireCurrentInstitute()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 19:48:25 --> Call to undefined method App\Models\Session\SessionModel::requireInstituteId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Session.php(14): CodeIgniter\Model->__call('requireInstituteId', [...])
+ 2 APPPATH\Controllers\Session.php(66): App\Controllers\Session->requireInstituteId('ipreve')
+ 3 APPPATH\Controllers\Home.php(18): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 4 APPPATH\Controllers\Home.php(44): App\Controllers\Home->requireCurrentInstitute()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 19:54:51 --> Undefined array key "id"
+in APPPATH\Models\Session\SessionUserModel.php on line 15.
+ 1 APPPATH\Models\Session\SessionUserModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 15)
+ 2 APPPATH\Controllers\Session.php(48): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 19:59:07 --> Undefined array key "id"
+in APPPATH\Models\Session\SessionUserModel.php on line 15.
+ 1 APPPATH\Models\Session\SessionUserModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 15)
+ 2 APPPATH\Controllers\Session.php(48): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 20:04:59 --> Undefined array key "id"
+in APPPATH\Models\Session\SessionUserModel.php on line 15.
+ 1 APPPATH\Models\Session\SessionUserModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 15)
+ 2 APPPATH\Controllers\Session.php(48): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 20:07:05 --> Undefined array key "id"
+in APPPATH\Models\Session\SessionUserModel.php on line 15.
+ 1 APPPATH\Models\Session\SessionUserModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 15)
+ 2 APPPATH\Controllers\Session.php(46): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 20:07:37 --> Undefined array key "id"
+in APPPATH\Models\Session\SessionUserModel.php on line 15.
+ 1 APPPATH\Models\Session\SessionUserModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 15)
+ 2 APPPATH\Controllers\Session.php(46): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 20:07:58 --> Undefined array key "id"
+in APPPATH\Models\Session\SessionUserModel.php on line 15.
+ 1 APPPATH\Models\Session\SessionUserModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 15)
+ 2 APPPATH\Controllers\Session.php(46): App\Models\Session\SessionUserModel->accessBeneficiary([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginBeneficiary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 20:52:20 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Session.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 20:52:36 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Session.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 21:05:56 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH\Controllers\Session.php on line 36.
+ 1 APPPATH\Controllers\Session.php(36): implode(':', 'aaaaaaaaa')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 21:08:47 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH\Controllers\Session.php on line 36.
+ 1 APPPATH\Controllers\Session.php(36): implode('', 'aaaaaaaaa')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 21:09:02 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH\Controllers\Session.php on line 36.
+ 1 APPPATH\Controllers\Session.php(36): implode('', 'aaaaaaaaa')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 21:09:03 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH\Controllers\Session.php on line 36.
+ 1 APPPATH\Controllers\Session.php(36): implode('', 'aaaaaaaaa')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 21:09:04 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH\Controllers\Session.php on line 36.
+ 1 APPPATH\Controllers\Session.php(36): implode('', 'aaaaaaaaa')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-11 21:10:48 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH\Controllers\Session.php on line 36.
+ 1 APPPATH\Controllers\Session.php(36): implode('', 'aaaaaaaaa')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Session->loginInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Session))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

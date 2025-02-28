@@ -1,0 +1,488 @@
+INFO - 2024-08-07 15:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:38:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:45:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:47:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 12:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:47:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:48:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:49:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:49:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 12:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:49:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:50:13 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 12:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:50:13 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:51:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:51:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 12:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:51:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 12:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:51:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:52:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:52:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 12:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:52:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 12:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:52:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 12:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-07 12:52:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-07 15:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 15:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-07 15:58:42 --> mysqli_sql_exception: Unknown column 'telefone' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, em...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, em...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, em...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, em...', '2')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(25): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 15:58:42 --> Unknown column 'telefone' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, email, telefone FROM instituto WHERE id = ?', '2')
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(25): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 15:59:29 --> mysqli_sql_exception: Unknown column 'telefone' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, em...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, em...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, em...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, em...', '2')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(25): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 15:59:29 --> Unknown column 'telefone' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, email, telefone FROM instituto WHERE id = ?', '2')
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(25): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 16:02:33 --> mysqli_sql_exception: Unknown column 'telefone' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, em...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, em...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, em...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, em...', '2')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(25): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(181): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 16:02:33 --> Unknown column 'telefone' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, email, telefone FROM instituto WHERE id = ?', '2')
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(25): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(181): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-07 16:03:17 --> mysqli_sql_exception: Unknown column 'telefone' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, em...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, em...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, em...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, em...', '2')
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(25): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(181): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-07 16:03:17 --> Unknown column 'telefone' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nome, email, telefone FROM instituto WHERE id = \'2\'')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT nome, email, telefone FROM instituto WHERE id = ?', '2')
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(25): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(181): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:20:48 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 26.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 26)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:21:36 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 26.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 26)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:22:00 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 26.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 26)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:24:48 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 28.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 28)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:27:48 --> Undefined array key "nome"
+in APPPATH\Controllers\Mails\sendMails.php on line 37.
+ 1 APPPATH\Controllers\Mails\sendMails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 37)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(91): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$h9uf0rE/qShUtb2oucylCuGSWEPk4z9RNwXZ/XgfkDeDRwDqZW74W')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:29:37 --> Undefined array key "nome"
+in APPPATH\Controllers\Mails\sendMails.php on line 37.
+ 1 APPPATH\Controllers\Mails\sendMails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 37)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(90): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$.VQcni8lwyqTAolbSu475ODQPvGxPZ03y...FHuLm7hlpeIf6ma1i')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:30:21 --> Undefined variable $subject
+in APPPATH\Controllers\Mails\sendMails.php on line 60.
+ 1 APPPATH\Controllers\Mails\sendMails.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subject', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 60)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(90): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$U9u94GQEMwcUMsbAvSaO.eoZu13OHeipOOFRoDhWR2DdBRRlVAnji')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:31:53 --> Undefined array key "nome"
+in APPPATH\Controllers\Mails\sendMails.php on line 37.
+ 1 APPPATH\Controllers\Mails\sendMails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 37)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(90): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$xeyX8R3rPUgH91uQGmje0eitGIHak8xkrVmLOUeL6wTaEwRaXEGAK')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:32:56 --> Undefined array key "nome"
+in APPPATH\Controllers\Mails\sendMails.php on line 37.
+ 1 APPPATH\Controllers\Mails\sendMails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 37)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(90): App\Controllers\Mails\sendMails->sendEmail([...], [...], '$2y$10$KG4/tcguFHfC4qLN4ApvEeWr0agWqjik.Zo6F8q7uttquPOMllLTi')
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(28): App\Models\AjaxModel\AjaxRecoverModel->updateRecover([...], [...], 'beneficiados')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-07 16:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 16:45:24 --> Undefined array key "id_instituto"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 55.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 55)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:46:01 --> Undefined array key "id_instituto"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 55.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 55)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:46:28 --> Undefined array key "cpf"
+in APPPATH\Models\Session\SessionUserModel.php on line 63.
+ 1 APPPATH\Models\Session\SessionUserModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 63)
+ 2 APPPATH\Controllers\Mails\sendMails.php(130): App\Models\Session\SessionUserModel->updateKey([...])
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(63): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:46:46 --> Undefined array key "id_instituto"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 56.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 56)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:48:43 --> Undefined array key "cpf"
+in APPPATH\Models\Session\SessionUserModel.php on line 63.
+ 1 APPPATH\Models\Session\SessionUserModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 63)
+ 2 APPPATH\Controllers\Mails\sendMails.php(130): App\Models\Session\SessionUserModel->updateKey([...])
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(61): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:50:03 --> Undefined array key "cpf"
+in APPPATH\Models\Session\SessionUserModel.php on line 63.
+ 1 APPPATH\Models\Session\SessionUserModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 63)
+ 2 APPPATH\Controllers\Mails\sendMails.php(130): App\Models\Session\SessionUserModel->updateKey([...])
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(61): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:50:18 --> Undefined array key "cpf"
+in APPPATH\Models\Session\SessionUserModel.php on line 63.
+ 1 APPPATH\Models\Session\SessionUserModel.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 63)
+ 2 APPPATH\Controllers\Mails\sendMails.php(130): App\Models\Session\SessionUserModel->updateKey([...])
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(61): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:51:49 --> Undefined array key "cpf"
+in APPPATH\Models\Session\SessionUserModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionUserModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 61)
+ 2 APPPATH\Controllers\Mails\sendMails.php(130): App\Models\Session\SessionUserModel->updateKey([...])
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(61): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:51:57 --> Undefined array key "id"
+in APPPATH\Models\Session\SessionUserModel.php on line 62.
+ 1 APPPATH\Models\Session\SessionUserModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 62)
+ 2 APPPATH\Controllers\Mails\sendMails.php(130): App\Models\Session\SessionUserModel->updateKey([...])
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(61): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:52:10 --> Undefined array key "cpf"
+in APPPATH\Models\Session\SessionUserModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionUserModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 61)
+ 2 APPPATH\Controllers\Mails\sendMails.php(130): App\Models\Session\SessionUserModel->updateKey([...])
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(61): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:54:55 --> Undefined array key "cpf"
+in APPPATH\Models\Session\SessionUserModel.php on line 61.
+ 1 APPPATH\Models\Session\SessionUserModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cpf"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionUserModel.php', 61)
+ 2 APPPATH\Controllers\Mails\sendMails.php(130): App\Models\Session\SessionUserModel->updateKey([...])
+ 3 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(61): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(179): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-07 16:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 18:37:33 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('ipercal')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('ipercal')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 18:37:38 --> Undefined array key 0
+in APPPATH\Models\Session\SessionModel.php on line 19.
+ 1 APPPATH\Models\Session\SessionModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 19)
+ 2 APPPATH\Controllers\Session.php(14): App\Models\Session\SessionModel->requireInstituteId('ipercal')
+ 3 APPPATH\Controllers\Session.php(218): App\Controllers\Session->requireInstituteId('ipercal')
+ 4 APPPATH\Controllers\Home.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Home))
+ 5 APPPATH\Controllers\Home.php(26): App\Controllers\Home->requireCurrentInstitute()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-07 18:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 18:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 19:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 20:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

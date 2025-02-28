@@ -1,0 +1,107 @@
+.header-routes {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+    padding: 10px;
+}
+
+.header-routes .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    width: var(--afastamento-lateral);
+    max-width: var(--max-width-container);
+    height: auto;
+    min-height: 95px;
+}
+
+.header-routes .container .category {
+    font-size: 3rem;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    max-width: 60%;
+    height: 100%;
+    padding: 5px;
+}
+
+.header-routes .container .route-links {
+    max-width: 40%;
+    height: 100%;
+    padding: 5px;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.header-routes .container .route-links a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-align: end;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+.header-routes .container .route-links a:hover {
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.header-routes .container .route-links span {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-routes .container .route-links span {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .header-routes .container .route-links {
+        display: none;
+    }
+
+    .header-routes .container .category {
+        max-width: 100%;
+    }
+
+    .header-routes .container {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 580px) {
+    .header-routes .container .category {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-routes .container .category {
+        font-size: 1.8rem;
+    }
+
+    .contents .container .other-certificates .header-crps h1 {
+        text-align: center;
+    }
+
+    .contents .container .other-certificates .main-crps .crps {
+        text-align: center;
+    }
+}

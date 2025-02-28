@@ -1,0 +1,420 @@
+/* /// SECTION - post-carousel /// */
+.post-carousel {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+}
+
+/* /// SECTION - post-carousel: CARROSSEL DE POSTS /// */
+.post-carousel .carousel {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* /// SECTION - post-carousel: SLIDER /// */
+.slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* /// SECTION - post-carousel: SLIDES /// */
+.slides {
+    width: 300%;
+    min-height: 400px;
+    max-height: 100%;
+
+    padding: 50px 25px;
+
+    display: flex;
+
+    transition: 1s;
+}
+
+/* /// SECTION - post-carousel: SLIDES /// */
+.slides input {
+    display: none;
+}
+
+/* /// SECTION - post-carousel: SLIDE /// */
+.post-carousel .carousel .slider .slides .slide {
+    width: calc(100%/3);
+    
+    position: relative;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 20px;
+    align-items: center;
+
+    transition: .8s;
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts {
+    width: 250px;
+    height: 100%;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    justify-self: center;
+
+    position: relative;
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO DATA /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts .date {
+    width: 50%;
+    height: 25px;
+
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+    left: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f8f8f8;
+    color: #a8a8a8;
+
+    border-radius: 5px;
+
+    cursor: default;
+}
+
+/* /// SECTION - post-carousel: CARROSSEL DE IMAGENS IMG /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts div.img-cake {
+    width: 100%;
+    height: 250px;
+
+    overflow: hidden;
+}
+
+/* /// SECTION - post-carousel: CARROSSEL DE IMAGENS IMG /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts div.img-cake a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* /// SECTION - post-carousel: CARROSSEL DE IMAGENS IMG /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts div.img-cake a img {
+   width: 100%;
+   height: 100%;
+   min-height: 250px;
+
+   position: absolute;
+
+   transition: 1s;
+}
+
+/* /// SECTION - post-carousel: CARROSSEL DE IMAGENS IMG /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts div.img-cake a img:hover {
+    transform: scale(1.08);
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO - TÍTULO /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts .title {
+    font-size: 2.2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO - TÍTULO - link /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts .title a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO - TÍTULO - sublinhado /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts .title div.underlined {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO - TÍTULO - sublinhado span /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts .title div.underlined span {
+    width: 50%;
+    height: 1px;
+
+    border-bottom: 1px solid var(--cor-secundaria);
+
+    display: block;
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO - LER MAIS /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts .read-more {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO - LER MAIS - link /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts .read-more a {
+   text-decoration: none;
+   font-size: 1.5rem;
+   color: var(--cor-secundaria);
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO - LER MAIS - span /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts .read-more a .btn {
+    width: 140px;
+    height: 45px;
+
+    display: flex;
+
+    border-radius: 5px;
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO - LER MAIS - span /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts .read-more a .btn span {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0px 5px 5px 0px;
+
+    background-color: #f8f8f8f6;
+}
+
+/* /// SECTION - post-carousel: SLIDE DIV ANIVERSÁRIO - LER MAIS - span /// */
+.post-carousel .carousel .slider .slides .slide div.birthdays-posts .read-more a .btn span.icon {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px 0px 0px 5px;
+
+    background-color: #f8f8f8be;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* /// SECTION - post-carousel: CARROSSEL DE IMAGENS - POSICIONAMENTO DOS BOTÕES DE NEXT E PREV /// */
+.post-carousel .carousel .change-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+}
+/* /// /// */
+
+/* /// SECTION - post-carousel: CARROSSEL DE IMAGENS BOTAO NEXT /// */
+.post-carousel .carousel .btn-next, .post-carousel .carousel .btn-prev {
+    padding: 10px;
+
+    border-radius: 5px;
+    border: none;
+    
+    color: #f8f8f8;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    background-color: var(--cor-secundaria);
+}
+/* /// /// */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* /// SECTION - post-carousel : MANUAL NAVEGATION /// */
+.post-carousel  .manual-navigation {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: 56px;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* /// SECTION - post-carousel : MANUAL NAVEGATION BTN /// */
+.post-carousel  .manual-navigation .manual-btn {
+    width: 12px;
+    height: 12px;
+    
+    border: 2px solid var(--cor-primaria);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.post-carousel  .manual-navigation .manual-btn:hover {
+    background-color: var(--cor-primaria);
+}
+
+/* /// SECTION - post-carousel : AUTO NAVEGATION /// */
+.post-carousel  .navigation-auto {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+
+
+    width: 56px;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* /// SECTION - post-carousel : AUTO NAVEGATION /// */
+.post-carousel .navigation-auto div {
+    width: 12px;
+    height: 12px;
+
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+
+    position: relative;
+}
+
+/* /// POSIÇÕES DO SLIDE /// */
+.post-carousel .slider .slides #main-radio1:checked ~ .first-post {
+    margin-left: 0;
+}
+
+.post-carousel .slider .slides #main-radio2:checked ~ .first-post {
+    margin-left: -33.3%;
+}
+
+.post-carousel .slider .slides #main-radio3:checked ~ .first-post {
+    margin-left: -66.6%;
+}
+
+
+/* /// BG INPUTS RADIO /// */
+#main-radio1:checked ~ .navigation-auto .auto-btn1 {
+    border-radius: 2px;
+    background-color: var(--cor-primaria);
+}
+
+#main-radio2:checked ~ .navigation-auto .auto-btn2 {
+    border-radius: 2px;
+    background-color: var(--cor-primaria);
+}
+
+#main-radio3:checked ~ .navigation-auto .auto-btn3 {
+    border-radius: 2px;
+    background-color: var(--cor-primaria);
+}
+
+/* /// SECTION - post-carousel : AUTO NAVEGATION TELHADO /// */
+.post-carousel .navigation-auto .roof {
+    padding: 0;
+    
+    border: 0;
+    border-radius: 2px;
+
+    width: 12px; 
+    height: 0; 
+
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 9px solid var(--cor-primaria);
+
+    display: none;
+
+    position: absolute;
+    top: -8px;
+}
+
+
+/* /// BG INPUTS RADIO /// */
+#main-radio1:checked ~ .navigation-auto .auto-btn1 .roof {
+    left: -4px;
+
+    display: inline-block;
+}
+
+#main-radio2:checked ~ .navigation-auto .auto-btn2 .roof {
+    left: -4px;
+
+    display: inline-block;
+}
+
+#main-radio3:checked ~ .navigation-auto .auto-btn3 .roof {
+    left: -4px;
+
+    display: inline-block;
+
+}
+
+/* POSIÇÃO DO SLIDE DE IMAGENS */
+
+/* /// POSIÇÕES DO SLIDE /// */
+#radio1:checked ~ .first-post {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first-post {
+    margin-left: -33.3%;
+}
+
+#radio3:checked ~ .first-post {
+    margin-left: -66.6%;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 769px) {
+    .post-carousel .carousel .change-content {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    /* /// SECTION - post-carousel: SLIDES /// */
+    .slides {
+        padding: 50px 0px;
+    }
+}
+
+@media (max-width: 320px) {
+    .post-carousel .carousel .slider .slides .slide {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}

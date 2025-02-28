@@ -1,0 +1,198 @@
+.contents .container .team {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.contents .container .team .team-member {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    text-align: center;
+}
+
+.contents .container .team .team-member .member-img {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 100%;
+
+    overflow: hidden;
+}
+
+.contents .container .team .team-member .member-img img {
+    width: auto;
+    height: auto;
+
+    max-width: 100%;
+}
+
+.contents .container .team .team-member .identification {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    width: 100%;
+}
+
+.contents .container .team .team-member .identification h4 {
+    font-size: 2rem;
+    color: var(--cor-primaria);
+}
+
+.contents .container .team .team-member .identification .role {
+    width: 100%;
+}
+
+.contents .container .team .team-member .identification .role p {
+    width: 100%;
+
+    font-size: 1.5rem;
+    color: var(--cor-secundaria);
+}
+
+.contents .container .team .team-member .identification span {
+    width: 40%;
+    border: 1px solid var(--cor-highlight);
+    margin: auto;
+    margin-top: 15px;
+}
+
+.contents .container .team .team-member .certification h5 {
+    font-size: 1.4rem;
+}
+
+.contents .container .team .team-member .contat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.contents .container .team .team-member .contat span.underline {
+    width: 40%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.contents .container .team .team-member .contat .email {
+    width: 40px;
+    height: 40px;
+
+    overflow: hidden;
+
+    background-color: white;
+    border: 1px solid #53525249;
+
+    position: relative;
+}
+
+.contents .container .team .team-member .contat .email a {
+    width: 100%;
+    height: 200%;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+
+    transition: 250ms linear; 
+}
+
+.contents .container .team .team-member .contat .email a:hover {
+    transform:translateY(-50%);
+}
+
+.contents .container .team .team-member .contat .email a:hover span.b {
+    color: var(--cor-primaria);
+}
+
+.contents .container .team .team-member .contat .email a div {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    color: black;
+}
+
+.contents .container .team .team-member  .telephone {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contents .container .team .team-member .telephone a {
+    width: fit-content;
+    height: 100%;
+    
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+.contents .container .team .team-member .telephone a:hover p {
+    text-decoration: underline;
+    color: var(--cor-highlight);
+}
+
+.contents .container .team .team-member .telephone a i {
+    color: black;
+}
+
+.contents .container .team .team-member .affiliate {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    width: 100%;
+}
+
+.contents .container .team .team-member .affiliate .committee {
+    font-size: 1.5rem;
+}
+
+.contents .container .team .team-member .affiliate .link a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.contents .container .team .team-member .desc {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    width: 100%;
+}
+
+.contents .container .team .team-member .desc p {
+    font-size: 1.4rem;
+}
+
+
+@media (max-width: 767px) {
+    .contents .container .team {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 15px;
+    }
+}

@@ -1,0 +1,412 @@
+CRITICAL - 2024-02-15 13:07:49 --> Attempt to read property "nome" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 39.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(94): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 13:10:13 --> Attempt to read property "nome" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 39.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(97): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:12:21 --> Undefined array key "date"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 90.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 13:12:41 --> Attempt to read property "nome" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 39.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(97): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:12:54 --> Undefined array key "date"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 89.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:19:01 --> Undefined array key "mes"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 89.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mes"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 13:19:13 --> Undefined array key "data"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 14.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(97): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 13:19:20 --> Undefined array key "data"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 14.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(97): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:32:08 --> Undefined array key "date"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 89.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 13:32:47 --> Undefined array key "data"
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 14.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(97): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:32:54 --> Undefined array key "date"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 89.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 13:33:10 --> Attempt to read property "nome" on array
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 39.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(97): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:38:15 --> Class "App\Models\InnerPages\Birthdays" not found
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:38:35 --> Undefined array key "data"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 89.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:38:43 --> Undefined array key "data"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 89.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:39:12 --> Undefined array key "data"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 89.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:39:40 --> Undefined array key "data"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 89.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:39:47 --> Class "App\Models\InnerPages\Birthdays" not found
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:40:11 --> Class "App\Models\InnerPages\Birthdays" not found
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:40:37 --> Class "App\Models\InnerPages\Birthdays" not found
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:40:59 --> Class "App\Models\InnerPages\Birthdays" not found
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:41:12 --> Class "App\Controllers\InnerPages\Birthdays" not found
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:42:00 --> Class "App\Controllers\InnerPages\Birthdays" not found
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 16:42:45 --> Undefined array key "date"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 89.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 13:54:23 --> Undefined variable $mesPtBr
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 13.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mesPtBr', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(99): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 13:55:23 --> Call to undefined function App\Models\InnerPages\formatMonth()
+in APPPATH\Models\InnerPages\Birthday.php on line 14.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(96): App\Models\InnerPages\Birthday->birthdays('2024-01-01')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:12:26 --> Undefined variable $mesPtBr
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 23.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mesPtBr', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(99): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:16:45 --> Undefined variable $mesPtBr
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 24.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mesPtBr', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(100): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:17:46 --> Undefined variable $mesPtBr
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 25.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mesPtBr', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(100): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:18:55 --> Cannot redeclare prevMonth() (previously declared in C:\xampp\htdocs\RPPS\public\functions\functionsCalendar\functionCalendar.php:4)
+in FCPATH\functions\functionsCalendar\functionCalendar.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-15 14:20:01 --> Cannot redeclare prevMonth() (previously declared in C:\xampp\htdocs\RPPS\public\functions\functionsCalendar\functionCalendar.php:4)
+in FCPATH\functions\functionsCalendar\functionCalendar.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-15 14:20:10 --> Cannot redeclare prevMonth() (previously declared in C:\xampp\htdocs\RPPS\public\functions\functionsCalendar\functionCalendar.php:4)
+in FCPATH\functions\functionsCalendar\functionCalendar.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-15 14:20:36 --> Undefined variable $mesPtBr
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 19.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mesPtBr', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(106): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:21:16 --> Undefined variable $mesPtBr
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 19.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mesPtBr', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(106): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 17:21:40 --> Call to undefined function App\Models\InnerPages\formatMonth()
+in APPPATH\Models\InnerPages\Birthday.php on line 16.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(97): App\Models\InnerPages\Birthday->birthdays('2024-0')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:22:15 --> Undefined variable $mesPtBr
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 25.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mesPtBr', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(100): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:23:58 --> Undefined variable $date
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 9.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(99): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:28:56 --> Undefined variable $date
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 17.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(99): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:29:44 --> Undefined variable $data
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 17.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(99): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:30:15 --> Undefined variable $data
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 17.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(99): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 14:38:59 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in FCPATH\functions\functionsCalendar\functionCalendar.php on line 39.
+ 1 FCPATH\functions\functionsCalendar\functionCalendar.php(39): date('Y-m-d', '')
+ 2 APPPATH\Models\InnerPages\Birthday.php(15): formatMonth('', false)
+ 3 APPPATH\Controllers\InnerPages\Policyholders.php(96): App\Models\InnerPages\Birthday->birthdays('')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 15:05:50 --> Undefined variable $birthdays
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 29.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $birthdays', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(99): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->listaAniversario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 19:48:56 --> Undefined array key "data"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 110.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 19:57:32 --> Undefined array key "data"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 110.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 19:58:25 --> Undefined array key "data"
+in APPPATH\Controllers\InnerPages\Policyholders.php on line 110.
+ 1 APPPATH\Controllers\InnerPages\Policyholders.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Policyholders.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 17:00:51 --> Undefined variable $data
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 10.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(113): view('contents/template-1/inner-pages/main/sections/birthdaysList.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 17:31:37 --> Undefined variable $count
+in APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php on line 37.
+ 1 APPPATH\Views\contents\template-1\inner-pages\main\sections\birthdaysList.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\main\\sections\\birthdaysList.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/main/sections/birthdaysList.php', [], true)
+ 5 APPPATH\Controllers\InnerPages\Policyholders.php(113): view('contents/template-1/inner-pages/main/sections/birthdaysList.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 17:43:07 --> Undefined variable $qntResultPgs
+in APPPATH\Models\InnerPages\Birthday.php on line 21.
+ 1 APPPATH\Models\InnerPages\Birthday.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qntResultPgs', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Birthday.php', 21)
+ 2 APPPATH\Controllers\InnerPages\Policyholders.php(110): App\Models\InnerPages\Birthday->birthdays('1', '2024-02-01')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-15 17:44:31 --> Undefined variable $params
+in APPPATH\Models\InnerPages\Birthday.php on line 21.
+ 1 APPPATH\Models\InnerPages\Birthday.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\InnerPages\\Birthday.php', 21)
+ 2 APPPATH\Controllers\InnerPages\Policyholders.php(110): App\Models\InnerPages\Birthday->birthdays('1', '2024-02-01')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Policyholders->dadosLista()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Policyholders))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,21 @@
+WARNING - 2025-02-16 00:02:58 --> [DEPRECATED] Optional parameter $page declared before required parameter $headerLinks is implicitly treated as a required parameter in APPPATH\Controllers\Templates.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\RPPS\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Templates.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Templates')
+ 4 APPPATH\Controllers\InnerPages\Accountability.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Templates')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Accountability.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\InnerPages\\Accountability.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\InnerPages\\Accountability')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\InnerPages\\Accountability')
+ 9 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\InnerPages\\Accountability', true)
+10 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-16 00:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-16 00:03:00 --> App\Controllers\Templates::innerpages(): Argument #1 ($page) must be of type string, array given, called in C:\xampp\htdocs\RPPS\app\Controllers\InnerPages\Accountability.php on line 211
+in APPPATH\Controllers\Templates.php on line 0.
+ 1 APPPATH\Controllers\InnerPages\Accountability.php(211): App\Controllers\Templates->innerpages([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->calculoAtuarial()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

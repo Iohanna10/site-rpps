@@ -1,0 +1,21 @@
+/* CORES PADRÃO */
+:root {
+    /* COR PRIMÁRIA */
+    --cor-primaria: #020659;
+    --cor-secundaria: #1E2159;
+}
+
+/* CORES PADRÃO NAV */
+:root {
+    /* MENU SUPERIOR */
+    --cor-bg-menu-superior: var(--cor-secundaria); 
+
+    /* MENU INFERIOR */
+    --cor-bg-menu-inferior: #e3e3e2;
+}
+
+/* CORES PADRÃO HOVER */
+:root {
+    /* MENU SUPERIOR - PESQUISA */
+    --cor-pesquisa-hover: #162040;
+}

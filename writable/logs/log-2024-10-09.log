@@ -1,0 +1,108 @@
+INFO - 2024-10-09 16:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 16:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 17:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 17:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-09 17:00:06 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 490.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(490): preg_replace('/@institute@/', 'iprecal', null)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): App\Models\AjaxModel\AjaxPostModel->addInstituteToLocalPathMedia(null, '2')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(27): App\Models\AjaxModel\AjaxPostModel->posts([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->post()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-09 17:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 17:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 17:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 17:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 17:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 17:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-09 14:41:30 --> Erro de SMTP: Os seguintes destinatários falharam: meurppswebprev@gmail.com: <meurppswebprev@gmail.com>: Recipient address rejected: Access Denied
+
+in VENDORPATH\phpmailer\phpmailer\src\PHPMailer.php on line 2128.
+ 1 VENDORPATH\phpmailer\phpmailer\src\PHPMailer.php(1689): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 9 Oct 2024 14:41:28 -0300
+To: iprecal <meurppswebprev@gmail.com>
+From: Teste De Email <iohannaarquivos@gmail.com>
+Reply-To: Teste De Email <iohannaarquivos@gmail.com>
+Subject: Assunto do Email
+Message-ID: <XziqrMaLtoMVvYBLHhDjHvhdoySnKLQpAi2VIFobr8@localhost>
+X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1=_XziqrMaLtoMVvYBLHhDjHvhdoySnKLQpAi2VIFobr8"
+Content-Transfer-Encoding: 8bit
+
+', '--b1=_XziqrMaLtoMVvYBLHhDjHvhdoySnKLQpAi2VIFobr8
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!-- DEBUG-VIEW START 2 APPPATH\\Views\\mails\\contactUs.php -->
+Assunto do Email
+
+Uma mensagem de teste
+Dados do remetente: 
+
+Nome da empresa: Empresa Teste Email
+Endereço: Teste Estado Email, Teste De Email Cidade, Teste De Email Rua
+CNPJ: 03937163000193
+Email: iohannaarquivos@gmail.com
+Telefone: 47991361039
+
+<!-- DEBUG-VIEW ENDED 2 APPPATH\\Views\\mails\\contactUs.php -->
+
+--b1=_XziqrMaLtoMVvYBLHhDjHvhdoySnKLQpAi2VIFobr8
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!-- DEBUG-VIEW START 1 APPPATH\\Views\\mails\\contactUs.php -->
+    <table style="width: 100%; max-width:800px; font-size: 14px; font-family:sans-serif; box-shadow: 1px 2px 5px 0px black; border-radius: 10px; padding: 40px; position:absolute;transform:translate(-50%, -50%); top: 50%; left: 50%;">
+            <tbody>
+                <tr>
+                    <td>
+                        <h1> Assunto do Email </h1>
+                        <p> Uma mensagem de teste</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Dados do remetente:</h3>
+                        <p>                          
+                            <b>Nome da empresa: </b> Empresa Teste Email <br> 
+                            <b>Endereço: </b>Teste Estado Email, Teste De Email Cidade, Teste De Email Rua<br> 
+                            <b>CNPJ: </b>03937163000193 <br> 
+                            <b>Email: </b>iohannaarquivos@gmail.com<br>
+                            <b>Telefone: </b>47991361039<br>
+                        </p>                          
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <hr style="width: 100%; border-color: rgba(128, 128, 128, 0.273); margin: 15px 0px;" />
+                        <p>Entrar em contato: <a href="https://wa.me/+5547991361039?text=Olá">enviar mensagem por whatsapp</a>.</p>
+                    </td>
+                </tr>
+            </tfoot>
+    </table>
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\mails\\contactUs.php -->
+
+
+--b1=_XziqrMaLtoMVvYBLHhDjHvhdoySnKLQpAi2VIFobr8--
+')
+ 2 VENDORPATH\phpmailer\phpmailer\src\PHPMailer.php(1523): PHPMailer\PHPMailer\PHPMailer->postSend()
+ 3 APPPATH\Controllers\Mails\SendMails.php(154): PHPMailer\PHPMailer\PHPMailer->send()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mails\SendMails->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mails\SendMails))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 18:19:49 --> Invalid file: "test/testUrl.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test/testUrl.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('test/testUrl', [], true)
+ 3 APPPATH\Controllers\Info.php(19): view('test/testUrl')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Info->url()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-09 18:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

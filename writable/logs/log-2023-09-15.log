@@ -1,0 +1,86 @@
+CRITICAL - 2023-09-15 18:05:37 --> explode(): Argument #1 ($separator) cannot be empty
+in FCPATH\functions\functionAbstractPosts.php\abbreviate.php on line 16.
+ 1 FCPATH\functions\functionAbstractPosts.php\abbreviate.php(16): explode('', 'Demonstrativo')
+ 2 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(38): abbreviate([...])
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links.php', [], true)
+ 6 APPPATH\Controllers\InnerPages\Accountability.php(175): view('contents/template-1/inner-pages/header/sections/header-links.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->dair()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 18:06:00 --> explode(): Argument #1 ($separator) cannot be empty
+in FCPATH\functions\functionAbstractPosts.php\abbreviate.php on line 16.
+ 1 FCPATH\functions\functionAbstractPosts.php\abbreviate.php(16): explode('', 'Demonstrativo')
+ 2 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(38): abbreviate([...])
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links.php', [], true)
+ 6 APPPATH\Controllers\InnerPages\Accountability.php(175): view('contents/template-1/inner-pages/header/sections/header-links.php', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Accountability->dair()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Accountability))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 19:07:06 --> Invalid file: "uploads/pdf/mps.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('uploads/pdf/mps.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('uploads/pdf/mps', [], true)
+ 3 APPPATH\Controllers\Uploads\Pdf.php(12): view('uploads/pdf/mps')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->mps()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 20:38:20 --> Invalid file: "contents\template-1\uploads\sections\diario-oficial-municipios.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents\\template-1\\uploads\\sections\\diario-oficial-municipios.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\template-1\\uploads\\sections\\diario-oficial-municipios.php', [], true)
+ 3 APPPATH\Controllers\Uploads\Pdf.php(26): view('contents\\template-1\\uploads\\sections\\diario-oficial-municipios.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->diarioOficialMunicipios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 20:40:01 --> Invalid file: "contents\template-1\uploads\sections\diario-oficial-municipios.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents\\template-1\\uploads\\sections\\diario-oficial-municipios.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\template-1\\uploads\\sections\\diario-oficial-municipios.php', [], true)
+ 3 APPPATH\Controllers\Uploads\Pdf.php(26): view('contents\\template-1\\uploads\\sections\\diario-oficial-municipios.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->diarioOficialMunicipios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 20:41:18 --> Invalid file: "contents\template-1\uploads\sections\diario-oficial-municipios.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contents\\template-1\\uploads\\sections\\diario-oficial-municipios.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents\\template-1\\uploads\\sections\\diario-oficial-municipios.php', [], true)
+ 3 APPPATH\Controllers\Uploads\Pdf.php(26): view('contents\\template-1\\uploads\\sections\\diario-oficial-municipios.php')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Uploads\Pdf->diarioOficialMunicipios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads\Pdf))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 20:50:51 --> Undefined array key 3
+in FCPATH\functions\functionAbstractPosts.php\abbreviate.php on line 39.
+ 1 FCPATH\functions\functionAbstractPosts.php\abbreviate.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\xampp\\htdocs\\RPPS\\public\\functions\\functionAbstractPosts.php\\abbreviate.php', 39)
+ 2 FCPATH\functions\functionAbstractPosts.php\abbreviate.php(6): removeHyphen([...])
+ 3 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(35): abbreviate('Comitê de Investimento')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links.php', [], true)
+ 7 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(301): view('contents/template-1/inner-pages/header/sections/header-links.php', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->aplicacoesResgates()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-15 20:52:04 --> Undefined array key 3
+in FCPATH\functions\functionAbstractPosts.php\abbreviate.php on line 39.
+ 1 FCPATH\functions\functionAbstractPosts.php\abbreviate.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\xampp\\htdocs\\RPPS\\public\\functions\\functionAbstractPosts.php\\abbreviate.php', 39)
+ 2 FCPATH\functions\functionAbstractPosts.php\abbreviate.php(6): removeHyphen([...])
+ 3 APPPATH\Views\contents\template-1\inner-pages\header\sections\header-links.php(35): abbreviate('Comitê de Investimento')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\template-1\\inner-pages\\header\\sections\\header-links.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/template-1/inner-pages/header/sections/header-links.php', [], true)
+ 7 APPPATH\Controllers\InnerPages\Advices\InvestmentCommittee.php(301): view('contents/template-1/inner-pages/header/sections/header-links.php', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\InnerPages\Advices\InvestmentCommittee->aplicacoesResgates()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InnerPages\Advices\InvestmentCommittee))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,55 @@
+CRITICAL - 2023-08-22 15:46:42 --> Undefined array key 4
+in APPPATH\Views\contents\home-page\dynamic-content\latest-publications\publications.php on line 49.
+ 1 APPPATH\Views\contents\home-page\dynamic-content\latest-publications\publications.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\latest-publications\\publications.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\latest-publications\\publications.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/home-page/dynamic-content/latest-publications/publications', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('contents/home-page/dynamic-content/latest-publications/publications')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 15:46:49 --> Undefined array key 4
+in APPPATH\Views\contents\home-page\dynamic-content\latest-publications\publications.php on line 49.
+ 1 APPPATH\Views\contents\home-page\dynamic-content\latest-publications\publications.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\latest-publications\\publications.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\latest-publications\\publications.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/home-page/dynamic-content/latest-publications/publications', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('contents/home-page/dynamic-content/latest-publications/publications')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 15:53:34 --> Undefined variable $extensao
+in APPPATH\Views\contents\home-page\dynamic-content\latest-publications\publications.php on line 52.
+ 1 APPPATH\Views\contents\home-page\dynamic-content\latest-publications\publications.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $extensao', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\latest-publications\\publications.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\latest-publications\\publications.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/home-page/dynamic-content/latest-publications/publications', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('contents/home-page/dynamic-content/latest-publications/publications')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 15:54:27 --> Undefined variable $extensao
+in APPPATH\Views\contents\home-page\dynamic-content\latest-publications\publications.php on line 52.
+ 1 APPPATH\Views\contents\home-page\dynamic-content\latest-publications\publications.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $extensao', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\latest-publications\\publications.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\latest-publications\\publications.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/home-page/dynamic-content/latest-publications/publications', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('contents/home-page/dynamic-content/latest-publications/publications')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 16:48:27 --> Undefined array key 4
+in APPPATH\Views\contents\home-page\dynamic-content\latest-publications\publications.php on line 59.
+ 1 APPPATH\Views\contents\home-page\dynamic-content\latest-publications\publications.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\latest-publications\\publications.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\contents\\home-page\\dynamic-content\\latest-publications\\publications.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contents/home-page/dynamic-content/latest-publications/publications', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('contents/home-page/dynamic-content/latest-publications/publications')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

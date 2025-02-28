@@ -1,0 +1,373 @@
+ERROR - 2023-12-21 16:54:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+            )' at line 16 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            I...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            I...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            I...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(56): CodeIgniter\Database\BaseConnection->query('\r\n            I...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-21 16:54:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+            )' at line 16
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            INSERT INTO posts
+            VALUES(
+                0,
+                \'ipreve\',
+                \'0\',
+                0,
+                \'aaaaaaaaa\',
+                \'aaaaaaaaaaa\',
+                \'32d3ca5e23_2023_12_54.png\',
+                0,
+                \'32d3ca5e23_2023_12_54.png, fcc92b73a5_2023_12_54.png, 1708a8f995_2023_12_54.png, 0a615fd5c0_2023_12_54.png\',
+                \'<p>um conteúdo principal de post</p>\',
+                \'<p>bbbbbbbbb</p>\',
+                \'d570550cc0_2023_12_54.mp4\',
+                \'3a27c29561_2023_12_54.pdf\'
+                0
+            )
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            INSERT INTO posts
+            VALUES(
+                0,
+                \'ipreve\',
+                \'0\',
+                0,
+                \'aaaaaaaaa\',
+                \'aaaaaaaaaaa\',
+                \'32d3ca5e23_2023_12_54.png\',
+                0,
+                \'32d3ca5e23_2023_12_54.png, fcc92b73a5_2023_12_54.png, 1708a8f995_2023_12_54.png, 0a615fd5c0_2023_12_54.png\',
+                \'<p>um conteúdo principal de post</p>\',
+                \'<p>bbbbbbbbb</p>\',
+                \'d570550cc0_2023_12_54.mp4\',
+                \'3a27c29561_2023_12_54.pdf\'
+                0
+            )
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            INSERT INTO posts
+            VALUES(
+                0,
+                \'ipreve\',
+                \'0\',
+                0,
+                \'aaaaaaaaa\',
+                \'aaaaaaaaaaa\',
+                \'32d3ca5e23_2023_12_54.png\',
+                0,
+                \'32d3ca5e23_2023_12_54.png, fcc92b73a5_2023_12_54.png, 1708a8f995_2023_12_54.png, 0a615fd5c0_2023_12_54.png\',
+                \'<p>um conteúdo principal de post</p>\',
+                \'<p>bbbbbbbbb</p>\',
+                \'d570550cc0_2023_12_54.mp4\',
+                \'3a27c29561_2023_12_54.pdf\'
+                0
+            )
+        ')
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(56): CodeIgniter\Database\BaseConnection->query('
+            INSERT INTO posts
+            VALUES(
+                0,
+                :institute:,
+                :category:,
+                0,
+                :title:,
+                :description:,
+                :img:,
+                0,
+                :carousel_media:,
+                :main_content:,
+                :quote:,
+                :featured_video:,
+                :pdf:
+                0
+            )
+        ', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 17:30:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+            )' at line 13 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            I...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            I...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            I...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(59): CodeIgniter\Database\BaseConnection->query('\r\n            I...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-21 17:30:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+            )' at line 13
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            INSERT INTO posts
+            VALUES(
+                \'ipreve\',
+                \'0\',
+                \'aaaaaaaaaa\',
+                \'aaaaaaaaaaa\',
+                NULL,
+                \'32d3ca5e23_2023_12_30.png\',
+                NULL,
+                NULL,
+                NULL,
+                NULL
+                0
+            )
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            INSERT INTO posts
+            VALUES(
+                \'ipreve\',
+                \'0\',
+                \'aaaaaaaaaa\',
+                \'aaaaaaaaaaa\',
+                NULL,
+                \'32d3ca5e23_2023_12_30.png\',
+                NULL,
+                NULL,
+                NULL,
+                NULL
+                0
+            )
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            INSERT INTO posts
+            VALUES(
+                \'ipreve\',
+                \'0\',
+                \'aaaaaaaaaa\',
+                \'aaaaaaaaaaa\',
+                NULL,
+                \'32d3ca5e23_2023_12_30.png\',
+                NULL,
+                NULL,
+                NULL,
+                NULL
+                0
+            )
+        ')
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): CodeIgniter\Database\BaseConnection->query('
+            INSERT INTO posts
+            VALUES(
+                :institute:,
+                :category:,
+                :title:,
+                :description:,
+                :img:,
+                :carousel_media:,
+                :main_content:,
+                :quote:,
+                :featured_video:,
+                :pdf:
+                0
+            )
+        ', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-21 17:35:15 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            I...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            I...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            I...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(59): CodeIgniter\Database\BaseConnection->query('\r\n            I...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-21 17:35:15 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            INSERT INTO posts
+            VALUES(
+                0,
+                \'ipreve\',
+                \'0\', 
+                \'aaaaaaaaaa\',
+                \'aaaaaaaaa\',
+                NULL,
+                \'32d3ca5e23_2023_12_35.png\',
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                0
+            )
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            INSERT INTO posts
+            VALUES(
+                0,
+                \'ipreve\',
+                \'0\', 
+                \'aaaaaaaaaa\',
+                \'aaaaaaaaa\',
+                NULL,
+                \'32d3ca5e23_2023_12_35.png\',
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                0
+            )
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            INSERT INTO posts
+            VALUES(
+                0,
+                \'ipreve\',
+                \'0\', 
+                \'aaaaaaaaaa\',
+                \'aaaaaaaaa\',
+                NULL,
+                \'32d3ca5e23_2023_12_35.png\',
+                NULL,
+                NULL,
+                NULL,
+                NULL,
+                0
+            )
+        ')
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(59): CodeIgniter\Database\BaseConnection->query('
+            INSERT INTO posts
+            VALUES(
+                0,
+                :institute:,
+                :category:, 
+                :title:,
+                :description:,
+                :img:,
+                :carousel_media:,
+                :main_content:,
+                :quote:,
+                :featured_video:,
+                :pdf:,
+                0
+            )
+        ', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 21:01:25 --> Cannot access protected property App\Controllers\Ajax\AjaxPosts::$request
+in APPPATH\Controllers\Session.php on line 19.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(19): App\Controllers\Session->currentInstitute(Object(App\Controllers\Ajax\AjaxPosts))
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(38): App\Controllers\Ajax\AjaxPosts->requireCurrentInstitute('ipreve')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 21:05:19 --> substr_replace(): Argument #2 ($replace) must be of type array|string, App\Controllers\Session given
+in SYSTEMPATH\Database\Query.php on line 362.
+ 1 SYSTEMPATH\Database\Query.php(362): substr_replace('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', Object(App\Controllers\Session), 81, 1)
+ 2 SYSTEMPATH\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', [...], 1, 1)
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', Object(App\Controllers\Session))
+ 6 APPPATH\Models\Session\SessionModel.php(18): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId(Object(App\Controllers\Session))
+ 8 APPPATH\Controllers\Ajax\AjaxPosts.php(19): App\Controllers\Session->requireInstituteId(Object(App\Controllers\Session))
+ 9 APPPATH\Controllers\Ajax\AjaxPosts.php(38): App\Controllers\Ajax\AjaxPosts->requireCurrentInstitute(Object(App\Controllers\Session))
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 21:05:39 --> substr_replace(): Argument #2 ($replace) must be of type array|string, App\Controllers\Session given
+in SYSTEMPATH\Database\Query.php on line 362.
+ 1 SYSTEMPATH\Database\Query.php(362): substr_replace('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', Object(App\Controllers\Session), 81, 1)
+ 2 SYSTEMPATH\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', [...], 1, 1)
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', Object(App\Controllers\Session))
+ 6 APPPATH\Models\Session\SessionModel.php(18): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId(Object(App\Controllers\Session))
+ 8 APPPATH\Controllers\Ajax\AjaxPosts.php(19): App\Controllers\Session->requireInstituteId(Object(App\Controllers\Session))
+ 9 APPPATH\Controllers\Ajax\AjaxPosts.php(38): App\Controllers\Ajax\AjaxPosts->requireCurrentInstitute(Object(App\Controllers\Session))
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 21:08:18 --> substr_replace(): Argument #2 ($replace) must be of type array|string, App\Controllers\Session given
+in SYSTEMPATH\Database\Query.php on line 362.
+ 1 SYSTEMPATH\Database\Query.php(362): substr_replace('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', Object(App\Controllers\Session), 81, 1)
+ 2 SYSTEMPATH\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', [...], 1, 1)
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', Object(App\Controllers\Session))
+ 6 APPPATH\Models\Session\SessionModel.php(18): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId(Object(App\Controllers\Session))
+ 8 APPPATH\Controllers\Ajax\AjaxPosts.php(20): App\Controllers\Session->requireInstituteId(Object(App\Controllers\Session))
+ 9 APPPATH\Controllers\Ajax\AjaxPosts.php(37): App\Controllers\Ajax\AjaxPosts->requireCurrentInstitute(Object(App\Controllers\Session))
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 21:08:46 --> substr_replace(): Argument #2 ($replace) must be of type array|string, App\Controllers\Session given
+in SYSTEMPATH\Database\Query.php on line 362.
+ 1 SYSTEMPATH\Database\Query.php(362): substr_replace('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', Object(App\Controllers\Session), 81, 1)
+ 2 SYSTEMPATH\Database\Query.php(304): CodeIgniter\Database\Query->matchSimpleBinds('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', [...], 1, 1)
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT `id`
+            FROM instituto 
+            WHERE nome = ?', Object(App\Controllers\Session))
+ 6 APPPATH\Models\Session\SessionModel.php(18): CodeIgniter\Model->__call('query', [...])
+ 7 APPPATH\Controllers\Session.php(13): App\Models\Session\SessionModel->requireInstituteId(Object(App\Controllers\Session))
+ 8 APPPATH\Controllers\Ajax\AjaxPosts.php(20): App\Controllers\Session->requireInstituteId(Object(App\Controllers\Session))
+ 9 APPPATH\Controllers\Ajax\AjaxPosts.php(37): App\Controllers\Ajax\AjaxPosts->requireCurrentInstitute(Object(App\Controllers\Session))
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

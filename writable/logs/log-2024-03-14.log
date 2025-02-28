@@ -1,0 +1,1534 @@
+INFO - 2024-03-14 00:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 00:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-14 07:15:23 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute('1')
+ 2 APPPATH\Controllers\Mails\sendMails.php(134): App\Controllers\Session->dataInstitute('1')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:18:42 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute('1')
+ 2 APPPATH\Controllers\Mails\sendMails.php(134): App\Controllers\Session->dataInstitute('1')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:18:43 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute('1')
+ 2 APPPATH\Controllers\Mails\sendMails.php(134): App\Controllers\Session->dataInstitute('1')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:19:09 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute('1')
+ 2 APPPATH\Controllers\Mails\sendMails.php(136): App\Controllers\Session->dataInstitute('1')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:21:10 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute('1')
+ 2 APPPATH\Controllers\Mails\sendMails.php(136): App\Controllers\Session->dataInstitute('1')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:23:51 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute('1')
+ 2 APPPATH\Controllers\Mails\sendMails.php(136): App\Controllers\Session->dataInstitute('1')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:28:46 --> Cannot access offset of type string on string
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute('1')
+ 2 APPPATH\Controllers\Mails\sendMails.php(135): App\Controllers\Session->dataInstitute('1')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:28:54 --> Undefined variable $a
+in APPPATH\Controllers\Mails\sendMails.php on line 137.
+ 1 APPPATH\Controllers\Mails\sendMails.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $a', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 137)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:29:29 --> Trying to access array offset on value of type int
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Models\Session\SessionModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 56)
+ 2 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(1)
+ 3 APPPATH\Controllers\Mails\sendMails.php(137): App\Controllers\Session->dataInstitute(1)
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:30:08 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Session.php on line 200.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Session.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Session')
+ 3 APPPATH\Controllers\Mails\sendMails.php(134): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Session')
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:30:40 --> Trying to access array offset on value of type int
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Models\Session\SessionModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 56)
+ 2 APPPATH\Controllers\Session.php(197): App\Models\Session\SessionModel->dataInstitute(1)
+ 3 APPPATH\Controllers\Mails\sendMails.php(137): App\Controllers\Session->dataInstitute(1)
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:31:29 --> Trying to access array offset on value of type int
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Models\Session\SessionModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 56)
+ 2 APPPATH\Controllers\Session.php(197): App\Models\Session\SessionModel->dataInstitute(1)
+ 3 APPPATH\Controllers\Mails\sendMails.php(137): App\Controllers\Session->dataInstitute(1)
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:32:56 --> Trying to access array offset on value of type int
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Models\Session\SessionModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 56)
+ 2 APPPATH\Controllers\Session.php(197): App\Models\Session\SessionModel->dataInstitute(1)
+ 3 APPPATH\Controllers\Mails\sendMails.php(137): App\Controllers\Session->dataInstitute(1)
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 07:35:35 --> Trying to access array offset on value of type int
+in APPPATH\Models\Session\SessionModel.php on line 56.
+ 1 APPPATH\Models\Session\SessionModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\Session\\SessionModel.php', 56)
+ 2 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(1)
+ 3 APPPATH\Controllers\Mails\sendMails.php(137): App\Controllers\Session->dataInstitute(1)
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(45): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 12:41:53 --> Call to undefined method App\Models\AjaxModel\AjaxUserModel::hashPass
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(36): CodeIgniter\Model->__call('hashPass', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 12:43:47 --> Call to undefined method App\Models\AjaxModel\AjaxUserModel::hashPass
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(36): CodeIgniter\Model->__call('hashPass', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 12:44:01 --> Call to undefined method App\Models\AjaxModel\AjaxUserModel::hashPass
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(36): CodeIgniter\Model->__call('hashPass', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 12:44:10 --> Call to undefined method App\Models\AjaxModel\AjaxUserModel::hashPass
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(36): CodeIgniter\Model->__call('hashPass', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 12:44:51 --> Call to undefined method App\Models\AjaxModel\AjaxUserModel::hashPass
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(36): CodeIgniter\Model->__call('hashPass', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 09:51:25 --> Attempt to read property "nome" on array
+in APPPATH\Controllers\Mails\sendMails.php on line 141.
+ 1 APPPATH\Controllers\Mails\sendMails.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 141)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 09:56:30 --> Attempt to read property "nome" on array
+in APPPATH\Controllers\Mails\sendMails.php on line 142.
+ 1 APPPATH\Controllers\Mails\sendMails.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 142)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 09:56:53 --> Attempt to read property "nome" on array
+in APPPATH\Controllers\Mails\sendMails.php on line 144.
+ 1 APPPATH\Controllers\Mails\sendMails.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 144)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 09:58:50 --> Attempt to read property "name" on array
+in APPPATH\Controllers\Mails\sendMails.php on line 142.
+ 1 APPPATH\Controllers\Mails\sendMails.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 142)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 09:59:39 --> Attempt to read property "name" on array
+in APPPATH\Controllers\Mails\sendMails.php on line 142.
+ 1 APPPATH\Controllers\Mails\sendMails.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 142)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 09:59:56 --> Attempt to read property "name" on array
+in APPPATH\Controllers\Mails\sendMails.php on line 144.
+ 1 APPPATH\Controllers\Mails\sendMails.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 144)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:01:09 --> Attempt to read property "name" on array
+in APPPATH\Controllers\Mails\sendMails.php on line 144.
+ 1 APPPATH\Controllers\Mails\sendMails.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 144)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:15:34 --> Invalid file: "mails/verifyMail?alt=true.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mails/verifyMail?alt=true.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/verifyMail?alt=true', [], true)
+ 3 APPPATH\Controllers\Mails\sendMails.php(145): view('mails/verifyMail?alt=true', [...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:15:51 --> Invalid file: "mails/verifyMail?alt=true.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mails/verifyMail?alt=true.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/verifyMail?alt=true', [], true)
+ 3 APPPATH\Controllers\Mails\sendMails.php(145): view('mails/verifyMail?alt=true', [...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:16:35 --> Invalid file: "mails/verifyMail?alt=true.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mails/verifyMail?alt=true.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/verifyMail?alt=true', [], true)
+ 3 APPPATH\Controllers\Mails\sendMails.php(145): view('mails/verifyMail?alt=true', [...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:25:11 --> Invalid file: "mails/verifyMail?alt=true.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mails/verifyMail?alt=true.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/verifyMail?alt=true', [], true)
+ 3 APPPATH\Controllers\Mails\sendMails.php(145): view('mails/verifyMail?alt=true', [...])
+ 4 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:37:58 --> Undefined array key "alt"
+in APPPATH\Views\mails\verifyMail.php on line 38.
+ 1 APPPATH\Views\mails\verifyMail.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alt"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\verifyMail.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\verifyMail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/verifyMail', [], true)
+ 5 APPPATH\Controllers\Mails\sendMails.php(145): view('mails/verifyMail', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 10:41:47 --> Undefined array key "alt"
+in APPPATH\Views\mails\verifyMail.php on line 38.
+ 1 APPPATH\Views\mails\verifyMail.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alt"', 'C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\verifyMail.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\RPPS\\app\\Views\\mails\\verifyMail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mails/verifyMail', [], true)
+ 5 APPPATH\Controllers\Mails\sendMails.php(145): view('mails/verifyMail', [...])
+ 6 APPPATH\Controllers\Ajax\AjaxUser.php(46): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:01:56 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(46): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:01:56 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(46): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:03:03 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(46): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:03:03 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(46): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:04:50 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(46): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:04:50 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(46): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 14:05:34 --> Undefined array key "search"
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "search"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:05:48 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(46): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:05:48 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(46): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:07:08 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(45): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:07:08 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(45): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:07:38 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(45): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:07:38 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(45): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:09:00 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(45): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:09:00 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(45): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:09:16 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(45): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:09:16 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(45): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:09:17 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(45): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:09:17 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(45): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:09:19 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(45): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:09:19 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(45): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:12:20 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(45): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:12:20 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(45): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:13:41 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(45): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:13:41 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(45): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 14:15:06 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute(Array)
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Home.php(45): App\Controllers\Session->dataInstitute(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 14:15:06 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT *
+            FROM instituto 
+            WHERE id = (\'1\',\'ipreve\')')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('
+            SELECT *
+            FROM instituto 
+            WHERE id = :id:', [...])
+ 5 APPPATH\Models\Session\SessionModel.php(59): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Session.php(195): App\Models\Session\SessionModel->dataInstitute([...])
+ 7 APPPATH\Controllers\Home.php(45): App\Controllers\Session->dataInstitute([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 14:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 14:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 16:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 16:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 16:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 16:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-14 16:24:31 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 16:24:31 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$0gr9DxPemZs7JCdT.YloR.QSq0Xl0RDRIj2yi7glT7Pym9wkPc4Fi\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$0gr9DxPemZs7JCdT.YloR.QSq0Xl0RDRIj2yi7glT7Pym9wkPc4Fi\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$0gr9DxPemZs7JCdT.YloR.QSq0Xl0RDRIj2yi7glT7Pym9wkPc4Fi\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:24:52 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 16:24:52 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$4tIlQ81WNj3mwJxw84b05etfpNa9eS4awhJzt.cwOuLu3XEvI7X3.\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$4tIlQ81WNj3mwJxw84b05etfpNa9eS4awhJzt.cwOuLu3XEvI7X3.\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$4tIlQ81WNj3mwJxw84b05etfpNa9eS4awhJzt.cwOuLu3XEvI7X3.\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:25:33 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 16:25:33 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$UH8Vusatv3BZISbwXiZLguFr2GLoZRfrdaq0ZHZTjaBCS/.gbjEim\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$UH8Vusatv3BZISbwXiZLguFr2GLoZRfrdaq0ZHZTjaBCS/.gbjEim\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$UH8Vusatv3BZISbwXiZLguFr2GLoZRfrdaq0ZHZTjaBCS/.gbjEim\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:26:58 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 16:26:58 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$uRLV3n9N7E/p1BLynj2OtupO9u3rzhTph9ty8K0Los5nQE7Srroai\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$uRLV3n9N7E/p1BLynj2OtupO9u3rzhTph9ty8K0Los5nQE7Srroai\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$uRLV3n9N7E/p1BLynj2OtupO9u3rzhTph9ty8K0Los5nQE7Srroai\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:28:00 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 16:28:00 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$THUmsJUGgEURy7ICt2vb9O/kxqfO/Vrz3kJmvgCuRYULPFRP27c16\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$THUmsJUGgEURy7ICt2vb9O/kxqfO/Vrz3kJmvgCuRYULPFRP27c16\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$THUmsJUGgEURy7ICt2vb9O/kxqfO/Vrz3kJmvgCuRYULPFRP27c16\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:28:24 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 16:28:24 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$7V8UTg1radxtprroeDK4Feb1j8qC91vBhTwVfbziB4Ac3MwCHBA/G\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$7V8UTg1radxtprroeDK4Feb1j8qC91vBhTwVfbziB4Ac3MwCHBA/G\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$7V8UTg1radxtprroeDK4Feb1j8qC91vBhTwVfbziB4Ac3MwCHBA/G\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:28:36 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 16:28:36 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$eHzYUbc0g5UdRv0OFbDAae.TRSxWHJp0Q6JxVLb7NoZRbDKgHaSo.\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$eHzYUbc0g5UdRv0OFbDAae.TRSxWHJp0Q6JxVLb7NoZRbDKgHaSo.\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$eHzYUbc0g5UdRv0OFbDAae.TRSxWHJp0Q6JxVLb7NoZRbDKgHaSo.\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:42:52 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 16:42:52 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$RcT1AncN/cBuqNlbTXc4q.RGNo5vgv7pVo3k0oGmhheniqAlnbSq6\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$RcT1AncN/cBuqNlbTXc4q.RGNo5vgv7pVo3k0oGmhheniqAlnbSq6\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$RcT1AncN/cBuqNlbTXc4q.RGNo5vgv7pVo3k0oGmhheniqAlnbSq6\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:47:27 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 16:47:27 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$1wUfgwKXseVkSRKjZ02Ur.GlGmpufTNZqy6oHP0eQ8DaUBO03C4H6\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$1wUfgwKXseVkSRKjZ02Ur.GlGmpufTNZqy6oHP0eQ8DaUBO03C4H6\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$1wUfgwKXseVkSRKjZ02Ur.GlGmpufTNZqy6oHP0eQ8DaUBO03C4H6\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 16:50:48 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 16:50:48 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$Clzo8xLJBjknHQf399BTi.OdweWezZFq80June08M.MZWNog0lHaO\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$Clzo8xLJBjknHQf399BTi.OdweWezZFq80June08M.MZWNog0lHaO\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$Clzo8xLJBjknHQf399BTi.OdweWezZFq80June08M.MZWNog0lHaO\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 17:10:31 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 17:10:31 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$X9pMaOJu1FuEC2W8yUiLI.JhrH7cVbX0wYmanVn7/ncd/7CRItcbq\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$X9pMaOJu1FuEC2W8yUiLI.JhrH7cVbX0wYmanVn7/ncd/7CRItcbq\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$X9pMaOJu1FuEC2W8yUiLI.JhrH7cVbX0wYmanVn7/ncd/7CRItcbq\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(68): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(39): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 17:13:53 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(70): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(40): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 17:13:53 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$fqB6NqKD.k4v3lxDtOs3w.CJ2wEGhK/rT8hFPIr6RLksRuj5K3X4u\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$fqB6NqKD.k4v3lxDtOs3w.CJ2wEGhK/rT8hFPIr6RLksRuj5K3X4u\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$fqB6NqKD.k4v3lxDtOs3w.CJ2wEGhK/rT8hFPIr6RLksRuj5K3X4u\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(70): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(40): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-14 17:26:05 --> mysqli_sql_exception: Unknown column 'codigos_verificacao' in 'field list' in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE institut...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE institut...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE institut...')
+#3 C:\xampp\htdocs\RPPS\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE institut...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(69): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxRecoverModel.php(40): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+#6 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover(Array)
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+#8 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+#9 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-14 17:26:05 --> Unknown column 'codigos_verificacao' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE instituto SET codigos_verificacao = \'$2y$10$tuLOB./Q1cg7C51jcj8SeuBwvBNGUcw.cZz8M61Dn3a.o4NBmavi2\' WHERE id=\'1\' LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE instituto SET codigos_verificacao = \'$2y$10$tuLOB./Q1cg7C51jcj8SeuBwvBNGUcw.cZz8M61Dn3a.o4NBmavi2\' WHERE id=\'1\' LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE instituto SET codigos_verificacao = \'$2y$10$tuLOB./Q1cg7C51jcj8SeuBwvBNGUcw.cZz8M61Dn3a.o4NBmavi2\' WHERE id=\'1\' LIMIT 1')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('UPDATE instituto SET codigos_verificacao = :key: WHERE id=:id: LIMIT 1', [...])
+ 5 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(69): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(40): App\Models\AjaxModel\AjaxRecoverModel->updateRecover(Object(stdClass), false, 'instituto')
+ 7 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 17:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 17:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 17:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-14 18:14:57 --> Undefined array key "name"
+in APPPATH\Controllers\Mails\sendMails.php on line 150.
+ 1 APPPATH\Controllers\Mails\sendMails.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 150)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(50): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:15:41 --> Undefined array key "name"
+in APPPATH\Controllers\Mails\sendMails.php on line 150.
+ 1 APPPATH\Controllers\Mails\sendMails.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 150)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(50): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:21:01 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:21:08 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:22:23 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:22:42 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:23:46 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:23:55 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:24:32 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:25:40 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:26:37 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:27:10 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:28:24 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:30:32 --> syntax error, unexpected token "else"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AjaxModel\\AjaxRecoverModel')
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(176): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AjaxModel\\AjaxRecoverModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:33:22 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:34:57 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 55.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 55)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:34:58 --> Undefined array key 0
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 55.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 55)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 18:47:16 --> Undefined array key "name"
+in APPPATH\Controllers\Mails\sendMails.php on line 150.
+ 1 APPPATH\Controllers\Mails\sendMails.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Mails\\sendMails.php', 150)
+ 2 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(52): App\Controllers\Mails\sendMails->confirmEmail([...])
+ 3 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:02:51 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:03:19 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:04:06 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:04:13 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 55.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:04:22 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 56.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:04:29 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 57.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:04:34 --> Undefined array key "email"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 66.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 66)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:04:54 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:06:15 --> Undefined array key "key"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "key"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:06:21 --> Undefined array key "key"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "key"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:07:26 --> Undefined array key "id_instituto"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_instituto"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 54)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:08:36 --> Undefined array key "email"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 66.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 66)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:09:20 --> Undefined array key "key"
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 58.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "key"', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 58)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:09:35 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:09:55 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:10:17 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:13:03 --> Cannot use object of type stdClass as array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 55.
+ 1 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:13:19 --> Undefined property: stdClass::$id_institute
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 55.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_institute', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 55)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:15:11 --> Attempt to read property "id_instituto" on array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_instituto" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 54)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:16:06 --> Attempt to read property "id_instituto" on array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_instituto" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 54)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:16:34 --> Attempt to read property "id_instituto" on array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_instituto" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 54)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-14 19:17:21 --> Attempt to read property "id_instituto" on array
+in APPPATH\Models\AjaxModel\AjaxRecoverModel.php on line 54.
+ 1 APPPATH\Models\AjaxModel\AjaxRecoverModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_instituto" on array', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxRecoverModel.php', 54)
+ 2 APPPATH\Controllers\Ajax\AjaxUser.php(183): App\Models\AjaxModel\AjaxRecoverModel->recover([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxUser->recoverAccount()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxUser))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-14 19:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-14 19:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

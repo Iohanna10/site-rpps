@@ -1,0 +1,520 @@
+CRITICAL - 2023-12-20 13:21:12 --> pathinfo(): Argument #1 ($path) must be of type string, array given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 63.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(63): pathinfo([...], 4)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 13:21:12 --> pathinfo(): Argument #1 ($path) must be of type string, array given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 63.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(63): pathinfo([...], 4)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 13:21:12 --> pathinfo(): Argument #1 ($path) must be of type string, array given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 63.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(63): pathinfo([...], 4)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 13:22:08 --> pathinfo(): Argument #1 ($path) must be of type string, array given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 63.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(63): pathinfo([...], 4)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 13:34:41 --> Undefined array key 1
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 60.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 13:35:27 --> Undefined array key 1
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 60.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 14:14:11 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 14:23:36 --> Cannot access protected property App\Controllers\Ajax\AjaxPosts::$request
+in APPPATH\Controllers\Session.php on line 19.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(16): App\Controllers\Session->currentInstitute(Object(App\Controllers\Ajax\AjaxPosts))
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(61): App\Controllers\Ajax\AjaxPosts->requireCurrentInstitute()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 14:43:30 --> pathinfo(): Argument #1 ($path) must be of type string, array given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 62.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(62): pathinfo([...], 4)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 14:44:28 --> pathinfo(): Argument #1 ($path) must be of type string, array given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 62.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(62): pathinfo([...], 4)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 14:45:48 --> pathinfo(): Argument #1 ($path) must be of type string, array given
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 62.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(62): pathinfo([...], 4)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 15:26:14 --> mkdir(): File exists
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 71)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(71): mkdir('teste', 493, true)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 15:27:40 --> mkdir(): File exists
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 71)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(71): mkdir('teste', 493, true)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 15:29:38 --> mkdir(): File exists
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 71)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(71): mkdir('teste', 511, true)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 15:34:54 --> mkdir(): File exists
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File exists', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 71)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(71): mkdir('../../../../vitoria', 493, true)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 17:51:34 --> hash_file(a.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_file(a.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 105)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(105): hash_file('sha256', 'a.png')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(92): App\Controllers\Ajax\AjaxPosts->newName('a.png')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 17:52:19 --> hash_file(a.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_file(a.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 97)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(97): hash_file('sha256', 'a.png')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(84): App\Controllers\Ajax\AjaxPosts->newName('a.png')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 17:53:16 --> hash_file(a.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_file(a.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 96)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(96): hash_file('sha256', 'a.png')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(84): App\Controllers\Ajax\AjaxPosts->newName('a.png')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 17:55:34 --> hash_file(a.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_file(a.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 96)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(96): hash_file('sha256', 'a.png')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(84): App\Controllers\Ajax\AjaxPosts->newName('a.png')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 17:56:07 --> hash_file(a.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_file(a.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 96)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(96): hash_file('sha256', 'a.png')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(84): App\Controllers\Ajax\AjaxPosts->newName('a.png')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 17:59:40 --> hash_file(example.txt): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_file(example.txt): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 96)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(96): hash_file('sha256', 'example.txt')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(84): App\Controllers\Ajax\AjaxPosts->newName('a.png')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 18:02:47 --> md5_file(a.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5_file(a.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 96)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(96): md5_file('a.png')
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(84): App\Controllers\Ajax\AjaxPosts->newName('a.png')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 18:03:39 --> md5_file(a.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5_file(a.png): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 84)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(84): md5_file('a.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 18:08:34 --> md5_file(abacate.txt): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5_file(abacate.txt): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\RPPS\\app\\Controllers\\Ajax\\AjaxPosts.php', 84)
+ 2 APPPATH\Controllers\Ajax\AjaxPosts.php(84): md5_file('abacate.txt')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 18:17:01 --> Too few arguments to function App\Controllers\Ajax\AjaxPosts::newName(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php on line 84 and exactly 2 expected
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 95.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(84): App\Controllers\Ajax\AjaxPosts->newName('a.png')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 18:17:27 --> Too few arguments to function App\Controllers\Ajax\AjaxPosts::newName(), 1 passed in C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php on line 84 and exactly 2 expected
+in APPPATH\Controllers\Ajax\AjaxPosts.php on line 95.
+ 1 APPPATH\Controllers\Ajax\AjaxPosts.php(84): App\Controllers\Ajax\AjaxPosts->newName('a.png')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->uploadFiles()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-20 19:15:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+            )' at line 16 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n            I...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            I...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            I...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(67): CodeIgniter\Database\BaseConnection->query('\r\n            I...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-20 19:15:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+            )' at line 16
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+            INSERT INTO posts
+            VALUES(
+                0,
+                \'ipreve\',
+                \'0\',
+                0,
+                \'aaaaaa\',
+                \'aaaaaaa\',
+                NULL,
+                0,
+                (\'a.png\',\'Captura de tela 2023-06-19 181806.png\',\'Captura de tela 2023-06-19 181841.png\',\'Captura de tela 2023-06-19 181908.png\'),
+                NULL,
+                NULL,
+                NULL,
+                NULL
+                0
+            )
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+            INSERT INTO posts
+            VALUES(
+                0,
+                \'ipreve\',
+                \'0\',
+                0,
+                \'aaaaaa\',
+                \'aaaaaaa\',
+                NULL,
+                0,
+                (\'a.png\',\'Captura de tela 2023-06-19 181806.png\',\'Captura de tela 2023-06-19 181841.png\',\'Captura de tela 2023-06-19 181908.png\'),
+                NULL,
+                NULL,
+                NULL,
+                NULL
+                0
+            )
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+            INSERT INTO posts
+            VALUES(
+                0,
+                \'ipreve\',
+                \'0\',
+                0,
+                \'aaaaaa\',
+                \'aaaaaaa\',
+                NULL,
+                0,
+                (\'a.png\',\'Captura de tela 2023-06-19 181806.png\',\'Captura de tela 2023-06-19 181841.png\',\'Captura de tela 2023-06-19 181908.png\'),
+                NULL,
+                NULL,
+                NULL,
+                NULL
+                0
+            )
+        ')
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(67): CodeIgniter\Database\BaseConnection->query('
+            INSERT INTO posts
+            VALUES(
+                0,
+                :institute:,
+                :category:,
+                0,
+                :title:,
+                :description:,
+                :img:,
+                0,
+                :carousel_media:,
+                :main_content:,
+                :quote:,
+                :featured_video:,
+                :pdf:
+                0
+            )
+        ', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 19:27:31 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 88.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 88)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(44): App\Models\AjaxModel\AjaxPostModel->getNames(null)
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 19:29:34 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 89.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 89)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(44): App\Models\AjaxModel\AjaxPostModel->getNames(null)
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 19:30:39 --> foreach() argument must be of type array|object, null given
+in APPPATH\Models\AjaxModel\AjaxPostModel.php on line 89.
+ 1 APPPATH\Models\AjaxModel\AjaxPostModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\RPPS\\app\\Models\\AjaxModel\\AjaxPostModel.php', 89)
+ 2 APPPATH\Models\AjaxModel\AjaxPostModel.php(44): App\Models\AjaxModel\AjaxPostModel->getNames(null)
+ 3 APPPATH\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-20 19:54:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+        )' at line 16 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        INSER...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        INSER...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        INSER...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(76): CodeIgniter\Database\BaseConnection->query('\r\n        INSER...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-20 19:54:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+        )' at line 16
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        INSERT INTO posts
+        VALUES(
+            0,
+            \'ipreve\',
+            \'0\',
+            0,
+            \'aaaaaaaa\',
+            \'aaaaaaa\',
+            NULL,
+            0,
+            \'32d3ca5e23_2023_12_54.png, fcc92b73a5_2023_12_54.png, 1708a8f995_2023_12_54.png, 0a615fd5c0_2023_12_54.png\',
+            NULL,
+            NULL,
+            NULL,
+            NULL
+            0
+        )
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        INSERT INTO posts
+        VALUES(
+            0,
+            \'ipreve\',
+            \'0\',
+            0,
+            \'aaaaaaaa\',
+            \'aaaaaaa\',
+            NULL,
+            0,
+            \'32d3ca5e23_2023_12_54.png, fcc92b73a5_2023_12_54.png, 1708a8f995_2023_12_54.png, 0a615fd5c0_2023_12_54.png\',
+            NULL,
+            NULL,
+            NULL,
+            NULL
+            0
+        )
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO posts
+        VALUES(
+            0,
+            \'ipreve\',
+            \'0\',
+            0,
+            \'aaaaaaaa\',
+            \'aaaaaaa\',
+            NULL,
+            0,
+            \'32d3ca5e23_2023_12_54.png, fcc92b73a5_2023_12_54.png, 1708a8f995_2023_12_54.png, 0a615fd5c0_2023_12_54.png\',
+            NULL,
+            NULL,
+            NULL,
+            NULL
+            0
+        )
+    ')
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(76): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO posts
+        VALUES(
+            0,
+            :institute:,
+            :category:,
+            0,
+            :title:,
+            :description:,
+            :img:,
+            0,
+            :carousel_media:,
+            :main_content:,
+            :quote:,
+            :featured_video:,
+            :pdf:
+            0
+        )
+    ', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-20 19:57:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+        )' at line 16 in C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RPPS\system\Database\MySQLi\Connection.php(295): mysqli->query('\r\n        INSER...', 0)
+#1 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        INSER...')
+#2 C:\xampp\htdocs\RPPS\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        INSER...')
+#3 C:\xampp\htdocs\RPPS\app\Models\AjaxModel\AjaxPostModel.php(75): CodeIgniter\Database\BaseConnection->query('\r\n        INSER...', Array)
+#4 C:\xampp\htdocs\RPPS\app\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost(Array)
+#5 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+#6 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+#7 C:\xampp\htdocs\RPPS\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\RPPS\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-20 19:57:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0
+        )' at line 16
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('
+        INSERT INTO posts
+        VALUES(
+            0,
+            \'ipreve\',
+            \'0\',
+            0,
+            \'aaaaaa\',
+            \'aaaaaaaaa\',
+            NULL,
+            0,
+            \'32d3ca5e23_2023_12_57.png, fcc92b73a5_2023_12_57.png, 1708a8f995_2023_12_57.png\',
+            NULL,
+            NULL,
+            NULL,
+            NULL
+            0
+        )
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('
+        INSERT INTO posts
+        VALUES(
+            0,
+            \'ipreve\',
+            \'0\',
+            0,
+            \'aaaaaa\',
+            \'aaaaaaaaa\',
+            NULL,
+            0,
+            \'32d3ca5e23_2023_12_57.png, fcc92b73a5_2023_12_57.png, 1708a8f995_2023_12_57.png\',
+            NULL,
+            NULL,
+            NULL,
+            NULL
+            0
+        )
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('
+        INSERT INTO posts
+        VALUES(
+            0,
+            \'ipreve\',
+            \'0\',
+            0,
+            \'aaaaaa\',
+            \'aaaaaaaaa\',
+            NULL,
+            0,
+            \'32d3ca5e23_2023_12_57.png, fcc92b73a5_2023_12_57.png, 1708a8f995_2023_12_57.png\',
+            NULL,
+            NULL,
+            NULL,
+            NULL
+            0
+        )
+    ')
+ 4 APPPATH\Models\AjaxModel\AjaxPostModel.php(75): CodeIgniter\Database\BaseConnection->query('
+        INSERT INTO posts
+        VALUES(
+            0,
+            :institute:,
+            :category:,
+            0,
+            :title:,
+            :description:,
+            :img:,
+            0,
+            :carousel_media:,
+            :main_content:,
+            :quote:,
+            :featured_video:,
+            :pdf:
+            0
+        )
+    ', [...])
+ 5 APPPATH\Controllers\Ajax\AjaxPosts.php(46): App\Models\AjaxModel\AjaxPostModel->insertPost([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajax\AjaxPosts->insertPost()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\AjaxPosts))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,138 @@
+.warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 300px;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.link-warning {
+    text-decoration: none;
+    color: initial;
+}
+
+.full-warning {
+    width: auto;
+    min-width: 200px;
+    height: auto;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.line-warning {
+    position: absolute;
+
+    width: 100%;
+    height: 5px;
+
+    background-repeat: repeat-x;
+}
+
+.line-warning.top {
+    top: 0;
+}
+
+.line-warning.bottom {
+    bottom: 0;
+}
+
+.full-warning .img-warning {
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-warning .img-warning img {
+    width: auto;
+    max-width: 100%;
+    
+    height: auto;
+    max-height: 100%;
+}
+
+.full-warning .content-warning {
+    width: auto;
+    min-height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+    border-radius: 10px;
+    background-color: #ECE4E6;
+}
+
+.full-warning .content-warning > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.full-warning .content-warning .icon-warning {
+    font-size: 20px;
+
+    color: #dcce03;
+}
+
+.full-warning .content-warning .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-warning .content-warning h1 {
+   font-size: 3rem;
+}
+
+
+.full-warning .content-warning p {
+    font-size: 1.6rem;
+ }
+
+.full-warning .content-warning .title .icon-warning.megaphone {
+    width: 7rem;
+}
+
+.full-warning .content-warning .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+@media (max-width: 767px) {
+    .full-warning {
+        flex-direction: column-reverse;
+    }
+
+    .full-warning .content-warning {
+        min-height: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .full-warning .content-warning .title, .full-warning .content-warning .content {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .full-warning .content-warning h1 {
+        font-size: 2.2rem;
+    }
+}
+

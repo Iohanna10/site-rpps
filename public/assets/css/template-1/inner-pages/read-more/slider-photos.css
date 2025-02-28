@@ -1,0 +1,248 @@
+.slider-photos {
+    margin-top: 50px;
+}
+
+.slider-photos .gallery {
+    margin-bottom: 60px;
+}
+
+.slider-photos .gallery .carousel .slider .slides .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    padding: 20px;
+    
+    background-color: #f5f5f6;
+}
+
+.slider-photos .gallery .subtitle {
+    width: 100%;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.slider-photos .gallery .description-photos {
+    width: 100%;
+    min-height: 35px;
+
+    padding: 5px;
+
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+}
+
+.slider-photos .gallery .description-photos span {
+    width: 100%;
+
+    padding: 5px;
+
+    border-radius: 5px;
+
+    background-color: #ebebeb;
+}
+
+.slider-photos .delimit-image {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+
+    padding: 15px 25px 15px 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-photos .delimit-image .photo-gallery {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-photos .delimit-image .photo-gallery .video {
+    width: 600px;
+    height: 300px;
+    max-width: 100%;
+}
+
+.slider-photos .delimit-image .photo-gallery > div {
+    width: 100%;
+    height: 100%;
+ 
+    position: absolute;
+    z-index: 2;
+}
+
+.slider-photos .delimit-image .photo-gallery a {
+    position: relative;
+    z-index: 3;
+}
+
+.slider-photos .delimit-image .open-slider {
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    position: relative;
+    z-index: 3;
+}
+
+.slider-photos .delimit-image .open-slider .video {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.slider-photos .delimit-image .open-slider .video ~ div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.slider-photos .delimit-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.slider-photos .slides {
+    padding: 0;
+    height: 500px;
+    max-height: 100%;
+}
+
+.slider-photos .change-content {
+    top: inherit!important;
+    bottom: -30px;
+
+    background-color: #f5f5f6;
+    padding: 5px;
+}
+
+.slider-photos .change-content .btns {
+    display: flex;
+}
+
+.slider-photos .change-content .btns.disabled {
+    opacity: 0.5;
+
+    cursor: default!important;
+}
+
+.slider-photos .change-content .btns.disabled button {
+    cursor: default!important;
+}
+
+.slider-photos .change-content .btns button {
+    width: 85px;
+
+    padding: 5px!important;
+
+    border-radius: 0;
+    border: 1px solid #00000050;
+
+    background-color: #ffffffa2;
+
+    color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.slider-photos .change-content .btns button span {
+    font-size: 1rem;
+}
+
+.slider-photos .change-content .count-current {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.slider-photos .change-content .count-current > span, 
+.slider-photos .change-content .count-current > .current {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 5px;
+    width: 35px;
+
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input.current[type=number] { 
+    cursor: pointer;
+}
+
+input.current[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+.slider-photos .change-content .count-current > .current {
+    background-color: #ffffffc1;
+
+    border-radius: 5px;
+    border: 1px solid #00000053;
+}
+
+.slider-photos .change-content .count-current > p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.slider-photos .gallery-carousel .change-content {
+    background-color: transparent;
+}
+
+.overflow-y{
+    overflow-y: hidden;
+}
+
+@media (max-width: 500px) {
+    .slider-photos .change-content .btns button {
+        width: 65px;
+    }
+
+    .slider-photos .change-content .count-current > span, .slider-photos .change-content .count-current > .current {
+        width: 30px;
+    }
+
+    .scroll-table {
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .slider-photos .change-content .btns button {
+        width: 45px;
+    }
+}
