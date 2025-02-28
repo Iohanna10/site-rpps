@@ -12,21 +12,21 @@ Este repositório contém o código-fonte para o desenvolvimento de um site dedi
 - **MySQL**: Para gerenciamento de banco de dados.
 
 ## Funcionalidades de gestão dedicadas ao instituto
-- **Avaliações e Feedbacks**: Área para visualizar as satisfação dos servidores com o desempenho do instituto.
+- **Avaliações e Feedbacks**: Área para visualizar a satisfação dos servidores com o desempenho do instituto.
 - **Configurações**:
   - **Informações**: Área para gerenciar as informações do instituto (endereço, horário de atendimento, princípios, etc.)
   - **Personalizar**: Área para personalizar o instituto (adicionar banner, alterar cores, gerenciar os temas, etc.)
 - **Gerenciamento de Publicações (Publicação, Edição e Exclusão)**:
-  - **Galerias**: Área gerenciamento das galerias.
-  - **Notícias**: Área gerenciamento de notícias importantes para os servidores, incluindo o destaque de publicação.
-  - **Eventos**: Área gerenciamento de eventos e das reuniões dos membros dos conselhos.
-  - **Equipes**: Área gerenciamento dos membros pertencentes aos conselhos/equipe do instituto.
-  - **CRPS**: Área gerenciamento dos certificados de regularidade previdenciária.
-  - **Cálculo Atuarial**: Área gerenciamento dos relatórios de calculo atuarial.
+  - **Galerias**: Área para gerenciamento das galerias.
+  - **Notícias**: Área para gerenciamento de notícias importantes para os servidores, incluindo o destaque de publicação.
+  - **Eventos**: Área para gerenciamento de eventos e das reuniões dos membros dos conselhos.
+  - **Equipes**: Área para gerenciamento dos membros pertencentes aos conselhos/equipe do instituto.
+  - **CRPS**: Área para gerenciamento dos certificados de regularidade previdenciária.
+  - **Cálculo Atuarial**: Área para gerenciamento dos relatórios de cálculo atuarial.
 
 ## Funcionalidades dedicadas ao usuário
 - **Notícias**: Área para visualizar as notícias publicadas pelo instituto.
-- **Pesquisa**: Área para pesquisar por títulos especificos em noticias publicadas pelo instituto.
+- **Pesquisa**: Área para pesquisar por títulos especificos em notícias publicadas pelo instituto.
 - **Links Úteis**:
   - Calendário de Pagamentos: Para consultar as datas de pagamento e vencimento.
   - Prova de Vida: Acesso a informações sobre o processo de prova de vida e envio das provas para serem avaliadas pelo instituto.
